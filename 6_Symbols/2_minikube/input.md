@@ -3,20 +3,6 @@ Here are all the setup commands for Minikube in markdown format:
 ```markdown
 # Minikube Setup Commands for SonarQube
 
-## Initial Setup
-
-### Install Minikube (if not already installed)
-```bash
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube
-```
-
-### Install kubectl (if not already installed)
-```bash
-curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-```
-
 ### Start Minikube
 ```bash
 minikube start --driver=docker --cpus=2 --memory=4096MB --kubernetes-version=stable
@@ -36,6 +22,8 @@ kubectl create namespace sonarqube
 ```
 
 ### Create persistent volume claim
+cd /workspaces/SonarQube/6_Symbols/2_minikube
+
 ```bash
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
@@ -207,7 +195,7 @@ EOF
 
 ### Port forward to access SonarQube UI
 ```bash
-kubectl port-forward -n sonarqube svc/sonarqube 9000:9000 &
+kubectl port-forward -n sonarqube svc/sonarqube 9000:9000 
 ```
 
 ### Check deployment status
