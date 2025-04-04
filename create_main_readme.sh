@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# chmod +x ./create_main_readme.sh;./create_main_readme.sh
 # Colors for better formatting
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
