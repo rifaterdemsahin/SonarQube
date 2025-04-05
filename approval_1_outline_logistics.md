@@ -1,0 +1,45 @@
+# SME SEARCH & ONBOARDING
+
+| Task                              | Timeline             | Done/Due    |
+|-----------------------------------|----------------------|-------------|
+| Instructor Work Order - Signed    | Apr 13 ‐ Apr 18      | 18/04/2025  |
+
+# ADMINISTRATION & FINANCE RELATED
+
+| Task                               | Timeline             | Done/Due    |
+|------------------------------------|----------------------|-------------|
+| Instructor - Invoiced Starweaver   | Jun 16 ‐ Jun 16      | 16/06/2025  |
+| Instructor Feedback Requested      | Jun 25 ‐ Jun 26      | 26/06/2025  |
+| Instructor - Invoice Paid          | Jun 26 ‐ Jun 26      | 26/06/2025  |
+
+# PRE-PRODUCTION - COURSE DEVELOPMENT
+
+| Task                                       | Timeline             | Done/Due    |
+|--------------------------------------------|----------------------|-------------|
+| Outlines Submit                            | Apr 17 ‐ Apr 27      | 27/04/2025  |
+| Outlines Approved                          | Apr 27 ‐ May 02      | 02/05/2025  |
+| SW-SME Script & Assessment Orientation Call| Apr 27 ‐ May 04      | 04/05/2025  |
+| Scripts (or Script Notes, Assessments) Submit | Apr 28 ‐ May 15   | 15/05/2025  |
+| Script (or Script Notes, Assessments) Approved | May 15 ‐ May 18 | 18/05/2025  |
+| SME Slides & All Visual Assets Submit      | May 18 ‐ May 20      | 20/05/2025  |
+| SW Slides & All Visual Assets Review & Feedback | May 20 ‐ May 21 | 21/05/2025  |
+| SME Slides & All Visual Assets Approval    | May 21 ‐ May 22      | 22/05/2025  |
+
+# VIDEO PRODUCTION
+
+| Task                             | Timeline             | Done/Due    |
+|----------------------------------|----------------------|-------------|
+| SME Talking Head Videos Submitted| May 28 ‐ May 29      | 29/05/2025  |
+| SME Screenshare Videos Submitted | May 29 ‐ May 30      | 30/05/2025  |
+| All SME Recording of the Courses Submission Confirmation | May 31 ‐ Jun 01 | 01/06/2025  |
+
+# PUBLICATION/DISTRIBUTION TO CLIENT LMS
+
+| Task                  | Timeline             | Done/Due    |
+|-----------------------|----------------------|-------------|
+| Alpha Delivery to Client | Jun 09 ‐ Jun 10   | 10/06/2025  |
+| Alpha Review by Client   | Jun 10 ‐ Jun 20   | 20/06/2025  |
+| Beta Delivery to Client  | Jun 20 ‐ Jun 22   | 22/06/2025  |
+| Beta Review by Client    | Jun 22 ‐ Jun 23   | 23/06/2025  |
+| Final QA on Platform     | Jun 23 ‐ Jun 24   | 24/06/2025  |
+| Gold Launch              | Jun 24 ‐ Jun 26   | 26/06/2025  |
