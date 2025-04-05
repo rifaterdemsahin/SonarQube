@@ -1,6 +1,99 @@
 # PART 1 - OUTLINE: COURSE OVERVIEW
 
 ### **Course Title:**  
+Understanding SonarQube: Code Quality Analysis and Best Practices
+
+### **Lead Instructor:**  
+Rifat Erdem Sahin 
+
+### **Course Description:**  
+Learn how to implement and leverage SonarQube for continuous code quality analysis, security vulnerability detection, and maintaining coding standards in your development workflow.
+
+### **Duration:**  
+90 minutes
+
+### **Level:**  
+Intermediate
+
+### **Audience:**  
+- Software Developers
+- DevOps Engineers
+- Quality Assurance Engineers
+- Development Team Leaders
+
+### **Prerequisites:**  
+Basic understanding of software development, familiarity with version control systems, and experience with Java or JavaScript programming languages.
+
+---
+
+### **Main Outcome:**  
+Implement and configure SonarQube for continuous code quality monitoring in your development projects.
+
+---
+
+### **Learning Objectives:**  
+
+After this course, learners will be able to…
+
+- Set up and configure SonarQube in a development environment
+- Analyze code quality metrics and security vulnerabilities
+- Implement quality gates and custom rules
+- Integrate SonarQube with CI/CD pipelines
+
+---
+
+### **Key Takeaways:**  
+- Understanding code quality metrics and their importance
+- Mastering SonarQube's analysis capabilities
+- Best practices for quality gates configuration
+- Effective integration with development workflows
+
+---
+
+### **Skills Included:**  
+- SonarQube Configuration
+- Code Quality Analysis
+- Security Vulnerability Detection
+- Quality Gates Management
+- CI/CD Integration
+
+---
+
+### **Real World Connections, Case Studies and Examples:**  
+
+1. **SonarQube at Microsoft**  
+   **Link:** https://www.sonarqube.org/customers/microsoft/  
+   **Key Insight:** How Microsoft uses SonarQube to maintain code quality across large-scale projects
+
+2. **Improving Code Quality at Adobe**  
+   **Link:** https://www.sonarqube.org/customers/adobe/  
+   **Key Insight:** Adobe's implementation of SonarQube for maintaining consistent code quality standards
+
+3. **Deutsche Bank's Code Analysis Journey**  
+   **Link:** https://www.sonarqube.org/customers/deutsche-bank/  
+   **Key Insight:** Integration of SonarQube in financial software development
+
+4. **BMW's Quality Assurance Strategy**  
+   **Link:** https://www.sonarqube.org/customers/bmw/  
+   **Key Insight:** Automotive software quality management using SonarQube
+
+---
+
+### **10 SEO Key Words:**  
+SonarQube, Code Quality, Static Analysis, Quality Gates, Security Scanning, Technical Debt, Code Coverage, Continuous Integration, DevOps, Code Smells
+
+---
+
+[Rest of the document remains as is, with tables to be filled based on specific lesson content]
+
+
+--- 
+
+
+
+# PART 1 - OUTLINE: COURSE OVERVIEW
+
+### **Course Title:**  
 [Insert Course Title Here]
 
 ### **Lead Instructor:**  

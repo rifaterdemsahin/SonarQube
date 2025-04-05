@@ -198,4 +198,5 @@ Advance your expertise with _(Course Name Here)_
 
 ---
 
-Let me know if you want this saved as a downloadable `.md` file or want to fill in the details together!
+prompt:
+- fill or update all the placeholders in the document
