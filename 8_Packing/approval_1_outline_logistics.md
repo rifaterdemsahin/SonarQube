@@ -8,7 +8,7 @@
 
 | Task                               | Timeline             | Done/Due    |
 |------------------------------------|----------------------|-------------|
-| Instructor - Invoiced Starweaver   | Jun 16 ‐ Jun 16      | 16/06/2025  |
+| Instructor - Invoiced Intermediary   | Jun 16 ‐ Jun 16      | 16/06/2025  |
 | Instructor Feedback Requested      | Jun 25 ‐ Jun 26      | 26/06/2025  |
 | Instructor - Invoice Paid          | Jun 26 ‐ Jun 26      | 26/06/2025  |
 
