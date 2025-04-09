@@ -64,9 +64,7 @@ CONFIG = {
 load_dotenv()
 
 def call_gpt(prompt):
-    """
-    Call the OpenAI GPT model with the given prompt.
-    """
+    """Call the OpenAI GPT model with the given prompt."""
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     response = client.chat.completions.create(
         model=CONFIG['MODEL'],
@@ -191,13 +189,13 @@ def generate_full_course(topic):
 - **Date:** {CONFIG['SCRIPT_DATE']}
 - **License:** {CONFIG['SCRIPT_LICENSE']}
 """
-    
     metadata_path = os.path.join(base_dir, "metadata.md")
     create_file(metadata_path, metadata)
     
-    # Generate course outline
+    # Generate and save course outline in a single file
     outline = generate_outline(topic)
-    create_file(os.path.join(base_dir, "outline.md"), outline)
+    outline_path = os.path.join(base_dir, "course_outline.md")
+    create_file(outline_path, outline)
     
     # Parse outline to extract module titles
     module_titles = []
@@ -213,17 +211,20 @@ def generate_full_course(topic):
             module_titles = module_titles[:CONFIG['MODULES_COUNT']]
     
     # Generate and save content for each module
+    scripts_dir = os.path.join(base_dir, "scripts")
+    shot_lists_dir = os.path.join(base_dir, "shot_lists")
+    
     for i, title in enumerate(module_titles, 1):
-        module_dir = os.path.join(base_dir, f"module_{i}")
-        
-        # Generate script
+        # Generate script and save in scripts directory
         script = generate_script(title, i, len(module_titles))
-        script_path = os.path.join(module_dir, "script.md")
+        script_filename = f"module_{i}_script.md"
+        script_path = os.path.join(scripts_dir, script_filename)
         create_file(script_path, script)
         
-        # Generate shot list
+        # Generate shot list and save in shot_lists directory
         shot_list = generate_shot_list(script, title)
-        shot_list_path = os.path.join(module_dir, "shot_list.md")
+        shot_list_filename = f"module_{i}_shot_list.md"
+        shot_list_path = os.path.join(shot_lists_dir, shot_list_filename)
         create_file(shot_list_path, shot_list)
     
     # Generate README
@@ -233,8 +234,10 @@ This repository contains materials for the "{topic}" course.
 
 ## Contents
 - [Course Metadata](metadata.md)
-- [Course Outline](outline.md)
-{chr(10).join(['- [Module ' + str(i) + ': ' + title + '](module_' + str(i) + '/script.md)' for i, title in enumerate(module_titles, 1)])}
+- [Course Outline](course_outline.md)
+- [Scripts Directory](scripts/)
+- [Shot Lists Directory](shot_lists/)
+{chr(10).join(['- [Module ' + str(i) + ': ' + title + '](scripts/module_' + str(i) + '_script.md)' for i, title in enumerate(module_titles, 1)])}
 
 ## Description
 {CONFIG['SCRIPT_DESCRIPTION']}
@@ -245,7 +248,6 @@ This repository contains materials for the "{topic}" course.
 ## License
 {CONFIG['SCRIPT_LICENSE']}
 """
-    
     readme_path = os.path.join(base_dir, "README.md")
     create_file(readme_path, readme)
 
