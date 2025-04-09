@@ -4,96 +4,90 @@ import os
 from dotenv import load_dotenv
 import pathlib
 
+# Configuration settings
+CONFIG = {
+    'BASE_DIR': '8_Packing',
+    'MODEL': 'gpt-4',
+    'MAX_TOKENS': 2000,
+    'MODULES_COUNT': 3,
+    'SCRIPT_LENGTH': '4 minute'
+    'SCRIPT_TITLE': 'Code Quality With SonarQube',
+    'SCRIPT_DESCRIPTION': 'Learn how to improve code quality using SonarQube.',
+    'SCRIPT_OBJECTIVES': [
+        'Understand the importance of code quality',
+        'Learn how to set up SonarQube',
+        'Explore SonarQube features and functionalities'
+    ],
+    'SCRIPT_AUDIENCE': 'Software developers, team leads, and project managers.',
+    'SCRIPT_FORMAT': 'Video tutorial',
+    'SCRIPT_DURATION': '30 minutes',
+    'SCRIPT_LANGUAGE': 'English',
+    'SCRIPT_LEVEL': 'Intermediate',
+    'SCRIPT_PLATFORM': 'YouTube',
+    'SCRIPT_VISUALS': 'Screen recordings, slides, and code examples',
+    'SCRIPT_AUDIO': 'Voiceover narration',
+    'SCRIPT_SUBTITLES': 'English subtitles',
+    'SCRIPT_CALL_TO_ACTION': 'Subscribe for more tutorials',
+    'SCRIPT_FEEDBACK': 'Please provide feedback in the comments section.',
+    'SCRIPT_RESOURCES': [
+        'SonarQube official documentation',
+        'GitHub repository with code examples',
+        'Links to relevant articles and tutorials'
+    ],
+    'SCRIPT_FOOTER': 'Thank you for watching!',
+    'SCRIPT_CREDITS': 'Produced by [Your Name]',
+    'SCRIPT_LICENSE': 'Creative Commons Attribution-ShareAlike 4.0 International License',
+    'SCRIPT_VERSION': '1.0',
+    'SCRIPT_DATE': '2023-10-01',
+    'SCRIPT_AUTHOR': '[Your Name]'
+}
+
 # Load environment variables
 load_dotenv()
 
 def call_gpt(prompt):
     """
     Call the OpenAI GPT model with the given prompt.
-    
-    Args:
-        prompt (str): The text prompt to send to the model
-        
-    Returns:
-        str: The generated response
     """
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     response = client.chat.completions.create(
-        model="gpt-4",
+        model=CONFIG['MODEL'],
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=2000
+        max_tokens=CONFIG['MAX_TOKENS']
     )
     return response.choices[0].message.content
 
 def generate_outline(topic):
-    """
-    Generate a 5-module course outline for the given topic.
-    
-    Args:
-        topic (str): The course topic
-        
-    Returns:
-        str: A 5-module course outline
-    """
-    return call_gpt("Create a 3-module course outline : " + topic)
+    """Generate a course outline for the given topic."""
+    return call_gpt(f"Create a {CONFIG['MODULES_COUNT']}-module course outline : {topic}")
 
 def generate_script(module_title):
-    """
-    Generate a script for a module.
-    
-    Args:
-        module_title (str): The title of the module
-        
-    Returns:
-        str: A 4 minute script for the module
-    """
-    return call_gpt(f"Write a 4 minute script for the module: {module_title}")
+    """Generate a script for a module."""
+    return call_gpt(f"Write a {CONFIG['SCRIPT_LENGTH']} script for the module: {module_title}")
 
 def generate_shot_list(script):
-    """
-    Generate a shot list from a script.
-    
-    Args:
-        script (str): The module script
-        
-    Returns:
-        str: A shot list based on the script
-    """
+    """Generate a shot list from a script."""
     return call_gpt(f"Create a shot list from this script:\n{script}")
 
 def create_file(file_path, content):
-    """
-    Create a file with the given content.
-    
-    Args:
-        file_path (str): The path for the file
-        content (str): The content to be written to the file
-    """
-    # Create directory if it doesn't exist
+    """Create a file with the given content."""
     directory = os.path.dirname(file_path)
     if directory and not os.path.exists(directory):
         os.makedirs(directory)
         
-    # Write content to file
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(content)
     
     print(f"Created file: {file_path}")
 
 def generate_full_course(topic):
-    """
-    Generate a full course and save files to the 8_Packing folder.
-    
-    Args:
-        topic (str): The course topic
-    """
-    base_dir = "8_Packing"
-    if not os.path.exists(base_dir):
-        os.makedirs(base_dir)
+    """Generate a full course and save files."""
+    if not os.path.exists(CONFIG['BASE_DIR']):
+        os.makedirs(CONFIG['BASE_DIR'])
     
     # Generate course outline
     outline = generate_outline(topic)
-    create_file(os.path.join(base_dir, "outline.md"), outline)
+    create_file(os.path.join(CONFIG['BASE_DIR'], "outline.md"), outline)
     
     # Parse outline to extract module titles
     module_titles = []
@@ -104,28 +98,16 @@ def generate_full_course(topic):
     
     # Generate and save content for each module
     for i, title in enumerate(module_titles, 1):
-        module_dir = os.path.join(base_dir, f"module_{i}")
+        module_dir = os.path.join(CONFIG['BASE_DIR'], f"module_{i}")
         
-        # Generate script
         script = generate_script(title)
         script_path = os.path.join(module_dir, "script.md")
         create_file(script_path, script)
         
-        # Generate shot list
         shot_list = generate_shot_list(script)
         shot_list_path = os.path.join(module_dir, "shot_list.md")
         create_file(shot_list_path, shot_list)
 
-# Example usage
 if __name__ == "__main__":
-    # Check if .env file exists, create if it doesn't
-    env_path = ".env"
-    if not os.path.exists(env_path):
-        with open(env_path, 'w') as f:
-            f.write("OPENAI_API_KEY=your_openai_api_key_here\n")
-        print(f"Created {env_path} file. Please edit it to add your actual OpenAI API key.")
-    else:
-        print(f"{env_path} file already exists.")
-    
-    topic = "Data Visualization with Python"
+    topic = CONFIG['SCRIPT_TITLE']
     generate_full_course(topic)
