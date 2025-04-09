@@ -13,14 +13,14 @@ CONFIG = {
     'SCRIPT_LENGTH': '4 minute'
     'SCRIPT_TITLE': 'Code Quality With SonarQube',
     'SCRIPT_DESCRIPTION': 'Learn how to improve code quality using SonarQube.',
-    'SCRIPT_OBJECTIVES': [
-        'Understand the importance of code quality',
-        'Learn how to set up SonarQube',
-        'Explore SonarQube features and functionalities'
+    'SCRIPT_LEARNING_OBJECTIVES': [
+        'Create SonarQube Environment',
+        'Scan a code base with SonarQube',
+        'Integrate CI/CD with SonarQube'
     ],
-    'SCRIPT_AUDIENCE': 'Software developers, team leads, and project managers.',
+    'SCRIPT_AUDIENCE': 'Software developers, team leads, and project managers,devops',
     'SCRIPT_FORMAT': 'Video tutorial',
-    'SCRIPT_DURATION': '30 minutes',
+    'SCRIPT_DURATION': '60 minutes',
     'SCRIPT_LANGUAGE': 'English',
     'SCRIPT_LEVEL': 'Intermediate',
     'SCRIPT_PLATFORM': 'YouTube',
@@ -35,11 +35,11 @@ CONFIG = {
         'Links to relevant articles and tutorials'
     ],
     'SCRIPT_FOOTER': 'Thank you for watching!',
-    'SCRIPT_CREDITS': 'Produced by [Your Name]',
+    'SCRIPT_CREDITS': 'Produced by Rifat Erdem Sahin',
     'SCRIPT_LICENSE': 'Creative Commons Attribution-ShareAlike 4.0 International License',
     'SCRIPT_VERSION': '1.0',
     'SCRIPT_DATE': '2023-10-01',
-    'SCRIPT_AUTHOR': '[Your Name]'
+    'SCRIPT_AUTHOR': 'Rifat Erdem Sahin'
 }
 
 # Load environment variables
