@@ -19,6 +19,7 @@ CONFIG = {
         'LEARNING OBJECTIVE 2 :Scan a code base with SonarQube',
         'LEARNING OBJECTIVE 3 :Integrate CI/CD with SonarQube'
     ],
+    'SCRIPT_INTRO': 'Welcome this is Erdem I worked in Accenture in charge of SonarQube for a banking application calculated technical debt with reached million man days',
     'SCRIPT_LEARNING_OBJECTIVE_1_VIDEO1': 'Create Codespaces Environment',
     'SCRIPT_LEARNING_OBJECTIVE_1_VIDEO2': 'Create a Github repository',
     'SCRIPT_LEARNING_OBJECTIVE_1_VIDEO3': 'Create SonarQube Environment in Minikube',
@@ -31,6 +32,7 @@ CONFIG = {
     'SCRIPT_LEARNING_OBJECTIVE_3_VIDEO2': '',
     'SCRIPT_LEARNING_OBJECTIVE_3_VIDEO3': '',
     'SCRIPT_LEARNING_OBJECTIVE_3_HANDSONEXERCISE': 'Create a pipeline and add sonarqube step in it, Duration 25 minutes',   
+    'SCRIPT_OUTRO': 'Thanks for joining in it would be great if you apply the necessary hands on exercises to get the most out of it',   
     'SCRIPT_AUDIENCE': 'Software developers, DevOps engineers, and QA professionals',
     'SCRIPT_TARGET_AUDIENCE': 'Software developers, DevOps engineers, and QA professionals',
     'SCRIPT_FORMAT': 'Video tutorial',
