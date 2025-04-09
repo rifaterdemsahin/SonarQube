@@ -15,16 +15,29 @@ CONFIG = {
     'SCRIPT_TITLE': 'Code Quality With SonarQube',
     'SCRIPT_DESCRIPTION': 'Learn how to improve code quality using SonarQube.',
     'SCRIPT_LEARNING_OBJECTIVES': [
-        'Create SonarQube Environment',
-        'Scan a code base with SonarQube',
-        'Integrate CI/CD with SonarQube'
+        'LEARNING OBJECTIVE 1 : Create SonarQube Environment',
+        'LEARNING OBJECTIVE 2 :Scan a code base with SonarQube',
+        'LEARNING OBJECTIVE 3 :Integrate CI/CD with SonarQube'
     ],
-    'SCRIPT_AUDIENCE': 'Software developers, team leads, and project managers,devops',
+    'SCRIPT_LEARNING_OBJECTIVE_1_VIDEO1': 'Create Codespaces Environment',
+    'SCRIPT_LEARNING_OBJECTIVE_1_VIDEO2': 'Create a Github repository',
+    'SCRIPT_LEARNING_OBJECTIVE_1_VIDEO3': 'Create SonarQube Environment in Minikube',
+    'SCRIPT_LEARNING_OBJECTIVE_1_HANDSONEXERCISE': 'Create your github account and create a repository, Duration 25 minutes',
+    'SCRIPT_LEARNING_OBJECTIVE_2_VIDEO1': '',
+    'SCRIPT_LEARNING_OBJECTIVE_2_VIDEO2': '',
+    'SCRIPT_LEARNING_OBJECTIVE_2_VIDEO3': '',
+    'SCRIPT_LEARNING_OBJECTIVE_2_HANDSONEXERCISE': 'Create your repository account and scan with SonarQube, Duration 25 minutes',   
+    'SCRIPT_LEARNING_OBJECTIVE_3_VIDEO1': '',
+    'SCRIPT_LEARNING_OBJECTIVE_3_VIDEO2': '',
+    'SCRIPT_LEARNING_OBJECTIVE_3_VIDEO3': '',
+    'SCRIPT_LEARNING_OBJECTIVE_3_HANDSONEXERCISE': 'Create a pipeline and add sonarqube step in it, Duration 25 minutes',   
+    'SCRIPT_AUDIENCE': 'Software developers, DevOps engineers, and QA professionals',
+    'SCRIPT_TARGET_AUDIENCE': 'Software developers, DevOps engineers, and QA professionals',
     'SCRIPT_FORMAT': 'Video tutorial',
     'SCRIPT_DURATION': '60 minutes',
     'SCRIPT_LANGUAGE': 'English',
     'SCRIPT_LEVEL': 'Intermediate',
-    'SCRIPT_PLATFORM': 'YouTube',
+    'SCRIPT_PLATFORM': 'CourseEra',
     'SCRIPT_VISUALS': 'Screen recordings, slides, and code examples',
     'SCRIPT_AUDIO': 'Voiceover narration',
     'SCRIPT_SUBTITLES': 'English subtitles',
@@ -39,7 +52,7 @@ CONFIG = {
     'SCRIPT_CREDITS': 'Produced by Rifat Erdem Sahin',
     'SCRIPT_LICENSE': 'Creative Commons Attribution-ShareAlike 4.0 International License',
     'SCRIPT_VERSION': '1.0',
-    'SCRIPT_DATE': '2023-10-01',
+    'SCRIPT_DATE': 'Today',
     'SCRIPT_AUTHOR': 'Rifat Erdem Sahin'
 }
 
