@@ -3,6 +3,7 @@ import openai
 import os
 from dotenv import load_dotenv
 import pathlib
+import json
 
 # Configuration settings
 CONFIG = {
@@ -10,7 +11,7 @@ CONFIG = {
     'MODEL': 'gpt-4',
     'MAX_TOKENS': 2000,
     'MODULES_COUNT': 3,
-    'SCRIPT_LENGTH': '4 minute'
+    'SCRIPT_LENGTH': '4 minute',
     'SCRIPT_TITLE': 'Code Quality With SonarQube',
     'SCRIPT_DESCRIPTION': 'Learn how to improve code quality using SonarQube.',
     'SCRIPT_LEARNING_OBJECTIVES': [
@@ -59,15 +60,72 @@ def call_gpt(prompt):
 
 def generate_outline(topic):
     """Generate a course outline for the given topic."""
-    return call_gpt(f"Create a {CONFIG['MODULES_COUNT']}-module course outline : {topic}")
+    prompt = f"""
+    Create a detailed {CONFIG['MODULES_COUNT']}-module course outline for a course titled: "{topic}"
+    
+    Course details:
+    - Description: {CONFIG['SCRIPT_DESCRIPTION']}
+    - Audience: {CONFIG['SCRIPT_AUDIENCE']}
+    - Level: {CONFIG['SCRIPT_LEVEL']}
+    - Format: {CONFIG['SCRIPT_FORMAT']}
+    - Duration: {CONFIG['SCRIPT_DURATION']}
+    
+    Learning objectives:
+    {', '.join(CONFIG['SCRIPT_LEARNING_OBJECTIVES'])}
+    
+    Each module should focus on one major aspect of {topic} and include:
+    1. Module title
+    2. Key topics covered
+    3. A brief description
+    
+    Format the outline in Markdown.
+    """
+    return call_gpt(prompt)
 
-def generate_script(module_title):
+def generate_script(module_title, module_number, total_modules):
     """Generate a script for a module."""
-    return call_gpt(f"Write a {CONFIG['SCRIPT_LENGTH']} script for the module: {module_title}")
+    prompt = f"""
+    Write a {CONFIG['SCRIPT_LENGTH']} script for Module {module_number} of {total_modules}: "{module_title}"
+    
+    Course information:
+    - Course title: {CONFIG['SCRIPT_TITLE']}
+    - Description: {CONFIG['SCRIPT_DESCRIPTION']}
+    - Audience: {CONFIG['SCRIPT_AUDIENCE']}
+    - Level: {CONFIG['SCRIPT_LEVEL']}
+    - Format: {CONFIG['SCRIPT_FORMAT']}
+    
+    Script should include:
+    - Introduction to the module
+    - Clear explanations of concepts
+    - Practical examples or demonstrations
+    - Summary of key points
+    - Transition to the next module (if not the final module)
+    
+    The script should be suitable for {CONFIG['SCRIPT_VISUALS']} and {CONFIG['SCRIPT_AUDIO']}.
+    Format the script in Markdown with clear section headers and speaker notes.
+    """
+    return call_gpt(prompt)
 
-def generate_shot_list(script):
+def generate_shot_list(script, module_title):
     """Generate a shot list from a script."""
-    return call_gpt(f"Create a shot list from this script:\n{script}")
+    prompt = f"""
+    Create a detailed shot list from this script for the module "{module_title}":
+    
+    {script}
+    
+    The shot list should include:
+    1. Shot number
+    2. Shot type (close-up, medium shot, screen recording, slide, etc.)
+    3. Description of what is shown visually
+    4. Script excerpt or narration for that shot
+    5. Duration estimate for each shot
+    
+    Visual requirements:
+    - {CONFIG['SCRIPT_VISUALS']}
+    
+    Format the shot list in a clean, organized table using Markdown.
+    """
+    return call_gpt(prompt)
 
 def create_file(file_path, content):
     """Create a file with the given content."""
@@ -82,12 +140,47 @@ def create_file(file_path, content):
 
 def generate_full_course(topic):
     """Generate a full course and save files."""
-    if not os.path.exists(CONFIG['BASE_DIR']):
-        os.makedirs(CONFIG['BASE_DIR'])
+    base_dir = CONFIG['BASE_DIR']
+    if not os.path.exists(base_dir):
+        os.makedirs(base_dir)
+    
+    # Save configuration
+    config_path = os.path.join(base_dir, "config.json")
+    with open(config_path, 'w', encoding='utf-8') as f:
+        json.dump(CONFIG, f, indent=4)
+    print(f"Created file: {config_path}")
+    
+    # Generate course metadata
+    metadata = f"""# {topic}
+
+## Course Information
+- **Description:** {CONFIG['SCRIPT_DESCRIPTION']}
+- **Audience:** {CONFIG['SCRIPT_AUDIENCE']}
+- **Level:** {CONFIG['SCRIPT_LEVEL']}
+- **Format:** {CONFIG['SCRIPT_FORMAT']}
+- **Duration:** {CONFIG['SCRIPT_DURATION']}
+- **Language:** {CONFIG['SCRIPT_LANGUAGE']}
+- **Platform:** {CONFIG['SCRIPT_PLATFORM']}
+
+## Learning Objectives
+{chr(10).join(['- ' + obj for obj in CONFIG['SCRIPT_LEARNING_OBJECTIVES']])}
+
+## Resources
+{chr(10).join(['- ' + res for res in CONFIG['SCRIPT_RESOURCES']])}
+
+## Credits
+- **Author:** {CONFIG['SCRIPT_AUTHOR']}
+- **Version:** {CONFIG['SCRIPT_VERSION']}
+- **Date:** {CONFIG['SCRIPT_DATE']}
+- **License:** {CONFIG['SCRIPT_LICENSE']}
+"""
+    
+    metadata_path = os.path.join(base_dir, "metadata.md")
+    create_file(metadata_path, metadata)
     
     # Generate course outline
     outline = generate_outline(topic)
-    create_file(os.path.join(CONFIG['BASE_DIR'], "outline.md"), outline)
+    create_file(os.path.join(base_dir, "outline.md"), outline)
     
     # Parse outline to extract module titles
     module_titles = []
@@ -96,17 +189,48 @@ def generate_full_course(topic):
             module_title = line.split(":")[1].strip()
             module_titles.append(module_title)
     
+    # If parsing failed, create default module titles
+    if not module_titles or len(module_titles) < CONFIG['MODULES_COUNT']:
+        module_titles = [f"Module {i+1}: {obj}" for i, obj in enumerate(CONFIG['SCRIPT_LEARNING_OBJECTIVES'])]
+        if len(module_titles) > CONFIG['MODULES_COUNT']:
+            module_titles = module_titles[:CONFIG['MODULES_COUNT']]
+    
     # Generate and save content for each module
     for i, title in enumerate(module_titles, 1):
-        module_dir = os.path.join(CONFIG['BASE_DIR'], f"module_{i}")
+        module_dir = os.path.join(base_dir, f"module_{i}")
         
-        script = generate_script(title)
+        # Generate script
+        script = generate_script(title, i, len(module_titles))
         script_path = os.path.join(module_dir, "script.md")
         create_file(script_path, script)
         
-        shot_list = generate_shot_list(script)
+        # Generate shot list
+        shot_list = generate_shot_list(script, title)
         shot_list_path = os.path.join(module_dir, "shot_list.md")
         create_file(shot_list_path, shot_list)
+    
+    # Generate README
+    readme = f"""# {topic} Course Materials
+
+This repository contains materials for the "{topic}" course.
+
+## Contents
+- [Course Metadata](metadata.md)
+- [Course Outline](outline.md)
+{chr(10).join(['- [Module ' + str(i) + ': ' + title + '](module_' + str(i) + '/script.md)' for i, title in enumerate(module_titles, 1)])}
+
+## Description
+{CONFIG['SCRIPT_DESCRIPTION']}
+
+## Author
+{CONFIG['SCRIPT_AUTHOR']}
+
+## License
+{CONFIG['SCRIPT_LICENSE']}
+"""
+    
+    readme_path = os.path.join(base_dir, "README.md")
+    create_file(readme_path, readme)
 
 if __name__ == "__main__":
     topic = CONFIG['SCRIPT_TITLE']
