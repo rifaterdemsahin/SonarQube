@@ -55,7 +55,9 @@ CONFIG = {
     'SCRIPT_LICENSE': 'Creative Commons Attribution-ShareAlike 4.0 International License',
     'SCRIPT_VERSION': '1.0',
     'SCRIPT_DATE': 'Today',
-    'SCRIPT_AUTHOR': 'Rifat Erdem Sahin'
+    'SCRIPT_AUTHOR': 'Rifat Erdem Sahin',
+    'FILENAME_PREFIX': '8.1.1.'
+    
 }
 
 # Load environment variables
@@ -130,7 +132,7 @@ def generate_shot_list(script, module_title):
     
     The shot list should include:
     1. Shot number
-    2. Shot type (close-up, medium shot, screen recording, slide, etc.)
+    2. Shot type (Talking head,screen capture, slides)
     3. Description of what is shown visually
     4. Script excerpt or narration for that shot
     5. Duration estimate for each shot
