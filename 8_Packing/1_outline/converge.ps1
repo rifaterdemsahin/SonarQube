@@ -33,9 +33,7 @@ $markdownFiles = $markdownFiles | Sort-Object -Property {
 
 # Initialize variables
 $consolidatedContent = @()
-$seenHeaders = @{}
 $mainHeader = ""
-$inWriteOutputSection = $false
 
 # Process each markdown file
 foreach ($file in $markdownFiles) {
@@ -62,73 +60,22 @@ foreach ($file in $markdownFiles) {
         }
     }
     
-    # Process each line in the file
-    $skipContent = $false
-    
+    # Add all content from the file
     foreach ($line in $content) {
-        # Skip empty lines at the beginning
-        if ([string]::IsNullOrWhiteSpace($line)) {
-            continue
-        }
-        
-        # Handle level 1 headers (# headers) - just include the header line, not content
-        if ($line -match '^#\s(.+)') {
-            $skipContent = $true  # Start skipping content
-            # We don't add the level 1 header to the output as we'll use it as the main title
-            continue
-        }
-        
-        # Check for "## Write Output" section or "## Output" section
-        if ($line -match '^##\s+(Write\s+Output|Output)') {
-            $inWriteOutputSection = $true
-            $skipContent = $false  # Stop skipping content for this section
-            
-            # Add this header if we haven't seen it before
-            $headerKey = "2-output"
-            if (-not $seenHeaders.ContainsKey($headerKey)) {
-                $seenHeaders[$headerKey] = $true
-                $consolidatedContent += "## Output"
-            }
-            continue
-        }
-        
-        # Start of a new section (any level 2+ header)
-        if ($line -match '^(#{2,6})\s(.+)' -and $line -notmatch '^##\s+(Write\s+Output|Output)') {
-            $skipContent = $false  # Stop skipping content for other sections
-            $inWriteOutputSection = $false
-            
-            $headerLevel = $matches[1].Length
-            $headerText = $matches[2].Trim()
-            
-            # Check if we've seen this header before (case insensitive)
-            $headerKey = "$headerLevel-$($headerText.ToLower())"
-            
-            if (-not $seenHeaders.ContainsKey($headerKey)) {
-                $seenHeaders[$headerKey] = $true
-                $consolidatedContent += $line
-            }
-        }
-        # Process non-header content
-        elseif (-not $skipContent -and $inWriteOutputSection -and -not [string]::IsNullOrWhiteSpace($line)) {
-            $consolidatedContent += $line
-        }
+        $consolidatedContent += $line
     }
     
     # Add a separator between files
     $consolidatedContent += ""
     $consolidatedContent += "---"
     $consolidatedContent += ""
-    
-    # Reset flags for the next file
-    $inWriteOutputSection = $false
-    $skipContent = $false
 }
 
-# Create the final output with just the main header on one line
+# Create the final output with the main header on one line at the top
 $finalOutput = @("# $mainHeader", "") + $consolidatedContent
 
 # Write the output to the console
 $finalOutput | Out-String | Write-Output
 
 # Uncomment the following line to write to a file instead
-# $finalOutput | Out-File -FilePath "C:\projects\SonarQube\8_Packing\consolidated_outline.md" -Encoding utf8
+$finalOutput | Out-File -FilePath "C:\projects\SonarQube\8_Packing\1_outline\consolidated_outline.md" -Encoding utf8
