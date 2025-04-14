@@ -33,7 +33,6 @@ $markdownFiles = $markdownFiles | Sort-Object -Property {
 
 # Initialize variables
 $consolidatedContent = @()
-$mainHeader = ""
 
 # Process each markdown file
 foreach ($file in $markdownFiles) {
@@ -42,22 +41,13 @@ foreach ($file in $markdownFiles) {
     $consolidatedContent += "## File: $($file.Name)"
     $consolidatedContent += ""
     
-    $content = Get-Content -Path $file.FullName
+    # Use UTF-8 encoding for reading files
+    $content = Get-Content -Path $file.FullName -Encoding UTF8
     
     # Skip empty files
     if ($content -eq $null -or $content.Length -eq 0) {
         $consolidatedContent += "*Empty file*"
         continue
-    }
-    
-    # Find the main header (first # header) if not already set
-    if ([string]::IsNullOrEmpty($mainHeader)) {
-        foreach ($line in $content) {
-            if ($line -match '^#\s(.+)') {
-                $mainHeader = $matches[1].Trim()
-                break
-            }
-        }
     }
     
     # Add all content from the file
@@ -71,11 +61,13 @@ foreach ($file in $markdownFiles) {
     $consolidatedContent += ""
 }
 
-# Create the final output with the main header on one line at the top
-$finalOutput = @("# $mainHeader", "") + $consolidatedContent
+# Create the final output with "# Outline" as the main header
+$finalOutput = @("# Outline", "") + $consolidatedContent
 
-# Write the output to the console
-$finalOutput | Out-String | Write-Output
+# Write the output to the console using UTF-8 encoding
+$finalOutput | Out-File -FilePath "$env:TEMP\temp_output.txt" -Encoding UTF8
+Get-Content -Path "$env:TEMP\temp_output.txt" -Encoding UTF8 | Write-Output
+Remove-Item -Path "$env:TEMP\temp_output.txt"
 
 # Uncomment the following line to write to a file instead
-$finalOutput | Out-File -FilePath "C:\projects\SonarQube\8_Packing\1_outline\consolidated_outline.md" -Encoding utf8
+$finalOutput | Out-File -FilePath "C:\projects\SonarQube\8_Packing\1_outline\consolidated_outline.md" -Encoding UTF8
