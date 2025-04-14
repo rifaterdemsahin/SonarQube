@@ -4,6 +4,20 @@ $outlinePath = "C:\projects\SonarQube\8_Packing\1_outline\"
 # Get all markdown files in the directory
 $markdownFiles = Get-ChildItem -Path $outlinePath -Filter "*.md" -File
 
+# Sort files logically for version numbers
+$markdownFiles = $markdownFiles | Sort-Object -Property {
+    # Extract numbers from the filename and pad them with zeros for proper sorting
+    $filename = $_.BaseName
+    
+    if ($filename -match '([\d\.]+)') {
+        $versionParts = $matches[1] -split '\.'
+        $paddedParts = $versionParts | ForEach-Object { [int]$_.PadLeft(10, '0') }
+        $sortableVersion = $paddedParts -join '.'
+        return $sortableVersion
+    }
+    return $filename
+}
+
 # Initialize variables
 $consolidatedContent = @()
 $seenHeaders = @{}
