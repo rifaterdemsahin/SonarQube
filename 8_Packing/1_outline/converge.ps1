@@ -11,9 +11,8 @@ $markdownFiles = $markdownFiles | Sort-Object -Property {
     
     if ($filename -match '([\d\.]+)') {
         $versionParts = $matches[1] -split '\.'
-        $paddedParts = $versionParts | ForEach-Object { [int]$_.PadLeft(10, '0') }
-        $sortableVersion = $paddedParts -join '.'
-        return $sortableVersion
+        $paddedParts = $versionParts | ForEach-Object { [int]$_ }
+        return [string]::Join('.', $paddedParts)
     }
     return $filename
 }
@@ -22,13 +21,20 @@ $markdownFiles = $markdownFiles | Sort-Object -Property {
 $consolidatedContent = @()
 $seenHeaders = @{}
 $mainHeader = ""
+$inWriteOutputSection = $false
 
 # Process each markdown file
 foreach ($file in $markdownFiles) {
+    # Add the filename before processing the file content
+    $consolidatedContent += ""
+    $consolidatedContent += "## File: $($file.Name)"
+    $consolidatedContent += ""
+    
     $content = Get-Content -Path $file.FullName
     
     # Skip empty files
     if ($content -eq $null -or $content.Length -eq 0) {
+        $consolidatedContent += "*Empty file*"
         continue
     }
     
@@ -43,14 +49,40 @@ foreach ($file in $markdownFiles) {
     }
     
     # Process each line in the file
+    $skipContent = $false
+    
     foreach ($line in $content) {
         # Skip empty lines at the beginning
         if ($consolidatedContent.Count -eq 0 -and [string]::IsNullOrWhiteSpace($line)) {
             continue
         }
         
-        # Process headers (## or lower)
-        if ($line -match '^(#{2,6})\s(.+)') {
+        # Handle level 1 headers (# headers) - just include the header line, not content
+        if ($line -match '^#\s(.+)') {
+            $skipContent = $true  # Start skipping content
+            # We don't add the level 1 header to the output as we'll use it as the main title
+            continue
+        }
+        
+        # Check for "## Write Output" section
+        if ($line -match '^##\s+Write\s+Output') {
+            $inWriteOutputSection = $true
+            $skipContent = $false  # Stop skipping content for this section
+            
+            # Add this header if we haven't seen it before
+            $headerKey = "2-write output"
+            if (-not $seenHeaders.ContainsKey($headerKey)) {
+                $seenHeaders[$headerKey] = $true
+                $consolidatedContent += $line
+            }
+            continue
+        }
+        
+        # Start of a new section (any level 2+ header)
+        if ($line -match '^(#{2,6})\s(.+)' -and $line -notmatch '^##\s+Write\s+Output') {
+            $skipContent = $false  # Stop skipping content for other sections
+            $inWriteOutputSection = $false
+            
             $headerLevel = $matches[1].Length
             $headerText = $matches[2].Trim()
             
@@ -63,7 +95,7 @@ foreach ($file in $markdownFiles) {
             }
         }
         # Process non-header content
-        elseif (-not [string]::IsNullOrWhiteSpace($line)) {
+        elseif (-not $skipContent -and $inWriteOutputSection -and -not [string]::IsNullOrWhiteSpace($line)) {
             $consolidatedContent += $line
         }
     }
@@ -72,9 +104,13 @@ foreach ($file in $markdownFiles) {
     $consolidatedContent += ""
     $consolidatedContent += "---"
     $consolidatedContent += ""
+    
+    # Reset flags for the next file
+    $inWriteOutputSection = $false
+    $skipContent = $false
 }
 
-# Create the final output with the main header
+# Create the final output with just the main header on one line
 $finalOutput = @("# $mainHeader", "") + $consolidatedContent
 
 # Write the output to the console
