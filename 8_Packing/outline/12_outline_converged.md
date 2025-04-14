@@ -1,0 +1,8 @@
+# Outline Converged
+
+- **Overview**: Put all the outline to this document with the sorted order in markdown format.
+
+- **Prompt**: "Create a consolidated course outline in markdown format within this document, use all the files in C:\projects\SonarQube\8_Packing\outline\ Remove any redundant information.Use a markdown format"
+
+
+## Output
