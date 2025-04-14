@@ -1,3 +1,8 @@
+# Learning objective 1
+
+
+
+## Output
 | Shot No. | Shot type | Visual Description | Script Excerpt | Duration (Estimate) |
 | --- | --- | --- | --- | --- |
 | 1 | Talking head | Speaker introducing the module | "Hello and welcome to the first module of our course titled, 'Code Quality With SonarQube'." | 0:30 sec |

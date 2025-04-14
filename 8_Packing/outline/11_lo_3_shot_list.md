@@ -1,3 +1,6 @@
+# Learning objective 3
+
+## Output
 | Shot Number | Shot Type     | Description of Visual       | Script/Narration Excerpt                                               | Duration Estimate |
 |-------------|---------------|-----------------------------|----------------------------------------------------------------------|------------------|
 | 1           | Talking Head  | Speaker introducing the module | "Hello, and welcome back to..."                                       | 15 sec           |
