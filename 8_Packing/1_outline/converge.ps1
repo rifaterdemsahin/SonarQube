@@ -6,15 +6,29 @@ $markdownFiles = Get-ChildItem -Path $outlinePath -Filter "*.md" -File
 
 # Sort files logically for version numbers
 $markdownFiles = $markdownFiles | Sort-Object -Property {
-    # Extract numbers from the filename and pad them with zeros for proper sorting
-    $filename = $_.BaseName
-    
-    if ($filename -match '([\d\.]+)') {
-        $versionParts = $matches[1] -split '\.'
-        $paddedParts = $versionParts | ForEach-Object { [int]$_ }
-        return [string]::Join('.', $paddedParts)
+    # Extract version number from filename
+    if ($_.BaseName -match '(\d+)\.(\d+)\.?(\d*)') {
+        # Convert to numeric arrays for proper numeric sorting
+        $major = [int]$matches[1]
+        $minor = [int]$matches[2]
+        # If third segment exists, use it, otherwise default to 0
+        $patch = if ($matches[3]) { [int]$matches[3] } else { 0 }
+        
+        # Create a sortable string with padded numbers
+        return "{0:D10}.{1:D10}.{2:D10}" -f $major, $minor, $patch
     }
-    return $filename
+    elseif ($_.BaseName -match '(\d+)\.(\d+)') {
+        # Handle cases with just major.minor
+        $major = [int]$matches[1]
+        $minor = [int]$matches[2]
+        
+        # Create a sortable string with padded numbers
+        return "{0:D10}.{1:D10}.{2:D10}" -f $major, $minor, 0
+    }
+    else {
+        # Default case for non-version filenames
+        return $_.BaseName
+    }
 }
 
 # Initialize variables
@@ -53,7 +67,7 @@ foreach ($file in $markdownFiles) {
     
     foreach ($line in $content) {
         # Skip empty lines at the beginning
-        if ($consolidatedContent.Count -eq 0 -and [string]::IsNullOrWhiteSpace($line)) {
+        if ([string]::IsNullOrWhiteSpace($line)) {
             continue
         }
         
@@ -64,22 +78,22 @@ foreach ($file in $markdownFiles) {
             continue
         }
         
-        # Check for "## Write Output" section
-        if ($line -match '^##\s+Write\s+Output') {
+        # Check for "## Write Output" section or "## Output" section
+        if ($line -match '^##\s+(Write\s+Output|Output)') {
             $inWriteOutputSection = $true
             $skipContent = $false  # Stop skipping content for this section
             
             # Add this header if we haven't seen it before
-            $headerKey = "2-write output"
+            $headerKey = "2-output"
             if (-not $seenHeaders.ContainsKey($headerKey)) {
                 $seenHeaders[$headerKey] = $true
-                $consolidatedContent += $line
+                $consolidatedContent += "## Output"
             }
             continue
         }
         
         # Start of a new section (any level 2+ header)
-        if ($line -match '^(#{2,6})\s(.+)' -and $line -notmatch '^##\s+Write\s+Output') {
+        if ($line -match '^(#{2,6})\s(.+)' -and $line -notmatch '^##\s+(Write\s+Output|Output)') {
             $skipContent = $false  # Stop skipping content for other sections
             $inWriteOutputSection = $false
             
