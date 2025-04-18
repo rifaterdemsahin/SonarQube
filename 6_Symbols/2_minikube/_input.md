@@ -24,6 +24,10 @@ kubectl create namespace sonarqube
 ### Create persistent volume claim
 cd /workspaces/SonarQube/6_Symbols/2_minikube
 
+### If All Files are there
+kubectl apply -f /workspaces/SonarQube/6_Symbols/2_minikube
+
+
 ```bash
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
