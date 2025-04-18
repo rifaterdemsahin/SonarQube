@@ -5,7 +5,7 @@ Here are all the setup commands for Minikube in markdown format:
 
 ### Start Minikube
 ```bash
-minikube start --driver=docker --cpus=2 --memory=4096MB --kubernetes-version=stable
+minikube start --driver=docker --cpus=4 --memory=8096MB --kubernetes-version=stable
 ```
 
 ### Fix minikube for the connection error
