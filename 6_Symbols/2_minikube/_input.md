@@ -222,6 +222,29 @@ kubectl port-forward -n sonarqube svc/sonarqube 9000:9000
 http://localhost:9000
 ```
 
+### Setup Configuration#
+#### Select Github
+
+```yaml
+Configuration name : SonarQubeCourse
+GitHub API URL : _https://api.github.com/_
+**App ID:** XXX
+**Client ID:** XXX
+**Client Secret:** XXX
+PrivateKey
+-----BEGIN RSA PRIVATE KEY-----
+XXX
+-----END RSA PRIVATE KEY-----
+WebHookSecret: XXX
+```
+
+# SETUP THE CALLBACKURL
+- URL: https://github.com/settings/apps/sonarqubeappdeliverypilot
+
+# GITHUB SECRETS
+- URL: https://urban-dollop-6w5jqx7rjx34pwr-9000.app.github.dev/dashboard?id=rifaterdemsahin_SonarQube_AZZJ7cDc94VUEuLcMWEe&selectedTutorial=github-actions
+
+
 ## Cleanup Commands
 
 ### Delete namespace (removes all resources)

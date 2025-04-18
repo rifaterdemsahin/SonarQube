@@ -1,0 +1,1 @@
+Configuration : obsidian://open?vault=secondbrain&file=secondbrain%2F4%20_Archieve%2Fappid%20for%20sonarqube%20project
