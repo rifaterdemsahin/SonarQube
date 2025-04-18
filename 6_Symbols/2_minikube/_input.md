@@ -8,6 +8,14 @@ Here are all the setup commands for Minikube in markdown format:
 minikube start --driver=docker --cpus=2 --memory=4096MB --kubernetes-version=stable
 ```
 
+### Fix minikube for the connection error
+```bash
+   minikube ssh
+   sudo sysctl -w vm.max_map_count=262144
+   exit
+```
+
+
 ### Verify Minikube is running
 ```bash
 minikube status
@@ -197,15 +205,17 @@ EOF
 
 ## Access Configuration
 
+### Check deployment status
+```bash
+kubectl get all -n sonarqube
+```
+
 ### Port forward to access SonarQube UI
 ```bash
 kubectl port-forward -n sonarqube svc/sonarqube 9000:9000 
 ```
 
-### Check deployment status
-```bash
-kubectl get all -n sonarqube
-```
+
 
 ### Access SonarQube in browser
 ```
