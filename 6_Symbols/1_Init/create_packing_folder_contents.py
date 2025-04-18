@@ -5,6 +5,14 @@ from dotenv import load_dotenv
 import pathlib
 import json
 
+# Intentional error for testing
+# This will raise a ZeroDivisionError
+# Uncomment the following line to test error handling
+def divide_by_zero():
+    return 1 / 0
+divide_by_zero()
+
+
 # Configuration settings
 CONFIG = {
     'BASE_DIR': '8_Packing',
