@@ -1,3 +1,0 @@
-# Course Introduction
-## Status
-### Data
