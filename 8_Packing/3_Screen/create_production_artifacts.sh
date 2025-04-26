@@ -1,6 +1,8 @@
 #!/bin/bash
 
-creation_path="/c/projects/SonarQube/8_Packing/3_Screen/kanban"
+# Get the directory where the script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+creation_path="$SCRIPT_DIR/kanban"
 
 # Initialize counters
 lo_count=0
@@ -25,6 +27,7 @@ for ((lo=1; lo<=3; lo++)); do
 
     # Create Intro file with Hook and Objective sections
     intro_file="$lo_dir/Intro.md"
+    mkdir -p "$(dirname "$intro_file")"
     {
         echo "# Hook"
         echo "## Status"
@@ -47,6 +50,7 @@ for ((lo=1; lo<=3; lo++)); do
         # Create scenes for each video
         for ((scene=1; scene<=5; scene++)); do
             scene_file="$video_dir/Scene_$scene.md"
+            mkdir -p "$(dirname "$scene_file")"
             {
                 echo "# Subject"
                 echo "## Status"
@@ -59,6 +63,7 @@ for ((lo=1; lo<=3; lo++)); do
 
     # Create Hands-On Learning file
     hol_file="$lo_dir/Hands_On_Learning.md"
+    mkdir -p "$(dirname "$hol_file")"
     {
         echo "# Subject"
         echo "## Status"
@@ -69,6 +74,7 @@ for ((lo=1; lo<=3; lo++)); do
 
     # Create In-Video Questions file
     ivq_file="$lo_dir/In_Video_Questions.md"
+    mkdir -p "$(dirname "$ivq_file")"
     {
         echo "# Subject"
         echo "## Status"
