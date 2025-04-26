@@ -11,12 +11,24 @@ scene_count=0
 intro_count=0
 hol_count=0
 ivq_count=0
+unique_scene_number=1
 
 # Create the base directory if it doesn't exist
 mkdir -p "$creation_path"
 echo "📁 Base directory created at: $creation_path"
 
 echo "🚀 Starting production artifact creation..."
+
+# Create Main Intro
+main_intro_file="$creation_path/Main_Intro.md"
+mkdir -p "$(dirname "$main_intro_file")"
+{
+    echo "# Course Introduction"
+    echo "## Status"
+    echo "### Data"
+} > "$main_intro_file"
+((intro_count++))
+echo "📝 Created Main Intro file at: $main_intro_file"
 
 # Loop through each learning objective
 for ((lo=1; lo<=3; lo++)); do
@@ -49,14 +61,16 @@ for ((lo=1; lo<=3; lo++)); do
 
         # Create scenes for each video
         for ((scene=1; scene<=5; scene++)); do
-            scene_file="$video_dir/Scene_$scene.md"
+            scene_file="$video_dir/Scene_$unique_scene_number.md"
             mkdir -p "$(dirname "$scene_file")"
             {
                 echo "# Subject"
                 echo "## Status"
                 echo "### Data"
+                echo "### Scene Number: $unique_scene_number"
             } > "$scene_file"
             ((scene_count++))
+            ((unique_scene_number++))
             echo "📝 Created scene file at: $scene_file"
         done
     done
@@ -84,6 +98,17 @@ for ((lo=1; lo<=3; lo++)); do
     echo "📝 Created In-Video Questions file at: $ivq_file"
 done
 
+# Create Course Closure
+closure_file="$creation_path/Course_Closure.md"
+mkdir -p "$(dirname "$closure_file")"
+{
+    echo "# Course Summary"
+    echo "## Status"
+    echo "### Data"
+} > "$closure_file"
+((intro_count++))
+echo "📝 Created Course Closure file at: $closure_file"
+
 echo "✅ Production artifact creation complete!"
 
 # Verification step
@@ -102,8 +127,8 @@ fi
 echo "📊 Creation Summary:"
 echo "   Learning Objectives created: $lo_count"
 echo "   Videos created: $video_count"
-echo "   Scenes created: $scene_count"
-echo "   Intro files created: $intro_count"
+echo "   Scenes created: $scene_count (Unique numbers: 1-$((unique_scene_number-1)))"
+echo "   Intro files created: $intro_count (Including Main Intro and Closure)"
 echo "   Hands-On Learning files created: $hol_count"
 echo "   In-Video Questions files created: $ivq_count"
 echo "   Total files created: $((scene_count + intro_count + hol_count + ivq_count))"
