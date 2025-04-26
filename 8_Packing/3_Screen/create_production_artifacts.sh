@@ -12,6 +12,7 @@ ivq_count=0
 
 # Create the base directory if it doesn't exist
 mkdir -p "$creation_path"
+echo "📁 Base directory created at: $creation_path"
 
 echo "🚀 Starting production artifact creation..."
 
@@ -20,7 +21,7 @@ for ((lo=1; lo<=3; lo++)); do
     lo_dir="$creation_path/LO_$lo"
     mkdir -p "$lo_dir"
     ((lo_count++))
-    echo "🎯 Created LO directory: $lo_dir"
+    echo "📁 Created LO directory at: $lo_dir"
 
     # Create Intro file with Hook and Objective sections
     intro_file="$lo_dir/Intro.md"
@@ -34,14 +35,14 @@ for ((lo=1; lo<=3; lo++)); do
         echo "### Data"
     } > "$intro_file"
     ((intro_count++))
-    echo "📝 Created Intro file: $intro_file"
+    echo "📝 Created Intro file at: $intro_file"
 
     # Create Videos directory and files
     for ((video=1; video<=3; video++)); do
         video_dir="$lo_dir/Video_$video"
         mkdir -p "$video_dir"
         ((video_count++))
-        echo "🎬 Created Video directory: $video_dir"
+        echo "📁 Created Video directory at: $video_dir"
 
         # Create scenes for each video
         for ((scene=1; scene<=5; scene++)); do
@@ -52,7 +53,7 @@ for ((lo=1; lo<=3; lo++)); do
                 echo "### Data"
             } > "$scene_file"
             ((scene_count++))
-            echo "📝 Created scene file: $scene_file"
+            echo "📝 Created scene file at: $scene_file"
         done
     done
 
@@ -64,7 +65,7 @@ for ((lo=1; lo<=3; lo++)); do
         echo "### Data"
     } > "$hol_file"
     ((hol_count++))
-    echo "🤲 Created Hands-On Learning file: $hol_file"
+    echo "📝 Created Hands-On Learning file at: $hol_file"
 
     # Create In-Video Questions file
     ivq_file="$lo_dir/In_Video_Questions.md"
@@ -74,10 +75,24 @@ for ((lo=1; lo<=3; lo++)); do
         echo "### Data"
     } > "$ivq_file"
     ((ivq_count++))
-    echo "❓ Created In-Video Questions file: $ivq_file"
+    echo "📝 Created In-Video Questions file at: $ivq_file"
 done
 
 echo "✅ Production artifact creation complete!"
+
+# Verification step
+echo "🔍 Verifying created files..."
+expected_files=$((scene_count + intro_count + hol_count + ivq_count))
+actual_files=$(find "$creation_path" -type f -name "*.md" | wc -l)
+
+if [ "$actual_files" -eq "$expected_files" ]; then
+    echo "✅ Verification successful! All $expected_files files were created."
+else
+    echo "❌ Verification failed! Expected $expected_files files but found $actual_files files."
+    echo "Please check the following paths for missing files:"
+    find "$creation_path" -type d
+fi
+
 echo "📊 Creation Summary:"
 echo "   Learning Objectives created: $lo_count"
 echo "   Videos created: $video_count"
@@ -87,3 +102,6 @@ echo "   Hands-On Learning files created: $hol_count"
 echo "   In-Video Questions files created: $ivq_count"
 echo "   Total files created: $((scene_count + intro_count + hol_count + ivq_count))"
 echo "   Total directories created: $((lo_count + video_count))"
+echo ""
+echo "📂 Full directory structure:"
+find "$creation_path" -type d | sort
