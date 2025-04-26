@@ -36,32 +36,41 @@ for ((scene=1; scene<=4; scene++)); do
     mkdir -p "$scene_dir"
     
     # Create Show file
-    show_file="$scene_dir/1_Show.md"
+    show_file="$scene_dir/1_Show.json"
     {
-        echo "# Show"
-        echo "## Status"
-        echo "### Data"
-        echo "### Scene Number: $unique_scene_number"
+        echo "{"
+        echo "  \"title\": \"Show\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $unique_scene_number"
+        echo "}"
     } > "$show_file"
     echo "📝 Created Show file at: $show_file"
     
     # Create Tell file
-    tell_file="$scene_dir/2_Tell.md"
+    tell_file="$scene_dir/2_Tell.json"
     {
-        echo "# Tell"
-        echo "## Status"
-        echo "### Data"
-        echo "### Scene Number: $unique_scene_number"
+        echo "{"
+        echo "  \"title\": \"Tell\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $unique_scene_number"
+        echo "}"
     } > "$tell_file"
     echo "📝 Created Tell file at: $tell_file"
     
     # Create Do file
-    do_file="$scene_dir/3_Do.md"
+    do_file="$scene_dir/3_Do.json"
     {
-        echo "# Do"
-        echo "## Status"
-        echo "### Data"
-        echo "### Scene Number: $unique_scene_number"
+        echo "{"
+        echo "  \"title\": \"Do\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $unique_scene_number"
+        echo "}"
     } > "$do_file"
     echo "📝 Created Do file at: $do_file"
     
@@ -71,23 +80,28 @@ for ((scene=1; scene<=4; scene++)); do
 done
 
 # Loop through each learning objective
-for ((lo=1; lo<=3; lo++)); do
+for ((lo=1; lo<=4; lo++)); do
     lo_dir="$creation_path/2_LO_$lo"
     mkdir -p "$lo_dir"
     ((lo_count++))
     echo "📁 Created LO directory at: $lo_dir"
 
     # Create Intro file with Hook and Objective sections
-    intro_file="$lo_dir/Intro.md"
+    intro_file="$lo_dir/Intro.json"
     mkdir -p "$(dirname "$intro_file")"
     {
-        echo "# Hook"
-        echo "## Status"
-        echo "### Data"
-        echo ""
-        echo "# Objective"
-        echo "## Status"
-        echo "### Data"
+        echo "{"
+        echo "  \"hook\": {"
+        echo "    \"status\": {"
+        echo "      \"data\": \"\""
+        echo "    }"
+        echo "  },"
+        echo "  \"objective\": {"
+        echo "    \"status\": {"
+        echo "      \"data\": \"\""
+        echo "    }"
+        echo "  }"
+        echo "}"
     } > "$intro_file"
     ((intro_count++))
     echo "📝 Created Intro file at: $intro_file"
@@ -112,32 +126,41 @@ for ((lo=1; lo<=3; lo++)); do
             mkdir -p "$scene_dir"
             
             # Create Show file
-            show_file="$scene_dir/1_Show.md"
+            show_file="$scene_dir/1_Show.json"
             {
-                echo "# Show"
-                echo "## Status"
-                echo "### Data"
-                echo "### Scene Number: $unique_scene_number"
+                echo "{"
+                echo "  \"title\": \"Show\","
+                echo "  \"status\": {"
+                echo "    \"data\": \"\""
+                echo "  },"
+                echo "  \"sceneNumber\": $unique_scene_number"
+                echo "}"
             } > "$show_file"
             echo "📝 Created Show file at: $show_file"
             
             # Create Tell file
-            tell_file="$scene_dir/2_Tell.md"
+            tell_file="$scene_dir/2_Tell.json"
             {
-                echo "# Tell"
-                echo "## Status"
-                echo "### Data"
-                echo "### Scene Number: $unique_scene_number"
+                echo "{"
+                echo "  \"title\": \"Tell\","
+                echo "  \"status\": {"
+                echo "    \"data\": \"\""
+                echo "  },"
+                echo "  \"sceneNumber\": $unique_scene_number"
+                echo "}"
             } > "$tell_file"
             echo "📝 Created Tell file at: $tell_file"
             
             # Create Do file
-            do_file="$scene_dir/3_Do.md"
+            do_file="$scene_dir/3_Do.json"
             {
-                echo "# Do"
-                echo "## Status"
-                echo "### Data"
-                echo "### Scene Number: $unique_scene_number"
+                echo "{"
+                echo "  \"title\": \"Do\","
+                echo "  \"status\": {"
+                echo "    \"data\": \"\""
+                echo "  },"
+                echo "  \"sceneNumber\": $unique_scene_number"
+                echo "}"
             } > "$do_file"
             echo "📝 Created Do file at: $do_file"
             
@@ -148,23 +171,31 @@ for ((lo=1; lo<=3; lo++)); do
     done
 
     # Create Hands-On Learning file
-    hol_file="$lo_dir/Hands_On_Learning.md"
+    hol_file="$lo_dir/Hands_On_Learning.json"
     mkdir -p "$(dirname "$hol_file")"
     {
-        echo "# Subject"
-        echo "## Status"
-        echo "### Data"
+        echo "{"
+        echo "  \"subject\": {"
+        echo "    \"status\": {"
+        echo "      \"data\": \"\""
+        echo "    }"
+        echo "  }"
+        echo "}"
     } > "$hol_file"
     ((hol_count++))
     echo "📝 Created Hands-On Learning file at: $hol_file"
 
     # Create In-Video Questions file
-    ivq_file="$lo_dir/In_Video_Questions.md"
+    ivq_file="$lo_dir/In_Video_Questions.json"
     mkdir -p "$(dirname "$ivq_file")"
     {
-        echo "# Subject"
-        echo "## Status"
-        echo "### Data"
+        echo "{"
+        echo "  \"subject\": {"
+        echo "    \"status\": {"
+        echo "      \"data\": \"\""
+        echo "    }"
+        echo "  }"
+        echo "}"
     } > "$ivq_file"
     ((ivq_count++))
     echo "📝 Created In-Video Questions file at: $ivq_file"
@@ -187,32 +218,41 @@ for ((scene=1; scene<=4; scene++)); do
     mkdir -p "$scene_dir"
     
     # Create Show file
-    show_file="$scene_dir/1_Show.md"
+    show_file="$scene_dir/1_Show.json"
     {
-        echo "# Show"
-        echo "## Status"
-        echo "### Data"
-        echo "### Scene Number: $unique_scene_number"
+        echo "{"
+        echo "  \"title\": \"Show\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $unique_scene_number"
+        echo "}"
     } > "$show_file"
     echo "📝 Created Show file at: $show_file"
     
     # Create Tell file
-    tell_file="$scene_dir/2_Tell.md"
+    tell_file="$scene_dir/2_Tell.json"
     {
-        echo "# Tell"
-        echo "## Status"
-        echo "### Data"
-        echo "### Scene Number: $unique_scene_number"
+        echo "{"
+        echo "  \"title\": \"Tell\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $unique_scene_number"
+        echo "}"
     } > "$tell_file"
     echo "📝 Created Tell file at: $tell_file"
     
     # Create Do file
-    do_file="$scene_dir/3_Do.md"
+    do_file="$scene_dir/3_Do.json"
     {
-        echo "# Do"
-        echo "## Status"
-        echo "### Data"
-        echo "### Scene Number: $unique_scene_number"
+        echo "{"
+        echo "  \"title\": \"Do\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $unique_scene_number"
+        echo "}"
     } > "$do_file"
     echo "📝 Created Do file at: $do_file"
     
@@ -221,12 +261,65 @@ for ((scene=1; scene<=4; scene++)); do
     echo "📁 Created scene directory at: $scene_dir"
 done
 
+# Create Extra Scenes folder
+extra_dir="$creation_path/4_Extra"
+mkdir -p "$extra_dir"
+echo "📁 Created Extra Scenes directory at: $extra_dir"
+
+# Create Extra Scenes (84-100)
+for ((scene=84; scene<=100; scene++)); do
+    scene_dir="$extra_dir/Scene_$scene"
+    mkdir -p "$scene_dir"
+    
+    # Create Show file
+    show_file="$scene_dir/1_Show.json"
+    {
+        echo "{"
+        echo "  \"title\": \"Show\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $scene"
+        echo "}"
+    } > "$show_file"
+    echo "📝 Created Show file at: $show_file"
+    
+    # Create Tell file
+    tell_file="$scene_dir/2_Tell.json"
+    {
+        echo "{"
+        echo "  \"title\": \"Tell\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $scene"
+        echo "}"
+    } > "$tell_file"
+    echo "📝 Created Tell file at: $tell_file"
+    
+    # Create Do file
+    do_file="$scene_dir/3_Do.json"
+    {
+        echo "{"
+        echo "  \"title\": \"Do\","
+        echo "  \"status\": {"
+        echo "    \"data\": \"\""
+        echo "  },"
+        echo "  \"sceneNumber\": $scene"
+        echo "}"
+    } > "$do_file"
+    echo "📝 Created Do file at: $do_file"
+    
+    ((scene_count++))
+    echo "📁 Created extra scene directory at: $scene_dir"
+done
+
 echo "✅ Production artifact creation complete!"
 
 # Verification step
 echo "🔍 Verifying created files..."
 expected_files=$((scene_count * 3 + intro_count + hol_count + ivq_count))
-actual_files=$(find "$creation_path" -type f -name "*.md" | wc -l)
+actual_files=$(find "$creation_path" -type f -name "*.json" | wc -l)
 
 if [ "$actual_files" -eq "$expected_files" ]; then
     echo "✅ Verification successful! All $expected_files files were created."
@@ -239,13 +332,15 @@ fi
 echo "📊 Creation Summary:"
 echo "   Learning Objectives created: $lo_count"
 echo "   Videos created: $video_count (Including Main Intro and Closure videos)"
-echo "   Scenes created: $scene_count (Unique numbers: 1-$((unique_scene_number-1)))"
+echo "   Scenes created: $scene_count"
+echo "   - Main Course Scenes: 1-$((unique_scene_number-1))"
+echo "   - Extra Scenes: 84-100"
 echo "   Scene parts created: $((scene_count * 3)) (1_Show, 2_Tell, 3_Do)"
 echo "   Intro files created: $intro_count"
 echo "   Hands-On Learning files created: $hol_count"
 echo "   In-Video Questions files created: $ivq_count"
 echo "   Total files created: $((scene_count * 3 + intro_count + hol_count + ivq_count))"
-echo "   Total directories created: $((lo_count + video_count + scene_count + 2))"
+echo "   Total directories created: $((lo_count + video_count + scene_count + 3))"
 echo ""
 echo "📂 Full directory structure:"
 find "$creation_path" -type d | sort
