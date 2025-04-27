@@ -1,7 +1,11 @@
 {
   "title": "Tell",
   "status": {
-    "data": ""
+    "data": "backlog"
   },
-  "sceneNumber": 73
+  "sceneNumber": 73,
+  "edittingStyle": "Show lower thirds at the timing of the scene and check the audio and match it",
+  "notes": {
+    "data": "backlog"
+  }
 }

@@ -1,12 +1,16 @@
 {
   "hook": {
     "status": {
-      "data": ""
+      "data": "backlog"
     }
   },
   "objective": {
     "status": {
-      "data": ""
+      "data": "backlog"
     }
+  },
+  "edittingStyle": "Create engaging hook and clear learning objectives",
+  "notes": {
+    "data": "backlog"
   }
 }

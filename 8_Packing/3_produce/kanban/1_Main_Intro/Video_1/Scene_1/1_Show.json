@@ -1,7 +1,11 @@
 {
   "title": "Show",
   "status": {
-    "data": ""
+    "data": "backlog"
   },
-  "sceneNumber": 1
+  "sceneNumber": 1,
+  "edittingStyle": "Show the goal at the beginning of the scene",
+  "notes": {
+    "data": "backlog"
+  }
 }

@@ -1,7 +1,11 @@
 {
   "title": "Do",
   "status": {
-    "data": ""
+    "data": "backlog"
   },
-  "sceneNumber": 57
+  "sceneNumber": 57,
+  "edittingStyle": "The action part of the video it comes in the aroll and video capture, time it with the audio",
+  "notes": {
+    "data": "backlog"
+  }
 }

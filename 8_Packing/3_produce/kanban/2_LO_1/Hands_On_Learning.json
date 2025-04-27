@@ -1,7 +1,11 @@
 {
   "subject": {
     "status": {
-      "data": ""
+      "data": "backlog"
     }
+  },
+  "edittingStyle": "Create practical exercises and demonstrations",
+  "notes": {
+    "data": "backlog"
   }
 }

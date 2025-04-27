@@ -1,7 +1,11 @@
 {
   "subject": {
     "status": {
-      "data": ""
+      "data": "backlog"
     }
+  },
+  "edittingStyle": "Create engaging questions to test understanding",
+  "notes": {
+    "data": "backlog"
   }
 }
