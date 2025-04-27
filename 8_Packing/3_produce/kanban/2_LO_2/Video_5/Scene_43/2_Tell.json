@@ -5,6 +5,7 @@
   },
   "sceneNumber": 43,
   "edittingStyle": "Show lower thirds at the timing of the scene and check the audio and match it",
+  "lowerThirdsText": ["", ""],
   "notes": {
     "data": "backlog"
   }
