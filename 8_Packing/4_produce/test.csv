@@ -1,0 +1,155 @@
+"_Unique Canva Script Page ID
+p#"	"Learning Item Title
+ ( Page Title) ( Tell Header )"	"Scene ID 
+( Change Camera Location)
+s# video#"	Lesson ID	Learning Objective Title		"LOID:
+Learning Item"	" ( Scene Title) / Concise and Learning Item Title
+grouped"	Video Format	Write less than 10 words Aligned Learning Objective for a sonarqube Course : 	High-level Description   >  Create a 16-word high-level description of a SonarQube course :	Estimated Time(Min)	"Link To Read ( just print one link from office site) 
+put results in a markdown box"		Instruction Step	Beats (Tell) 	Beats (Show) 	Beats(Do)	Symbols	Environments /Tools	HOL Hands On Learning	IVQ In Video Questions
+1	WHAT IS THE SONARQUBE COURSE IS  ALL ABOUT?	0	-	Promote		Promo	SonarQube Intro	Talking Head	Master SonarQube for static analysis, bug detection, CI/CD integration, and best practices.	Learn SonarQube for code quality: static analysis, bug detection, CI/CD integration, and best practices.	0.75	"🔗 [Official SonarQube Documentation](https://docs.sonarqube.org/)
+"		TELL SHOW	"WELCOME TO SONARQUBE
+SETUP MASTERY"	FAST-PACED DEVELOPMENT ENVIRONMENT	ISN'T JUST ABOUT WRITING CODE	"SonarQube
+Tech Debt"	Codespaces	Create your own sonarqube repo	
+1	WHAT IS THE SONARQUBE COURSE IS  ALL ABOUT?	0	-				MORE CODE TECH DEBT RISES	Animate			0.75			DO							Why does technical debt matter ?
+3	LEARNING OBJECTIVES OF THE COURSE	1	-			Video 1	From Debt to Dev: Building a Future with SonarQube, AI, and Personal Portfolio	"Talking Head
+"	"Master SonarQube, AI-driven development, and portfolio-building to transform technical debt into a thriving coding career.Explore AI integration and portfolio optimization.
+
+AI integration details
+
+DevOps practices
+
+"	"Master SonarQube, AI-driven development, and portfolio-building to transform technical debt into a thriving coding career.
+
+Explore AI integration
+
+Portfolio optimization
+
+"	0.75	🔗 [AI-Assisted Software Development: Developer's Guide](https://www.sonarsource.com/learn/ai-assisted-software-development)									
+		TELL SHOW	"SETUP
+INFRA"	PIPELINES 	LEARN THE TECHNICAL DEBT	"INFRASTRUCTURE DEBT
+INTEGRATION
+AWARENESS"															
+4	LEARNING OBJECTIVES OF THE COURSE	1	-				1,2,3 Objectives	Animate			0.75			DO							
+5	WHO IS THE INSTRUCTOR ?	1	-				Instuctor Flex	Screen Capture			0.75			TELL SHOW	IT CONTRACTOR	SEEN DEBT IN FIRST PLACE	FASTER DEPLOYMENTS				
+6	LINKEDIN AND PROJECTS SHOW CASE	1	-					Screen Capture			0.75			DO					Linkedin	Add me on social media and ask your questions	
+7	WHAT MAKES THIS COURSE UNIQUE	1	-				Authentic Content	"Talking Head
+"			0.75			TELL SHOW	REAL WORLD EXPERIENCE	YAK SHAVING WHEN NECESSARY	LEARN TO CONNECT AND CALL MATES BRAVE			Calculate debt in your projects	
+8	SHOW I WAS UNABLE TO MANGE DEBT AND WORSE OFF COMPARED TO OTHERS, PRODUCTIVE OUTCOME IS NEEDED	1	-					"Talking Head
+"			0.75			DO							Tell me when you have more debt that you made by spending
+9	AI FIRST IMPLEMENTATION CONCEPT	1	-				Bonus	"Talking Head
+"			0.75			TELL SHOW					ChatGpt		
+10	CREATE PERSONAL PORTFOLIO	1	-					Screen Capture			0.75			DO					GitHub		
+11	DEBT ON INFRA	2	1	What is Technical Debt and Getting Technical Debt		Video 2	From Infra Debt to Dev Setup – Launching with GitHub Codespaces	Talking Head	Master SonarQube for code quality, security, and CI/CD integration.	"Streamline development with GitHub Codespaces: instant, cloud-based environments eliminating local setup and infrastructure debt.
+Explain GitHub Codespaces
+Compare cloud platforms
+Make it more engaging
+
+"	0.75	🔗 [GitHub Codespaces – Official Overview](https://github.com/features/codespaces)									
+																					
+12	LO1: SETTING UP THE ENVIRONMENT	2	1					Talking Head			0.75										
+13	CODESPACE	2	1					Talking Head			0.75										
+14	"VIRTUAL ENVIRONMENT
+LOGIN"	2	1					Talking Head			0.75										
+15	CODESPACE IN GITHUB IS OUR PICK	2	1					Talking Head			0.75										
+16	SETUP ADMIN PASSWORD	3	1			Video 3	Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment	Talking Head	Securely configure GitHub Codespaces, manage passwords, and deploy applications.Explore SonarQube integration,DevSecOps practices,More specific objectives	Learn to securely set admin passwords, configure GitHub Codespaces, and deploy applications with best practices.GitHub Codespaces security,cloud-based development tools	0.75	🔗 [Security in GitHub Codespaces (Official Documentation)](https://docs.github.com/en/codespaces/reference/security-in-github-codespaces) :contentReference[oaicite:0]{index=0}									
+																					
+17	LEARN TO DEPLOY IN ENVIRONMENT	3	1					Talking Head			0.75										
+18	"SETUP THE REPO
+ENVIRONMENT"	3	1					Talking Head			0.75										
+19	"GITHUB API
+SETUP INTEGRATION"	4	1			Video 4	 GitHub App Integration – Keys, Webhooks, and Secure Repo Access	Talking Head	Integrate GitHub Apps, manage keys, configure webhooks, secure repositories.webhooks configuration details,GitHub Actions overview	Learn to integrate GitHub Apps: manage keys, configure webhooks, and ensure secure repository access.Webhooks configuration details. GitHub Actions overview	0.75	[GitHub Docs: Integrating with GitHub Apps](https://docs.github.com/en/developers/apps/getting-started-with-apps/about-apps)									
+20	"GITHUB APP
+CONNECTOR"	4	1					Talking Head			0.75										
+21	"GENERATE KEYS
+SECURITY 
+DAY ONE"	4	1					Talking Head			0.75										
+22	CLIENT SECRETS	4	1					Talking Head			0.75										
+23	PRIVATE KEY IN PEM FILE FORMAT	4	1					Talking Head			0.75										
+24	MANUPLATE PEM FILES GET THE DATA	4	1					Talking Head			0.75										
+25	WEBHOOK TO REACH THE REPO	4	1					Talking Head			0.75										
+26	COMPONENTS	4	1					Talking Head			0.75										
+27	APP TO INTERACT WITH GITHUB	4	1					Talking Head			0.75										
+28	SELECT YOUR REPO	4	1					Talking Head			0.75										
+29	SET YOUR PROJECT	4	1					Talking Head			0.75										
+30	SET YOUR PROJECT	4	1					Talking Head			0.75										
+31	"GITHUB ACTIONS
+AS YOUR AGENT"	5	1			Video 5	GitHub Actions as Your Agent – Automate Scans on Every Commit	Talking Head	"This objective focuses on integrating SonarQube with GitHub Actions to automate code quality checks on each commit, enhancing continuous integration workflows.
+
+"	Automate code quality checks on every commit by integrating SonarQube with GitHub Actions for seamless CI workflows.	0.75	[SonarQube Docs: Analyzing with GitHub Actions](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scm-integration/github-integration/)									
+32	TIMING WITH COMMITS	5	1					Talking Head			0.75										
+33	CREATE ON YOUR ENVIRONMENT	5	1					Talking Head			0.75										
+34	"IVQ:
+DESCRIBE
+ENVIRONMENT"	5	1					Talking Head			0.75										
+35	"YAML CONNECT 
+DIFFERENT PARTS"	5	1					Talking Head			0.75										
+36	ENVIRONMENT VARIABLES LOADING	5	1					Talking Head			0.75										
+37	ENVIRONMENT VARIABLES SET GET DIFFERS	5	1					Talking Head			0.75							Bonus challenge			
+38	"SCAN PROCESS
+EVERY COMMIT"	5	1					Talking Head			0.75										
+39	AGENTS HAS COSTS	6	1			Video 6	Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools	Talking Head	Optimize GitHub Actions to reduce costs and enhance code quality.	Learn to optimize GitHub Actions, reducing costs while enhancing code quality through effective SonarQube integration.	0.75	[GitHub Docs: Optimizing your GitHub Actions usage](https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration)									
+40	COMMITS IN GITHUB	6	1					Talking Head			0.75										
+41	LINKS IN GITHUB	6	1					Talking Head			0.75										
+42	CODESPACES	6	1					Talking Head			0.75										
+43	EXTENSIONS	6	1					Talking Head			0.75										
+			1	Handson Learning		Handson Learning	Create your github account and trigger codespaces from your repo	Project	Set up GitHub account and launch Codespaces for streamlined development.	Create a GitHub account and trigger Codespaces from your repository to streamline development and code analysis workflows.	20 minutes	[Course Project] https://github.com/rifaterdemsahin/SonarQube									
+44	"LINKEDIN 
+PROFILE"	7	2	Paying Technical Debt		Video 1	Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects, Have awareness	Talking Head	Integrate SonarQube with GitHub Repos in your professuinal life	Integrate SonarQube with GitHub Actions to automate code quality scans, ensuring robust and reliable software delivery.	0.75	[SonarQube Docs: GitHub Actions Integration](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scm-integration/github-integration/)									
+45	GITHUB PROJECT TO HIDE	7	2					Talking Head			0.75										
+46	WORK ON IT	7	2					Talking Head			0.75										
+47	WORK ON IT	7	2					Talking Head			0.75										
+48	WHAT IS DEBT > PEOPLE GETTING LOST ON SPENDING	8	2			Video 2	Technical Debt & Focus – Fix, Update, and Power On with Confidence	Talking Head	Identify, manage, and reduce technical debt with SonarQube.	Identify, manage, and reduce technical debt using SonarQube to improve code quality and maintainability continuously.	0.75	[SonarQube Docs: Managing Technical Debt](https://docs.sonarsource.com/sonarqube/latest/user-guide/clean-as-you-code/)									
+49	OPEN THE TERMINAL	8	2					Talking Head			0.75										
+50	LOG STAGES	8	2					Talking Head			0.75										
+51	FOCUS	8	2					Talking Head			0.75										
+52	DISTRACTIONS	8	2					Talking Head			0.75										
+53	REDO IS PART OF THE LEARNING PROCESS	8	2					Talking Head			0.75										
+54	COURAGE TO UPDATE THE SCRIPTS	8	2					Talking Head			0.75										
+55	SECRETS GETS UPDATED	8	2					Talking Head			0.75										
+56	RESOURCES DEPLOYED	8	2					Talking Head			0.75										
+57	TURN THE SYSTEMS ON	8	2					Talking Head			0.75										
+58	TURN THE SYSTEMS ON	8	2					Talking Head			0.75										
+59	FIX THE SCRIPT	8	2					Talking Head			0.75										
+60	YAK SHAVING	9	2			Video 3	Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing	Talking Head	Optimize debugging and testing using AI and intuitive strategies.	Leverage AI and intuitive strategies with SonarQube to optimize debugging, streamline testing, and enhance code quality.	0.75	[GitHub Docs: Copilot for Debugging and Testing](https://docs.github.com/en/copilot/getting-started-with-github-copilot/about-github-copilot)									
+61	NEW ERRORS COMING IN	9	2					Talking Head			0.75										
+62	USE AI#	9	2					Talking Head			0.75										
+63	USE MD AS NOTEPAD	9	2					Talking Head			0.75										
+64	NAMESPACES BASED GROUPING	9	2					Talking Head			0.75										
+65	CONTEXT TOO BIG FOR AI	9	2					Talking Head			0.75										
+66	USE INTUITION ON WHAT TO TEST	9	2					Talking Head			0.75										
+67	OTHER PLACES AS WELL	9	2					Talking Head			0.75										
+68	VERIFY WITH AI	9	2					Talking Head			0.75										
+69	FIX THE STARTER	10	2			Video 4	Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs	Talking Head	Restore and troubleshoot SonarQube using HTOP and config recovery.	Restore and troubleshoot SonarQube efficiently using HTOP and configuration recovery techniques to ensure continuous code analysis.	0.75	[SonarQube Docs: Troubleshooting and System Administration](https://docs.sonarsource.com/sonarqube/latest/requirements/requirements-and-limits/)									
+70	HTOP TO CHECK IT	10	2					Talking Head			0.75										
+71	RESCOURCES IN THE SONARQUBE	10	2					Talking Head			0.75										
+72	EXPERIENCE MATTERS AS WELL ON LET GO	10	2					Talking Head			0.75										
+73	EXPERIENCE TO START FROM UNKNOWN	10	2					Talking Head			0.75										
+74	LOSING THE CONFIG	10	2					Talking Head			0.75										
+75	FIND CONFIG	10	2					Talking Head			0.75										
+76	"LOSING THE CONFIG
+SERVERSIDE"	10	2					Talking Head			0.75										
+77	BETTER CONFIG	11	2			Video 5	Refine Config & Access – External Ports, Project Keys, and Commit Triggers	Talking Head	Configure ports, project keys, and commit triggers for SonarQube.	Configure ports, project keys, and commit triggers in SonarQube to streamline project setup and automate code analysis.	0.75	[SonarQube Docs: Project Configuration](https://docs.sonarsource.com/sonarqube/latest/project-administration/)									
+78	EXTERNAL ACCESS	11	2					Talking Head			0.75										
+79	PORT NUMBER IS THERE	11	2					Talking Head			0.75										
+80	HOST URL CHANGES	11	2					Talking Head			0.75										
+81	CLICK THE LINK AND RESET	11	2					Talking Head			0.75										
+82	PROJECT KEY ROTATES	11	2					Talking Head			0.75										
+83	COMMIT WAITS	11	2					Talking Head			0.75										
+84	TRIGGER POINT	11	2					Talking Head			0.75										
+85	MONITOR AGENT	11	2					Talking Head			0.75										
+			2	Handson Learning		Handson Learning	Create your SonarQube in minikube 	Project	Set up minikube ina Codespaces for easy infra creation with no cost.	Create a Sonarqube container from yaml, Put your code to the github repository to streamline infra creation	20 minutes	[Course Project] https://github.com/rifaterdemsahin/SonarQube									
+86	HAPPINESS	12	3	Managing Technical Debt ( Scan, Monitor )		Video 1	From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose	Talking Head	Increase coverage, resolve failures, and package projects effectively.	Increase test coverage, resolve build failures, and package projects effectively using SonarQube for continuous code improvement.	0.75	[SonarQube Docs: Increasing Coverage and Fixing Issues](https://docs.sonarsource.com/sonarqube/latest/user-guide/clean-as-you-code/)									
+87	COVERED LINES	12	3					Talking Head			0.75										
+88	FAILING STATUS	12	3					Talking Head			0.75										
+89	PACKAGE IT BETTER	12	3					Talking Head			0.75										
+90	"MORE FEATURES
+MORE DEBT"	13	3			Video 2	More Features, More Debt – Why It Matters and How to See Your Impact	Talking Head	Assess feature impact and manage technical debt with SonarQube.	Assess feature impact and manage technical debt using SonarQube to maintain high code quality and project health.	0.75	[SonarQube Docs: Managing Technical Debt](https://docs.sonarsource.com/sonarqube/latest/user-guide/clean-as-you-code/)									
+91	WHY DEBT MATTERS	13	3					Talking Head			0.75										
+92	SEE YOUR CHANGE	13	3					Talking Head			0.75										
+93	FALSE POSITIVE FAILS OF SONARQUBE	14	3			Video 3	"False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"""	Talking Head	Minimize false positives and optimize SonarQube uptime and accuracy.	Minimize false positives and optimize SonarQube uptime, ensuring accurate code analysis and reliable continuous integration workflows.	0.75	[SonarQube Docs: Tuning Analysis and Quality Gates](https://docs.sonarsource.com/sonarqube/latest/instance-administration/quality-gates/)									
+94	"AUTO
+SHUTDOWN"	14	3					Talking Head			0.75										
+95	KEEP IT ONLINE COSTS	14	3					Talking Head			0.75										
+			2	Handson Learning		Handson Learning	Run SonarQube in your project	Project	SetUp Sonarqube for scans for code analysis	Create a Sonarqube scanning from your repo, identify code smells in your commits.	20 minutes	[Course Project] https://github.com/rifaterdemsahin/SonarQube									
+96	THANKS	15	-	Clousure		Ending		Talking Head	Close the course and invite for the future learning		0.75	[SonarQube Docs: Documentation Home](https://docs.sonarsource.com/sonarqube/latest/)									
+											72										
