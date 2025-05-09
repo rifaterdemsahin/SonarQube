@@ -34,25 +34,25 @@ def generate_markdown(data):
 
 ---
 
-## 1. Intro Talking Head
+## 1. 🎥 Intro Talking Head
 
 {data['intro_talking_head'].strip()}
 
 ---
 
-## 2. Slides
+## 2. 📊 Slides
 
 {data['slides'].strip()}
 
 ---
 
-## 3. Screen Capture (Map Interaction)
+## 3. 🖥️ Screen Capture (Map Interaction)
 
 {data['screen_capture'].strip()}
 
 ---
 
-## 4. Summary Talking Head
+## 4. 🎬 Summary Talking Head
 
 {data['summary_talking_head'].strip()}
 """
