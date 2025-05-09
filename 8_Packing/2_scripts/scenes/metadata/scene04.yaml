@@ -1,28 +1,28 @@
 scene: 4
-title: "Configuring Quality Gates"
+title: "Adding Your Project to GitHub"
 video_id: "SQ_004"
 intro_talking_head: |
-  With our SonarQube server running, it's time to set up your first project. We'll walk through the process of creating a new project, configuring analysis settings, and preparing for your first code scan.
+  Now that we have our SonarQube server running, let's connect your project to GitHub. We'll walk through the process of setting up GitHub integration, configuring repository access, and preparing for automated analysis.
 
 slides: |
-  - Project Setup
-    - Creating a new project
-    - Project key and name
-    - Project visibility settings
+  - GitHub Integration
+    - Setting up GitHub connection
+    - Repository permissions
+    - Webhook configuration
   
-  - Analysis Configuration
-    - Language detection
-    - Quality profiles
-    - Quality gates
-    - Exclusions and inclusions
+  - Project Configuration
+    - Repository selection
+    - Branch setup
+    - Analysis settings
+    - GitHub Actions integration
 
 screen_capture: |
-  1. Create new project in SonarQube
-  2. Configure project settings
-  3. Set up quality profiles
-  4. Configure quality gates
-  5. Set up project exclusions
-  6. Generate project token
+  1. Connect SonarQube to GitHub
+  2. Select repository to analyze
+  3. Configure GitHub webhook
+  4. Set up GitHub Actions workflow
+  5. Configure branch analysis settings
+  6. Test the integration
 
 summary_talking_head: |
-  Your project is now configured in SonarQube. We've set up the basic structure and analysis settings. In the next scene, we'll learn how to run your first analysis and understand the results. 
+  Your project is now connected to GitHub and ready for automated analysis. We've set up the GitHub integration, configured the necessary webhooks, and prepared the workflow for continuous code quality monitoring. In the next scene, we'll learn how to run your first analysis and understand the results. 
