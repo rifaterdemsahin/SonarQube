@@ -35,26 +35,40 @@ def generate_markdown(data):
 ---
 
 ## 1. 🎥 Intro Talking Head
+Mention the scene number and tell the audience about:
 
 {data['intro_talking_head'].strip()}
 
 ---
 
 ## 2. 📊 Slides
+Mention the scene number and show:
 
 {data['slides'].strip()}
 
 ---
 
 ## 3. 🖥️ Screen Capture (Map Interaction)
+Mention the scene number and do:
 
 {data['screen_capture'].strip()}
 
 ---
 
 ## 4. 🎬 Summary Talking Head
+Mention the scene number and summarize:
 
 {data['summary_talking_head'].strip()}
+
+---
+
+## Script for Course Creator
+Scene {num_str}: {title}
+
+1. Intro Talking Head: Mention scene {num_str} and tell the audience about the key points
+2. Slides: Mention scene {num_str} and show the visual content
+3. Screen Capture: Mention scene {num_str} and demonstrate the interactive elements
+4. Summary Talking Head: Mention scene {num_str} and summarize the main takeaways
 """
     return content
 
