@@ -4,12 +4,30 @@ Video ID: SQ_002
 ## Learning Objectives
 1. Learn how to create and configure a new project
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 2/15</p>
+<p style="margin: 0;">Video ID: SQ_002</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Learn how to create and configure a new project
+</div>
+
+
 ---
 
 ## 1. 🎥 Intro Talking Head
 Mention the scene number and tell the audience about:
 
 Now that we understand what SonarQube is, let's set up our first project. We'll walk through the process of creating a new project, configuring the scanner, and running our first analysis.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 2/15</p>
+<p style="margin: 0;">Video ID: SQ_002</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Learn how to create and configure a new project
+</div>
+
 
 ---
 
@@ -36,6 +54,15 @@ Mention the scene number and show:
 
 - SonarQube Scanner for .NET
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 2/15</p>
+<p style="margin: 0;">Video ID: SQ_002</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Learn how to create and configure a new project
+</div>
+
+
 ---
 
 ## 3. 🖥️ Screen Capture (Map Interaction)
@@ -55,12 +82,30 @@ Mention the scene number and do:
 
 7. Run first analysis
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 2/15</p>
+<p style="margin: 0;">Video ID: SQ_002</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Learn how to create and configure a new project
+</div>
+
+
 ---
 
 ## 4. 🎬 Summary Talking Head
 Mention the scene number and summarize:
 
 We've successfully set up our first SonarQube project and run an initial analysis. You now know how to create projects and configure the scanner. In the next scene, we'll look at how to interpret the analysis results and understand the quality metrics.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 2/15</p>
+<p style="margin: 0;">Video ID: SQ_002</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Learn how to create and configure a new project
+</div>
+
 
 ---
 
@@ -73,7 +118,6 @@ Video ID: SQ_002
 3. Screen Capture: Mention scene 02 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 02 and summarize the main takeaways
 
----
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 2/15</p>
@@ -81,3 +125,4 @@ Video ID: SQ_002
 <p style="margin: 0;">Learning Objectives:</p>
 1. Learn how to create and configure a new project
 </div>
+

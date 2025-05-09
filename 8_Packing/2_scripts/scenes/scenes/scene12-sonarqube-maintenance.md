@@ -4,12 +4,30 @@ Video ID: SQ_012
 ## Learning Objectives
 3. Perform system maintenance and optimization
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 12/15</p>
+<p style="margin: 0;">Video ID: SQ_012</p>
+<p style="margin: 0;">Learning Objectives:</p>
+3. Perform system maintenance and optimization
+</div>
+
+
 ---
 
 ## 1. 🎥 Intro Talking Head
 Mention the scene number and tell the audience about:
 
 Proper maintenance is crucial for keeping your SonarQube instance running smoothly. In this scene, we'll cover essential maintenance tasks, performance optimization, and backup strategies.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 12/15</p>
+<p style="margin: 0;">Video ID: SQ_012</p>
+<p style="margin: 0;">Learning Objectives:</p>
+3. Perform system maintenance and optimization
+</div>
+
 
 ---
 
@@ -36,6 +54,15 @@ Mention the scene number and show:
 
 - Monitoring setup
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 12/15</p>
+<p style="margin: 0;">Video ID: SQ_012</p>
+<p style="margin: 0;">Learning Objectives:</p>
+3. Perform system maintenance and optimization
+</div>
+
+
 ---
 
 ## 3. 🖥️ Screen Capture (Map Interaction)
@@ -53,12 +80,30 @@ Mention the scene number and do:
 
 6. Create backup strategy
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 12/15</p>
+<p style="margin: 0;">Video ID: SQ_012</p>
+<p style="margin: 0;">Learning Objectives:</p>
+3. Perform system maintenance and optimization
+</div>
+
+
 ---
 
 ## 4. 🎬 Summary Talking Head
 Mention the scene number and summarize:
 
 You've learned how to maintain and optimize your SonarQube instance. In the next scene, we'll explore advanced security features and best practices for securing your SonarQube installation.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 12/15</p>
+<p style="margin: 0;">Video ID: SQ_012</p>
+<p style="margin: 0;">Learning Objectives:</p>
+3. Perform system maintenance and optimization
+</div>
+
 
 ---
 
@@ -71,7 +116,6 @@ Video ID: SQ_012
 3. Screen Capture: Mention scene 12 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 12 and summarize the main takeaways
 
----
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 12/15</p>
@@ -79,3 +123,4 @@ Video ID: SQ_012
 <p style="margin: 0;">Learning Objectives:</p>
 3. Perform system maintenance and optimization
 </div>
+

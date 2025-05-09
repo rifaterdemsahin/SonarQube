@@ -143,12 +143,24 @@ def generate_markdown(data: Dict[str, Any]) -> str:
     screen_capture = format_section_content(data['screen_capture'])
     summary = format_section_content(data['summary_talking_head'])
     
-    # Generate markdown content
+    # Create footer HTML
+    footer = f"""
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page {scene_num}/15</p>
+<p style="margin: 0;">Video ID: {video_id}</p>
+<p style="margin: 0;">Learning Objectives:</p>
+{learning_objectives.replace('\\n', '<br>')}
+</div>
+"""
+    
+    # Generate markdown content with footer after each section
     content = f"""# Scene {num_str} – {title}
 Video ID: {video_id}
 
 ## Learning Objectives
 {learning_objectives}
+
+{footer}
 
 ---
 
@@ -157,12 +169,16 @@ Mention the scene number and tell the audience about:
 
 {intro}
 
+{footer}
+
 ---
 
 ## 2. 📊 Slides
 Mention the scene number and show:
 
 {slides}
+
+{footer}
 
 ---
 
@@ -171,12 +187,16 @@ Mention the scene number and do:
 
 {screen_capture}
 
+{footer}
+
 ---
 
 ## 4. 🎬 Summary Talking Head
 Mention the scene number and summarize:
 
 {summary}
+
+{footer}
 
 ---
 
@@ -189,14 +209,7 @@ Video ID: {video_id}
 3. Screen Capture: Mention scene {num_str} and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene {num_str} and summarize the main takeaways
 
----
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
-<p style="margin: 0;">Page {scene_num}/15</p>
-<p style="margin: 0;">Video ID: {video_id}</p>
-<p style="margin: 0;">Learning Objectives:</p>
-{learning_objectives.replace('\\n', '<br>')}
-</div>
+{footer}
 """
     return content
 

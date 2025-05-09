@@ -4,12 +4,30 @@ Video ID: SQ_010
 ## Learning Objectives
 2. Integrate SonarQube with CI/CD pipelines
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 10/15</p>
+<p style="margin: 0;">Video ID: SQ_010</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Integrate SonarQube with CI/CD pipelines
+</div>
+
+
 ---
 
 ## 1. 🎥 Intro Talking Head
 Mention the scene number and tell the audience about:
 
 Integrating SonarQube with your CI/CD pipeline is crucial for automated quality checks. In this scene, we'll learn how to set up SonarQube analysis in popular CI/CD platforms and automate your quality checks.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 10/15</p>
+<p style="margin: 0;">Video ID: SQ_010</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Integrate SonarQube with CI/CD pipelines
+</div>
+
 
 ---
 
@@ -36,6 +54,15 @@ Mention the scene number and show:
 
 - Azure DevOps
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 10/15</p>
+<p style="margin: 0;">Video ID: SQ_010</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Integrate SonarQube with CI/CD pipelines
+</div>
+
+
 ---
 
 ## 3. 🖥️ Screen Capture (Map Interaction)
@@ -53,12 +80,30 @@ Mention the scene number and do:
 
 6. Monitor automated analysis
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 10/15</p>
+<p style="margin: 0;">Video ID: SQ_010</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Integrate SonarQube with CI/CD pipelines
+</div>
+
+
 ---
 
 ## 4. 🎬 Summary Talking Head
 Mention the scene number and summarize:
 
 You've learned how to integrate SonarQube with your CI/CD pipeline. In the next scene, we'll explore how to use SonarQube's API for custom integrations and automation.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 10/15</p>
+<p style="margin: 0;">Video ID: SQ_010</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Integrate SonarQube with CI/CD pipelines
+</div>
+
 
 ---
 
@@ -71,7 +116,6 @@ Video ID: SQ_010
 3. Screen Capture: Mention scene 10 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 10 and summarize the main takeaways
 
----
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 10/15</p>
@@ -79,3 +123,4 @@ Video ID: SQ_010
 <p style="margin: 0;">Learning Objectives:</p>
 2. Integrate SonarQube with CI/CD pipelines
 </div>
+

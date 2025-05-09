@@ -4,12 +4,30 @@ Video ID: SQ_005
 ## Learning Objectives
 1. Understand basic code quality metrics
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 5/15</p>
+<p style="margin: 0;">Video ID: SQ_005</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Understand basic code quality metrics
+</div>
+
+
 ---
 
 ## 1. 🎥 Intro Talking Head
 Mention the scene number and tell the audience about:
 
 Now that your project is configured, let's run your first code analysis. We'll cover different ways to trigger an analysis, from the command line to CI/CD integration, and learn how to interpret the initial results.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 5/15</p>
+<p style="margin: 0;">Video ID: SQ_005</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Understand basic code quality metrics
+</div>
+
 
 ---
 
@@ -34,6 +52,15 @@ Mention the scene number and show:
 
 - Report generation
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 5/15</p>
+<p style="margin: 0;">Video ID: SQ_005</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Understand basic code quality metrics
+</div>
+
+
 ---
 
 ## 3. 🖥️ Screen Capture (Map Interaction)
@@ -51,12 +78,30 @@ Mention the scene number and do:
 
 6. Understand analysis report
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 5/15</p>
+<p style="margin: 0;">Video ID: SQ_005</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Understand basic code quality metrics
+</div>
+
+
 ---
 
 ## 4. 🎬 Summary Talking Head
 Mention the scene number and summarize:
 
 Congratulations on running your first analysis! You've seen how SonarQube processes your code and generates detailed reports. In the next scene, we'll dive deeper into understanding and interpreting these analysis results.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 5/15</p>
+<p style="margin: 0;">Video ID: SQ_005</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Understand basic code quality metrics
+</div>
+
 
 ---
 
@@ -69,7 +114,6 @@ Video ID: SQ_005
 3. Screen Capture: Mention scene 05 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 05 and summarize the main takeaways
 
----
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 5/15</p>
@@ -77,3 +121,4 @@ Video ID: SQ_005
 <p style="margin: 0;">Learning Objectives:</p>
 1. Understand basic code quality metrics
 </div>
+

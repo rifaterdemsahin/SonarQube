@@ -4,12 +4,30 @@ Video ID: SQ_007
 ## Learning Objectives
 2. Master code quality analysis and issue resolution
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 7/15</p>
+<p style="margin: 0;">Video ID: SQ_007</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Master code quality analysis and issue resolution
+</div>
+
+
 ---
 
 ## 1. 🎥 Intro Talking Head
 Mention the scene number and tell the audience about:
 
 Now that we understand the analysis results, let's learn how to address the issues SonarQube has identified. We'll cover best practices for fixing bugs, vulnerabilities, and code smells, and how to track your progress.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 7/15</p>
+<p style="margin: 0;">Video ID: SQ_007</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Master code quality analysis and issue resolution
+</div>
+
 
 ---
 
@@ -36,6 +54,15 @@ Mention the scene number and show:
 
 - Testing requirements
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 7/15</p>
+<p style="margin: 0;">Video ID: SQ_007</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Master code quality analysis and issue resolution
+</div>
+
+
 ---
 
 ## 3. 🖥️ Screen Capture (Map Interaction)
@@ -53,12 +80,30 @@ Mention the scene number and do:
 
 6. Verify issue resolution
 
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 7/15</p>
+<p style="margin: 0;">Video ID: SQ_007</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Master code quality analysis and issue resolution
+</div>
+
+
 ---
 
 ## 4. 🎬 Summary Talking Head
 Mention the scene number and summarize:
 
 You've learned how to effectively address code issues identified by SonarQube. In the next scene, we'll explore how to customize SonarQube's rules and quality profiles to match your team's specific needs.
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 7/15</p>
+<p style="margin: 0;">Video ID: SQ_007</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Master code quality analysis and issue resolution
+</div>
+
 
 ---
 
@@ -71,7 +116,6 @@ Video ID: SQ_007
 3. Screen Capture: Mention scene 07 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 07 and summarize the main takeaways
 
----
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 7/15</p>
@@ -79,3 +123,4 @@ Video ID: SQ_007
 <p style="margin: 0;">Learning Objectives:</p>
 2. Master code quality analysis and issue resolution
 </div>
+
