@@ -5,6 +5,15 @@ Video ID: SQ_004
 1. Configure quality gates and project settings
 
 
+### Script for Course Creator
+- Mention scene 04 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 04 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 4/15</p>
 <p style="margin: 0;">Video ID: SQ_004</p>
@@ -19,6 +28,15 @@ Video ID: SQ_004
 Mention the scene number and tell the audience about:
 
 With our SonarQube server running, it's time to set up your first project. We'll walk through the process of creating a new project, configuring analysis settings, and preparing for your first code scan.
+
+
+### Script for Course Creator
+- Mention scene 04 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 04 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -53,6 +71,15 @@ Mention the scene number and show:
 - Exclusions and inclusions
 
 
+### Script for Course Creator
+- Mention scene 04 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 04 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 4/15</p>
 <p style="margin: 0;">Video ID: SQ_004</p>
@@ -79,6 +106,15 @@ Mention the scene number and do:
 6. Generate project token
 
 
+### Script for Course Creator
+- Mention scene 04 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 04 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 4/15</p>
 <p style="margin: 0;">Video ID: SQ_004</p>
@@ -95,6 +131,15 @@ Mention the scene number and summarize:
 Your project is now configured in SonarQube. We've set up the basic structure and analysis settings. In the next scene, we'll learn how to run your first analysis and understand the results.
 
 
+### Script for Course Creator
+- Mention scene 04 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 04 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 4/15</p>
 <p style="margin: 0;">Video ID: SQ_004</p>
@@ -105,7 +150,7 @@ Your project is now configured in SonarQube. We've set up the basic structure an
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 04: Configuring Quality Gates
 Video ID: SQ_004
 

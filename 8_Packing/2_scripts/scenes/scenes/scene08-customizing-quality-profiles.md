@@ -5,6 +5,15 @@ Video ID: SQ_008
 2. Configure custom quality profiles and rules
 
 
+### Script for Course Creator
+- Mention scene 08 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 08 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 8/15</p>
 <p style="margin: 0;">Video ID: SQ_008</p>
@@ -19,6 +28,15 @@ Video ID: SQ_008
 Mention the scene number and tell the audience about:
 
 Every team has different coding standards and requirements. In this scene, we'll learn how to customize SonarQube's quality profiles to match your team's specific needs and coding standards.
+
+
+### Script for Course Creator
+- Mention scene 08 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 08 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -55,6 +73,15 @@ Mention the scene number and show:
 - Parameter configuration
 
 
+### Script for Course Creator
+- Mention scene 08 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 08 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 8/15</p>
 <p style="margin: 0;">Video ID: SQ_008</p>
@@ -81,6 +108,15 @@ Mention the scene number and do:
 6. Apply profile to project
 
 
+### Script for Course Creator
+- Mention scene 08 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 08 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 8/15</p>
 <p style="margin: 0;">Video ID: SQ_008</p>
@@ -97,6 +133,15 @@ Mention the scene number and summarize:
 You now know how to customize quality profiles to match your team's needs. In the next scene, we'll learn how to set up and configure quality gates to enforce your quality standards.
 
 
+### Script for Course Creator
+- Mention scene 08 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 08 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 8/15</p>
 <p style="margin: 0;">Video ID: SQ_008</p>
@@ -107,7 +152,7 @@ You now know how to customize quality profiles to match your team's needs. In th
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 08: Customizing Quality Profiles
 Video ID: SQ_008
 

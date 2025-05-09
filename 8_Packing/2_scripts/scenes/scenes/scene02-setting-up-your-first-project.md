@@ -5,6 +5,15 @@ Video ID: SQ_002
 1. Learn how to create and configure a new project
 
 
+### Script for Course Creator
+- Mention scene 02 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 02 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 2/15</p>
 <p style="margin: 0;">Video ID: SQ_002</p>
@@ -19,6 +28,15 @@ Video ID: SQ_002
 Mention the scene number and tell the audience about:
 
 Now that we understand what SonarQube is, let's set up our first project. We'll walk through the process of creating a new project, configuring the scanner, and running our first analysis.
+
+
+### Script for Course Creator
+- Mention scene 02 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 02 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -55,6 +73,15 @@ Mention the scene number and show:
 - SonarQube Scanner for .NET
 
 
+### Script for Course Creator
+- Mention scene 02 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 02 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 2/15</p>
 <p style="margin: 0;">Video ID: SQ_002</p>
@@ -83,6 +110,15 @@ Mention the scene number and do:
 7. Run first analysis
 
 
+### Script for Course Creator
+- Mention scene 02 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 02 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 2/15</p>
 <p style="margin: 0;">Video ID: SQ_002</p>
@@ -99,6 +135,15 @@ Mention the scene number and summarize:
 We've successfully set up our first SonarQube project and run an initial analysis. You now know how to create projects and configure the scanner. In the next scene, we'll look at how to interpret the analysis results and understand the quality metrics.
 
 
+### Script for Course Creator
+- Mention scene 02 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 02 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 2/15</p>
 <p style="margin: 0;">Video ID: SQ_002</p>
@@ -109,7 +154,7 @@ We've successfully set up our first SonarQube project and run an initial analysi
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 02: Setting Up Your First Project
 Video ID: SQ_002
 

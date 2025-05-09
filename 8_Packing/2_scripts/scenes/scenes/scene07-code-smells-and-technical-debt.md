@@ -5,6 +5,15 @@ Video ID: SQ_007
 2. Master code quality analysis and issue resolution
 
 
+### Script for Course Creator
+- Mention scene 07 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 07 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 7/15</p>
 <p style="margin: 0;">Video ID: SQ_007</p>
@@ -19,6 +28,15 @@ Video ID: SQ_007
 Mention the scene number and tell the audience about:
 
 Now that we understand the analysis results, let's learn how to address the issues SonarQube has identified. We'll cover best practices for fixing bugs, vulnerabilities, and code smells, and how to track your progress.
+
+
+### Script for Course Creator
+- Mention scene 07 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 07 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -55,6 +73,15 @@ Mention the scene number and show:
 - Testing requirements
 
 
+### Script for Course Creator
+- Mention scene 07 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 07 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 7/15</p>
 <p style="margin: 0;">Video ID: SQ_007</p>
@@ -81,6 +108,15 @@ Mention the scene number and do:
 6. Verify issue resolution
 
 
+### Script for Course Creator
+- Mention scene 07 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 07 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 7/15</p>
 <p style="margin: 0;">Video ID: SQ_007</p>
@@ -97,6 +133,15 @@ Mention the scene number and summarize:
 You've learned how to effectively address code issues identified by SonarQube. In the next scene, we'll explore how to customize SonarQube's rules and quality profiles to match your team's specific needs.
 
 
+### Script for Course Creator
+- Mention scene 07 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 07 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 7/15</p>
 <p style="margin: 0;">Video ID: SQ_007</p>
@@ -107,7 +152,7 @@ You've learned how to effectively address code issues identified by SonarQube. I
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 07: Code Smells and Technical Debt
 Video ID: SQ_007
 

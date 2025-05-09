@@ -5,6 +5,15 @@ Video ID: SQ_012
 3. Perform system maintenance and optimization
 
 
+### Script for Course Creator
+- Mention scene 12 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 12 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 12/15</p>
 <p style="margin: 0;">Video ID: SQ_012</p>
@@ -19,6 +28,15 @@ Video ID: SQ_012
 Mention the scene number and tell the audience about:
 
 Proper maintenance is crucial for keeping your SonarQube instance running smoothly. In this scene, we'll cover essential maintenance tasks, performance optimization, and backup strategies.
+
+
+### Script for Course Creator
+- Mention scene 12 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 12 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -55,6 +73,15 @@ Mention the scene number and show:
 - Monitoring setup
 
 
+### Script for Course Creator
+- Mention scene 12 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 12 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 12/15</p>
 <p style="margin: 0;">Video ID: SQ_012</p>
@@ -81,6 +108,15 @@ Mention the scene number and do:
 6. Create backup strategy
 
 
+### Script for Course Creator
+- Mention scene 12 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 12 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 12/15</p>
 <p style="margin: 0;">Video ID: SQ_012</p>
@@ -97,6 +133,15 @@ Mention the scene number and summarize:
 You've learned how to maintain and optimize your SonarQube instance. In the next scene, we'll explore advanced security features and best practices for securing your SonarQube installation.
 
 
+### Script for Course Creator
+- Mention scene 12 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 12 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 12/15</p>
 <p style="margin: 0;">Video ID: SQ_012</p>
@@ -107,7 +152,7 @@ You've learned how to maintain and optimize your SonarQube instance. In the next
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 12: SonarQube Maintenance
 Video ID: SQ_012
 

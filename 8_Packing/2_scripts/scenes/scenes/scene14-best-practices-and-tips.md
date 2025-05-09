@@ -5,6 +5,15 @@ Video ID: SQ_014
 3. Apply security scanning best practices
 
 
+### Script for Course Creator
+- Mention scene 14 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 14 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 14/15</p>
 <p style="margin: 0;">Video ID: SQ_014</p>
@@ -19,6 +28,15 @@ Video ID: SQ_014
 Mention the scene number and tell the audience about:
 
 SonarQube's security vulnerability scanning capabilities help you identify and fix security issues in your code. In this scene, we'll learn how to use these features effectively and manage security vulnerabilities.
+
+
+### Script for Course Creator
+- Mention scene 14 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 14 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -55,6 +73,15 @@ Mention the scene number and show:
 - Security reporting
 
 
+### Script for Course Creator
+- Mention scene 14 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 14 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 14/15</p>
 <p style="margin: 0;">Video ID: SQ_014</p>
@@ -81,6 +108,15 @@ Mention the scene number and do:
 6. Generate security reports
 
 
+### Script for Course Creator
+- Mention scene 14 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 14 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 14/15</p>
 <p style="margin: 0;">Video ID: SQ_014</p>
@@ -97,6 +133,15 @@ Mention the scene number and summarize:
 You've learned how to use SonarQube for security vulnerability scanning. In our final scene, we'll look at best practices and tips for getting the most out of SonarQube in your organization.
 
 
+### Script for Course Creator
+- Mention scene 14 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 14 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 14/15</p>
 <p style="margin: 0;">Video ID: SQ_014</p>
@@ -107,7 +152,7 @@ You've learned how to use SonarQube for security vulnerability scanning. In our 
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 14: Best Practices and Tips
 Video ID: SQ_014
 

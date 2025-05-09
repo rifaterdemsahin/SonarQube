@@ -5,6 +5,15 @@ Video ID: SQ_011
 3. Implement custom rules and plugins
 
 
+### Script for Course Creator
+- Mention scene 11 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 11 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 11/15</p>
 <p style="margin: 0;">Video ID: SQ_011</p>
@@ -19,6 +28,15 @@ Video ID: SQ_011
 Mention the scene number and tell the audience about:
 
 SonarQube provides a powerful API that allows you to automate tasks and create custom integrations. In this scene, we'll explore how to use the SonarQube API for various automation scenarios.
+
+
+### Script for Course Creator
+- Mention scene 11 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 11 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -55,6 +73,15 @@ Mention the scene number and show:
 - Custom reporting
 
 
+### Script for Course Creator
+- Mention scene 11 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 11 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 11/15</p>
 <p style="margin: 0;">Video ID: SQ_011</p>
@@ -81,6 +108,15 @@ Mention the scene number and do:
 6. Monitor API usage
 
 
+### Script for Course Creator
+- Mention scene 11 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 11 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 11/15</p>
 <p style="margin: 0;">Video ID: SQ_011</p>
@@ -97,6 +133,15 @@ Mention the scene number and summarize:
 You've learned how to use SonarQube's API for automation and custom integrations. In the next scene, we'll look at how to manage and maintain your SonarQube instance for optimal performance.
 
 
+### Script for Course Creator
+- Mention scene 11 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 11 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 11/15</p>
 <p style="margin: 0;">Video ID: SQ_011</p>
@@ -107,7 +152,7 @@ You've learned how to use SonarQube's API for automation and custom integrations
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 11: Custom Rules and Plugins
 Video ID: SQ_011
 

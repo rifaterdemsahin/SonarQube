@@ -5,6 +5,15 @@ Video ID: SQ_005
 1. Understand basic code quality metrics
 
 
+### Script for Course Creator
+- Mention scene 05 and introduce the learning objectives
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 05 of our SonarQube course. introduce the learning objectives"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
@@ -19,6 +28,15 @@ Video ID: SQ_005
 Mention the scene number and tell the audience about:
 
 Now that your project is configured, let's run your first code analysis. We'll cover different ways to trigger an analysis, from the command line to CI/CD integration, and learn how to interpret the initial results.
+
+
+### Script for Course Creator
+- Mention scene 05 and introduce the key points
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 05 of our SonarQube course. introduce the key points"
+
 
 
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
@@ -53,6 +71,15 @@ Mention the scene number and show:
 - Report generation
 
 
+### Script for Course Creator
+- Mention scene 05 and present the visual content
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 05 of our SonarQube course. present the visual content"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
@@ -79,6 +106,15 @@ Mention the scene number and do:
 6. Understand analysis report
 
 
+### Script for Course Creator
+- Mention scene 05 and demonstrate the interactive elements
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 05 of our SonarQube course. demonstrate the interactive elements"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
@@ -95,6 +131,15 @@ Mention the scene number and summarize:
 Congratulations on running your first analysis! You've seen how SonarQube processes your code and generates detailed reports. In the next scene, we'll dive deeper into understanding and interpreting these analysis results.
 
 
+### Script for Course Creator
+- Mention scene 05 and summarize the main takeaways
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene 05 of our SonarQube course. summarize the main takeaways"
+
+
+
 <div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
@@ -105,7 +150,7 @@ Congratulations on running your first analysis! You've seen how SonarQube proces
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene 05: Understanding Code Quality Metrics
 Video ID: SQ_005
 

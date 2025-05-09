@@ -153,12 +153,25 @@ def generate_markdown(data: Dict[str, Any]) -> str:
 </div>
 """
     
-    # Generate markdown content with footer after each section
+    # Create script sections
+    def create_script_sections(section_name: str) -> str:
+        return f"""
+### Script for Course Creator
+- Mention scene {num_str} and {section_name}
+
+### Script for Instructor Read
+- Read the following script while recording:
+- "Welcome to Scene {num_str} of our SonarQube course. {section_name}"
+"""
+    
+    # Generate markdown content with footer and scripts after each section
     content = f"""# Scene {num_str} – {title}
 Video ID: {video_id}
 
 ## Learning Objectives
 {learning_objectives}
+
+{create_script_sections("introduce the learning objectives")}
 
 {footer}
 
@@ -169,6 +182,8 @@ Mention the scene number and tell the audience about:
 
 {intro}
 
+{create_script_sections("introduce the key points")}
+
 {footer}
 
 ---
@@ -177,6 +192,8 @@ Mention the scene number and tell the audience about:
 Mention the scene number and show:
 
 {slides}
+
+{create_script_sections("present the visual content")}
 
 {footer}
 
@@ -187,6 +204,8 @@ Mention the scene number and do:
 
 {screen_capture}
 
+{create_script_sections("demonstrate the interactive elements")}
+
 {footer}
 
 ---
@@ -196,11 +215,13 @@ Mention the scene number and summarize:
 
 {summary}
 
+{create_script_sections("summarize the main takeaways")}
+
 {footer}
 
 ---
 
-## Script for Course Creator
+## Overall Script for Course Creator
 Scene {num_str}: {title}
 Video ID: {video_id}
 
