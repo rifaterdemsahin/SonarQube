@@ -139,4 +139,4 @@ python3 generate-scene-md.py metadata/sceneXX.yaml
 1. Generate metadata files for all 15 scenes
 2. Run the generation scripts
 3. Review and refine content
-4. Prepare for production
+4. Prepare for production 
