@@ -1,5 +1,6 @@
 scene: 14
-title: "Security Vulnerability Scanning"
+title: "Best Practices and Tips"
+video_id: "SQ_014"
 intro_talking_head: |
   SonarQube's security vulnerability scanning capabilities help you identify and fix security issues in your code. In this scene, we'll learn how to use these features effectively and manage security vulnerabilities.
 

@@ -1,5 +1,6 @@
 scene: 9
-title: "Configuring Quality Gates"
+title: "Team Collaboration Features"
+video_id: "SQ_009"
 intro_talking_head: |
   Quality gates are essential for maintaining code quality standards. In this scene, we'll learn how to set up and configure quality gates to ensure your code meets your team's quality requirements before it's merged or deployed.
 

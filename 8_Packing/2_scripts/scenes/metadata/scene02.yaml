@@ -1,5 +1,6 @@
 scene: 2
 title: "Setting Up Your First Project"
+video_id: "SQ_002"
 intro_talking_head: |
   Now that we understand what SonarQube is, let's set up our first project. We'll walk through the process of creating a new project, configuring the scanner, and running our first analysis.
 

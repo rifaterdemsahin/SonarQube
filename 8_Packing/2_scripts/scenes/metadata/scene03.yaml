@@ -1,5 +1,6 @@
 scene: 3
 title: "Setting Up SonarQube Server"
+video_id: "SQ_003"
 intro_talking_head: |
   Now that we understand what SonarQube is, let's set up our own SonarQube server. We'll cover the installation process, system requirements, and initial configuration to get your server up and running.
 

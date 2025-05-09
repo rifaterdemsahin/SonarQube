@@ -1,5 +1,6 @@
 scene: 13
-title: "SonarQube Security"
+title: "Troubleshooting Common Issues"
+video_id: "SQ_013"
 intro_talking_head: |
   Security is paramount when running SonarQube in your organization. In this scene, we'll explore advanced security features, authentication methods, and best practices for securing your SonarQube installation.
 

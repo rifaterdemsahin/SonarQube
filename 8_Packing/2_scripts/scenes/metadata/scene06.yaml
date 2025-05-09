@@ -1,5 +1,6 @@
 scene: 6
-title: "Understanding Analysis Results"
+title: "Security Vulnerability Analysis"
+video_id: "SQ_006"
 intro_talking_head: |
   SonarQube provides detailed analysis results that can help you improve your code quality. Let's explore how to interpret these results, understand the different types of issues, and prioritize which problems to fix first.
 

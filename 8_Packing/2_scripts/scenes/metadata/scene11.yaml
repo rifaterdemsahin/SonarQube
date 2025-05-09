@@ -1,5 +1,6 @@
 scene: 11
-title: "Using SonarQube API"
+title: "Custom Rules and Plugins"
+video_id: "SQ_011"
 intro_talking_head: |
   SonarQube provides a powerful API that allows you to automate tasks and create custom integrations. In this scene, we'll explore how to use the SonarQube API for various automation scenarios.
 

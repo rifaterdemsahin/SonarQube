@@ -1,5 +1,6 @@
 scene: 10
-title: "CI/CD Integration"
+title: "Advanced Analysis Configuration"
+video_id: "SQ_010"
 intro_talking_head: |
   Integrating SonarQube with your CI/CD pipeline is crucial for automated quality checks. In this scene, we'll learn how to set up SonarQube analysis in popular CI/CD platforms and automate your quality checks.
 

@@ -1,5 +1,6 @@
 scene: 4
-title: "Configuring Your First Project"
+title: "Configuring Quality Gates"
+video_id: "SQ_004"
 intro_talking_head: |
   With our SonarQube server running, it's time to set up your first project. We'll walk through the process of creating a new project, configuring analysis settings, and preparing for your first code scan.
 

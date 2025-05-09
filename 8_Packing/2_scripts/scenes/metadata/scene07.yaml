@@ -1,5 +1,6 @@
 scene: 7
-title: "Addressing Code Issues"
+title: "Code Smells and Technical Debt"
+video_id: "SQ_007"
 intro_talking_head: |
   Now that we understand the analysis results, let's learn how to address the issues SonarQube has identified. We'll cover best practices for fixing bugs, vulnerabilities, and code smells, and how to track your progress.
 

@@ -1,5 +1,6 @@
 scene: 8
 title: "Customizing Quality Profiles"
+video_id: "SQ_008"
 intro_talking_head: |
   Every team has different coding standards and requirements. In this scene, we'll learn how to customize SonarQube's quality profiles to match your team's specific needs and coding standards.
 

@@ -1,5 +1,6 @@
 scene: 12
 title: "SonarQube Maintenance"
+video_id: "SQ_012"
 intro_talking_head: |
   Proper maintenance is crucial for keeping your SonarQube instance running smoothly. In this scene, we'll cover essential maintenance tasks, performance optimization, and backup strategies.
 
