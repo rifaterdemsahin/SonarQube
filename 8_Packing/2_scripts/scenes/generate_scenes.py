@@ -11,7 +11,7 @@ def slugify(text):
 
 def validate_metadata(data):
     """Validate required fields in metadata."""
-    required_fields = ['scene', 'title', 'intro_talking_head', 
+    required_fields = ['scene', 'title', 'video_id', 'intro_talking_head', 
                       'slides', 'screen_capture', 'summary_talking_head']
     
     for field in required_fields:
@@ -20,17 +20,22 @@ def validate_metadata(data):
     
     if not isinstance(data['scene'], int):
         raise ValueError("Scene number must be an integer")
+    
+    if not isinstance(data['video_id'], str):
+        raise ValueError("Video ID must be a string")
 
 def generate_markdown(data):
     """Generate markdown content from metadata."""
     scene_num = data['scene']
     title = data['title']
+    video_id = data['video_id']
     
     # Format scene number with leading zero
     num_str = f"{scene_num:02}"
     
     # Generate markdown content
     content = f"""# Scene {num_str} – {title}
+Video ID: {video_id}
 
 ---
 
@@ -64,6 +69,7 @@ Mention the scene number and summarize:
 
 ## Script for Course Creator
 Scene {num_str}: {title}
+Video ID: {video_id}
 
 1. Intro Talking Head: Mention scene {num_str} and tell the audience about the key points
 2. Slides: Mention scene {num_str} and show the visual content

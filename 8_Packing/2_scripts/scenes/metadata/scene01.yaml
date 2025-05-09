@@ -1,5 +1,6 @@
 scene: 1
 title: "Introduction to SonarQube"
+video_id: "SQ_001"
 intro_talking_head: |
   Welcome to this tutorial on SonarQube! In this video, we'll explore how SonarQube helps teams maintain code quality and security. We'll cover the basics of setting up SonarQube, analyzing your code, and interpreting the results.
 
