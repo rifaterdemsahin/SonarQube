@@ -1,0 +1,28 @@
+scene: 11
+title: "Using SonarQube API"
+intro_talking_head: |
+  SonarQube provides a powerful API that allows you to automate tasks and create custom integrations. In this scene, we'll explore how to use the SonarQube API for various automation scenarios.
+
+slides: |
+  - API Basics
+    - Authentication
+    - Endpoints
+    - Response formats
+    - Rate limiting
+  
+  - Common Use Cases
+    - Project management
+    - Quality gate checks
+    - Issue management
+    - Custom reporting
+
+screen_capture: |
+  1. Generate API token
+  2. Explore API documentation
+  3. Test basic endpoints
+  4. Create custom scripts
+  5. Implement automation
+  6. Monitor API usage
+
+summary_talking_head: |
+  You've learned how to use SonarQube's API for automation and custom integrations. In the next scene, we'll look at how to manage and maintain your SonarQube instance for optimal performance. 

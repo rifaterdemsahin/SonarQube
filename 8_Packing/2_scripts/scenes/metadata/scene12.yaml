@@ -1,0 +1,28 @@
+scene: 12
+title: "SonarQube Maintenance"
+intro_talking_head: |
+  Proper maintenance is crucial for keeping your SonarQube instance running smoothly. In this scene, we'll cover essential maintenance tasks, performance optimization, and backup strategies.
+
+slides: |
+  - Maintenance Tasks
+    - Database maintenance
+    - Log management
+    - Cache optimization
+    - Plugin updates
+  
+  - Performance Optimization
+    - Hardware requirements
+    - Configuration tuning
+    - Scaling strategies
+    - Monitoring setup
+
+screen_capture: |
+  1. Check system status
+  2. Perform database maintenance
+  3. Update plugins
+  4. Optimize configuration
+  5. Set up monitoring
+  6. Create backup strategy
+
+summary_talking_head: |
+  You've learned how to maintain and optimize your SonarQube instance. In the next scene, we'll explore advanced security features and best practices for securing your SonarQube installation. 

@@ -1,0 +1,28 @@
+scene: 9
+title: "Configuring Quality Gates"
+intro_talking_head: |
+  Quality gates are essential for maintaining code quality standards. In this scene, we'll learn how to set up and configure quality gates to ensure your code meets your team's quality requirements before it's merged or deployed.
+
+slides: |
+  - Quality Gate Basics
+    - Purpose and benefits
+    - Default conditions
+    - Metric thresholds
+    - Gate status
+  
+  - Configuration Options
+    - Creating custom gates
+    - Setting conditions
+    - Threshold management
+    - Project assignment
+
+screen_capture: |
+  1. Access quality gates
+  2. Create new gate
+  3. Configure conditions
+  4. Set thresholds
+  5. Assign to projects
+  6. Test gate conditions
+
+summary_talking_head: |
+  You've learned how to configure quality gates to enforce your quality standards. In the next scene, we'll explore how to integrate SonarQube with your CI/CD pipeline for automated quality checks. 

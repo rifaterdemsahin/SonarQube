@@ -1,0 +1,27 @@
+scene: 5
+title: "Running Your First Analysis"
+intro_talking_head: |
+  Now that your project is configured, let's run your first code analysis. We'll cover different ways to trigger an analysis, from the command line to CI/CD integration, and learn how to interpret the initial results.
+
+slides: |
+  - Analysis Methods
+    - SonarScanner CLI
+    - CI/CD integration
+    - IDE plugins
+  
+  - Analysis Process
+    - Code scanning
+    - Rule application
+    - Results processing
+    - Report generation
+
+screen_capture: |
+  1. Install SonarScanner
+  2. Configure sonar-project.properties
+  3. Run analysis from command line
+  4. Monitor analysis progress
+  5. View initial results
+  6. Understand analysis report
+
+summary_talking_head: |
+  Congratulations on running your first analysis! You've seen how SonarQube processes your code and generates detailed reports. In the next scene, we'll dive deeper into understanding and interpreting these analysis results. 

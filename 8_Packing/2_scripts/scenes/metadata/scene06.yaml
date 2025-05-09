@@ -1,0 +1,28 @@
+scene: 6
+title: "Understanding Analysis Results"
+intro_talking_head: |
+  SonarQube provides detailed analysis results that can help you improve your code quality. Let's explore how to interpret these results, understand the different types of issues, and prioritize which problems to fix first.
+
+slides: |
+  - Issue Types
+    - Bugs
+    - Vulnerabilities
+    - Code smells
+    - Security hotspots
+  
+  - Metrics and Measures
+    - Reliability rating
+    - Security rating
+    - Maintainability rating
+    - Coverage and duplications
+
+screen_capture: |
+  1. Navigate project dashboard
+  2. Review issue types
+  3. Analyze code metrics
+  4. Check quality gates
+  5. Review security hotspots
+  6. Export analysis report
+
+summary_talking_head: |
+  You now understand how to read and interpret SonarQube's analysis results. In the next scene, we'll learn how to address these issues and improve your code quality through SonarQube's recommendations. 

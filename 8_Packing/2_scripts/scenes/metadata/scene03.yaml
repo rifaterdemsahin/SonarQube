@@ -1,0 +1,27 @@
+scene: 3
+title: "Setting Up SonarQube Server"
+intro_talking_head: |
+  Now that we understand what SonarQube is, let's set up our own SonarQube server. We'll cover the installation process, system requirements, and initial configuration to get your server up and running.
+
+slides: |
+  - System Requirements
+    - Hardware requirements
+    - Supported operating systems
+    - Database requirements
+  
+  - Installation Steps
+    - Download SonarQube
+    - Configure database
+    - Set up environment variables
+    - Start the server
+
+screen_capture: |
+  1. Download SonarQube from official website
+  2. Configure database connection
+  3. Set up environment variables
+  4. Start SonarQube server
+  5. Access web interface
+  6. Complete initial setup wizard
+
+summary_talking_head: |
+  We've successfully set up our SonarQube server. You now have a working instance that's ready to analyze your code. In the next scene, we'll look at how to configure your first project and integrate it with your development workflow. 

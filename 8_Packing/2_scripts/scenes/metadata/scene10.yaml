@@ -1,0 +1,28 @@
+scene: 10
+title: "CI/CD Integration"
+intro_talking_head: |
+  Integrating SonarQube with your CI/CD pipeline is crucial for automated quality checks. In this scene, we'll learn how to set up SonarQube analysis in popular CI/CD platforms and automate your quality checks.
+
+slides: |
+  - CI/CD Integration Basics
+    - Supported platforms
+    - Integration methods
+    - Analysis automation
+    - Quality gate checks
+  
+  - Platform-Specific Setup
+    - Jenkins integration
+    - GitHub Actions
+    - GitLab CI
+    - Azure DevOps
+
+screen_capture: |
+  1. Configure CI platform
+  2. Set up SonarQube scanner
+  3. Configure analysis parameters
+  4. Add quality gate checks
+  5. Test pipeline integration
+  6. Monitor automated analysis
+
+summary_talking_head: |
+  You've learned how to integrate SonarQube with your CI/CD pipeline. In the next scene, we'll explore how to use SonarQube's API for custom integrations and automation. 

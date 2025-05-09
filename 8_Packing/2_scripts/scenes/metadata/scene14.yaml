@@ -1,0 +1,28 @@
+scene: 14
+title: "Security Vulnerability Scanning"
+intro_talking_head: |
+  SonarQube's security vulnerability scanning capabilities help you identify and fix security issues in your code. In this scene, we'll learn how to use these features effectively and manage security vulnerabilities.
+
+slides: |
+  - Vulnerability Types
+    - OWASP Top 10
+    - Common vulnerabilities
+    - Security hotspots
+    - Dependency scanning
+  
+  - Management Process
+    - Vulnerability assessment
+    - Risk prioritization
+    - Remediation planning
+    - Security reporting
+
+screen_capture: |
+  1. Configure security scanning
+  2. Run security analysis
+  3. Review vulnerabilities
+  4. Prioritize issues
+  5. Plan remediation
+  6. Generate security reports
+
+summary_talking_head: |
+  You've learned how to use SonarQube for security vulnerability scanning. In our final scene, we'll look at best practices and tips for getting the most out of SonarQube in your organization. 
