@@ -68,3 +68,12 @@ Video ID: SQ_003
 2. Slides: Mention scene 03 and show the visual content
 3. Screen Capture: Mention scene 03 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 03 and summarize the main takeaways
+
+---
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 3/15</p>
+<p style="margin: 0;">Video ID: SQ_003</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Master SonarQube server installation and setup
+</div>

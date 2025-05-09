@@ -188,6 +188,15 @@ Video ID: {video_id}
 2. Slides: Mention scene {num_str} and show the visual content
 3. Screen Capture: Mention scene {num_str} and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene {num_str} and summarize the main takeaways
+
+---
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page {scene_num}/15</p>
+<p style="margin: 0;">Video ID: {video_id}</p>
+<p style="margin: 0;">Learning Objectives:</p>
+{learning_objectives.replace('\\n', '<br>')}
+</div>
 """
     return content
 

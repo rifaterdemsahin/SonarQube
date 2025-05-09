@@ -70,3 +70,12 @@ Video ID: SQ_011
 2. Slides: Mention scene 11 and show the visual content
 3. Screen Capture: Mention scene 11 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 11 and summarize the main takeaways
+
+---
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 11/15</p>
+<p style="margin: 0;">Video ID: SQ_011</p>
+<p style="margin: 0;">Learning Objectives:</p>
+3. Implement custom rules and plugins
+</div>

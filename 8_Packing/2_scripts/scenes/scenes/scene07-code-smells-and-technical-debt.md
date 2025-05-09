@@ -70,3 +70,12 @@ Video ID: SQ_007
 2. Slides: Mention scene 07 and show the visual content
 3. Screen Capture: Mention scene 07 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 07 and summarize the main takeaways
+
+---
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 7/15</p>
+<p style="margin: 0;">Video ID: SQ_007</p>
+<p style="margin: 0;">Learning Objectives:</p>
+2. Master code quality analysis and issue resolution
+</div>

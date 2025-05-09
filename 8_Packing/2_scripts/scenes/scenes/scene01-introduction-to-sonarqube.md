@@ -66,3 +66,12 @@ Video ID: SQ_001
 2. Slides: Mention scene 01 and show the visual content
 3. Screen Capture: Mention scene 01 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 01 and summarize the main takeaways
+
+---
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 1/15</p>
+<p style="margin: 0;">Video ID: SQ_001</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Understand SonarQube's core features and benefits
+</div>

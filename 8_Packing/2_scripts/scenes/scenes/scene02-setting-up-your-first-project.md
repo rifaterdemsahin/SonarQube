@@ -72,3 +72,12 @@ Video ID: SQ_002
 2. Slides: Mention scene 02 and show the visual content
 3. Screen Capture: Mention scene 02 and demonstrate the interactive elements
 4. Summary Talking Head: Mention scene 02 and summarize the main takeaways
+
+---
+
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<p style="margin: 0;">Page 2/15</p>
+<p style="margin: 0;">Video ID: SQ_002</p>
+<p style="margin: 0;">Learning Objectives:</p>
+1. Learn how to create and configure a new project
+</div>
