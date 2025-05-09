@@ -17,15 +17,22 @@ Welcome to this tutorial on SonarQube! In this video, we'll explore how SonarQub
 Mention the scene number and show:
 
 - What is SonarQube?
-  - Code quality and security platform
-  - Supports 30+ programming languages
-  - Provides continuous code inspection
+
+- Code quality and security platform
+
+- Supports 30+ programming languages
+
+- Provides continuous code inspection
 
 - Key Features
-  - Code quality metrics
-  - Security vulnerabilities detection
-  - Code smells identification
-  - Technical debt tracking
+
+- Code quality metrics
+
+- Security vulnerabilities detection
+
+- Code smells identification
+
+- Technical debt tracking
 
 ---
 
@@ -33,9 +40,13 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Open SonarQube dashboard
+
 2. Navigate to Projects section
+
 3. Show how to create a new project
+
 4. Demonstrate basic project settings
+
 5. Run first analysis
 
 ---
