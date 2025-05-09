@@ -3,6 +3,28 @@
 import os
 from pathlib import Path
 import re
+from math import ceil
+
+def calculate_reading_time(word_count: int) -> str:
+    """Calculate reading time in minutes and seconds.
+    
+    Args:
+        word_count (int): Number of words
+        
+    Returns:
+        str: Formatted reading time
+    """
+    # Assuming average reading speed of 250 words per minute
+    minutes = word_count / 250
+    full_minutes = int(minutes)
+    seconds = ceil((minutes - full_minutes) * 60)
+    
+    if full_minutes == 0:
+        return f"{seconds} seconds"
+    elif seconds == 0:
+        return f"{full_minutes} minutes"
+    else:
+        return f"{full_minutes} minutes {seconds} seconds"
 
 def count_words(text: str) -> int:
     """Count the number of words in a text.
@@ -42,23 +64,35 @@ def extract_scripts_from_file(file_path: str) -> tuple[str, int]:
     # Extract all script sections
     script_sections = re.findall(r'### Script for Course Creator\n(.*?)\n\n### Script for Instructor Read\n(.*?)(?=\n\n|$)', content, re.DOTALL)
     
+    # Calculate total words for this scene
+    total_words = sum(count_words(creator) + count_words(instructor) for creator, instructor in script_sections)
+    reading_time = calculate_reading_time(total_words)
+    
     # Format the extracted content
     formatted_content = f"## {title}\n"
     formatted_content += f"Video ID: {video_id}\n\n"
     formatted_content += "### Learning Objectives\n"
     formatted_content += learning_obj + "\n\n"
+    formatted_content += f"Estimated Reading Time: {reading_time}\n\n"
     
-    total_words = 0
-    for course_creator, instructor in script_sections:
-        formatted_content += "### Course Creator Script\n"
-        formatted_content += course_creator.strip() + "\n\n"
-        formatted_content += "### Instructor Script\n"
-        formatted_content += instructor.strip() + "\n\n"
+    # Group scripts by learning objective
+    formatted_content += "### Scripts by Learning Objective\n\n"
+    objectives = learning_obj.split('\n')
+    script_count = len(script_sections)
+    scripts_per_objective = max(1, script_count // len(objectives))
+    
+    for i, objective in enumerate(objectives):
+        formatted_content += f"#### {objective.strip()}\n\n"
+        start_idx = i * scripts_per_objective
+        end_idx = start_idx + scripts_per_objective
         
-        # Count words in both scripts
-        total_words += count_words(course_creator) + count_words(instructor)
+        for creator, instructor in script_sections[start_idx:end_idx]:
+            formatted_content += "##### Course Creator Script\n"
+            formatted_content += creator.strip() + "\n\n"
+            formatted_content += "##### Instructor Script\n"
+            formatted_content += instructor.strip() + "\n\n"
     
-    formatted_content += f"Word Count: {total_words}\n\n"
+    formatted_content += f"Total Word Count: {total_words}\n\n"
     return formatted_content, total_words
 
 def main():
@@ -87,8 +121,10 @@ This document contains all the scripts for both course creators and instructors 
         content += "---\n\n"
         total_word_count += word_count
     
-    # Add total word count
+    # Add total reading time and word count
+    total_reading_time = calculate_reading_time(total_word_count)
     content += f"Total Word Count: {total_word_count}\n"
+    content += f"Total Estimated Reading Time: {total_reading_time}\n"
     
     # Write the consolidated content
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -96,6 +132,7 @@ This document contains all the scripts for both course creators and instructors 
     
     print(f"Successfully created: {output_file}")
     print(f"Total word count: {total_word_count}")
+    print(f"Total estimated reading time: {total_reading_time}")
 
 if __name__ == "__main__":
     main() 
