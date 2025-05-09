@@ -1,5 +1,10 @@
 # Scene Generation System
 
+## Course Structure
+- The course consists of 3 main objectives
+- Each objective contains 3 lessons
+- Each lesson includes 3 video scenes
+
 ## Overview
 This document outlines the structure and strategy for generating 15 video scenes, each containing 4 key sections:
 1. Intro Talking Head
