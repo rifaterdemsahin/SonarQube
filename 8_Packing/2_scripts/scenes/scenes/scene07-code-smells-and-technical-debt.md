@@ -17,16 +17,24 @@ Now that we understand the analysis results, let's learn how to address the issu
 Mention the scene number and show:
 
 - Issue Resolution
-  - Bug fixing strategies
-  - Vulnerability remediation
-  - Code smell refactoring
-  - Security hotspot analysis
+
+- Bug fixing strategies
+
+- Vulnerability remediation
+
+- Code smell refactoring
+
+- Security hotspot analysis
 
 - Best Practices
-  - Issue prioritization
-  - Code review integration
-  - Documentation updates
-  - Testing requirements
+
+- Issue prioritization
+
+- Code review integration
+
+- Documentation updates
+
+- Testing requirements
 
 ---
 
@@ -34,10 +42,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Review issue details
+
 2. Analyze suggested fixes
+
 3. Implement code changes
+
 4. Run local analysis
+
 5. Submit changes for review
+
 6. Verify issue resolution
 
 ---

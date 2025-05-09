@@ -17,15 +17,22 @@ With our SonarQube server running, it's time to set up your first project. We'll
 Mention the scene number and show:
 
 - Project Setup
-  - Creating a new project
-  - Project key and name
-  - Project visibility settings
+
+- Creating a new project
+
+- Project key and name
+
+- Project visibility settings
 
 - Analysis Configuration
-  - Language detection
-  - Quality profiles
-  - Quality gates
-  - Exclusions and inclusions
+
+- Language detection
+
+- Quality profiles
+
+- Quality gates
+
+- Exclusions and inclusions
 
 ---
 
@@ -33,10 +40,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Create new project in SonarQube
+
 2. Configure project settings
+
 3. Set up quality profiles
+
 4. Configure quality gates
+
 5. Set up project exclusions
+
 6. Generate project token
 
 ---

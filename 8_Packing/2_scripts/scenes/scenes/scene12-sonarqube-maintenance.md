@@ -17,16 +17,24 @@ Proper maintenance is crucial for keeping your SonarQube instance running smooth
 Mention the scene number and show:
 
 - Maintenance Tasks
-  - Database maintenance
-  - Log management
-  - Cache optimization
-  - Plugin updates
+
+- Database maintenance
+
+- Log management
+
+- Cache optimization
+
+- Plugin updates
 
 - Performance Optimization
-  - Hardware requirements
-  - Configuration tuning
-  - Scaling strategies
-  - Monitoring setup
+
+- Hardware requirements
+
+- Configuration tuning
+
+- Scaling strategies
+
+- Monitoring setup
 
 ---
 
@@ -34,10 +42,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Check system status
+
 2. Perform database maintenance
+
 3. Update plugins
+
 4. Optimize configuration
+
 5. Set up monitoring
+
 6. Create backup strategy
 
 ---

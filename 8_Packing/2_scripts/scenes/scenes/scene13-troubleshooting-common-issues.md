@@ -17,16 +17,24 @@ Security is paramount when running SonarQube in your organization. In this scene
 Mention the scene number and show:
 
 - Security Features
-  - Authentication methods
-  - Authorization rules
-  - SSL/TLS configuration
-  - Security headers
+
+- Authentication methods
+
+- Authorization rules
+
+- SSL/TLS configuration
+
+- Security headers
 
 - Best Practices
-  - User management
-  - Permission settings
-  - Security scanning
-  - Audit logging
+
+- User management
+
+- Permission settings
+
+- Security scanning
+
+- Audit logging
 
 ---
 
@@ -34,10 +42,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Configure authentication
+
 2. Set up SSL/TLS
+
 3. Manage user permissions
+
 4. Configure security headers
+
 5. Set up audit logging
+
 6. Review security settings
 
 ---

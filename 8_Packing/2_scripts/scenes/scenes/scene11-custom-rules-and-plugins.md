@@ -17,16 +17,24 @@ SonarQube provides a powerful API that allows you to automate tasks and create c
 Mention the scene number and show:
 
 - API Basics
-  - Authentication
-  - Endpoints
-  - Response formats
-  - Rate limiting
+
+- Authentication
+
+- Endpoints
+
+- Response formats
+
+- Rate limiting
 
 - Common Use Cases
-  - Project management
-  - Quality gate checks
-  - Issue management
-  - Custom reporting
+
+- Project management
+
+- Quality gate checks
+
+- Issue management
+
+- Custom reporting
 
 ---
 
@@ -34,10 +42,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Generate API token
+
 2. Explore API documentation
+
 3. Test basic endpoints
+
 4. Create custom scripts
+
 5. Implement automation
+
 6. Monitor API usage
 
 ---

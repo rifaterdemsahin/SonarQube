@@ -17,16 +17,24 @@ SonarQube's security vulnerability scanning capabilities help you identify and f
 Mention the scene number and show:
 
 - Vulnerability Types
-  - OWASP Top 10
-  - Common vulnerabilities
-  - Security hotspots
-  - Dependency scanning
+
+- OWASP Top 10
+
+- Common vulnerabilities
+
+- Security hotspots
+
+- Dependency scanning
 
 - Management Process
-  - Vulnerability assessment
-  - Risk prioritization
-  - Remediation planning
-  - Security reporting
+
+- Vulnerability assessment
+
+- Risk prioritization
+
+- Remediation planning
+
+- Security reporting
 
 ---
 
@@ -34,10 +42,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Configure security scanning
+
 2. Run security analysis
+
 3. Review vulnerabilities
+
 4. Prioritize issues
+
 5. Plan remediation
+
 6. Generate security reports
 
 ---

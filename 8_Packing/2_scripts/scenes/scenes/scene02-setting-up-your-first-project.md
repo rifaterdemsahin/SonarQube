@@ -17,16 +17,24 @@ Now that we understand what SonarQube is, let's set up our first project. We'll 
 Mention the scene number and show:
 
 - Project Setup Steps
-  - Create new project
-  - Choose analysis method
-  - Configure scanner
-  - Set up quality gates
+
+- Create new project
+
+- Choose analysis method
+
+- Configure scanner
+
+- Set up quality gates
 
 - Analysis Methods
-  - SonarQube Scanner
-  - SonarQube Scanner for Maven
-  - SonarQube Scanner for Gradle
-  - SonarQube Scanner for .NET
+
+- SonarQube Scanner
+
+- SonarQube Scanner for Maven
+
+- SonarQube Scanner for Gradle
+
+- SonarQube Scanner for .NET
 
 ---
 
@@ -34,11 +42,17 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Log into SonarQube
+
 2. Click "Create New Project"
+
 3. Enter project details
+
 4. Choose analysis method
+
 5. Generate token
+
 6. Show scanner configuration
+
 7. Run first analysis
 
 ---

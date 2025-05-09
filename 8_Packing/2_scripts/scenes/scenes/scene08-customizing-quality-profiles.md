@@ -17,16 +17,24 @@ Every team has different coding standards and requirements. In this scene, we'll
 Mention the scene number and show:
 
 - Quality Profile Basics
-  - Built-in profiles
-  - Language-specific rules
-  - Rule severity levels
-  - Rule parameters
+
+- Built-in profiles
+
+- Language-specific rules
+
+- Rule severity levels
+
+- Rule parameters
 
 - Customization Options
-  - Creating custom profiles
-  - Rule activation/deactivation
-  - Severity adjustments
-  - Parameter configuration
+
+- Creating custom profiles
+
+- Rule activation/deactivation
+
+- Severity adjustments
+
+- Parameter configuration
 
 ---
 
@@ -34,10 +42,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Access quality profiles
+
 2. Create new profile
+
 3. Configure rule sets
+
 4. Adjust rule parameters
+
 5. Set severity levels
+
 6. Apply profile to project
 
 ---

@@ -17,15 +17,22 @@ Now that your project is configured, let's run your first code analysis. We'll c
 Mention the scene number and show:
 
 - Analysis Methods
-  - SonarScanner CLI
-  - CI/CD integration
-  - IDE plugins
+
+- SonarScanner CLI
+
+- CI/CD integration
+
+- IDE plugins
 
 - Analysis Process
-  - Code scanning
-  - Rule application
-  - Results processing
-  - Report generation
+
+- Code scanning
+
+- Rule application
+
+- Results processing
+
+- Report generation
 
 ---
 
@@ -33,10 +40,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Install SonarScanner
+
 2. Configure sonar-project.properties
+
 3. Run analysis from command line
+
 4. Monitor analysis progress
+
 5. View initial results
+
 6. Understand analysis report
 
 ---

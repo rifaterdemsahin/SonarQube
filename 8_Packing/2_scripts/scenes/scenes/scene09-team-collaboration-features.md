@@ -17,16 +17,24 @@ Quality gates are essential for maintaining code quality standards. In this scen
 Mention the scene number and show:
 
 - Quality Gate Basics
-  - Purpose and benefits
-  - Default conditions
-  - Metric thresholds
-  - Gate status
+
+- Purpose and benefits
+
+- Default conditions
+
+- Metric thresholds
+
+- Gate status
 
 - Configuration Options
-  - Creating custom gates
-  - Setting conditions
-  - Threshold management
-  - Project assignment
+
+- Creating custom gates
+
+- Setting conditions
+
+- Threshold management
+
+- Project assignment
 
 ---
 
@@ -34,10 +42,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Access quality gates
+
 2. Create new gate
+
 3. Configure conditions
+
 4. Set thresholds
+
 5. Assign to projects
+
 6. Test gate conditions
 
 ---

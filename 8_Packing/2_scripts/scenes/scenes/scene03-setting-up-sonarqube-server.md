@@ -17,15 +17,22 @@ Now that we understand what SonarQube is, let's set up our own SonarQube server.
 Mention the scene number and show:
 
 - System Requirements
-  - Hardware requirements
-  - Supported operating systems
-  - Database requirements
+
+- Hardware requirements
+
+- Supported operating systems
+
+- Database requirements
 
 - Installation Steps
-  - Download SonarQube
-  - Configure database
-  - Set up environment variables
-  - Start the server
+
+- Download SonarQube
+
+- Configure database
+
+- Set up environment variables
+
+- Start the server
 
 ---
 
@@ -33,10 +40,15 @@ Mention the scene number and show:
 Mention the scene number and do:
 
 1. Download SonarQube from official website
+
 2. Configure database connection
+
 3. Set up environment variables
+
 4. Start SonarQube server
+
 5. Access web interface
+
 6. Complete initial setup wizard
 
 ---
