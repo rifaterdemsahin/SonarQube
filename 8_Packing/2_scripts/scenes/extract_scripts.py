@@ -37,11 +37,29 @@ def count_words(text: str) -> int:
     """
     return len(text.split())
 
-def extract_scripts_from_file(file_path: str) -> tuple[str, int]:
+def format_instructor_script(script: str, use_marp: bool = False) -> str:
+    """Format instructor script in a Marp-style box or plain markdown."""
+    lines = script.strip().split('\n')
+    # Remove the "Read the following script while recording:" line if present
+    lines = [line for line in lines if not line.startswith('- "Read the following')]
+    # Remove leading "- " from each line
+    lines = [line[2:] if line.startswith('- ') else line for line in lines]
+    # Join lines
+    content = '\n'.join(lines)
+    
+    if use_marp:
+        return f""":::message
+{content}
+:::\n"""
+    else:
+        return f"> {content}\n\n"
+
+def extract_scripts_from_file(file_path: str, use_marp: bool = False) -> tuple[str, int]:
     """Extract script sections from a scene file.
     
     Args:
         file_path (str): Path to the scene markdown file
+        use_marp (bool): Whether to format the script in Marp-style box
         
     Returns:
         tuple[str, int]: Extracted script content and word count
@@ -61,11 +79,11 @@ def extract_scripts_from_file(file_path: str) -> tuple[str, int]:
     learning_obj_match = re.search(r'## Learning Objectives\n(.*?)(?=\n\n|$)', content, re.DOTALL)
     learning_obj = learning_obj_match.group(1).strip() if learning_obj_match else "No learning objectives found"
     
-    # Extract all script sections
+    # Extract all script sections, but we'll only use instructor scripts
     script_sections = re.findall(r'### Script for Course Creator\n(.*?)\n\n### Script for Instructor Read\n(.*?)(?=\n\n|$)', content, re.DOTALL)
     
-    # Calculate total words for this scene
-    total_words = sum(count_words(creator) + count_words(instructor) for creator, instructor in script_sections)
+    # Calculate total words for instructor scripts only
+    total_words = sum(count_words(instructor) for _, instructor in script_sections)
     reading_time = calculate_reading_time(total_words)
     
     # Format the extracted content
@@ -86,11 +104,8 @@ def extract_scripts_from_file(file_path: str) -> tuple[str, int]:
         start_idx = i * scripts_per_objective
         end_idx = start_idx + scripts_per_objective
         
-        for creator, instructor in script_sections[start_idx:end_idx]:
-            formatted_content += "##### Course Creator Script\n"
-            formatted_content += creator.strip() + "\n\n"
-            formatted_content += "##### Instructor Script\n"
-            formatted_content += instructor.strip() + "\n\n"
+        for _, instructor in script_sections[start_idx:end_idx]:
+            formatted_content += format_instructor_script(instructor, use_marp)
     
     formatted_content += f"Total Word Count: {total_words}\n\n"
     return formatted_content, total_words
@@ -109,17 +124,30 @@ def main():
     # Create header
     content = """# All Course Scripts
 
-This document contains all the scripts for both course creators and instructors from all scenes.
+This document contains all the instructor scripts from all scenes.
 
 """
     
     total_word_count = 0
     # Process each scene file
     for scene_file in scene_files:
-        scene_content, word_count = extract_scripts_from_file(scene_file)
+        # Generate plain markdown for all-scripts.md
+        scene_content, word_count = extract_scripts_from_file(scene_file, use_marp=False)
         content += scene_content
         content += "---\n\n"
         total_word_count += word_count
+        
+        # Generate Marp version for individual scene file
+        marp_content, _ = extract_scripts_from_file(scene_file, use_marp=True)
+        marp_header = """---
+marp: true
+theme: default
+---
+
+"""
+        marp_output_file = scene_file.parent / f"{scene_file.stem}-marp.md"
+        with open(marp_output_file, 'w', encoding='utf-8') as f:
+            f.write(marp_header + marp_content)
     
     # Add total reading time and word count
     total_reading_time = calculate_reading_time(total_word_count)
