@@ -1,6 +1,9 @@
 # Scene 13 – Troubleshooting Common Issues
 Video ID: SQ_013
 
+## Learning Objectives
+3. Troubleshoot common issues and errors
+
 ---
 
 ## 1. 🎥 Intro Talking Head

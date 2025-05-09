@@ -1,6 +1,9 @@
 # Scene 05 – Understanding Code Quality Metrics
 Video ID: SQ_005
 
+## Learning Objectives
+1. Understand basic code quality metrics
+
 ---
 
 ## 1. 🎥 Intro Talking Head

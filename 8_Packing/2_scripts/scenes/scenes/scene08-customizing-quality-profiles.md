@@ -1,6 +1,9 @@
 # Scene 08 – Customizing Quality Profiles
 Video ID: SQ_008
 
+## Learning Objectives
+2. Configure custom quality profiles and rules
+
 ---
 
 ## 1. 🎥 Intro Talking Head

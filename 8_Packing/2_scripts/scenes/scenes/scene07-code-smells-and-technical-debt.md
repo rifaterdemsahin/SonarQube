@@ -1,6 +1,9 @@
 # Scene 07 – Code Smells and Technical Debt
 Video ID: SQ_007
 
+## Learning Objectives
+2. Master code quality analysis and issue resolution
+
 ---
 
 ## 1. 🎥 Intro Talking Head

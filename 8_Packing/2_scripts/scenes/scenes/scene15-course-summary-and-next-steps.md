@@ -1,6 +1,9 @@
 # Scene 15 – Course Summary and Next Steps
 Video ID: SQ_015
 
+## Learning Objectives
+3. Implement long-term quality improvement strategies
+
 ---
 
 ## 1. 🎥 Intro Talking Head

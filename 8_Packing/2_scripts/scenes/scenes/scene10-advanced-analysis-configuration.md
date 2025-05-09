@@ -1,6 +1,9 @@
 # Scene 10 – Advanced Analysis Configuration
 Video ID: SQ_010
 
+## Learning Objectives
+2. Integrate SonarQube with CI/CD pipelines
+
 ---
 
 ## 1. 🎥 Intro Talking Head

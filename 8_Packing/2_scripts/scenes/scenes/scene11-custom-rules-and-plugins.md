@@ -1,6 +1,9 @@
 # Scene 11 – Custom Rules and Plugins
 Video ID: SQ_011
 
+## Learning Objectives
+3. Implement custom rules and plugins
+
 ---
 
 ## 1. 🎥 Intro Talking Head

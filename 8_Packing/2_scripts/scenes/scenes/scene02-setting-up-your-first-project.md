@@ -1,6 +1,9 @@
 # Scene 02 – Setting Up Your First Project
 Video ID: SQ_002
 
+## Learning Objectives
+1. Learn how to create and configure a new project
+
 ---
 
 ## 1. 🎥 Intro Talking Head

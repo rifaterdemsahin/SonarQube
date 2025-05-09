@@ -1,6 +1,9 @@
 # Scene 14 – Best Practices and Tips
 Video ID: SQ_014
 
+## Learning Objectives
+3. Apply security scanning best practices
+
 ---
 
 ## 1. 🎥 Intro Talking Head

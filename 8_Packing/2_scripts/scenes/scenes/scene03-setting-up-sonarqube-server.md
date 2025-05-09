@@ -1,6 +1,9 @@
 # Scene 03 – Setting Up SonarQube Server
 Video ID: SQ_003
 
+## Learning Objectives
+1. Master SonarQube server installation and setup
+
 ---
 
 ## 1. 🎥 Intro Talking Head

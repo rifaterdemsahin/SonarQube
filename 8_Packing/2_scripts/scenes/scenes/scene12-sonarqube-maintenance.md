@@ -1,6 +1,9 @@
 # Scene 12 – SonarQube Maintenance
 Video ID: SQ_012
 
+## Learning Objectives
+3. Perform system maintenance and optimization
+
 ---
 
 ## 1. 🎥 Intro Talking Head

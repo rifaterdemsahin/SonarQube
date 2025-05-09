@@ -1,6 +1,9 @@
 # Scene 09 – Team Collaboration Features
 Video ID: SQ_009
 
+## Learning Objectives
+2. Set up team collaboration features
+
 ---
 
 ## 1. 🎥 Intro Talking Head

@@ -1,6 +1,9 @@
 # Scene 01 – Introduction to SonarQube
 Video ID: SQ_001
 
+## Learning Objectives
+1. Understand SonarQube's core features and benefits
+
 ---
 
 ## 1. 🎥 Intro Talking Head

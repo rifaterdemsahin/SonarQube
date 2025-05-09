@@ -1,6 +1,9 @@
 # Scene 04 – Configuring Quality Gates
 Video ID: SQ_004
 
+## Learning Objectives
+1. Configure quality gates and project settings
+
 ---
 
 ## 1. 🎥 Intro Talking Head

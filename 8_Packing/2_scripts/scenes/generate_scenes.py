@@ -24,6 +24,42 @@ def validate_metadata(data):
     if not isinstance(data['video_id'], str):
         raise ValueError("Video ID must be a string")
 
+def get_learning_objectives(scene_num):
+    """Get learning objectives based on scene number."""
+    setup_objectives = {
+        1: "Understand SonarQube's core features and benefits",
+        2: "Learn how to create and configure a new project",
+        3: "Master SonarQube server installation and setup",
+        4: "Configure quality gates and project settings",
+        5: "Understand basic code quality metrics"
+    }
+    
+    integration_objectives = {
+        6: "Learn to integrate SonarQube with development workflows",
+        7: "Master code quality analysis and issue resolution",
+        8: "Configure custom quality profiles and rules",
+        9: "Set up team collaboration features",
+        10: "Integrate SonarQube with CI/CD pipelines"
+    }
+    
+    scanning_objectives = {
+        11: "Implement custom rules and plugins",
+        12: "Perform system maintenance and optimization",
+        13: "Troubleshoot common issues and errors",
+        14: "Apply security scanning best practices",
+        15: "Implement long-term quality improvement strategies"
+    }
+    
+    objectives = []
+    if scene_num in setup_objectives:
+        objectives.append(f"1. {setup_objectives[scene_num]}")
+    if scene_num in integration_objectives:
+        objectives.append(f"2. {integration_objectives[scene_num]}")
+    if scene_num in scanning_objectives:
+        objectives.append(f"3. {scanning_objectives[scene_num]}")
+    
+    return "\n".join(objectives)
+
 def generate_markdown(data):
     """Generate markdown content from metadata."""
     scene_num = data['scene']
@@ -33,9 +69,15 @@ def generate_markdown(data):
     # Format scene number with leading zero
     num_str = f"{scene_num:02}"
     
+    # Get learning objectives
+    learning_objectives = get_learning_objectives(scene_num)
+    
     # Generate markdown content
     content = f"""# Scene {num_str} – {title}
 Video ID: {video_id}
+
+## Learning Objectives
+{learning_objectives}
 
 ---
 
