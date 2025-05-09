@@ -4,28 +4,72 @@ import sys
 import yaml
 import os
 from pathlib import Path
+import re
+from typing import Dict, List, Any, Optional
 
-def slugify(text):
-    """Convert text to URL-friendly slug."""
-    return text.lower().replace(' ', '-').replace(':', '').replace(',', '')
+def slugify(text: str) -> str:
+    """Convert text to URL-friendly slug.
+    
+    Args:
+        text (str): Text to convert to slug
+        
+    Returns:
+        str: URL-friendly slug
+    """
+    # Remove special characters and convert to lowercase
+    text = text.lower()
+    # Replace spaces and special characters with hyphens
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    # Remove leading/trailing hyphens
+    text = text.strip('-')
+    return text
 
-def validate_metadata(data):
-    """Validate required fields in metadata."""
-    required_fields = ['scene', 'title', 'video_id', 'intro_talking_head', 
-                      'slides', 'screen_capture', 'summary_talking_head']
+def validate_metadata(data: Dict[str, Any]) -> None:
+    """Validate required fields in metadata.
     
-    for field in required_fields:
-        if field not in data:
-            raise ValueError(f"Missing required field: {field}")
+    Args:
+        data (Dict[str, Any]): Metadata dictionary to validate
+        
+    Raises:
+        ValueError: If required fields are missing or invalid
+    """
+    required_fields = {
+        'scene': int,
+        'title': str,
+        'video_id': str,
+        'intro_talking_head': str,
+        'slides': str,
+        'screen_capture': str,
+        'summary_talking_head': str
+    }
     
-    if not isinstance(data['scene'], int):
-        raise ValueError("Scene number must be an integer")
+    # Check for missing fields
+    missing_fields = [field for field in required_fields if field not in data]
+    if missing_fields:
+        raise ValueError(f"Missing required fields: {', '.join(missing_fields)}")
     
-    if not isinstance(data['video_id'], str):
-        raise ValueError("Video ID must be a string")
+    # Validate field types
+    for field, expected_type in required_fields.items():
+        if not isinstance(data[field], expected_type):
+            raise ValueError(f"Field '{field}' must be of type {expected_type.__name__}")
+    
+    # Validate scene number range
+    if not 1 <= data['scene'] <= 15:
+        raise ValueError("Scene number must be between 1 and 15")
+    
+    # Validate video ID format
+    if not re.match(r'^SQ_\d{3}$', data['video_id']):
+        raise ValueError("Video ID must be in format 'SQ_XXX' where XXX is a 3-digit number")
 
-def get_learning_objectives(scene_num):
-    """Get learning objectives based on scene number."""
+def get_learning_objectives(scene_num: int) -> str:
+    """Get learning objectives based on scene number.
+    
+    Args:
+        scene_num (int): Scene number (1-15)
+        
+    Returns:
+        str: Formatted learning objectives
+    """
     setup_objectives = {
         1: "Understand SonarQube's core features and benefits",
         2: "Learn how to create and configure a new project",
@@ -60,8 +104,29 @@ def get_learning_objectives(scene_num):
     
     return "\n".join(objectives)
 
-def generate_markdown(data):
-    """Generate markdown content from metadata."""
+def format_section_content(content: str) -> str:
+    """Format section content with proper indentation and line breaks.
+    
+    Args:
+        content (str): Raw content to format
+        
+    Returns:
+        str: Formatted content
+    """
+    # Split into lines and remove empty lines
+    lines = [line.strip() for line in content.split('\n') if line.strip()]
+    # Join with proper spacing
+    return '\n\n'.join(lines)
+
+def generate_markdown(data: Dict[str, Any]) -> str:
+    """Generate markdown content from metadata.
+    
+    Args:
+        data (Dict[str, Any]): Scene metadata
+        
+    Returns:
+        str: Generated markdown content
+    """
     scene_num = data['scene']
     title = data['title']
     video_id = data['video_id']
@@ -71,6 +136,12 @@ def generate_markdown(data):
     
     # Get learning objectives
     learning_objectives = get_learning_objectives(scene_num)
+    
+    # Format section contents
+    intro = format_section_content(data['intro_talking_head'])
+    slides = format_section_content(data['slides'])
+    screen_capture = format_section_content(data['screen_capture'])
+    summary = format_section_content(data['summary_talking_head'])
     
     # Generate markdown content
     content = f"""# Scene {num_str} – {title}
@@ -84,28 +155,28 @@ Video ID: {video_id}
 ## 1. 🎥 Intro Talking Head
 Mention the scene number and tell the audience about:
 
-{data['intro_talking_head'].strip()}
+{intro}
 
 ---
 
 ## 2. 📊 Slides
 Mention the scene number and show:
 
-{data['slides'].strip()}
+{slides}
 
 ---
 
 ## 3. 🖥️ Screen Capture (Map Interaction)
 Mention the scene number and do:
 
-{data['screen_capture'].strip()}
+{screen_capture}
 
 ---
 
 ## 4. 🎬 Summary Talking Head
 Mention the scene number and summarize:
 
-{data['summary_talking_head'].strip()}
+{summary}
 
 ---
 
@@ -120,15 +191,38 @@ Video ID: {video_id}
 """
     return content
 
-def main(file_path):
-    """Main function to process YAML and generate markdown."""
+def process_yaml_file(file_path: str) -> Dict[str, Any]:
+    """Process YAML file and return metadata.
+    
+    Args:
+        file_path (str): Path to YAML file
+        
+    Returns:
+        Dict[str, Any]: Parsed metadata
+        
+    Raises:
+        yaml.YAMLError: If YAML parsing fails
+        ValueError: If metadata validation fails
+    """
     try:
-        # Read and parse YAML file
         with open(file_path, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f)
-        
-        # Validate metadata
         validate_metadata(data)
+        return data
+    except yaml.YAMLError as e:
+        raise yaml.YAMLError(f"Error parsing YAML file: {e}")
+    except ValueError as e:
+        raise ValueError(f"Validation error: {e}")
+
+def main(file_path: str) -> None:
+    """Main function to process YAML and generate markdown.
+    
+    Args:
+        file_path (str): Path to YAML metadata file
+    """
+    try:
+        # Process YAML file
+        data = process_yaml_file(file_path)
         
         # Generate markdown content
         content = generate_markdown(data)
@@ -146,11 +240,8 @@ def main(file_path):
         
         print(f"Successfully generated: {filename}")
         
-    except yaml.YAMLError as e:
-        print(f"Error parsing YAML file: {e}")
-        sys.exit(1)
-    except ValueError as e:
-        print(f"Validation error: {e}")
+    except (yaml.YAMLError, ValueError) as e:
+        print(f"Error: {e}")
         sys.exit(1)
     except Exception as e:
         print(f"Unexpected error: {e}")
