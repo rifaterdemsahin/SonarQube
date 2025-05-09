@@ -14,7 +14,7 @@ Video ID: SQ_010
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 10/15</p>
 <p style="margin: 0;">Video ID: SQ_010</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -39,7 +39,7 @@ Integrating SonarQube with your CI/CD pipeline is crucial for automated quality 
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 10/15</p>
 <p style="margin: 0;">Video ID: SQ_010</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -82,7 +82,7 @@ Mention the scene number and show:
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 10/15</p>
 <p style="margin: 0;">Video ID: SQ_010</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -117,7 +117,7 @@ Mention the scene number and do:
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 10/15</p>
 <p style="margin: 0;">Video ID: SQ_010</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -142,7 +142,7 @@ You've learned how to integrate SonarQube with your CI/CD pipeline. In the next 
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 10/15</p>
 <p style="margin: 0;">Video ID: SQ_010</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -162,7 +162,7 @@ Video ID: SQ_010
 4. Summary Talking Head: Mention scene 10 and summarize the main takeaways
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 10/15</p>
 <p style="margin: 0;">Video ID: SQ_010</p>
 <p style="margin: 0;">Learning Objectives:</p>

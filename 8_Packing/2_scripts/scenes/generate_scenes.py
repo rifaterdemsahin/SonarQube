@@ -143,9 +143,9 @@ def generate_markdown(data: Dict[str, Any]) -> str:
     screen_capture = format_section_content(data['screen_capture'])
     summary = format_section_content(data['summary_talking_head'])
     
-    # Create footer HTML
+    # Create footer HTML with smaller font
     footer = f"""
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page {scene_num}/15</p>
 <p style="margin: 0;">Video ID: {video_id}</p>
 <p style="margin: 0;">Learning Objectives:</p>

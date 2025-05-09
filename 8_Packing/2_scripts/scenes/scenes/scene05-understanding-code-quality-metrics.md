@@ -14,7 +14,7 @@ Video ID: SQ_005
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -39,7 +39,7 @@ Now that your project is configured, let's run your first code analysis. We'll c
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -80,7 +80,7 @@ Mention the scene number and show:
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -115,7 +115,7 @@ Mention the scene number and do:
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -140,7 +140,7 @@ Congratulations on running your first analysis! You've seen how SonarQube proces
 
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
 <p style="margin: 0;">Learning Objectives:</p>
@@ -160,7 +160,7 @@ Video ID: SQ_005
 4. Summary Talking Head: Mention scene 05 and summarize the main takeaways
 
 
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right;">
+<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
 <p style="margin: 0;">Page 5/15</p>
 <p style="margin: 0;">Video ID: SQ_005</p>
 <p style="margin: 0;">Learning Objectives:</p>
