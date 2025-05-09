@@ -147,23 +147,3 @@ We've successfully set up our SonarQube server. You now have a working instance 
 1. Master SonarQube server installation and setup
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 03: Setting Up SonarQube Server
-Video ID: SQ_003
-
-1. Intro Talking Head: Mention scene 03 and tell the audience about the key points
-2. Slides: Mention scene 03 and show the visual content
-3. Screen Capture: Mention scene 03 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 03 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 3/15</p>
-<p style="margin: 0;">Video ID: SQ_003</p>
-<p style="margin: 0;">Learning Objectives:</p>
-1. Master SonarQube server installation and setup
-</div>
-

@@ -149,23 +149,3 @@ You've learned how to use SonarQube for security vulnerability scanning. In our 
 3. Apply security scanning best practices
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 14: Best Practices and Tips
-Video ID: SQ_014
-
-1. Intro Talking Head: Mention scene 14 and tell the audience about the key points
-2. Slides: Mention scene 14 and show the visual content
-3. Screen Capture: Mention scene 14 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 14 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 14/15</p>
-<p style="margin: 0;">Video ID: SQ_014</p>
-<p style="margin: 0;">Learning Objectives:</p>
-3. Apply security scanning best practices
-</div>
-

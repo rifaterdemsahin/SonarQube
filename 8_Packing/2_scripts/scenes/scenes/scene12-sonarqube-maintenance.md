@@ -149,23 +149,3 @@ You've learned how to maintain and optimize your SonarQube instance. In the next
 3. Perform system maintenance and optimization
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 12: SonarQube Maintenance
-Video ID: SQ_012
-
-1. Intro Talking Head: Mention scene 12 and tell the audience about the key points
-2. Slides: Mention scene 12 and show the visual content
-3. Screen Capture: Mention scene 12 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 12 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 12/15</p>
-<p style="margin: 0;">Video ID: SQ_012</p>
-<p style="margin: 0;">Learning Objectives:</p>
-3. Perform system maintenance and optimization
-</div>
-

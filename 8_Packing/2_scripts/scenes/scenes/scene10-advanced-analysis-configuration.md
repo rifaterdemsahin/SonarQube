@@ -149,23 +149,3 @@ You've learned how to integrate SonarQube with your CI/CD pipeline. In the next 
 2. Integrate SonarQube with CI/CD pipelines
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 10: Advanced Analysis Configuration
-Video ID: SQ_010
-
-1. Intro Talking Head: Mention scene 10 and tell the audience about the key points
-2. Slides: Mention scene 10 and show the visual content
-3. Screen Capture: Mention scene 10 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 10 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 10/15</p>
-<p style="margin: 0;">Video ID: SQ_010</p>
-<p style="margin: 0;">Learning Objectives:</p>
-2. Integrate SonarQube with CI/CD pipelines
-</div>
-

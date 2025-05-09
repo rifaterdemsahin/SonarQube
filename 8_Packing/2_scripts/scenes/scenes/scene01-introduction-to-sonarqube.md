@@ -145,23 +145,3 @@ In this first scene, we've introduced SonarQube and its main features. We've see
 1. Understand SonarQube's core features and benefits
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 01: Introduction to SonarQube
-Video ID: SQ_001
-
-1. Intro Talking Head: Mention scene 01 and tell the audience about the key points
-2. Slides: Mention scene 01 and show the visual content
-3. Screen Capture: Mention scene 01 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 01 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 1/15</p>
-<p style="margin: 0;">Video ID: SQ_001</p>
-<p style="margin: 0;">Learning Objectives:</p>
-1. Understand SonarQube's core features and benefits
-</div>
-

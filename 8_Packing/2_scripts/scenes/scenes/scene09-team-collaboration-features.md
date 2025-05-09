@@ -149,23 +149,3 @@ You've learned how to configure quality gates to enforce your quality standards.
 2. Set up team collaboration features
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 09: Team Collaboration Features
-Video ID: SQ_009
-
-1. Intro Talking Head: Mention scene 09 and tell the audience about the key points
-2. Slides: Mention scene 09 and show the visual content
-3. Screen Capture: Mention scene 09 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 09 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 9/15</p>
-<p style="margin: 0;">Video ID: SQ_009</p>
-<p style="margin: 0;">Learning Objectives:</p>
-2. Set up team collaboration features
-</div>
-

@@ -147,23 +147,3 @@ Your project is now connected to GitHub and ready for automated analysis. We've 
 1. Configure quality gates and project settings
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 04: Adding Your Project to GitHub
-Video ID: SQ_004
-
-1. Intro Talking Head: Mention scene 04 and tell the audience about the key points
-2. Slides: Mention scene 04 and show the visual content
-3. Screen Capture: Mention scene 04 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 04 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 4/15</p>
-<p style="margin: 0;">Video ID: SQ_004</p>
-<p style="margin: 0;">Learning Objectives:</p>
-1. Configure quality gates and project settings
-</div>
-

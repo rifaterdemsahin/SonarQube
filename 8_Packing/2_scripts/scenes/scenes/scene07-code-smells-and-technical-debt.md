@@ -149,23 +149,3 @@ You've learned how to effectively address code issues identified by SonarQube. I
 2. Master code quality analysis and issue resolution
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 07: Code Smells and Technical Debt
-Video ID: SQ_007
-
-1. Intro Talking Head: Mention scene 07 and tell the audience about the key points
-2. Slides: Mention scene 07 and show the visual content
-3. Screen Capture: Mention scene 07 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 07 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 7/15</p>
-<p style="margin: 0;">Video ID: SQ_007</p>
-<p style="margin: 0;">Learning Objectives:</p>
-2. Master code quality analysis and issue resolution
-</div>
-

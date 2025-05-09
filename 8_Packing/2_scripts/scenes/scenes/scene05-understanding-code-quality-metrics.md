@@ -147,23 +147,3 @@ Congratulations on running your first analysis! You've seen how SonarQube proces
 1. Understand basic code quality metrics
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 05: Understanding Code Quality Metrics
-Video ID: SQ_005
-
-1. Intro Talking Head: Mention scene 05 and tell the audience about the key points
-2. Slides: Mention scene 05 and show the visual content
-3. Screen Capture: Mention scene 05 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 05 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 5/15</p>
-<p style="margin: 0;">Video ID: SQ_005</p>
-<p style="margin: 0;">Learning Objectives:</p>
-1. Understand basic code quality metrics
-</div>
-

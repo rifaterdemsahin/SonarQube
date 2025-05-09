@@ -149,23 +149,3 @@ You now know how to customize quality profiles to match your team's needs. In th
 2. Configure custom quality profiles and rules
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 08: Customizing Quality Profiles
-Video ID: SQ_008
-
-1. Intro Talking Head: Mention scene 08 and tell the audience about the key points
-2. Slides: Mention scene 08 and show the visual content
-3. Screen Capture: Mention scene 08 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 08 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 8/15</p>
-<p style="margin: 0;">Video ID: SQ_008</p>
-<p style="margin: 0;">Learning Objectives:</p>
-2. Configure custom quality profiles and rules
-</div>
-

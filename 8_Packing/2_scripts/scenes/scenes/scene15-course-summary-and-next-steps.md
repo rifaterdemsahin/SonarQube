@@ -149,23 +149,3 @@ Congratulations! You've completed the comprehensive SonarQube tutorial series. Y
 3. Implement long-term quality improvement strategies
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 15: Course Summary and Next Steps
-Video ID: SQ_015
-
-1. Intro Talking Head: Mention scene 15 and tell the audience about the key points
-2. Slides: Mention scene 15 and show the visual content
-3. Screen Capture: Mention scene 15 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 15 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 15/15</p>
-<p style="margin: 0;">Video ID: SQ_015</p>
-<p style="margin: 0;">Learning Objectives:</p>
-3. Implement long-term quality improvement strategies
-</div>
-

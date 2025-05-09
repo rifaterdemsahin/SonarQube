@@ -149,23 +149,3 @@ You've learned how to secure your SonarQube installation. In the next scene, we'
 3. Troubleshoot common issues and errors
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 13: Troubleshooting Common Issues
-Video ID: SQ_013
-
-1. Intro Talking Head: Mention scene 13 and tell the audience about the key points
-2. Slides: Mention scene 13 and show the visual content
-3. Screen Capture: Mention scene 13 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 13 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 13/15</p>
-<p style="margin: 0;">Video ID: SQ_013</p>
-<p style="margin: 0;">Learning Objectives:</p>
-3. Troubleshoot common issues and errors
-</div>
-

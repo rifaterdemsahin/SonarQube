@@ -151,23 +151,3 @@ We've successfully set up our first SonarQube project and run an initial analysi
 1. Learn how to create and configure a new project
 </div>
 
-
----
-
-## Overall Script for Course Creator
-Scene 02: Setting Up Your First Project
-Video ID: SQ_002
-
-1. Intro Talking Head: Mention scene 02 and tell the audience about the key points
-2. Slides: Mention scene 02 and show the visual content
-3. Screen Capture: Mention scene 02 and demonstrate the interactive elements
-4. Summary Talking Head: Mention scene 02 and summarize the main takeaways
-
-
-<div style="position: fixed; bottom: 20px; right: 20px; text-align: right; font-size: 0.8em; color: #666;">
-<p style="margin: 0;">Page 2/15</p>
-<p style="margin: 0;">Video ID: SQ_002</p>
-<p style="margin: 0;">Learning Objectives:</p>
-1. Learn how to create and configure a new project
-</div>
-
