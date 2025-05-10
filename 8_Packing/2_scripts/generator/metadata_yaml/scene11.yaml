@@ -1,6 +1,6 @@
 scene: 11
-title: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
-video_id: "video5"
+title: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
+video_id: "video4"
 intro_talking_head: |
   In this scene, we'll focus on refining SonarQube configuration and access settings. We'll cover external port configuration, project key management, and setting up commit triggers for automated analysis.
 

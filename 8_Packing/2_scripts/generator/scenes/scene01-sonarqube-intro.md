@@ -181,18 +181,28 @@ N/A
 - 📚 With this course, you'll learn how to integrate your projects with SonarQube for **code analysis** and ensure **release readiness** throughout your **development lifecycle**. 💡 Most importantly, we'll adopt a **first-principles approach** to fixing issues effectively.
 
 - 🤔 What is SonarQube?
-  - 🏢 Enterprise-grade code quality and security platform
-  - 🌐 Supports 30+ programming languages including Java, Python, JavaScript
-  - 🔄 Provides continuous code inspection and automated analysis
-  - 🧹 Helps teams maintain clean, maintainable code
+
+- 🏢 Enterprise-grade code quality and security platform
+
+- 🌐 Supports 30+ programming languages including Java, Python, JavaScript
+
+- 🔄 Provides continuous code inspection and automated analysis
+
+- 🧹 Helps teams maintain clean, maintainable code
 
 - ⭐ Key Features
-  - 📊 Comprehensive code quality metrics and dashboards
-  - 🔒 Advanced security vulnerabilities detection
-  - 👃 Code smells and anti-patterns identification
-  - 💰 Technical debt tracking and management
-  - 🔄 Integration with CI/CD pipelines
-  - ⚙️ Customizable quality gates
+
+- 📊 Comprehensive code quality metrics and dashboards
+
+- 🔒 Advanced security vulnerabilities detection
+
+- 👃 Code smells and anti-patterns identification
+
+- 💰 Technical debt tracking and management
+
+- 🔄 Integration with CI/CD pipelines
+
+- ⚙️ Customizable quality gates
 
 <!-- _class: lower-third -->
 Scene 01 - Key Points
@@ -215,18 +225,28 @@ Learning Objectives
 - 📚 With this course, you'll learn how to integrate your projects with SonarQube for **code analysis** and ensure **release readiness** throughout your **development lifecycle**. 💡 Most importantly, we'll adopt a **first-principles approach** to fixing issues effectively.
 
 - 🤔 What is SonarQube?
-  - 🏢 Enterprise-grade code quality and security platform
-  - 🌐 Supports 30+ programming languages including Java, Python, JavaScript
-  - 🔄 Provides continuous code inspection and automated analysis
-  - 🧹 Helps teams maintain clean, maintainable code
+
+- 🏢 Enterprise-grade code quality and security platform
+
+- 🌐 Supports 30+ programming languages including Java, Python, JavaScript
+
+- 🔄 Provides continuous code inspection and automated analysis
+
+- 🧹 Helps teams maintain clean, maintainable code
 
 - ⭐ Key Features
-  - 📊 Comprehensive code quality metrics and dashboards
-  - 🔒 Advanced security vulnerabilities detection
-  - 👃 Code smells and anti-patterns identification
-  - 💰 Technical debt tracking and management
-  - 🔄 Integration with CI/CD pipelines
-  - ⚙️ Customizable quality gates
+
+- 📊 Comprehensive code quality metrics and dashboards
+
+- 🔒 Advanced security vulnerabilities detection
+
+- 👃 Code smells and anti-patterns identification
+
+- 💰 Technical debt tracking and management
+
+- 🔄 Integration with CI/CD pipelines
+
+- ⚙️ Customizable quality gates
 
 <!-- _class: screencapture -->
 N/A
@@ -240,10 +260,15 @@ N/A
 🔍 SonarQube provides a comprehensive platform for analyzing code quality, identifying vulnerabilities, and managing technical debt. 🛠️ By integrating it into your workflow, you can ensure your software meets the highest standards of maintainability and security.
 
 1. 📱 Open SonarQube dashboard and explore the interface
+
 2. 📂 Navigate to Projects section and understand project organization
+
 3. ➕ Show how to create a new project with proper configuration
+
 4. ⚙️ Demonstrate basic project settings and quality profiles
+
 5. 🔄 Run first analysis and interpret the results
+
 6. 📊 Explore the quality gates and metrics dashboard
 
 <!-- _class: lower-third -->
@@ -267,18 +292,30 @@ Interactive Demo
 🔍 SonarQube provides a comprehensive platform for analyzing code quality, identifying vulnerabilities, and managing technical debt. 🛠️ By integrating it into your workflow, you can ensure your software meets the highest standards of maintainability and security.
 
 1. 📱 Open SonarQube dashboard and explore the interface
+
 2. 📂 Navigate to Projects section and understand project organization
+
 3. ➕ Show how to create a new project with proper configuration
+
 4. ⚙️ Demonstrate basic project settings and quality profiles
+
 5. 🔄 Run first analysis and interpret the results
+
 6. 📊 Explore the quality gates and metrics dashboard
 
 <!-- _class: screencapture -->
+🔍 SonarQube provides a comprehensive platform for analyzing code quality, identifying vulnerabilities, and managing technical debt. 🛠️ By integrating it into your workflow, you can ensure your software meets the highest standards of maintainability and security.
+
 1. 📱 Open SonarQube dashboard and explore the interface
+
 2. 📂 Navigate to Projects section and understand project organization
+
 3. ➕ Show how to create a new project with proper configuration
+
 4. ⚙️ Demonstrate basic project settings and quality profiles
+
 5. 🔄 Run first analysis and interpret the results
+
 6. 📊 Explore the quality gates and metrics dashboard
 
 <div class="page-number">3/4</div>

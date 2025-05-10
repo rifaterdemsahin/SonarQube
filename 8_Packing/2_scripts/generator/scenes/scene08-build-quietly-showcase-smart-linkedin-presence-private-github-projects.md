@@ -137,20 +137,20 @@ style: |
 ---
 
 
-# Scene 11 – Refine Config & Access – External Ports, Project Keys, and Commit Triggers
-Video ID: video5
+# Scene 08 – Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects
+Video ID: video1
 
 ## Learning Objectives
-3. Implement custom rules and plugins
+2. Configure custom quality profiles and rules
 
 ---
 
 <!-- _class: slide-content -->
 # 1. 🎥 Intro Talking Head
-In this scene, we'll focus on refining SonarQube configuration and access settings. We'll cover external port configuration, project key management, and setting up commit triggers for automated analysis.
+In this scene, we'll explore strategies for building your professional presence while maintaining privacy. We'll cover how to effectively use LinkedIn and private GitHub projects to showcase your work.
 
 <!-- _class: lower-third -->
-Scene 11 - Introduction
+Scene 08 - Introduction
 
 <!-- _class: right-top -->
 <div class="right-top">
@@ -163,11 +163,11 @@ Talking Head Introduction
 <!-- _class: right-bottom -->
 <div class="right-bottom">
 <span class="talking-head">👨‍💻</span>
-Video ID: video5
+Video ID: video1
 </div>
 
 <!-- _class: script -->
-In this scene, we'll focus on refining SonarQube configuration and access settings. We'll cover external port configuration, project key management, and setting up commit triggers for automated analysis.
+In this scene, we'll explore strategies for building your professional presence while maintaining privacy. We'll cover how to effectively use LinkedIn and private GitHub projects to showcase your work.
 
 <!-- _class: screencapture -->
 N/A
@@ -178,32 +178,32 @@ N/A
 
 <!-- _class: slide-content -->
 # 2. 📊 Slides
-- Configuration Refinement
+- Professional Branding
 
-- Port management
+- LinkedIn profile optimization
 
-- Security settings
+- Project presentation
+
+- Content strategy
+
+- Private Project Management
+
+- GitHub project organization
 
 - Access control
 
-- Project Management
+- Collaboration setup
 
-- Key configuration
+- Smart Showcasing
 
-- Access policies
+- Portfolio development
 
-- Integration settings
+- Project documentation
 
-- Automation Setup
-
-- Commit triggers
-
-- Webhook configuration
-
-- Event handling
+- Achievement highlighting
 
 <!-- _class: lower-third -->
-Scene 11 - Key Points
+Scene 08 - Key Points
 
 <!-- _class: right-top -->
 <div class="right-top">
@@ -220,29 +220,29 @@ Learning Objectives
 </div>
 
 <!-- _class: script -->
-- Configuration Refinement
+- Professional Branding
 
-- Port management
+- LinkedIn profile optimization
 
-- Security settings
+- Project presentation
+
+- Content strategy
+
+- Private Project Management
+
+- GitHub project organization
 
 - Access control
 
-- Project Management
+- Collaboration setup
 
-- Key configuration
+- Smart Showcasing
 
-- Access policies
+- Portfolio development
 
-- Integration settings
+- Project documentation
 
-- Automation Setup
-
-- Commit triggers
-
-- Webhook configuration
-
-- Event handling
+- Achievement highlighting
 
 <!-- _class: screencapture -->
 N/A
@@ -253,18 +253,18 @@ N/A
 
 <!-- _class: slide-content -->
 # 3. 🖥️ Screen Capture
-1. Configure external ports
+1. Optimize LinkedIn profile
 
-2. Set up project keys
+2. Set up private GitHub projects
 
-3. Configure access policies
+3. Configure project visibility
 
-4. Set up commit triggers
+4. Create project documentation
 
-5. Test automation
+5. Showcase achievements
 
 <!-- _class: lower-third -->
-Scene 11 - Demonstration
+Scene 08 - Demonstration
 
 <!-- _class: right-top -->
 <div class="right-top">
@@ -281,26 +281,26 @@ Interactive Demo
 </div>
 
 <!-- _class: script -->
-1. Configure external ports
+1. Optimize LinkedIn profile
 
-2. Set up project keys
+2. Set up private GitHub projects
 
-3. Configure access policies
+3. Configure project visibility
 
-4. Set up commit triggers
+4. Create project documentation
 
-5. Test automation
+5. Showcase achievements
 
 <!-- _class: screencapture -->
-1. Configure external ports
+1. Optimize LinkedIn profile
 
-2. Set up project keys
+2. Set up private GitHub projects
 
-3. Configure access policies
+3. Configure project visibility
 
-4. Set up commit triggers
+4. Create project documentation
 
-5. Test automation
+5. Showcase achievements
 
 <div class="page-number">3/4</div>
 
@@ -308,10 +308,10 @@ Interactive Demo
 
 <!-- _class: slide-content -->
 # 4. 🎬 Summary Talking Head
-We've covered how to refine SonarQube configuration and access settings. You now know how to manage external ports, project keys, and commit triggers. In the next scene, we'll focus on boosting coverage and fixing failures while packaging with purpose.
+We've covered how to build your professional presence while maintaining privacy. You now know how to effectively use LinkedIn and private GitHub projects to showcase your work. In the next scene, we'll focus on technical debt and focus, learning how to fix, update, and power on with confidence.
 
 <!-- _class: lower-third -->
-Scene 11 - Summary
+Scene 08 - Summary
 
 <!-- _class: right-top -->
 <div class="right-top">
@@ -328,7 +328,7 @@ Key Takeaways
 </div>
 
 <!-- _class: script -->
-We've covered how to refine SonarQube configuration and access settings. You now know how to manage external ports, project keys, and commit triggers. In the next scene, we'll focus on boosting coverage and fixing failures while packaging with purpose.
+We've covered how to build your professional presence while maintaining privacy. You now know how to effectively use LinkedIn and private GitHub projects to showcase your work. In the next scene, we'll focus on technical debt and focus, learning how to fix, update, and power on with confidence.
 
 <!-- _class: screencapture -->
 N/A
