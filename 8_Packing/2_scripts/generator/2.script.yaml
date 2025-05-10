@@ -3,6 +3,7 @@ course:
   intro_video:
     engaging_opening: "Welcome to this comprehensive course on SonarQube! In this introduction, we'll explore how SonarQube helps teams maintain code quality and security."
     instructor_introduction: "Join me as we dive into the world of code quality management, where we'll transform technical debt into development opportunities."
+    estimated_time_minutes: 5
   overview:
     key_points: 
       - "Understanding and managing technical debt"
@@ -25,9 +26,11 @@ lessons:
           - talking_head:
               hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
               script: "Today we're going to transform infrastructure debt into a powerful development setup using GitHub Codespaces."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo1: Set up and configure GitHub Codespaces for development"
               script: "Our first objective is to set up and configure GitHub Codespaces for our development environment."
+              estimated_time_minutes: 2
           - screen_share:
               content: "Setting up development environment with GitHub Codespaces"
               tool: "GitHub Codespaces"
@@ -40,10 +43,12 @@ lessons:
                 - "Working development environment"
                 - "Configured Codespaces"
               script: "I'll show you how to create a repository, configure Codespaces, and set up your development environment step by step."
+              estimated_time_minutes: 8
           - talking_head:
               closing: "Now that we have our environment set up, let's move on to security configuration"
               summary: "We've successfully set up our development environment using GitHub Codespaces"
               script: "Great! Our development environment is ready. Next, we'll focus on securing our setup."
+              estimated_time_minutes: 2
 
       - video_number: "2"
         video_overview: "Learn how to secure your SonarQube instance and configure the environment"
@@ -52,9 +57,11 @@ lessons:
           - talking_head:
               hook: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
               script: "Security is crucial. Let's secure our SonarQube instance and configure our environment properly."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo1: Configure secure access and environment settings for SonarQube"
               script: "We'll focus on configuring secure access and environment settings for SonarQube."
+              estimated_time_minutes: 2
           - screen_share:
               content: "Security configuration and environment setup"
               tool: "SonarQube"
@@ -67,10 +74,12 @@ lessons:
                 - "Secure SonarQube instance"
                 - "Properly configured environment"
               script: "Watch as I demonstrate setting the admin password, configuring environment variables, and implementing security settings."
+              estimated_time_minutes: 10
           - talking_head:
               closing: "Your SonarQube instance is now secure and properly configured"
               summary: "Security configuration and environment setup is complete"
               script: "Perfect! Our SonarQube instance is now secure and ready for use."
+              estimated_time_minutes: 2
 
       - video_number: "3"
         video_overview: "Integrate SonarQube with GitHub using secure authentication"
@@ -79,9 +88,11 @@ lessons:
           - talking_head:
               hook: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
               script: "Let's integrate SonarQube with GitHub securely using app authentication and webhooks."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo1: Implement secure GitHub integration with SonarQube"
               script: "Our goal is to create a secure connection between SonarQube and GitHub."
+              estimated_time_minutes: 2
           - screen_share:
               content: "GitHub integration and security setup"
               tool: "GitHub"
@@ -94,10 +105,12 @@ lessons:
                 - "Secure GitHub integration"
                 - "Configured webhooks"
               script: "I'll guide you through creating a GitHub App, setting up webhooks, and configuring repository access."
+              estimated_time_minutes: 12
           - talking_head:
               closing: "GitHub integration is now complete with proper security measures"
               summary: "Secure GitHub integration is now in place"
               script: "Excellent! We've established a secure connection between SonarQube and GitHub."
+              estimated_time_minutes: 2
 
       - video_number: "4"
         video_overview: "Set up automated code quality checks using GitHub Actions"
@@ -106,9 +119,11 @@ lessons:
           - talking_head:
               hook: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
               script: "Now we'll set up automated code quality checks using GitHub Actions."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo1: Set up automated code quality scanning with GitHub Actions"
               script: "We'll configure GitHub Actions to automatically scan code on every commit."
+              estimated_time_minutes: 2
           - screen_share:
               content: "GitHub Actions automation setup"
               tool: "GitHub Actions"
@@ -121,10 +136,12 @@ lessons:
                 - "Automated scanning"
                 - "Configured workflows"
               script: "Watch as I create the workflow file, configure the SonarQube scanner, and set up commit triggers."
+              estimated_time_minutes: 10
           - talking_head:
               closing: "Automated code quality checks are now configured"
               summary: "GitHub Actions automation is now set up"
               script: "Perfect! Our automated code quality checks are now in place."
+              estimated_time_minutes: 2
 
       - video_number: "5"
         video_overview: "Learn how to optimize your GitHub usage and costs"
@@ -133,9 +150,11 @@ lessons:
           - talking_head:
               hook: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
               script: "Let's explore how to optimize GitHub usage and manage costs effectively."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo1: Optimize GitHub resources and understand cost implications"
               script: "We'll learn how to optimize GitHub resources while keeping costs in check."
+              estimated_time_minutes: 2
           - screen_share:
               content: "GitHub cost optimization and resource management"
               tool: "GitHub"
@@ -148,10 +167,12 @@ lessons:
                 - "Optimized resources"
                 - "Cost-effective setup"
               script: "I'll show you how to review usage, optimize workflows, and implement cost-saving measures."
+              estimated_time_minutes: 8
           - talking_head:
               closing: "You now understand how to optimize GitHub resources and costs"
               summary: "GitHub resource optimization is complete"
               script: "Great! You now have the knowledge to optimize GitHub resources and costs."
+              estimated_time_minutes: 2
 
   - lesson_number: "2"
     title: "Paying Technical Debt"
@@ -163,9 +184,11 @@ lessons:
           - talking_head:
               hook: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects"
               script: "Let's learn how to build your professional presence while managing technical debt effectively."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo2: Create a professional presence while managing technical debt"
               script: "We'll focus on creating a professional presence that showcases your technical debt management skills."
+              estimated_time_minutes: 2
           - screen_share:
               content: "Professional presence and technical debt management"
               tool: "LinkedIn & GitHub"
@@ -178,10 +201,12 @@ lessons:
                 - "Professional presence"
                 - "Documented projects"
               script: "I'll guide you through creating professional profiles and documenting your technical debt management journey."
+              estimated_time_minutes: 8
           - talking_head:
               closing: "You now know how to balance professional presence with technical debt management"
               summary: "Professional presence setup is complete"
               script: "Perfect! You've learned how to showcase your technical debt management skills professionally."
+              estimated_time_minutes: 2
 
       - video_number: "2"
         video_overview: "Learn strategies for addressing technical debt effectively"
@@ -190,9 +215,11 @@ lessons:
           - talking_head:
               hook: "Technical Debt & Focus – Fix, Update, and Power On with Confidence"
               script: "Let's explore effective strategies for addressing technical debt in your projects."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo2: Implement effective technical debt management strategies"
               script: "We'll learn practical strategies for managing and reducing technical debt."
+              estimated_time_minutes: 2
           - screen_share:
               content: "Technical debt management strategies"
               tool: "SonarQube"
@@ -205,10 +232,12 @@ lessons:
                 - "Reduced technical debt"
                 - "Improved code quality"
               script: "I'll show you how to identify, prioritize, and fix technical debt issues systematically."
+              estimated_time_minutes: 10
           - talking_head:
               closing: "You can now effectively manage and reduce technical debt"
               summary: "Technical debt management strategies are in place"
               script: "Excellent! You now have the tools to manage and reduce technical debt effectively."
+              estimated_time_minutes: 2
 
       - video_number: "3"
         video_overview: "Use AI tools and intuition for effective debugging"
@@ -217,9 +246,11 @@ lessons:
           - talking_head:
               hook: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
               script: "Let's explore how AI tools can enhance our debugging and testing processes."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo2: Apply AI tools and debugging techniques effectively"
               script: "We'll learn how to leverage AI tools for smarter debugging and testing."
+              estimated_time_minutes: 2
           - screen_share:
               content: "AI-powered debugging and testing strategies"
               tool: "AI Tools"
@@ -232,10 +263,12 @@ lessons:
                 - "AI-powered debugging"
                 - "Improved testing"
               script: "Watch as I demonstrate setting up AI tools and implementing effective debugging strategies."
+              estimated_time_minutes: 12
           - talking_head:
               closing: "You can now use AI tools for effective debugging"
               summary: "AI-powered debugging setup is complete"
               script: "Great! You're now equipped with AI-powered debugging tools and strategies."
+              estimated_time_minutes: 2
 
       - video_number: "4"
         video_overview: "Learn how to recover from configuration issues and debug SonarQube"
@@ -244,9 +277,11 @@ lessons:
           - talking_head:
               hook: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
               script: "Let's learn how to troubleshoot and recover from SonarQube configuration issues."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo2: Troubleshoot and recover SonarQube configurations"
               script: "We'll focus on troubleshooting and recovering SonarQube configurations effectively."
+              estimated_time_minutes: 2
           - screen_share:
               content: "SonarQube troubleshooting and recovery"
               tool: "HTOP & SonarQube"
@@ -259,10 +294,12 @@ lessons:
                 - "Recovered configuration"
                 - "Stable system"
               script: "I'll show you how to monitor resources, check configurations, and implement recovery procedures."
+              estimated_time_minutes: 10
           - talking_head:
               closing: "You can now handle SonarQube configuration issues"
               summary: "Troubleshooting and recovery procedures are in place"
               script: "Perfect! You're now equipped to handle SonarQube configuration issues confidently."
+              estimated_time_minutes: 2
 
       - video_number: "5"
         video_overview: "Fine-tune SonarQube configuration and access settings"
@@ -271,9 +308,11 @@ lessons:
           - talking_head:
               hook: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
               script: "Let's fine-tune SonarQube's configuration and access settings for optimal performance."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo2: Configure advanced SonarQube settings"
               script: "We'll learn how to configure advanced SonarQube settings for better performance."
+              estimated_time_minutes: 2
           - screen_share:
               content: "Advanced SonarQube configuration"
               tool: "SonarQube"
@@ -286,10 +325,12 @@ lessons:
                 - "Optimized configuration"
                 - "Enhanced access control"
               script: "Watch as I demonstrate configuring external access, project keys, and optimizing commit triggers."
+              estimated_time_minutes: 12
           - talking_head:
               closing: "Your SonarQube configuration is now optimized"
               summary: "Advanced configuration is complete"
               script: "Excellent! Your SonarQube configuration is now optimized for peak performance."
+              estimated_time_minutes: 2
 
   - lesson_number: "3"
     title: "Managing Technical Debt (Scan, Monitor)"
@@ -301,9 +342,11 @@ lessons:
           - talking_head:
               hook: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
               script: "Let's learn how to improve code coverage and fix common failures in your projects."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo3: Improve code coverage and fix common failures"
               script: "We'll focus on boosting code coverage and resolving common test failures."
+              estimated_time_minutes: 2
           - screen_share:
               content: "Code coverage improvement and failure resolution"
               tool: "SonarQube"
@@ -316,10 +359,12 @@ lessons:
                 - "Improved coverage"
                 - "Fixed failures"
               script: "I'll show you how to analyze coverage reports, identify failing tests, and implement fixes."
+              estimated_time_minutes: 10
           - talking_head:
               closing: "You can now improve code coverage and fix failures"
               summary: "Code coverage improvement is complete"
               script: "Great! You now have the skills to improve code coverage and fix test failures."
+              estimated_time_minutes: 2
 
       - video_number: "2"
         video_overview: "Understand the relationship between features and technical debt"
@@ -328,9 +373,11 @@ lessons:
           - talking_head:
               hook: "More Features, More Debt – Why It Matters and How to See Your Impact"
               script: "Let's explore the relationship between feature development and technical debt."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo3: Balance feature development with technical debt management"
               script: "We'll learn how to balance new features with technical debt management."
+              estimated_time_minutes: 2
           - screen_share:
               content: "Feature development and technical debt balance"
               tool: "SonarQube"
@@ -343,10 +390,12 @@ lessons:
                 - "Balanced development"
                 - "Managed technical debt"
               script: "Watch as I demonstrate analyzing feature impact and creating a balanced development strategy."
+              estimated_time_minutes: 12
           - talking_head:
               closing: "You understand how to balance features and technical debt"
               summary: "Feature and technical debt balance is achieved"
               script: "Perfect! You now understand how to balance features and technical debt effectively."
+              estimated_time_minutes: 2
 
       - video_number: "3"
         video_overview: "Learn how to handle false positives and maintain SonarQube uptime"
@@ -355,9 +404,11 @@ lessons:
           - talking_head:
               hook: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
               script: "Let's learn how to handle false positives and maintain SonarQube's uptime."
+              estimated_time_minutes: 2
           - slide_capture:
               objective: "Lo3: Manage SonarQube accuracy and availability"
               script: "We'll focus on managing SonarQube's accuracy and ensuring high availability."
+              estimated_time_minutes: 2
           - screen_share:
               content: "SonarQube accuracy and availability management"
               tool: "SonarQube"
@@ -370,10 +421,12 @@ lessons:
                 - "Improved accuracy"
                 - "High availability"
               script: "I'll show you how to identify false positives, configure accuracy settings, and monitor uptime."
+              estimated_time_minutes: 10
           - talking_head:
               closing: "You can now handle false positives and maintain uptime"
               summary: "Accuracy and availability management is complete"
               script: "Excellent! You're now equipped to handle false positives and maintain SonarQube's uptime."
+              estimated_time_minutes: 2
 
 outro:
   opening_acknowledgment: "Thank you for completing this comprehensive course on SonarQube"
@@ -388,6 +441,7 @@ outro:
     - "Configure automated code quality checks"
     - "Start addressing technical debt systematically"
   closing_remarks: "Begin your journey to better code quality with SonarQube"
+  estimated_time_minutes: 5
 
 promo:
   problem_statement: "Technical debt and code quality issues are common challenges in software development"
@@ -404,4 +458,5 @@ promo:
     - "Practical implementation strategies"
   target_audience: "Developers and teams looking to improve code quality and manage technical debt"
   call_to_action: "Start your journey to better code quality today"
-  closing_inspiration: "Transform your development process with SonarQube" 
+  closing_inspiration: "Transform your development process with SonarQube"
+  estimated_time_minutes: 3 
