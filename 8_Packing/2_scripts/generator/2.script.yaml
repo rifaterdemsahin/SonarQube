@@ -1,7 +1,7 @@
 📚 course:
   📝 title: "Mastering SonarQube: From Technical Debt to Development Excellence"
   🎬 intro_video:
-    - section: intro
+    - section: "intro"
     - video_number: "1"
       video_overview: "Learn how to set up your development environment using GitHub Codespaces"
       scene_id: "1"
@@ -15,12 +15,12 @@
               Let's dive in and transform how you manage your codebase! Together, we'll learn to see technical debt before it sees us, make smart payments on it daily, and drive projects that are fast, flexible, and future-proof. 🚀
             estimated_time_minutes_by_script: 1.5  # 90 seconds for 180 words
             camera: SonyZv1_ElgatoPrompter
-      - video_number: "2"
-      section: "Intro
-      title: "Objective
+    - video_number: "2"
+      section: "Intro"
+      title: "Objective"
       videos:
         - video_number: "2"
-          video_overview: "three main  objective
+          video_overview: "three main objective"
           scene_id: "1"
           shots:
             - 👤 talking_head:
@@ -29,8 +29,8 @@
                 estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
-                objective: "Show ll objectives"
-                script: "You'll learn how to install and configure SonarQube in a fresh environment, ensuring it's properly integrated into your projects and CI/CD pipelines. We'll walk through environment rebuilding practices to fix misconfigurations, address infrastructure debt, and establish a reliable foundation for ongoing code analysis.That is going to be out main focus."
+                objective: "Show all objectives"
+                script: "You'll learn how to install and configure SonarQube in a fresh environment, ensuring it's properly integrated into your projects and CI/CD pipelines. We'll walk through environment rebuilding practices to fix misconfigurations, address infrastructure debt, and establish a reliable foundation for ongoing code analysis. That is going to be our main focus."
                 estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
@@ -41,7 +41,7 @@
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
                 closing: "Now you know what are the main goals we can start"
-                summary: "3 main point shown to the audience"
+                summary: "3 main points shown to the audience"
                 script: "By mastering environment setup and rebuild techniques with SonarQube, you'll be ready to manage technical debt proactively, maintain a clean development workflow, and build resilient, high-quality software systems. Let's get started and set the foundation right! 🚀"
                 estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
