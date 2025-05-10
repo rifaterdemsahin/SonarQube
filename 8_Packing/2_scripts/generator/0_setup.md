@@ -1,62 +1,43 @@
-# Scene Generation System
+# ProductionGuide System Setup
+- Goal Create a production guide using outline and script
 
-## Overview
-This document outlines the structure and strategy for generating 15 video scenes, each containing 4 key sections:
-1. Intro Talking Head
-2. Slides
-3. Screen Capture (Map Interaction)
-4. Summary Talking Head
+## Core Files
+C:\projects\SonarQube\8_Packing\2_scripts\generator\0_setup.md
+C:\projects\SonarQube\8_Packing\2_scripts\generator\1_outline.yaml
+C:\projects\SonarQube\8_Packing\2_scripts\generator\2_script.yaml
+C:\projects\SonarQube\8_Packing\2_scripts\generator\3_guide.md
 
-## File Structure
-```
-project/
-├── metadata/
-│   ├── scene01.yaml
-│   ├── scene02.yaml
-│   └── ... (scene03.yaml to scene15.yaml)
-├── scenes/
-│   ├── scene01-overview.md
-│   ├── scene02-history.md
-│   └── ... (scene03.md to scene15.md)
-├── generate-scene-md.py
-└── generate-from-yaml.sh
-```
+
+## Course Structure
+- 3 main objectives
+- 3 lessons per objective
+- 3 video scenes per lesson
+- Total: 15 video scenes
+
+## Shot Structure
+Each scene (4 minutes total) consists of:
+1. Intro Talking Head (45 seconds)
+2. Slides (90 seconds)
+3. Screen Capture (120 seconds)
+4. Summary Talking Head (45 seconds)
+
+
+## Guide Configuration
+Each shot markdown file will use the following Marp configuration:
+
+
 
 ## Scene Topics
-1. Overview of Region
-2. Historical Background
-3. Geography & Terrain
-4. Demographics
-5. Urban Areas
-6. Natural Resources
-7. Climate Zones
-8. Transportation Routes
-9. Cultural Sites
-10. Environmental Challenges
-11. Economic Activity
-12. Political Divisions
-13. Education & Institutions
-14. Health & Infrastructure
-15. Future Plans & Vision
+- Take them from the file called scene-topics
+- Structure the file names around it
 
-## YAML Metadata Structure
-Each scene's metadata file (sceneXX.yaml) follows this structure:
 
-```yaml
-scene: 1
-title: "Overview of the Region"
-intro_talking_head: >
-  [45-second script introducing the topic]
-slides: >
-  - [Bullet point 1]
-  - [Bullet point 2]
-  - [Bullet point 3]
-  - [Bullet point 4]
-screen_capture: >
-  [Detailed map interaction instructions]
-summary_talking_head: >
-  [30-second closing script]
-```
+## Estimation time 
+- use 120 words per minute
+- two words a second
+- Estimate using the comfortable time 
+ 
+
 
 ## Prompt Strategy
 
@@ -68,6 +49,7 @@ summary_talking_head: >
   - Introduce the topic
   - Preview what they'll learn
   - Explain why it matters
+- MENTION THIS IS AS HOOK ON MARP SLIDES
 
 ### 2. Slides
 - Quantity: 3-4 key points
@@ -77,6 +59,7 @@ summary_talking_head: >
   - Key statistics
   - Main concepts
   - Supporting data
+- MENTION THIS IS OBJECTIVES IN THE MARP SLIDE
 
 ### 3. Screen Capture (Map Interaction)
 - Duration: 1-2 minutes
@@ -86,6 +69,7 @@ summary_talking_head: >
   - Interactive elements
   - Key locations to highlight
   - Transitions/animations
+  - MENTION THIS IS THE FLEX IN THE MARP SLIDES
 
 ### 4. Summary Talking Head
 - Duration: 30 seconds
@@ -94,6 +78,7 @@ summary_talking_head: >
   - Connection to next scene
   - Engaging question
   - Call to action
+- MENTION THIS IS THE CLOSING IN THE MARP SLIDE
 
 ## Generation Process
 
@@ -102,15 +87,6 @@ summary_talking_head: >
 3. Review and refine content
 4. Export final scenes
 
-## Python Script Usage
-```bash
-python3 generate-scene-md.py metadata/sceneXX.yaml
-```
-
-## Bash Script Usage
-```bash
-./generate-from-yaml.sh
-```
 
 ## Best Practices
 
@@ -139,4 +115,17 @@ python3 generate-scene-md.py metadata/sceneXX.yaml
 1. Generate metadata files for all 15 scenes
 2. Run the generation scripts
 3. Review and refine content
-4. Prepare for production 
+4. Prepare for production
+
+## Guidance for Editors
+- **Music**: Upbeat, motivational track suggestions
+- Sound Effect suggestions
+- Visual effect suggestions
+
+## Markers on The Slides
+- **Length**: 45-60 seconds total
+- **Style**: Mix of live-action, text animations, and dynamic transitions
+
+## Formatting
+- Use markdown
+- Use Marp
