@@ -45,18 +45,8 @@ video_script:
 
 ## Practice Script Printed 
 ### INTRO
-#### INTRO-V1-S01: INTRODUCTION TO SONARQUBE 🚀 / PAGE ID 001  
-[HOOK] 
-🎬 Welcome to our **SonarQube** course! 🎯 In today's fast-paced world, delivering high-quality software isn't just about writing code—it's about **connecting the dots**, catching issues early, and keeping **technical debt** in check.  
-[OBJECTIVE]
-📚 With this course, you'll learn how to integrate your projects with SonarQube for **code analysis** and ensure **release readiness** throughout your **development lifecycle**. 💡 Most importantly, we'll adopt a **first-principles approach** to fixing issues effectively.  
-[FLEX]
-🔍 SonarQube provides a comprehensive platform for analyzing code quality, identifying vulnerabilities, and managing technical debt. 🛠️ By integrating it into your workflow, you can ensure your software meets the highest standards of maintainability and security.  
-[CLOSING]
-🚀 Let's get started and transform the way you approach software development! 🤝 Together, we'll build the skills to deliver high-quality, maintainable, and scalable software. 
-[METACODES FOR INITIAL SLIDE]
-Yellow:
-Blue: 
+
+
 
 #### INTRO-V2: OBJECTIVE 🎯  / PAGE ID 002
 [CONTEXT]  
