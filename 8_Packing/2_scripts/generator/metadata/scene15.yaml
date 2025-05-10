@@ -1,29 +1,31 @@
 scene: 15
-title: "Course Summary and Next Steps"
-video_id: "SQ_015"
+title: "Ending"
+video_id: "ending"
 intro_talking_head: |
-  In this final scene, we'll cover best practices and tips for getting the most out of SonarQube in your organization. We'll discuss team adoption strategies, workflow integration, and long-term success factors.
+  In this final scene, we'll wrap up our comprehensive journey through SonarQube implementation and technical debt management. We'll review key takeaways and discuss next steps for your quality improvement journey.
 
 slides: |
-  - Team Adoption
-    - Training strategies
-    - Workflow integration
-    - Team engagement
-    - Success metrics
+  - Course Review
+    - Key concepts
+    - Best practices
+    - Implementation strategies
   
-  - Long-term Success
-    - Regular reviews
-    - Continuous improvement
-    - Knowledge sharing
-    - Tool optimization
+  - Next Steps
+    - Action planning
+    - Resource allocation
+    - Timeline development
+  
+  - Future Outlook
+    - Industry trends
+    - Tool evolution
+    - Community engagement
 
 screen_capture: |
-  1. Review current setup
-  2. Identify improvement areas
-  3. Plan team training
-  4. Set success metrics
-  5. Create documentation
-  6. Establish review process
+  1. Review course highlights
+  2. Plan next steps
+  3. Set up monitoring
+  4. Configure alerts
+  5. Document processes
 
 summary_talking_head: |
-  Congratulations! You've completed the comprehensive SonarQube tutorial series. You now have the knowledge and skills to effectively use SonarQube for improving code quality and security in your organization. Remember to regularly review and update your practices to get the most value from SonarQube. 
+  Congratulations on completing this comprehensive course on SonarQube implementation and technical debt management! You now have the knowledge and tools to effectively manage code quality and technical debt in your projects. Remember to stay engaged with the community and continue learning as the tools and best practices evolve. 

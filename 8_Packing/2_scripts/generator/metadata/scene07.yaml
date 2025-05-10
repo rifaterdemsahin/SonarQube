@@ -1,29 +1,31 @@
 scene: 7
-title: "Code Smells and Technical Debt"
-video_id: "SQ_007"
+title: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
+video_id: "video6"
 intro_talking_head: |
-  Now that we understand the analysis results, let's learn how to address the issues SonarQube has identified. We'll cover best practices for fixing bugs, vulnerabilities, and code smells, and how to track your progress.
+  In this scene, we'll explore how to understand and optimize GitHub costs, focusing on agents, commits, and developer tools. We'll learn strategies to maximize value while minimizing expenses.
 
 slides: |
-  - Issue Resolution
-    - Bug fixing strategies
-    - Vulnerability remediation
-    - Code smell refactoring
-    - Security hotspot analysis
+  - GitHub Cost Structure
+    - Agent pricing
+    - Storage costs
+    - API usage
   
-  - Best Practices
-    - Issue prioritization
-    - Code review integration
-    - Documentation updates
-    - Testing requirements
+  - Optimization Strategies
+    - Agent configuration
+    - Commit management
+    - Tool selection
+  
+  - Cost Management
+    - Usage monitoring
+    - Budget allocation
+    - Resource optimization
 
 screen_capture: |
-  1. Review issue details
-  2. Analyze suggested fixes
-  3. Implement code changes
-  4. Run local analysis
-  5. Submit changes for review
-  6. Verify issue resolution
+  1. Review GitHub billing
+  2. Analyze usage patterns
+  3. Optimize agent settings
+  4. Configure commit policies
+  5. Review tool usage
 
 summary_talking_head: |
-  You've learned how to effectively address code issues identified by SonarQube. In the next scene, we'll explore how to customize SonarQube's rules and quality profiles to match your team's specific needs. 
+  We've covered how to understand and optimize GitHub costs effectively. You now know how to manage agents, commits, and developer tools while keeping costs under control. In the next scene, we'll focus on building quietly and showcasing smart with LinkedIn presence and private GitHub projects. 

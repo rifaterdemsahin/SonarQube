@@ -1,8 +1,8 @@
 scene: 1
-title: "Introduction to SonarQube"
-video_id: "SQ_001"
+title: "SonarQube Intro"
+video_id: "intro"
 intro_talking_head: |
-  Welcome to this tutorial on SonarQube! In this video, we'll explore how SonarQube helps teams maintain code quality and security. We'll cover the basics of setting up SonarQube, analyzing your code, and interpreting the results.
+  Welcome to this comprehensive course on SonarQube! In this introduction, we'll explore how SonarQube helps teams maintain code quality and security. We'll cover the basics of setting up SonarQube, analyzing your code, and interpreting the results.
 
 slides: |
   - What is SonarQube?
@@ -24,4 +24,4 @@ screen_capture: |
   5. Run first analysis
 
 summary_talking_head: |
-  In this first scene, we've introduced SonarQube and its main features. We've seen how it helps teams maintain high code quality standards and catch security issues early. In the next scene, we'll dive deeper into setting up your first project and running an analysis. 
+  In this introduction, we've laid the foundation for understanding SonarQube and its main features. We've seen how it helps teams maintain high code quality standards and catch security issues early. In the next scene, we'll dive deeper into building a future with SonarQube, AI, and personal portfolio development. 

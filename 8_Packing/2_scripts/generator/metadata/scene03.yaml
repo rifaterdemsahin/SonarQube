@@ -1,28 +1,31 @@
 scene: 3
-title: "Setting Up SonarQube Server"
-video_id: "SQ_003"
+title: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
+video_id: "video2"
 intro_talking_head: |
-  Now that we understand what SonarQube is, let's set up our own SonarQube server. We'll cover the installation process, system requirements, and initial configuration to get your server up and running.
+  In this scene, we'll explore how to transform infrastructure debt into a modern development setup using GitHub Codespaces. We'll learn how to create a cloud-based development environment that's ready for SonarQube integration.
 
 slides: |
-  - System Requirements
-    - Hardware requirements
-    - Supported operating systems
-    - Database requirements
+  - Infrastructure Debt Challenges
+    - Legacy system limitations
+    - Development environment inconsistencies
+    - Resource constraints
   
-  - Installation Steps
-    - Download SonarQube
-    - Configure database
-    - Set up environment variables
-    - Start the server
+  - GitHub Codespaces Benefits
+    - Cloud-based development
+    - Consistent environments
+    - Pre-configured tools
+  
+  - Setup Process
+    - Repository configuration
+    - Environment customization
+    - Tool integration
 
 screen_capture: |
-  1. Download SonarQube from official website
-  2. Configure database connection
-  3. Set up environment variables
-  4. Start SonarQube server
-  5. Access web interface
-  6. Complete initial setup wizard
+  1. Create GitHub repository
+  2. Configure Codespaces
+  3. Set up development container
+  4. Install required tools
+  5. Test environment
 
 summary_talking_head: |
-  We've successfully set up our SonarQube server. You now have a working instance that's ready to analyze your code. In the next scene, we'll look at how to configure your first project and integrate it with your development workflow. 
+  We've successfully transformed infrastructure debt into a modern development setup using GitHub Codespaces. You now have a cloud-based environment ready for development. In the next scene, we'll secure and deploy our environment by setting up the admin password and configuring the GitHub Codespace environment. 

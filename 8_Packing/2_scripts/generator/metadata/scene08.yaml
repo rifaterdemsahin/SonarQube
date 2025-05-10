@@ -1,29 +1,31 @@
 scene: 8
-title: "Customizing Quality Profiles"
-video_id: "SQ_008"
+title: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects"
+video_id: "video1"
 intro_talking_head: |
-  Every team has different coding standards and requirements. In this scene, we'll learn how to customize SonarQube's quality profiles to match your team's specific needs and coding standards.
+  In this scene, we'll explore strategies for building your professional presence while maintaining privacy. We'll cover how to effectively use LinkedIn and private GitHub projects to showcase your work.
 
 slides: |
-  - Quality Profile Basics
-    - Built-in profiles
-    - Language-specific rules
-    - Rule severity levels
-    - Rule parameters
+  - Professional Branding
+    - LinkedIn profile optimization
+    - Project presentation
+    - Content strategy
   
-  - Customization Options
-    - Creating custom profiles
-    - Rule activation/deactivation
-    - Severity adjustments
-    - Parameter configuration
+  - Private Project Management
+    - GitHub project organization
+    - Access control
+    - Collaboration setup
+  
+  - Smart Showcasing
+    - Portfolio development
+    - Project documentation
+    - Achievement highlighting
 
 screen_capture: |
-  1. Access quality profiles
-  2. Create new profile
-  3. Configure rule sets
-  4. Adjust rule parameters
-  5. Set severity levels
-  6. Apply profile to project
+  1. Optimize LinkedIn profile
+  2. Set up private GitHub projects
+  3. Configure project visibility
+  4. Create project documentation
+  5. Showcase achievements
 
 summary_talking_head: |
-  You now know how to customize quality profiles to match your team's needs. In the next scene, we'll learn how to set up and configure quality gates to enforce your quality standards. 
+  We've covered how to build your professional presence while maintaining privacy. You now know how to effectively use LinkedIn and private GitHub projects to showcase your work. In the next scene, we'll focus on technical debt and focus, learning how to fix, update, and power on with confidence. 

@@ -1,29 +1,31 @@
 scene: 11
-title: "Custom Rules and Plugins"
-video_id: "SQ_011"
+title: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
+video_id: "video5"
 intro_talking_head: |
-  SonarQube provides a powerful API that allows you to automate tasks and create custom integrations. In this scene, we'll explore how to use the SonarQube API for various automation scenarios.
+  In this scene, we'll focus on refining SonarQube configuration and access settings. We'll cover external port configuration, project key management, and setting up commit triggers for automated analysis.
 
 slides: |
-  - API Basics
-    - Authentication
-    - Endpoints
-    - Response formats
-    - Rate limiting
+  - Configuration Refinement
+    - Port management
+    - Security settings
+    - Access control
   
-  - Common Use Cases
-    - Project management
-    - Quality gate checks
-    - Issue management
-    - Custom reporting
+  - Project Management
+    - Key configuration
+    - Access policies
+    - Integration settings
+  
+  - Automation Setup
+    - Commit triggers
+    - Webhook configuration
+    - Event handling
 
 screen_capture: |
-  1. Generate API token
-  2. Explore API documentation
-  3. Test basic endpoints
-  4. Create custom scripts
-  5. Implement automation
-  6. Monitor API usage
+  1. Configure external ports
+  2. Set up project keys
+  3. Configure access policies
+  4. Set up commit triggers
+  5. Test automation
 
 summary_talking_head: |
-  You've learned how to use SonarQube's API for automation and custom integrations. In the next scene, we'll look at how to manage and maintain your SonarQube instance for optimal performance. 
+  We've covered how to refine SonarQube configuration and access settings. You now know how to manage external ports, project keys, and commit triggers. In the next scene, we'll focus on boosting coverage and fixing failures while packaging with purpose. 

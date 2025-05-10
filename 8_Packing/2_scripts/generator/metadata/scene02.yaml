@@ -1,30 +1,36 @@
 scene: 2
-title: "Setting Up Your First Project"
-video_id: "SQ_002"
+title: "From Debt to Dev: Building a Future with SonarQube, AI, and Personal Portfolio"
+video_id: "video1"
 intro_talking_head: |
-  Now that we understand what SonarQube is, let's set up our first project. We'll walk through the process of creating a new project, configuring the scanner, and running our first analysis.
+  In this scene, we'll explore how to transform technical debt into development opportunities using SonarQube, AI tools, and personal portfolio development. We'll discuss strategies for managing technical debt while building your professional presence.
 
 slides: |
-  - Project Setup Steps
-    - Create new project
-    - Choose analysis method
-    - Configure scanner
-    - Set up quality gates
+  - Objectives Overview
+    - Understanding technical debt
+    - Leveraging AI tools
+    - Building a personal portfolio
   
-  - Analysis Methods
-    - SonarQube Scanner
-    - SonarQube Scanner for Maven
-    - SonarQube Scanner for Gradle
-    - SonarQube Scanner for .NET
+  - Instructor Background
+    - Real-world experience
+    - Industry insights
+    - Best practices
+
+  - Content Structure
+    - Hands-on exercises
+    - Real-world examples
+    - Practical applications
+
+  - Bonus Materials
+    - Additional resources
+    - Advanced techniques
+    - Community support
 
 screen_capture: |
-  1. Log into SonarQube
-  2. Click "Create New Project"
-  3. Enter project details
-  4. Choose analysis method
-  5. Generate token
-  6. Show scanner configuration
-  7. Run first analysis
+  1. Show GitHub portfolio setup
+  2. Demonstrate SonarQube integration
+  3. Display AI tool integration
+  4. Showcase project structure
+  5. Review best practices
 
 summary_talking_head: |
-  We've successfully set up our first SonarQube project and run an initial analysis. You now know how to create projects and configure the scanner. In the next scene, we'll look at how to interpret the analysis results and understand the quality metrics. 
+  We've covered the essential elements of building a future with SonarQube, AI, and personal portfolio development. You now understand how to leverage these tools to transform technical debt into development opportunities. In the next scene, we'll dive into setting up your development environment with GitHub Codespaces. 

@@ -1,29 +1,31 @@
 scene: 13
-title: "Troubleshooting Common Issues"
-video_id: "SQ_013"
+title: "More Features, More Debt – Why It Matters and How to See Your Impact"
+video_id: "video2"
 intro_talking_head: |
-  Security is paramount when running SonarQube in your organization. In this scene, we'll explore advanced security features, authentication methods, and best practices for securing your SonarQube installation.
+  In this scene, we'll explore the relationship between feature development and technical debt. We'll learn how to measure impact and maintain a balance between adding features and managing debt.
 
 slides: |
-  - Security Features
-    - Authentication methods
-    - Authorization rules
-    - SSL/TLS configuration
-    - Security headers
+  - Feature Development
+    - Impact assessment
+    - Resource allocation
+    - Quality considerations
   
-  - Best Practices
-    - User management
-    - Permission settings
-    - Security scanning
-    - Audit logging
+  - Technical Debt Management
+    - Debt tracking
+    - Impact analysis
+    - Resolution planning
+  
+  - Impact Measurement
+    - Metrics tracking
+    - Progress monitoring
+    - Success indicators
 
 screen_capture: |
-  1. Configure authentication
-  2. Set up SSL/TLS
-  3. Manage user permissions
-  4. Configure security headers
-  5. Set up audit logging
-  6. Review security settings
+  1. Analyze feature impact
+  2. Track technical debt
+  3. Measure progress
+  4. Implement improvements
+  5. Review results
 
 summary_talking_head: |
-  You've learned how to secure your SonarQube installation. In the next scene, we'll explore how to use SonarQube for security vulnerability scanning and management. 
+  We've covered how to balance feature development with technical debt management. You now understand how to measure impact and maintain quality. In the next scene, we'll explore false positives and uptime management in SonarQube. 

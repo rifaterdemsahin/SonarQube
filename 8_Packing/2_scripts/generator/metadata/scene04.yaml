@@ -1,28 +1,31 @@
 scene: 4
-title: "Adding Your Project to GitHub"
-video_id: "SQ_004"
+title: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
+video_id: "video3"
 intro_talking_head: |
-  Now that we have our SonarQube server running, let's connect your project to GitHub. We'll walk through the process of setting up GitHub integration, configuring repository access, and preparing for automated analysis.
+  In this scene, we'll focus on securing our development environment and deploying our configuration. We'll set up the admin password and configure the GitHub Codespace environment for optimal development workflow.
 
 slides: |
-  - GitHub Integration
-    - Setting up GitHub connection
-    - Repository permissions
-    - Webhook configuration
+  - Security Best Practices
+    - Strong password policies
+    - Access control
+    - Environment variables
   
-  - Project Configuration
-    - Repository selection
-    - Branch setup
-    - Analysis settings
-    - GitHub Actions integration
+  - GitHub Codespace Configuration
+    - Environment setup
+    - Resource allocation
+    - Tool configuration
+  
+  - Deployment Process
+    - Configuration management
+    - Environment validation
+    - Security verification
 
 screen_capture: |
-  1. Connect SonarQube to GitHub
-  2. Select repository to analyze
-  3. Configure GitHub webhook
-  4. Set up GitHub Actions workflow
-  5. Configure branch analysis settings
-  6. Test the integration
+  1. Set admin password
+  2. Configure environment variables
+  3. Set up security policies
+  4. Deploy configuration
+  5. Verify setup
 
 summary_talking_head: |
-  Your project is now connected to GitHub and ready for automated analysis. We've set up the GitHub integration, configured the necessary webhooks, and prepared the workflow for continuous code quality monitoring. In the next scene, we'll learn how to run your first analysis and understand the results. 
+  We've successfully secured and deployed our development environment. The admin password is set, and the GitHub Codespace environment is properly configured. In the next scene, we'll integrate with GitHub Apps to set up keys, webhooks, and secure repository access. 

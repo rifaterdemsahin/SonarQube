@@ -1,29 +1,31 @@
 scene: 14
-title: "Best Practices and Tips"
-video_id: "SQ_014"
+title: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
+video_id: "video3"
 intro_talking_head: |
-  SonarQube's security vulnerability scanning capabilities help you identify and fix security issues in your code. In this scene, we'll learn how to use these features effectively and manage security vulnerabilities.
+  In this scene, we'll explore how to manage false positives and maintain SonarQube uptime while considering the cost of availability. We'll learn strategies for improving accuracy and optimizing system performance.
 
 slides: |
-  - Vulnerability Types
-    - OWASP Top 10
-    - Common vulnerabilities
-    - Security hotspots
-    - Dependency scanning
+  - False Positive Management
+    - Identification
+    - Analysis
+    - Resolution
   
-  - Management Process
-    - Vulnerability assessment
-    - Risk prioritization
-    - Remediation planning
-    - Security reporting
+  - Uptime Optimization
+    - System monitoring
+    - Performance tuning
+    - Resource management
+  
+  - Cost Management
+    - Resource allocation
+    - Optimization strategies
+    - Budget planning
 
 screen_capture: |
-  1. Configure security scanning
-  2. Run security analysis
-  3. Review vulnerabilities
-  4. Prioritize issues
-  5. Plan remediation
-  6. Generate security reports
+  1. Review false positives
+  2. Monitor system uptime
+  3. Optimize performance
+  4. Manage resources
+  5. Track costs
 
 summary_talking_head: |
-  You've learned how to use SonarQube for security vulnerability scanning. In our final scene, we'll look at best practices and tips for getting the most out of SonarQube in your organization. 
+  We've covered how to manage false positives and maintain SonarQube uptime while considering costs. You now understand how to improve accuracy and optimize system performance. In the final scene, we'll implement long-term quality improvement strategies. 

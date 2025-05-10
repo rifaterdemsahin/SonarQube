@@ -1,29 +1,31 @@
 scene: 6
-title: "Security Vulnerability Analysis"
-video_id: "SQ_006"
+title: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
+video_id: "video5"
 intro_talking_head: |
-  SonarQube provides detailed analysis results that can help you improve your code quality. Let's explore how to interpret these results, understand the different types of issues, and prioritize which problems to fix first.
+  In this scene, we'll set up GitHub Actions to automate SonarQube scans on every commit. We'll create a workflow that ensures code quality is maintained throughout the development process.
 
 slides: |
-  - Issue Types
-    - Bugs
-    - Vulnerabilities
-    - Code smells
-    - Security hotspots
+  - GitHub Actions Overview
+    - Workflow automation
+    - Event triggers
+    - Job configuration
   
-  - Metrics and Measures
-    - Reliability rating
-    - Security rating
-    - Maintainability rating
-    - Coverage and duplications
+  - SonarQube Integration
+    - Scanner setup
+    - Quality gate checks
+    - Report generation
+  
+  - Automation Best Practices
+    - Workflow optimization
+    - Resource management
+    - Error handling
 
 screen_capture: |
-  1. Navigate project dashboard
-  2. Review issue types
-  3. Analyze code metrics
-  4. Check quality gates
-  5. Review security hotspots
-  6. Export analysis report
+  1. Create GitHub Actions workflow
+  2. Configure SonarQube scanner
+  3. Set up quality gates
+  4. Test automated scans
+  5. Review results
 
 summary_talking_head: |
-  You now understand how to read and interpret SonarQube's analysis results. In the next scene, we'll learn how to address these issues and improve your code quality through SonarQube's recommendations. 
+  We've successfully set up GitHub Actions to automate SonarQube scans on every commit. Your code quality checks are now fully automated. In the next scene, we'll explore how to understand and optimize GitHub costs related to agents, commits, and developer tools. 

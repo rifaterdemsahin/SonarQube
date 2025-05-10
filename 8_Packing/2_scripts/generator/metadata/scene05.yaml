@@ -1,28 +1,31 @@
 scene: 5
-title: "Understanding Code Quality Metrics"
-video_id: "SQ_005"
+title: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
+video_id: "video4"
 intro_talking_head: |
-  Now that your project is configured, let's run your first code analysis. We'll cover different ways to trigger an analysis, from the command line to CI/CD integration, and learn how to interpret the initial results.
+  In this scene, we'll dive into GitHub App integration, focusing on setting up secure access to repositories through keys, webhooks, and proper authentication mechanisms.
 
 slides: |
-  - Analysis Methods
-    - SonarScanner CLI
-    - CI/CD integration
-    - IDE plugins
+  - GitHub App Setup
+    - App registration
+    - Permission configuration
+    - Installation process
   
-  - Analysis Process
-    - Code scanning
-    - Rule application
-    - Results processing
-    - Report generation
+  - Security Configuration
+    - Key generation
+    - Webhook setup
+    - Access control
+  
+  - Repository Integration
+    - Repository selection
+    - Permission management
+    - Security verification
 
 screen_capture: |
-  1. Install SonarScanner
-  2. Configure sonar-project.properties
-  3. Run analysis from command line
-  4. Monitor analysis progress
-  5. View initial results
-  6. Understand analysis report
+  1. Create GitHub App
+  2. Generate keys
+  3. Configure webhooks
+  4. Set up repository access
+  5. Test integration
 
 summary_talking_head: |
-  Congratulations on running your first analysis! You've seen how SonarQube processes your code and generates detailed reports. In the next scene, we'll dive deeper into understanding and interpreting these analysis results. 
+  We've successfully integrated the GitHub App with proper security measures. The keys are generated, webhooks are configured, and repository access is secured. In the next scene, we'll set up GitHub Actions to automate scans on every commit. 

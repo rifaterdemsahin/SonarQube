@@ -24,11 +24,34 @@ def slugify(text: str) -> str:
     text = text.strip('-')
     return text
 
-def validate_metadata(data: Dict[str, Any]) -> None:
+def load_scene_topics() -> Dict[int, Dict[str, Any]]:
+    """Load and parse scene topics from YAML file.
+    
+    Returns:
+        Dict[int, Dict[str, Any]]: Dictionary mapping scene IDs to their metadata
+    """
+    topics_file = Path(__file__).parent / 'scene-topics.yaml'
+    with open(topics_file, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+    
+    scenes = {}
+    for lesson in data['lessons']:
+        for video in lesson.get('videos', []):
+            if 'sceneid' in video:
+                scenes[video['sceneid']] = {
+                    'title': video['title'],
+                    'video_id': video['id'],
+                    'lesson_id': lesson['id'],
+                    'lesson_title': lesson['title']
+                }
+    return scenes
+
+def validate_metadata(data: Dict[str, Any], available_scenes: Dict[int, Dict[str, Any]]) -> None:
     """Validate required fields in metadata.
     
     Args:
         data (Dict[str, Any]): Metadata dictionary to validate
+        available_scenes (Dict[int, Dict[str, Any]]): Available scene IDs and their metadata
         
     Raises:
         ValueError: If required fields are missing or invalid
@@ -53,13 +76,18 @@ def validate_metadata(data: Dict[str, Any]) -> None:
         if not isinstance(data[field], expected_type):
             raise ValueError(f"Field '{field}' must be of type {expected_type.__name__}")
     
-    # Validate scene number range
-    if not 1 <= data['scene'] <= 15:
-        raise ValueError("Scene number must be between 1 and 15")
+    # Validate scene number exists in scene-topics.yaml
+    if data['scene'] not in available_scenes:
+        raise ValueError(f"Scene {data['scene']} not found in scene-topics.yaml")
     
-    # Validate video ID format
-    if not re.match(r'^SQ_\d{3}$', data['video_id']):
-        raise ValueError("Video ID must be in format 'SQ_XXX' where XXX is a 3-digit number")
+    # Validate video ID matches scene-topics.yaml
+    scene_info = available_scenes[data['scene']]
+    if data['video_id'] != scene_info['video_id']:
+        raise ValueError(f"Video ID mismatch. Expected {scene_info['video_id']}, got {data['video_id']}")
+    
+    # Validate title matches scene-topics.yaml
+    if data['title'] != scene_info['title']:
+        raise ValueError(f"Title mismatch. Expected {scene_info['title']}, got {data['title']}")
 
 def get_learning_objectives(scene_num: int) -> str:
     """Get learning objectives based on scene number.
@@ -434,7 +462,6 @@ def process_yaml_file(file_path: str) -> Dict[str, Any]:
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f)
-        validate_metadata(data)
         return data
     except yaml.YAMLError as e:
         raise yaml.YAMLError(f"Error parsing YAML file: {e}")
@@ -448,8 +475,14 @@ def main(file_path: str) -> None:
         file_path (str): Path to YAML metadata file
     """
     try:
+        # Load available scenes from scene-topics.yaml
+        available_scenes = load_scene_topics()
+        
         # Process YAML file
         data = process_yaml_file(file_path)
+        
+        # Validate against scene-topics.yaml
+        validate_metadata(data, available_scenes)
         
         # Generate markdown content
         content = generate_markdown(data)

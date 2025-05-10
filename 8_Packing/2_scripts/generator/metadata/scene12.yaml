@@ -1,29 +1,31 @@
 scene: 12
-title: "SonarQube Maintenance"
-video_id: "SQ_012"
+title: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
+video_id: "video1"
 intro_talking_head: |
-  Proper maintenance is crucial for keeping your SonarQube instance running smoothly. In this scene, we'll cover essential maintenance tasks, performance optimization, and backup strategies.
+  In this scene, we'll explore how to transform failing projects into successful ones by improving test coverage, fixing failures, and packaging code with purpose. We'll learn strategies for comprehensive quality improvement.
 
 slides: |
-  - Maintenance Tasks
-    - Database maintenance
-    - Log management
-    - Cache optimization
-    - Plugin updates
+  - Coverage Improvement
+    - Test strategy
+    - Coverage analysis
+    - Gap identification
   
-  - Performance Optimization
-    - Hardware requirements
-    - Configuration tuning
-    - Scaling strategies
-    - Monitoring setup
+  - Failure Resolution
+    - Issue tracking
+    - Root cause analysis
+    - Solution implementation
+  
+  - Purposeful Packaging
+    - Code organization
+    - Documentation
+    - Deployment strategy
 
 screen_capture: |
-  1. Check system status
-  2. Perform database maintenance
-  3. Update plugins
-  4. Optimize configuration
-  5. Set up monitoring
-  6. Create backup strategy
+  1. Analyze test coverage
+  2. Identify failures
+  3. Implement fixes
+  4. Package code
+  5. Verify improvements
 
 summary_talking_head: |
-  You've learned how to maintain and optimize your SonarQube instance. In the next scene, we'll explore advanced security features and best practices for securing your SonarQube installation. 
+  We've covered how to transform failing projects into successful ones through improved coverage, failure resolution, and purposeful packaging. In the next scene, we'll explore how more features can lead to more debt and why it matters. 

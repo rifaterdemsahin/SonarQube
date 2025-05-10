@@ -1,29 +1,31 @@
 scene: 10
-title: "Advanced Analysis Configuration"
-video_id: "SQ_010"
+title: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
+video_id: "video3"
 intro_talking_head: |
-  Integrating SonarQube with your CI/CD pipeline is crucial for automated quality checks. In this scene, we'll learn how to set up SonarQube analysis in popular CI/CD platforms and automate your quality checks.
+  In this scene, we'll explore how to effectively handle yak shaving and debugging tasks by leveraging AI tools and developer intuition. We'll learn strategies for smart testing and efficient problem-solving.
 
 slides: |
-  - CI/CD Integration Basics
-    - Supported platforms
-    - Integration methods
-    - Analysis automation
-    - Quality gate checks
+  - Yak Shaving Management
+    - Task identification
+    - Priority assessment
+    - Resource allocation
   
-  - Platform-Specific Setup
-    - Jenkins integration
-    - GitHub Actions
-    - GitLab CI
-    - Azure DevOps
+  - AI-Assisted Debugging
+    - Tool integration
+    - Pattern recognition
+    - Solution generation
+  
+  - Smart Testing Strategies
+    - Test automation
+    - Coverage optimization
+    - Quality assurance
 
 screen_capture: |
-  1. Configure CI platform
-  2. Set up SonarQube scanner
-  3. Configure analysis parameters
-  4. Add quality gate checks
-  5. Test pipeline integration
-  6. Monitor automated analysis
+  1. Identify yak shaving tasks
+  2. Set up AI debugging tools
+  3. Configure test automation
+  4. Run test scenarios
+  5. Analyze results
 
 summary_talking_head: |
-  You've learned how to integrate SonarQube with your CI/CD pipeline. In the next scene, we'll explore how to use SonarQube's API for custom integrations and automation. 
+  We've covered effective strategies for handling yak shaving and debugging tasks using AI and intuition. You now know how to implement smart testing approaches. In the next scene, we'll focus on recovering and reconfiguring SonarQube with HTOP and lost configurations. 
