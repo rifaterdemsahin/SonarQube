@@ -147,7 +147,7 @@ Video ID: intro
 
 <!-- _class: slide-content -->
 # 1. 🎥 Intro Talking Head
-Welcome to this comprehensive course on SonarQube! In this introduction, we'll explore how SonarQube helps teams maintain code quality and security. We'll cover the basics of setting up SonarQube, analyzing your code, and interpreting the results.
+🎬 Welcome to our **SonarQube** course! 🎯 In today's fast-paced world, delivering high-quality software isn't just about writing code—it's about **connecting the dots**, catching issues early, and keeping **technical debt** in check.
 
 <!-- _class: lower-third -->
 Scene 01 - Introduction
@@ -167,7 +167,7 @@ Video ID: intro
 </div>
 
 <!-- _class: script -->
-Welcome to this comprehensive course on SonarQube! In this introduction, we'll explore how SonarQube helps teams maintain code quality and security. We'll cover the basics of setting up SonarQube, analyzing your code, and interpreting the results.
+🎬 Welcome to our **SonarQube** course! 🎯 In today's fast-paced world, delivering high-quality software isn't just about writing code—it's about **connecting the dots**, catching issues early, and keeping **technical debt** in check.
 
 <!-- _class: screencapture -->
 N/A
@@ -178,23 +178,21 @@ N/A
 
 <!-- _class: slide-content -->
 # 2. 📊 Slides
-- What is SonarQube?
+- 📚 With this course, you'll learn how to integrate your projects with SonarQube for **code analysis** and ensure **release readiness** throughout your **development lifecycle**. 💡 Most importantly, we'll adopt a **first-principles approach** to fixing issues effectively.
 
-- Code quality and security platform
+- 🤔 What is SonarQube?
+  - 🏢 Enterprise-grade code quality and security platform
+  - 🌐 Supports 30+ programming languages including Java, Python, JavaScript
+  - 🔄 Provides continuous code inspection and automated analysis
+  - 🧹 Helps teams maintain clean, maintainable code
 
-- Supports 30+ programming languages
-
-- Provides continuous code inspection
-
-- Key Features
-
-- Code quality metrics
-
-- Security vulnerabilities detection
-
-- Code smells identification
-
-- Technical debt tracking
+- ⭐ Key Features
+  - 📊 Comprehensive code quality metrics and dashboards
+  - 🔒 Advanced security vulnerabilities detection
+  - 👃 Code smells and anti-patterns identification
+  - 💰 Technical debt tracking and management
+  - 🔄 Integration with CI/CD pipelines
+  - ⚙️ Customizable quality gates
 
 <!-- _class: lower-third -->
 Scene 01 - Key Points
@@ -214,23 +212,21 @@ Learning Objectives
 </div>
 
 <!-- _class: script -->
-- What is SonarQube?
+- 📚 With this course, you'll learn how to integrate your projects with SonarQube for **code analysis** and ensure **release readiness** throughout your **development lifecycle**. 💡 Most importantly, we'll adopt a **first-principles approach** to fixing issues effectively.
 
-- Code quality and security platform
+- 🤔 What is SonarQube?
+  - 🏢 Enterprise-grade code quality and security platform
+  - 🌐 Supports 30+ programming languages including Java, Python, JavaScript
+  - 🔄 Provides continuous code inspection and automated analysis
+  - 🧹 Helps teams maintain clean, maintainable code
 
-- Supports 30+ programming languages
-
-- Provides continuous code inspection
-
-- Key Features
-
-- Code quality metrics
-
-- Security vulnerabilities detection
-
-- Code smells identification
-
-- Technical debt tracking
+- ⭐ Key Features
+  - 📊 Comprehensive code quality metrics and dashboards
+  - 🔒 Advanced security vulnerabilities detection
+  - 👃 Code smells and anti-patterns identification
+  - 💰 Technical debt tracking and management
+  - 🔄 Integration with CI/CD pipelines
+  - ⚙️ Customizable quality gates
 
 <!-- _class: screencapture -->
 N/A
@@ -241,15 +237,14 @@ N/A
 
 <!-- _class: slide-content -->
 # 3. 🖥️ Screen Capture
-1. Open SonarQube dashboard
+🔍 SonarQube provides a comprehensive platform for analyzing code quality, identifying vulnerabilities, and managing technical debt. 🛠️ By integrating it into your workflow, you can ensure your software meets the highest standards of maintainability and security.
 
-2. Navigate to Projects section
-
-3. Show how to create a new project
-
-4. Demonstrate basic project settings
-
-5. Run first analysis
+1. 📱 Open SonarQube dashboard and explore the interface
+2. 📂 Navigate to Projects section and understand project organization
+3. ➕ Show how to create a new project with proper configuration
+4. ⚙️ Demonstrate basic project settings and quality profiles
+5. 🔄 Run first analysis and interpret the results
+6. 📊 Explore the quality gates and metrics dashboard
 
 <!-- _class: lower-third -->
 Scene 01 - Demonstration
@@ -269,26 +264,22 @@ Interactive Demo
 </div>
 
 <!-- _class: script -->
-1. Open SonarQube dashboard
+🔍 SonarQube provides a comprehensive platform for analyzing code quality, identifying vulnerabilities, and managing technical debt. 🛠️ By integrating it into your workflow, you can ensure your software meets the highest standards of maintainability and security.
 
-2. Navigate to Projects section
-
-3. Show how to create a new project
-
-4. Demonstrate basic project settings
-
-5. Run first analysis
+1. 📱 Open SonarQube dashboard and explore the interface
+2. 📂 Navigate to Projects section and understand project organization
+3. ➕ Show how to create a new project with proper configuration
+4. ⚙️ Demonstrate basic project settings and quality profiles
+5. 🔄 Run first analysis and interpret the results
+6. 📊 Explore the quality gates and metrics dashboard
 
 <!-- _class: screencapture -->
-1. Open SonarQube dashboard
-
-2. Navigate to Projects section
-
-3. Show how to create a new project
-
-4. Demonstrate basic project settings
-
-5. Run first analysis
+1. 📱 Open SonarQube dashboard and explore the interface
+2. 📂 Navigate to Projects section and understand project organization
+3. ➕ Show how to create a new project with proper configuration
+4. ⚙️ Demonstrate basic project settings and quality profiles
+5. 🔄 Run first analysis and interpret the results
+6. 📊 Explore the quality gates and metrics dashboard
 
 <div class="page-number">3/4</div>
 
@@ -296,7 +287,9 @@ Interactive Demo
 
 <!-- _class: slide-content -->
 # 4. 🎬 Summary Talking Head
-In this introduction, we've laid the foundation for understanding SonarQube and its main features. We've seen how it helps teams maintain high code quality standards and catch security issues early. In the next scene, we'll dive deeper into building a future with SonarQube, AI, and personal portfolio development.
+🎯 In this introduction, we've laid the foundation for understanding SonarQube and its main features. We've seen how it helps teams maintain high code quality standards and catch security issues early. We've explored the dashboard, project setup, and basic analysis features. In the next scene, we'll dive deeper into building a future with SonarQube, AI, and personal portfolio development, where you'll learn how to integrate these tools into your daily development workflow.
+
+🚀 Let's get started and transform the way you approach software development! 🤝 Together, we'll build the skills to deliver high-quality, maintainable, and scalable software.
 
 <!-- _class: lower-third -->
 Scene 01 - Summary
@@ -316,7 +309,9 @@ Key Takeaways
 </div>
 
 <!-- _class: script -->
-In this introduction, we've laid the foundation for understanding SonarQube and its main features. We've seen how it helps teams maintain high code quality standards and catch security issues early. In the next scene, we'll dive deeper into building a future with SonarQube, AI, and personal portfolio development.
+🎯 In this introduction, we've laid the foundation for understanding SonarQube and its main features. We've seen how it helps teams maintain high code quality standards and catch security issues early. We've explored the dashboard, project setup, and basic analysis features. In the next scene, we'll dive deeper into building a future with SonarQube, AI, and personal portfolio development, where you'll learn how to integrate these tools into your daily development workflow.
+
+🚀 Let's get started and transform the way you approach software development! 🤝 Together, we'll build the skills to deliver high-quality, maintainable, and scalable software.
 
 <!-- _class: screencapture -->
 N/A
