@@ -7,6 +7,7 @@
       scene_id: "1"
       shots:
         - 👤 talking_head:
+            page_number: 1
             hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
             script: "Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time."
             estimated_time_minutes_by_script: 1.5  # 90 seconds for 180 words
@@ -20,22 +21,26 @@
           scene_id: "3"
           shots:
             - 👤 talking_head:
+                page_number: 2
                 hook: "only 3 things to learn"
                 script: "Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 3
                 objective: "Meet instructor"
                 script: "Share authentic personal experiences tackling technical debt. Gain insights from yak shaving to scalable solutions, overcoming obstacles in real-world projects."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 4
                 content: "Setting up development environments"
                 tool: "Using Copilot with the setup"
                 script: "Integrate SonarQube into workflows using AI. Ensure maintainable, high-quality code for scalable projects. Use AI to connect the dots and enhance development."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 5
                 closing: "Why instructor is the has the unfair advantage on this course"
                 summary: "Motivate to work with the instructor"
                 script: "Mastering these components empowers you to deliver impactful solutions. Let's dive in and make it work! 🌟"
@@ -50,15 +55,18 @@
           scene_id: "3"
           shots:
             - 👤 talking_head:
+                page_number: 6
                 hook: "only 3 things to learn"
                 script: "Explore real-world technical debt challenges. Achieve daily deployments through hands-on problem-solving with SonarQube. This course uses a real project setting up a SonarQube environment for practical learning."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
             - 📊 slide_capture:
+                page_number: 7
                 objective: "Lo2: Apply AI tools and debugging techniques effectively"
                 script: "Leverage AI tools for debugging. Use AI and intuition to break down errors, iterate solutions, and refine your stack. Learn to verify with AI, rubber duck the process, and trust your intuition for better code quality."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 8
                 content: "GitHub integration and security setup"
                 tool: "GitHub"
                 transition_line: "Let's integrate SonarQube with GitHub"
@@ -73,6 +81,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 9
                 closing: "Why instructor is the has the unfair advantage on this course"
                 summary: "Motivate to work with the instructor"
                 script: "By the end of this course, you'll have the skills and confidence to tackle technical debt, deliver high-quality software, and thrive in real-world development environments. Let's get started! 🚀"
@@ -87,22 +96,26 @@
           scene_id: "3"
           shots:
             - 👤 talking_head:
+                page_number: 10
                 hook: "only 3 things to learn"
                 script: "This course includes a bonus AI-first project where you'll integrate AI tools to set up and optimize a SonarQube environment. It's designed to sharpen your skills in AI-assisted development while ensuring top-tier quality standards."
                 estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 11
                 objective: "Meet instructor"
                 script: "Learn to use AI tools like Claude and GPT to iterate prompts, automate quality checks, and enhance your CI/CD pipeline. Prepare for real-world AI applications."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 12
                 content: "Setting up development environments"
                 tool: "Using Copilot with the setup"
                 script: "Build a SonarQube environment, integrate AI, and apply skills to improve code quality and manage technical debt. Document progress for a portfolio-ready project."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 13
                 closing: "Why instructor is the has the unfair advantage on this course"
                 summary: "Motivate to work with the instructor"
                 script: "By the end, you'll not only master AI-assisted development but also have a showcase-worthy project to demonstrate your expertise. Let's innovate and build together! 🤖✨"
@@ -117,16 +130,19 @@
           scene_id: "3"
           shots:
             - 👤 talking_head:
+                page_number: 14
                 hook: "only 3 things to learn"
                 script: "Creating a portfolio is key for IT pros. Integrating SonarQube into GitHub projects shows commitment to code quality and technical debt management, highlighting expertise in scalable apps."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 15
                 objective: "Lo2: Create a professional presence while managing technical debt"
                 script: "Focus on creating a professional presence showcasing technical debt management skills. Highlight expertise in building scalable, customer-focused applications."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 16
                 content: "Professional presence and technical debt management"
                 tool: "LinkedIn & GitHub"
                 transition_line: "Let's build your professional presence"
@@ -141,6 +157,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 17
                 closing: "You now know how to balance professional presence with technical debt management"
                 summary: "Professional presence setup is complete"
                 script: "Perfect! You've learned to balance professional presence and technical debt management. Showcase your skills and commitment to quality professionally."
@@ -157,16 +174,19 @@
           scene_id: "2"
           shots:
             - 👤 talking_head:
+                page_number: 18
                 hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
                 script: "Transform infrastructure debt into a powerful development setup using GitHub Codespaces. Learn how to manage technical debt effectively with SonarQube in your SDLC."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 19
                 objective: "Lo1: Set up and configure GitHub Codespaces for development"
                 script: "SonarQube provides a structured process to measure, analyze, and reduce technical debt. It acts as a scale to track progress, ensuring your software remains maintainable and scalable."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 20
                 content: "Debt Cycle start with the first step of loading features to the project"
                 tool: "Basic debt cycle animation"
                 transition_line: "The new feature becomes a debt burden"
@@ -181,6 +201,7 @@
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 21
                 closing: "Now that we have our environment set up, let's move on to security configuration"
                 summary: "We've successfully set up our development environment using GitHub Codespaces"
                 script: "Great! Our development environment is ready using GitHub Codespaces. Next, we'll focus on securing our setup."
@@ -192,16 +213,19 @@
           scene_id: "4"
           shots:
             - 👤 talking_head:
+                page_number: 22
                 hook: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
                 script: "Security is crucial. Secure your SonarQube instance and configure your environment properly."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 23
                 objective: "Lo1: Configure secure access and environment settings for SonarQube"
                 script: "Focus on configuring secure access and environment settings for SonarQube."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 24
                 content: "Security configuration and environment setup"
                 tool: "SonarQube"
                 transition_line: "Let's secure our SonarQube instance"
@@ -216,6 +240,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 25
                 closing: "Your SonarQube instance is now secure and properly configured"
                 summary: "Security configuration and environment setup is complete"
                 script: "Perfect! Our SonarQube instance is now secure and ready for use."
@@ -227,16 +252,19 @@
           learning_objective: "Lo1"
           shots:
             - 👤 talking_head:
+                page_number: 26
                 hook: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
                 script: "Let's integrate SonarQube with GitHub securely using app authentication and webhooks."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 27
                 objective: "Lo1: Implement secure GitHub integration with SonarQube"
                 script: "Implement secure GitHub integration with SonarQube. Create a secure connection between SonarQube and GitHub using app authentication and webhooks."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 28
                 content: "GitHub integration and security setup"
                 tool: "GitHub"
                 transition_line: "Let's integrate SonarQube with GitHub"
@@ -251,6 +279,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 29
                 closing: "GitHub integration is now complete with proper security measures"
                 summary: "Secure GitHub integration is now in place"
                 script: "Excellent! We've established a secure connection between SonarQube and GitHub using app authentication and webhooks."
@@ -262,16 +291,19 @@
           scene_id: "6"
           shots:
             - 👤 talking_head:
+                page_number: 30
                 hook: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
                 script: "Now we'll set up automated code quality checks using GitHub Actions."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 31
                 objective: "Lo1: Set up automated code quality scanning with GitHub Actions"
                 script: "Configure GitHub Actions to scan code on every commit using a simple YAML workflow. Use AI to generate or review YAML for clarity."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 32
                 content: "GitHub Actions automation setup"
                 tool: "GitHub Actions"
                 transition_line: "Let's automate our code quality checks"
@@ -286,6 +318,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 33
                 closing: "Automated code quality checks are now configured"
                 summary: "GitHub Actions automation is now set up"
                 script: "Perfect! Automated code quality checks are now in place with GitHub Actions."
@@ -297,16 +330,19 @@
           scene_id: "7"
           shots:
             - 👤 talking_head:
+                page_number: 34
                 hook: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
                 script: "Explore how to optimize GitHub usage and manage costs effectively. Understand costs of agents and optimize spending for efficient workflows."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 35
                 objective: "Lo1: Optimize GitHub resources and understand cost implications"
                 script: "Learn to optimize GitHub resources and understand cost implications. Focus on cost-effective workflows, wisely using resources like Codespaces agents while keeping costs in check."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 36
                 content: "GitHub cost optimization and resource management"
                 tool: "GitHub"
                 transition_line: "Let's optimize our GitHub resources"
@@ -321,6 +357,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 37
                 closing: "You now understand how to optimize GitHub resources and costs"
                 summary: "GitHub resource optimization is complete"
                 script: "Great! You now have the knowledge to optimize GitHub resources and costs."
@@ -335,16 +372,19 @@
           scene_id: "8"
           shots:
             - 👤 talking_head:
+                page_number: 38
                 hook: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects"
                 script: "Build your professional presence while managing technical debt. Use SonarQube in GitHub projects to showcase commitment to quality and build a strong portfolio."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 39
                 objective: "Lo2: Create a professional presence while managing technical debt"
                 script: "Focus on creating a professional presence showcasing technical debt management skills. Highlight expertise in building scalable, customer-focused applications."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 40
                 content: "Professional presence and technical debt management"
                 tool: "LinkedIn & GitHub"
                 transition_line: "Let's build your professional presence"
@@ -359,6 +399,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 41
                 closing: "You now know how to balance professional presence with technical debt management"
                 summary: "Professional presence setup is complete"
                 script: "Perfect! You've learned to balance professional presence and technical debt management. Showcase your skills and commitment to quality professionally."
@@ -370,16 +411,19 @@
           scene_id: "9"
           shots:
             - 👤 talking_head:
+                page_number: 42
                 hook: "Technical Debt & Focus – Fix, Update, and Power On with Confidence"
                 script: "Learn effective strategies for addressing technical debt. Use SonarQube reports to identify, prioritize, and manage issues like vulnerabilities and code smells. Proactive management ensures agility."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 43
                 objective: "Lo2: Implement effective technical debt management strategies"
                 script: "Focus on implementing strategies to manage and reduce technical debt. Use SonarQube to track vulnerabilities, code smells, and risk, prioritizing fixes for continuous improvement and agility."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 44
                 content: "Technical debt management strategies"
                 tool: "Technical Debt Management"
                 transition_line: "Let's implement effective technical debt management"
@@ -394,6 +438,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 45
                 closing: "You now have effective strategies for managing technical debt"
                 summary: "Technical debt management strategies are in place"
                 script: "Great! You've learned effective strategies to manage and reduce technical debt using SonarQube, improving code quality and project agility."
@@ -405,16 +450,19 @@
           scene_id: "10"
           shots:
             - 👤 talking_head:
+                page_number: 46
                 hook: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
                 script: "Explore AI tools and debugging. Leverage AI and intuition for smart testing and better code quality."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 47
                 objective: "Lo2: Apply AI tools and debugging techniques effectively"
                 script: "Leverage AI tools for debugging. Use AI and intuition to break down errors, iterate solutions, and refine your stack. Learn to verify with AI, rubber duck the process, and trust your intuition for better code quality."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 48
                 content: "AI tools and debugging techniques"
                 tool: "AI Tools & Debugging"
                 transition_line: "Let's explore AI tools and debugging"
@@ -429,6 +477,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 49
                 closing: "You now know how to use AI tools and debugging techniques effectively"
                 summary: "AI tools and debugging setup is complete"
                 script: "Perfect! You've learned to leverage AI tools and debugging. Embrace errors as learning, trust your intuition, and rubber duck the process to refine your stack."
@@ -440,16 +489,19 @@
           scene_id: "11"
           shots:
             - 👤 talking_head:
+                page_number: 50
                 hook: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
                 script: "Learn to troubleshoot and recover SonarQube configurations. Embrace errors as learning opportunities. Use AI to break down issues and debug. Document changes and refine your setup for reliability."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 51
                 objective: "Lo2: Troubleshoot and recover SonarQube configurations"
                 script: "Embrace errors as learning tools. Use AI to break down issues like memory problems. Debugging builds familiarity with system configurations. Document each issue, iterate solutions, and refine your stack. Let AI guide debugging and learning from hurdles."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 52
                 content: "SonarQube accuracy and availability"
                 tool: "SonarQube"
                 transition_line: "Let's manage accuracy and availability"
@@ -464,6 +516,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 53
                 closing: "You now know how to troubleshoot and recover SonarQube configurations"
                 summary: "SonarQube troubleshooting is complete"
                 script: "Great! You've learned to troubleshoot and recover SonarQube configurations. Use HTOP and documented steps to keep your system stable through resets."
@@ -475,16 +528,19 @@
           scene_id: "11"
           shots:
             - 👤 talking_head:
+                page_number: 54
                 hook: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
                 script: "Learn advanced SonarQube settings. Configure external ports, project keys, and commit triggers for optimal performance and reliability."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 55
                 objective: "Lo2: Configure advanced SonarQube settings"
                 script: "Configure advanced SonarQube settings for optimal performance. Manage external access, ports, project keys, and commit triggers. Document changes and store configurations securely."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 56
                 content: "Advanced SonarQube configuration"
                 tool: "SonarQube"
                 transition_line: "Let's configure advanced settings"
@@ -499,6 +555,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 57
                 closing: "You now know how to configure advanced SonarQube settings"
                 summary: "Advanced SonarQube configuration is complete"
                 script: "Perfect! You've learned advanced SonarQube configuration. Managing external ports, project keys, and commit triggers ensures optimal performance and stability."
@@ -513,16 +570,19 @@
           scene_id: "12"
           shots:
             - 👤 talking_head:
+                page_number: 58
                 hook: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
                 script: "Learn to improve code coverage and fix common failures. Use SonarQube for static analysis to identify and address issues."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 59
                 objective: "Lo3: Improve code coverage and fix common failures"
                 script: "Improve code coverage and fix common failures. SonarQube highlights covered lines, test failures, and gaps, helping identify and fix issues for a more reliable codebase."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 60
                 content: "Code coverage and failure fixes"
                 tool: "SonarQube"
                 transition_line: "Let's improve code coverage"
@@ -537,6 +597,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 61
                 closing: "You now know how to improve code coverage and fix common failures"
                 summary: "Code coverage improvement is complete"
                 script: "Great! You've learned to improve coverage and fix failures. Achieving a green status is the first step to a healthy codebase. Keep improving quality and reduce technical debt."
@@ -548,16 +609,19 @@
           scene_id: "13"
           shots:
             - 👤 talking_head:
+                page_number: 62
                 hook: "More Features, More Debt – Why It Matters and How to See Your Impact"
                 script: "Let's learn how to balance feature development with technical debt management."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 63
                 objective: "Lo3: Balance feature development with technical debt management"
                 script: "Balance feature development and technical debt. Monitor vulnerabilities, code smells, and debt with SonarQube. Ensure agility in your SDLC by proactively addressing issues."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 64
                 content: "Feature development and debt management"
                 tool: "SonarQube"
                 transition_line: "Let's balance development and debt"
@@ -572,6 +636,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 65
                 closing: "You now know how to balance feature development with technical debt"
                 summary: "Development and debt balance is achieved"
                 script: "Perfect! You've learned to balance feature development with technical debt. Managing debt proactively with SonarQube ensures agility and scalability."
@@ -583,16 +648,19 @@
           scene_id: "14"
           shots:
             - 👤 talking_head:
+                page_number: 66
                 hook: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
                 script: "Learn to manage SonarQube accuracy and availability. Handle false positives and understand the cost of uptime to ensure reliable code quality analysis."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 67
                 objective: "Lo3: Manage SonarQube accuracy and availability"
                 script: "Manage SonarQube accuracy and availability. Monitor accuracy, manage uptime, and optimize costs. Understand trade-offs between paid services and technical debt."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 68
                 content: "SonarQube accuracy and availability"
                 tool: "SonarQube"
                 transition_line: "Let's manage accuracy and availability"
@@ -607,6 +675,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 69
                 closing: "You now know how to manage SonarQube accuracy and availability"
                 summary: "SonarQube management is complete"
                 script: "Great! You've learned to manage SonarQube accuracy and availability. Monitoring accuracy, uptime, and costs ensures reliable code quality analysis."
@@ -620,16 +689,19 @@
           scene_id: "15"
           shots:
             - 👤 talking_head:
+                page_number: 70
                 hook: "Course Conclusion – Applying SonarQube in Real-World Scenarios"
                 script: "Conclude by applying what we've learned to real-world scenarios. Build a healthy release pipeline for daily deployments, managing technical debt effectively."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
+                page_number: 71
                 objective: "Apply learned concepts to real-world development scenarios"
                 script: "Review key concepts and practical applications. Apply knowledge to real-world scenarios. Build a healthy release pipeline and manage technical debt for daily deployments."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
+                page_number: 72
                 content: "Real-world application of SonarQube"
                 tool: "SonarQube"
                 transition_line: "Let's apply our knowledge"
@@ -644,6 +716,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
+                page_number: 73
                 closing: "You're now ready to apply SonarQube in real-world scenarios"
                 summary: "Course completion and next steps"
                 script: "Congratulations! You're now ready to apply SonarQube in real-world scenarios."
