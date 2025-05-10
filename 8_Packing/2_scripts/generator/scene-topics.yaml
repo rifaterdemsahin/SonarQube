@@ -4,8 +4,10 @@ lessons:
     videos:
       - id: "intro"
         title: "SonarQube Intro"
+        sceneid: 1
       - id: "video1"
         title: "From Debt to Dev: Building a Future with SonarQube, AI, and Personal Portfolio"
+        sceneid: 2
         sections:
           - "1,2,3 Objectives"
           - "Instructor Flex"
@@ -17,14 +19,19 @@ lessons:
     videos:
       - id: "video2"
         title: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
+        sceneid: 3
       - id: "video3"
         title: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
+        sceneid: 4
       - id: "video4"
         title: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
+        sceneid: 5
       - id: "video5"
         title: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
+        sceneid: 6
       - id: "video6"
         title: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
+        sceneid: 7
     hands_on:
       title: "Create your github account and trigger codespaces from your repo"
 
@@ -33,14 +40,18 @@ lessons:
     videos:
       - id: "video1"
         title: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects, Have awareness"
+        sceneid: 8
       - id: "video2"
         title: "Technical Debt & Focus – Fix, Update, and Power On with Confidence"
+        sceneid: 9
       - id: "video3"
         title: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
+        sceneid: 10
       - id: "video4"
         title: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
       - id: "video5"
         title: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
+        sceneid: 11
     hands_on:
       title: "Create your SonarQube in minikube"
 
@@ -49,10 +60,13 @@ lessons:
     videos:
       - id: "video1"
         title: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
+        sceneid: 12
       - id: "video2"
         title: "More Features, More Debt – Why It Matters and How to See Your Impact"
+        sceneid: 13
       - id: "video3"
         title: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
+        sceneid: 14
     hands_on:
       title: "Run SonarQube in your project"
 
@@ -60,4 +74,5 @@ lessons:
     title: "Closure"
     videos:
       - id: "ending"
-        title: "Ending" 
+        title: "Ending"
+        sceneid: 15
