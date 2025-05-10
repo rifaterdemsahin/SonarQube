@@ -5,8 +5,9 @@ lessons:
       - id: "intro"
         title: "SonarQube Intro"
         scene_id: 1
+        learningObjective: "Lo1: Understand the fundamentals of SonarQube and its role in code quality"
       - id: "video1"
-      - learningObjective: Intro
+        learningObjective: "Lo1: Master the core concepts of SonarQube and its integration with modern development practices"
         title: "From Debt to Dev: Building a Future with SonarQube, AI, and Personal Portfolio"
         scene_id: 2
         sections:
@@ -20,23 +21,23 @@ lessons:
     learningObjective: "Lo1"
     videos:
       - id: "video2"
-        learningObjective: "Lo1"
+        learningObjective: "Lo1: Set up and configure GitHub Codespaces for development"
         title: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
         scene_id: 3
       - id: "video3"
-        learningObjective: "Lo1 - Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
+        learningObjective: "Lo1: Configure secure access and environment settings for SonarQube"
         title: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
         scene_id: 4
       - id: "video4"
-        learningObjective: "Lo1"
+        learningObjective: "Lo1: Implement secure GitHub integration with SonarQube"
         title: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
         scene_id: 5
       - id: "video5"
-        learningObjective: "Lo1"
+        learningObjective: "Lo1: Set up automated code quality scanning with GitHub Actions"
         title: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
         scene_id: 6
       - id: "video6"
-        learningObjective: "Lo1"
+        learningObjective: "Lo1: Optimize GitHub resources and understand cost implications"
         title: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
         scene_id: 7
     hands_on:
@@ -47,17 +48,23 @@ lessons:
     learningObjective: "Lo2"
     videos:
       - id: "video1"
+        learningObjective: "Lo2: Create a professional presence while managing technical debt"
         title: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects, Have awareness"
         scene_id: 8
       - id: "video2"
+        learningObjective: "Lo2: Implement effective technical debt management strategies"
         title: "Technical Debt & Focus – Fix, Update, and Power On with Confidence"
         scene_id: 9
       - id: "video3"
+        learningObjective: "Lo2: Apply AI tools and debugging techniques effectively"
         title: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
         scene_id: 10
       - id: "video4"
+        learningObjective: "Lo2: Troubleshoot and recover SonarQube configurations"
         title: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
+        scene_id: 11
       - id: "video5"
+        learningObjective: "Lo2: Configure advanced SonarQube settings"
         title: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
         scene_id: 11
     hands_on:
@@ -68,12 +75,15 @@ lessons:
     learningObjective: "Lo3"
     videos:
       - id: "video1"
+        learningObjective: "Lo3: Improve code coverage and fix common failures"
         title: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
         scene_id: 12
       - id: "video2"
+        learningObjective: "Lo3: Balance feature development with technical debt management"
         title: "More Features, More Debt – Why It Matters and How to See Your Impact"
         scene_id: 13
       - id: "video3"
+        learningObjective: "Lo3: Manage SonarQube accuracy and availability"
         title: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
         scene_id: 14
     hands_on:
@@ -85,3 +95,4 @@ lessons:
       - id: "ending"
         title: "Ending"
         scene_id: 15
+        learningObjective: "Apply learned concepts to real-world development scenarios"
