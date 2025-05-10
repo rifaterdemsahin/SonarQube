@@ -185,7 +185,7 @@ style: |
   }
 ---
 
-<div class="shot-type">🎬 COURSE INTRODUCTION</div>
+<div class="shot-type" data-type="talkinghead">🎬 COURSE INTRODUCTION</div>
 
 # Mastering SonarQube: From Technical Debt to Development Excellence
 
@@ -222,7 +222,7 @@ Setting up development environment with GitHub Codespaces
 
 ---
 
-<div class="shot-type">👨‍🏫 INSTRUCTOR INTRODUCTION</div>
+<div class="shot-type" data-type="slides">👨‍🏫 INSTRUCTOR INTRODUCTION</div>
 
 # Meet Your Instructor
 
@@ -260,7 +260,7 @@ Using Copilot with the setup
 
 ---
 
-<div class="shot-type">🔧 PRACTICAL CONTENT</div>
+<div class="shot-type" data-type="screencapture">🔧 PRACTICAL CONTENT</div>
 
 # Authentic Content
 
@@ -298,7 +298,7 @@ Setting up development environments
 
 ---
 
-<div class="shot-type">🤖 AI INTEGRATION</div>
+<div class="shot-type" data-type="slides">🤖 AI INTEGRATION</div>
 
 # AI-First Implementation
 
@@ -330,21 +330,17 @@ Setting up development environments
 This course includes a bonus AI-first project where you'll integrate AI tools to set up and optimize a SonarQube environment. It's designed to sharpen your skills in AI-assisted development while ensuring top-tier quality standards.
 </div>
 
-<div class="screencapture">
-Using Copilot with the setup
-</div>
-
 ---
 
-<div class="shot-type">📊 PORTFOLIO DEVELOPMENT</div>
+<div class="shot-type" data-type="screencapture">📊 PORTFOLIO DEVELOPMENT</div>
 
 # Portfolio Development
 
-<div class="slide-content">
-- GitHub integration
-- Code quality showcase
-- LinkedIn visibility
-- Professional growth
+<div class="capture-ideas-and-steps">
+- Set up GitHub repository
+- Configure SonarQube integration
+- Run initial code analysis
+- Document quality metrics
 </div>
 
 <div class="lower-third">
@@ -353,11 +349,6 @@ Using Copilot with the setup
 </div>
 
 <div class="right-panel">
-  <div class="right-top">
-    <div class="picture-placeholder">📊</div>
-    <div class="picture-idea">Portfolio Building</div>
-  </div>
-  
   <div class="right-bottom">
     <div class="video-info">Video 5: Portfolio Development</div>
     <div class="learning-objective">LO1: Optimize GitHub resources and costs</div>
@@ -368,13 +359,9 @@ Using Copilot with the setup
 Creating a professional portfolio is essential for IT professionals, showcasing your ability to deliver high-quality, maintainable software. By integrating SonarQube into your GitHub projects, you demonstrate a commitment to code quality and technical debt management.
 </div>
 
-<div class="screencapture">
-Setting up development environments
-</div>
-
 ---
 
-<div class="shot-type">📚 COURSE STRUCTURE</div>
+<div class="shot-type" data-type="slides">📚 COURSE STRUCTURE</div>
 
 # Course Structure
 
@@ -406,13 +393,9 @@ Setting up development environments
 Our course is structured to provide a comprehensive learning experience, with 3 main objectives, 3 lessons per objective, and 5 videos per lesson, totaling 15 video scenes. Each video is carefully crafted to build your expertise in SonarQube and technical debt management.
 </div>
 
-<div class="screencapture">
-Course structure overview
-</div>
-
 ---
 
-<div class="shot-type">🚀 COURSE CONCLUSION</div>
+<div class="shot-type" data-type="talkinghead">🚀 COURSE CONCLUSION</div>
 
 # Let's Get Started!
 
