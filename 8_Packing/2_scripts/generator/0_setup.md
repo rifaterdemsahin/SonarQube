@@ -1,43 +1,43 @@
-# ProductionGuide System Setup
-- Goal Create a production guide using outline and script
+# 🎬 ShotList System Setup
+- 🎯 Goal Create a production guide using outline and script
 
-## Core Files
-C:\projects\SonarQube\8_Packing\2_scripts\generator\0_setup.md
-C:\projects\SonarQube\8_Packing\2_scripts\generator\1_outline.yaml
-C:\projects\SonarQube\8_Packing\2_scripts\generator\2_script.yaml
-C:\projects\SonarQube\8_Packing\2_scripts\generator\3_guide.md
+## 📁 Core Files
+\SonarQube\8_Packing\2_scripts\generator\0_setup.md
+\SonarQube\8_Packing\2_scripts\generator\1_outline.yaml
+\SonarQube\8_Packing\2_scripts\generator\2_script.yaml
+\SonarQube\8_Packing\2_scripts\generator\3_shotlist.md
 
 
-## Course Structure
+## 📚 Course Structure
 - 3 main objectives
 - 3 lessons per objective
 - 3 video scenes per lesson
 - Total: 15 video scenes
 
-## Shot Structure
+## 🎥 Shot Structure
 Each scene (4 minutes total) consists of:
-1. Intro Talking Head (45 seconds)
-2. Slides (90 seconds)
-3. Screen Capture (120 seconds)
-4. Summary Talking Head (45 seconds)
+1. 🎤 Intro Talking Head (45 seconds)
+2. 📊 Slides (90 seconds)
+3. 💻 Screen Capture (120 seconds)
+4. 🎤 Summary Talking Head (45 seconds)
 
 
-## Marp Configuration
+## ⚙️ Marp Configuration
 - Each shot markdown file will use the following Marp configuration:
- Eachshot should have ots own style of marp 
- the video and learning objectives should be on the riight bottom
+- Eachshot should have ots own style of marp 
+- the video and learning objectives should be on the right bottom
+- mention the type of the shot top center
 
-
-## Estimation time 
+## ⏱️ Estimation time 
 - use 120 words per minute
 - two words a second
 - Estimate using the comfortable time 
  
 
 
-## Shot Strategy
+## 🎯 Shot Strategy
 - Make each marp different than each other 
-### 1. Intro Talking Head
+### 1. 🎤 Intro Talking Head
 - Duration: 45 seconds
 - Purpose: Set context and engage viewers
 - Key Elements:
@@ -47,7 +47,7 @@ Each scene (4 minutes total) consists of:
   - Explain why it matters
 - MENTION THIS IS AS HOOK ON MARP SLIDES
 
-### 2. Slides
+### 2. 📊 Slides
 - Quantity: 3-4 key points
 - Format: Bullet points
 - Content Focus:
@@ -57,7 +57,7 @@ Each scene (4 minutes total) consists of:
   - Supporting data
 - MENTION THIS IS OBJECTIVES IN THE MARP SLIDE
 
-### 3. Screen Capture (Map Interaction)
+### 3. 💻 Screen Capture (Map Interaction)
 - Duration: 1-2 minutes
 - Elements:
   - Starting point/zoom level
@@ -67,7 +67,7 @@ Each scene (4 minutes total) consists of:
   - Transitions/animations
   - MENTION THIS IS THE FLEX IN THE MARP SLIDES
 
-### 4. Summary Talking Head
+### 4. 🎤 Summary Talking Head
 - Duration: 30 seconds
 - Components:
   - Key takeaway
@@ -76,52 +76,46 @@ Each scene (4 minutes total) consists of:
   - Call to action
 - MENTION THIS IS THE CLOSING IN THE MARP SLIDE
 
-## Generation Process
-
-1. Create metadata files for each scene
-2. Run the Python script to generate markdown files
-3. Review and refine content
-4. Export final scenes
 
 
-## Best Practices
+## ✨ Best Practices
 
-### Content Guidelines
+### 📝 Content Guidelines
 - Keep scripts concise and engaging
 - Use clear, active voice
 - Include specific map coordinates
 - Maintain consistent tone throughout
 - Link scenes thematically
 
-### Technical Guidelines
+### 🔧 Technical Guidelines
 - Use relative paths in metadata
 - Validate YAML syntax
 - Include error handling
 - Maintain consistent formatting
 - Version control all files
 
-### Production Tips
+### 🎨 Production Tips
 - Test map interactions before recording
 - Prepare backup content
 - Time each section
 - Create storyboard for complex interactions
 - Document any special requirements
 
-## Next Steps
+## 👣 Next Steps
 1. Generate metadata files for all 15 scenes
 2. Run the generation scripts
 3. Review and refine content
 4. Prepare for production
 
-## Guidance for Editors
+## 🎵 Guidance for Editors
 - **Music**: Upbeat, motivational track suggestions
 - Sound Effect suggestions
 - Visual effect suggestions
 
-## Markers on The Slides
+## 📌 Markers on The Slides
 - **Length**: 45-60 seconds total
 - **Style**: Mix of live-action, text animations, and dynamic transitions
 
-## Formatting
+## 📋 Formatting
 - Use markdown
 - Use Marp

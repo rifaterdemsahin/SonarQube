@@ -6,135 +6,186 @@ style: |
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto auto;
-    gap: 1em;
-    padding: 1em;
+    grid-template-rows: auto 1fr auto auto;
+    gap: 1.5em;
+    padding: 2em;
     position: relative;
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
   }
+  
+  .shot-type {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.2em;
+    color: #1a73e8;
+    font-weight: bold;
+    padding: 0.5em;
+    background: rgba(26, 115, 232, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1em;
+  }
+  
   .slide-content {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     list-style: none;
     padding: 0;
     margin: 0;
   }
+  
   .slide-content li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
+    padding-left: 1.5em;
+    position: relative;
     animation: slideUp 0.5s ease-out;
   }
+  
+  .slide-content li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #1a73e8;
+  }
+  
   .lower-third {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     display: flex;
-    gap: 0.5em;
+    gap: 1em;
     align-items: center;
+    background: rgba(26, 115, 232, 0.05);
+    padding: 1em;
+    border-radius: 8px;
   }
-  .right-top {
+  
+  .right-panel {
     grid-column: 2;
-    grid-row: 1;
-    background: #f5f5f5;
+    grid-row: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .right-top {
+    background: #ffffff;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1em;
-    border: 2px dashed #ccc;
+    gap: 1em;
   }
+  
   .right-bottom {
-    grid-column: 2;
-    grid-row: 2;
-    background: #f0f0f0;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background: #ffffff;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
+  
   .video-info {
-    font-size: 0.9em;
-    color: #333;
+    font-size: 1em;
+    color: #1a73e8;
     font-weight: bold;
+    margin-bottom: 0.5em;
   }
+  
   .learning-objective {
-    font-size: 0.8em;
-    color: #666;
+    font-size: 0.9em;
+    color: #5f6368;
     font-style: italic;
+    padding: 0.5em;
+    background: rgba(26, 115, 232, 0.05);
+    border-radius: 6px;
   }
+  
   .talking-head {
-    font-size: 1.5em;
-    background: #fff;
+    font-size: 1.8em;
+    background: #ffffff;
     border: 2px solid #1a73e8;
-    border-radius: 8px;
+    border-radius: 50%;
     padding: 0.3em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 2em;
-    min-height: 2em;
+    min-width: 2.5em;
+    min-height: 2.5em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
+  
   .script {
     grid-column: 1 / -1;
-    grid-row: 3;
-    font-size: 0.8em;
-    color: #666;
-    border-top: 1px solid #ccc;
-    padding-top: 0.5em;
+    grid-row: 4;
+    font-size: 0.9em;
+    color: #5f6368;
+    border-top: 2px solid #e8eaed;
+    padding-top: 1em;
+    margin-top: 1em;
   }
+  
   .script::before {
-    content: "> SCRIPT: ";
-    color: #e74c3c;
+    content: "📝 SCRIPT:";
+    color: #1a73e8;
     font-weight: bold;
+    margin-right: 0.5em;
   }
+  
   .screencapture {
     grid-column: 1 / -1;
-    grid-row: 4;
-    font-size: 0.8em;
-    color: #666;
-    border-top: 1px solid #ccc;
-    padding-top: 0.5em;
+    grid-row: 5;
+    font-size: 0.9em;
+    color: #5f6368;
+    border-top: 2px solid #e8eaed;
+    padding-top: 1em;
     font-style: italic;
   }
+  
+  .screencapture::before {
+    content: "🎥 SCREEN CAPTURE:";
+    color: #1a73e8;
+    font-weight: bold;
+    margin-right: 0.5em;
+  }
+  
   .page-number {
     position: absolute;
     bottom: 1em;
     right: 1em;
     font-size: 0.8em;
-    color: #666;
+    color: #5f6368;
   }
+  
   h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     color: #1a73e8;
+    margin-bottom: 0.5em;
+    text-align: center;
   }
+  
   h2 {
     font-size: 1.8em;
     color: #34a853;
   }
+  
   h3 {
     font-size: 1.6em;
     color: #ea4335;
   }
-  .emoji {
-    font-size: 1.2em;
-  }
-  .fade {
-    animation: fadeIn 1s ease-in;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  .slide-up {
-    animation: slideUp 0.5s ease-out;
-  }
+  
   @keyframes slideUp {
     from { transform: translateY(20px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
   }
-  .lower-third-item {
-    animation: fadeIn 0.5s ease-in;
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 ---
+
+<div class="shot-type">🎬 COURSE INTRODUCTION</div>
 
 # Mastering SonarQube: From Technical Debt to Development Excellence
 
@@ -149,14 +200,16 @@ style: |
   <span>Welcome to our SonarQube course!</span>
 </div>
 
-<div class="right-top">
-  <div class="picture-placeholder">🎥</div>
-  <div class="picture-idea">Course Overview</div>
-</div>
-
-<div class="right-bottom">
-  <div class="video-info">Video 1: Course Introduction</div>
-  <div class="learning-objective">LO1: Set up and configure GitHub Codespaces for development</div>
+<div class="right-panel">
+  <div class="right-top">
+    <div class="picture-placeholder">🎥</div>
+    <div class="picture-idea">Course Overview</div>
+  </div>
+  
+  <div class="right-bottom">
+    <div class="video-info">Video 1: Course Introduction</div>
+    <div class="learning-objective">LO1: Set up and configure GitHub Codespaces for development</div>
+  </div>
 </div>
 
 <div class="script">
@@ -168,6 +221,8 @@ Setting up development environment with GitHub Codespaces
 </div>
 
 ---
+
+<div class="shot-type">👨‍🏫 INSTRUCTOR INTRODUCTION</div>
 
 # Meet Your Instructor
 
@@ -183,14 +238,16 @@ Setting up development environment with GitHub Codespaces
   <span>Hello, I'm Rifat Erdem Sahin</span>
 </div>
 
-<div class="right-top">
-  <div class="picture-placeholder">👨‍💻</div>
-  <div class="picture-idea">Instructor Profile</div>
-</div>
-
-<div class="right-bottom">
-  <div class="video-info">Video 2: Instructor Introduction</div>
-  <div class="learning-objective">LO1: Configure secure access and environment settings</div>
+<div class="right-panel">
+  <div class="right-top">
+    <div class="picture-placeholder">👨‍💻</div>
+    <div class="picture-idea">Instructor Profile</div>
+  </div>
+  
+  <div class="right-bottom">
+    <div class="video-info">Video 2: Instructor Introduction</div>
+    <div class="learning-objective">LO1: Configure secure access and environment settings</div>
+  </div>
 </div>
 
 <div class="script">
@@ -202,6 +259,8 @@ Using Copilot with the setup
 </div>
 
 ---
+
+<div class="shot-type">🔧 PRACTICAL CONTENT</div>
 
 # Authentic Content
 
@@ -217,14 +276,16 @@ Using Copilot with the setup
   <span>Real-world challenges and solutions</span>
 </div>
 
-<div class="right-top">
-  <div class="picture-placeholder">🔧</div>
-  <div class="picture-idea">Practical Experience</div>
-</div>
-
-<div class="right-bottom">
-  <div class="video-info">Video 3: Authentic Content</div>
-  <div class="learning-objective">LO1: Implement secure GitHub integration</div>
+<div class="right-panel">
+  <div class="right-top">
+    <div class="picture-placeholder">🔧</div>
+    <div class="picture-idea">Practical Experience</div>
+  </div>
+  
+  <div class="right-bottom">
+    <div class="video-info">Video 3: Authentic Content</div>
+    <div class="learning-objective">LO1: Implement secure GitHub integration</div>
+  </div>
 </div>
 
 <div class="script">
@@ -236,6 +297,8 @@ Setting up development environments
 </div>
 
 ---
+
+<div class="shot-type">🤖 AI INTEGRATION</div>
 
 # AI-First Implementation
 
@@ -251,14 +314,16 @@ Setting up development environments
   <span>AI-assisted development</span>
 </div>
 
-<div class="right-top">
-  <div class="picture-placeholder">🤖</div>
-  <div class="picture-idea">AI Integration</div>
-</div>
-
-<div class="right-bottom">
-  <div class="video-info">Video 4: AI-First Implementation</div>
-  <div class="learning-objective">LO1: Set up automated code quality scanning</div>
+<div class="right-panel">
+  <div class="right-top">
+    <div class="picture-placeholder">🤖</div>
+    <div class="picture-idea">AI Integration</div>
+  </div>
+  
+  <div class="right-bottom">
+    <div class="video-info">Video 4: AI-First Implementation</div>
+    <div class="learning-objective">LO1: Set up automated code quality scanning</div>
+  </div>
 </div>
 
 <div class="script">
@@ -270,6 +335,8 @@ Using Copilot with the setup
 </div>
 
 ---
+
+<div class="shot-type">📊 PORTFOLIO DEVELOPMENT</div>
 
 # Portfolio Development
 
@@ -285,14 +352,16 @@ Using Copilot with the setup
   <span>Build your professional portfolio</span>
 </div>
 
-<div class="right-top">
-  <div class="picture-placeholder">📊</div>
-  <div class="picture-idea">Portfolio Building</div>
-</div>
-
-<div class="right-bottom">
-  <div class="video-info">Video 5: Portfolio Development</div>
-  <div class="learning-objective">LO1: Optimize GitHub resources and costs</div>
+<div class="right-panel">
+  <div class="right-top">
+    <div class="picture-placeholder">📊</div>
+    <div class="picture-idea">Portfolio Building</div>
+  </div>
+  
+  <div class="right-bottom">
+    <div class="video-info">Video 5: Portfolio Development</div>
+    <div class="learning-objective">LO1: Optimize GitHub resources and costs</div>
+  </div>
 </div>
 
 <div class="script">
@@ -304,6 +373,8 @@ Setting up development environments
 </div>
 
 ---
+
+<div class="shot-type">📚 COURSE STRUCTURE</div>
 
 # Course Structure
 
@@ -319,14 +390,16 @@ Setting up development environments
   <span>Comprehensive learning path</span>
 </div>
 
-<div class="right-top">
-  <div class="picture-placeholder">📚</div>
-  <div class="picture-idea">Course Structure</div>
-</div>
-
-<div class="right-bottom">
-  <div class="video-info">Course Overview</div>
-  <div class="learning-objective">LO1-LO3: Complete course objectives</div>
+<div class="right-panel">
+  <div class="right-top">
+    <div class="picture-placeholder">📚</div>
+    <div class="picture-idea">Course Structure</div>
+  </div>
+  
+  <div class="right-bottom">
+    <div class="video-info">Course Overview</div>
+    <div class="learning-objective">LO1-LO3: Complete course objectives</div>
+  </div>
 </div>
 
 <div class="script">
@@ -338,6 +411,8 @@ Course structure overview
 </div>
 
 ---
+
+<div class="shot-type">🚀 COURSE CONCLUSION</div>
 
 # Let's Get Started!
 
@@ -353,14 +428,16 @@ Course structure overview
   <span>Ready to begin your journey</span>
 </div>
 
-<div class="right-top">
-  <div class="picture-placeholder">🎬</div>
-  <div class="picture-idea">Course Start</div>
-</div>
-
-<div class="right-bottom">
-  <div class="video-info">Final Video: Course Conclusion</div>
-  <div class="learning-objective">Apply learned concepts to real-world scenarios</div>
+<div class="right-panel">
+  <div class="right-top">
+    <div class="picture-placeholder">🎬</div>
+    <div class="picture-idea">Course Start</div>
+  </div>
+  
+  <div class="right-bottom">
+    <div class="video-info">Final Video: Course Conclusion</div>
+    <div class="learning-objective">Apply learned concepts to real-world scenarios</div>
+  </div>
 </div>
 
 <div class="script">
