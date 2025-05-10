@@ -1,371 +1,158 @@
 course:
-  title: "[COURSE_TITLE]"
+  title: "Mastering SonarQube: From Technical Debt to Development Excellence"
   intro_video:
-    engaging_opening: "[ATTENTION_GRABBING_OPENING]"
-    instructor_introduction: "[INSTRUCTOR_BIO_AND_CREDENTIALS]"
+    engaging_opening: "Welcome to this comprehensive course on SonarQube! In this introduction, we'll explore how SonarQube helps teams maintain code quality and security."
+    instructor_introduction: "Join me as we dive into the world of code quality management, where we'll transform technical debt into development opportunities."
   overview:
     key_points: 
-      - "[KEY_POINT_1]"
-      - "[KEY_POINT_2]"
-      - "[KEY_POINT_3]"
+      - "Understanding and managing technical debt"
+      - "Setting up and configuring SonarQube"
+      - "Integrating with GitHub and CI/CD pipelines"
   key_takeaways: 
-    - "[TAKEAWAY_1]"
-    - "[TAKEAWAY_2]"
-    - "[TAKEAWAY_3]"
-  closing_remarks: "[COURSE_CLOSING]"
+      - "How to identify and fix code quality issues"
+      - "Best practices for maintaining code quality"
+      - "Automating code quality checks in your workflow"
+  closing_remarks: "Transform your development process with SonarQube"
 
 lessons:
-  - lesson_number: "[LESSON_NUMBER]"
+  - lesson_number: "1"
+    title: "What is Technical Debt and Getting Technical Debt"
     videos:
-      - video_number: "[VIDEO_NUMBER]"
-        hook: "[ATTENTION_GRABBING_HOOK]"
-        video_overview: "[VIDEO_OVERVIEW]"
-        learning_objective: "[LEARNING_OBJECTIVE]"
-        content: "[MAIN_CONTENT]"
-        summary: "[CONTENT_SUMMARY]"
-        in_video_question:
-          question: "[QUESTION_TEXT]"
-          options:
-            - "[OPTION_1]"
-            - "[OPTION_2]"
-            - "[OPTION_3]"
-            - "[OPTION_4]"
-          correct_answer: "[CORRECT_OPTION]"
-          explanation: "[CORRECT_ANSWER_EXPLANATION]"
-          incorrect_explanations: 
-            - "[INCORRECT_EXPLANATION_1]"
-            - "[INCORRECT_EXPLANATION_2]"
-        graded_assessment:
-          question: "[ASSESSMENT_QUESTION]"
-          options:
-            - "[ASSESSMENT_OPTION_1]"
-            - "[ASSESSMENT_OPTION_2]"
-            - "[ASSESSMENT_OPTION_3]"
-            - "[ASSESSMENT_OPTION_4]"
-          correct_answer: "[ASSESSMENT_CORRECT_OPTION]"
-          explanation: "[ASSESSMENT_EXPLANATION]"
-          incorrect_explanations: 
-            - "[ASSESSMENT_INCORRECT_EXPLANATION_1]"
-            - "[ASSESSMENT_INCORRECT_EXPLANATION_2]"
-
-      - video_number: "[VIDEO_NUMBER]"
-        hook: "[ATTENTION_GRABBING_HOOK]"
-        video_overview: "[VIDEO_OVERVIEW]"
-        learning_objective: "[LEARNING_OBJECTIVE]"
-        content: "[MAIN_CONTENT]"
+      - video_number: "1"
+        hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
+        video_overview: "Learn how to set up your development environment using GitHub Codespaces"
+        learning_objective: "By the end of this video, you will be able to launch and configure GitHub Codespaces for your project"
+        content: "Setting up development environment with GitHub Codespaces"
         screen_share:
-          tool: "[TOOL_NAME]"
-          transition_line: "[TRANSITION_TEXT]"
+          tool: "GitHub Codespaces"
+          transition_line: "Let's set up our development environment"
           prompt_steps: 
-            - "[STEP_1]"
-            - "[STEP_2]"
-            - "[STEP_3]"
+            - "Create GitHub repository"
+            - "Configure Codespaces"
+            - "Set up development environment"
           outcome_pointers: 
-            - "[OUTCOME_1]"
-            - "[OUTCOME_2]"
-          end_transition: "[END_TRANSITION]"
-        summary: "[CONTENT_SUMMARY]"
-        in_video_question:
-          question: "[QUESTION_TEXT]"
-          options:
-            - "[OPTION_1]"
-            - "[OPTION_2]"
-            - "[OPTION_3]"
-            - "[OPTION_4]"
-          correct_answer: "[CORRECT_OPTION]"
-          explanation: "[CORRECT_ANSWER_EXPLANATION]"
-          incorrect_explanations: 
-            - "[INCORRECT_EXPLANATION_1]"
-            - "[INCORRECT_EXPLANATION_2]"
-        graded_assessment:
-          question: "[ASSESSMENT_QUESTION]"
-          options:
-            - "[ASSESSMENT_OPTION_1]"
-            - "[ASSESSMENT_OPTION_2]"
-            - "[ASSESSMENT_OPTION_3]"
-            - "[ASSESSMENT_OPTION_4]"
-          correct_answer: "[ASSESSMENT_CORRECT_OPTION]"
-          explanation: "[ASSESSMENT_EXPLANATION]"
-          incorrect_explanations: 
-            - "[ASSESSMENT_INCORRECT_EXPLANATION_1]"
-            - "[ASSESSMENT_INCORRECT_EXPLANATION_2]"
+            - "Working development environment"
+            - "Configured Codespaces"
+          end_transition: "Now that we have our environment set up, let's move on to security configuration"
+        summary: "We've successfully set up our development environment using GitHub Codespaces"
 
-  - lesson_number: 2
+      - video_number: "2"
+        hook: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
+        video_overview: "Learn how to secure your SonarQube instance and configure the environment"
+        learning_objective: "Configure secure access and environment settings for SonarQube"
+        content: "Security configuration and environment setup"
+        summary: "Your SonarQube instance is now secure and properly configured"
+
+      - video_number: "3"
+        hook: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
+        video_overview: "Integrate SonarQube with GitHub using secure authentication"
+        learning_objective: "Set up secure GitHub integration with SonarQube"
+        content: "GitHub integration and security setup"
+        summary: "GitHub integration is now complete with proper security measures"
+
+      - video_number: "4"
+        hook: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
+        video_overview: "Set up automated code quality checks using GitHub Actions"
+        learning_objective: "Implement automated code quality scanning with GitHub Actions"
+        content: "GitHub Actions automation setup"
+        summary: "Automated code quality checks are now configured"
+
+      - video_number: "5"
+        hook: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
+        video_overview: "Learn how to optimize your GitHub usage and costs"
+        learning_objective: "Optimize GitHub resources and understand cost implications"
+        content: "GitHub cost optimization and resource management"
+        summary: "You now understand how to optimize GitHub resources and costs"
+
+  - lesson_number: "2"
+    title: "Paying Technical Debt"
     videos:
-      - video_number: 1
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        screen_share:
-          tool: ""
-          transition_line: ""
-          prompt_steps: []
-          outcome_pointers: []
-          end_transition: ""
-        summary: ""
-        in_video_questions:
-          - question: ""
-            options:
-              - ""
-              - ""
-              - ""
-              - ""
-            correct_answer: ""
-            explanation: ""
-            incorrect_explanations: []
-          - question: ""
-            options:
-              - ""
-              - ""
-              - ""
-              - ""
-            correct_answer: ""
-            explanation: ""
-            incorrect_explanations: []
+      - video_number: "1"
+        hook: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects"
+        video_overview: "Learn how to build your professional presence while managing technical debt"
+        learning_objective: "Create a professional presence while working on technical debt"
+        content: "Professional presence and technical debt management"
+        summary: "You now know how to balance professional presence with technical debt management"
 
-      - video_number: 2
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        screen_share:
-          tool: ""
-          transition_line: ""
-          prompt_steps: []
-          outcome_pointers: []
-          end_transition: ""
-        summary: ""
-        in_video_question:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-        graded_assessment:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
+      - video_number: "2"
+        hook: "Technical Debt & Focus – Fix, Update, and Power On with Confidence"
+        video_overview: "Learn strategies for addressing technical debt effectively"
+        learning_objective: "Implement effective technical debt management strategies"
+        content: "Technical debt management strategies"
+        summary: "You can now effectively manage and reduce technical debt"
 
-      - video_number: 3
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        screen_share:
-          tool: ""
-          transition_line: ""
-          prompt_steps: []
-          outcome_pointers: []
-          end_transition: ""
-        summary: ""
-        in_video_question:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-        graded_assessment:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
+      - video_number: "3"
+        hook: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
+        video_overview: "Use AI tools and intuition for effective debugging"
+        learning_objective: "Apply AI tools and debugging techniques effectively"
+        content: "AI-powered debugging and testing strategies"
+        summary: "You can now use AI tools for effective debugging"
 
-      - video_number: 4
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        summary: ""
-        in_video_question:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-        graded_assessment:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
+      - video_number: "4"
+        hook: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
+        video_overview: "Learn how to recover from configuration issues and debug SonarQube"
+        learning_objective: "Troubleshoot and recover SonarQube configurations"
+        content: "SonarQube troubleshooting and recovery"
+        summary: "You can now handle SonarQube configuration issues"
 
-  - lesson_number: 3
+      - video_number: "5"
+        hook: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
+        video_overview: "Fine-tune SonarQube configuration and access settings"
+        learning_objective: "Configure advanced SonarQube settings"
+        content: "Advanced SonarQube configuration"
+        summary: "Your SonarQube configuration is now optimized"
+
+  - lesson_number: "3"
+    title: "Managing Technical Debt (Scan, Monitor)"
     videos:
-      - video_number: 1
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        summary: ""
-        in_video_question:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-        graded_assessment:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
+      - video_number: "1"
+        hook: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
+        video_overview: "Learn how to improve code coverage and fix failures"
+        learning_objective: "Improve code coverage and fix common failures"
+        content: "Code coverage improvement and failure resolution"
+        summary: "You can now improve code coverage and fix failures"
 
-      - video_number: 2
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        screen_share:
-          tool: ""
-          transition_line: ""
-          prompt_steps: []
-          outcome_pointers: []
-          end_transition: ""
-        summary: ""
-        in_video_question:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-        graded_assessment:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
+      - video_number: "2"
+        hook: "More Features, More Debt – Why It Matters and How to See Your Impact"
+        video_overview: "Understand the relationship between features and technical debt"
+        learning_objective: "Balance feature development with technical debt management"
+        content: "Feature development and technical debt balance"
+        summary: "You understand how to balance features and technical debt"
 
-      - video_number: 3
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        summary: ""
-        in_video_question:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-        graded_assessment:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-
-      - video_number: 4
-        hook: ""
-        video_overview: "In this video, we will learn..."
-        learning_objective: "By the end of this video, you will be able to..."
-        content: ""
-        screen_share:
-          tool: ""
-          transition_line: ""
-          prompt_steps: []
-          outcome_pointers: []
-          end_transition: ""
-        summary: ""
-        in_video_question:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
-        graded_assessment:
-          question: ""
-          options:
-            - ""
-            - ""
-            - ""
-            - ""
-          correct_answer: ""
-          explanation: ""
-          incorrect_explanations: []
+      - video_number: "3"
+        hook: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
+        video_overview: "Learn how to handle false positives and maintain SonarQube uptime"
+        learning_objective: "Manage SonarQube accuracy and availability"
+        content: "SonarQube accuracy and availability management"
+        summary: "You can now handle false positives and maintain uptime"
 
 outro:
-  opening_acknowledgment: "[ACKNOWLEDGMENT_TEXT]"
+  opening_acknowledgment: "Thank you for completing this comprehensive course on SonarQube"
   course_content_recap: 
-    - "[RECAP_POINT_1]"
-    - "[RECAP_POINT_2]"
-    - "[RECAP_POINT_3]"
-  motivational_message: "[MOTIVATIONAL_MESSAGE]"
-  encouragement: "[ENCOURAGEMENT_TEXT]"
+    - "Understanding and managing technical debt"
+    - "Setting up and configuring SonarQube"
+    - "Integrating with GitHub and CI/CD pipelines"
+  motivational_message: "You now have the tools to transform your development process"
+  encouragement: "Start implementing these practices in your projects today"
   actionable_next_steps: 
-    - "[NEXT_STEP_1]"
-    - "[NEXT_STEP_2]"
-    - "[NEXT_STEP_3]"
-  closing_remarks: "[FINAL_CLOSING]"
+    - "Set up SonarQube in your projects"
+    - "Configure automated code quality checks"
+    - "Start addressing technical debt systematically"
+  closing_remarks: "Begin your journey to better code quality with SonarQube"
 
 promo:
-  problem_statement: "[PROBLEM_DESCRIPTION]"
-  sme_introduction: "[SME_BIO]"
-  course_announcement: "[COURSE_ANNOUNCEMENT]"
+  problem_statement: "Technical debt and code quality issues are common challenges in software development"
+  sme_introduction: "Learn from an experienced developer who has transformed technical debt into development opportunities"
+  course_announcement: "Master SonarQube and transform your development process"
   key_benefits: 
-    - "[BENEFIT_1]"
-    - "[BENEFIT_2]"
-    - "[BENEFIT_3]"
-  real_life_impact: "[IMPACT_DESCRIPTION]"
+    - "Improve code quality and security"
+    - "Automate code quality checks"
+    - "Reduce technical debt"
+  real_life_impact: "Transform your development workflow and deliver better quality code"
   unique_selling_points: 
-    - "[USP_1]"
-    - "[USP_2]"
-    - "[USP_3]"
-  target_audience: "[AUDIENCE_DESCRIPTION]"
-  call_to_action: "[CTA_TEXT]"
-  closing_inspiration: "[INSPIRATIONAL_CLOSING]" 
+    - "Hands-on experience with SonarQube"
+    - "Real-world examples and case studies"
+    - "Practical implementation strategies"
+  target_audience: "Developers and teams looking to improve code quality and manage technical debt"
+  call_to_action: "Start your journey to better code quality today"
+  closing_inspiration: "Transform your development process with SonarQube" 
