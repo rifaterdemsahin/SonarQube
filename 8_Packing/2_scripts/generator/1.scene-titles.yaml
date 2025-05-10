@@ -6,7 +6,7 @@ lessons:
         title: "SonarQube Intro"
         scene_id: 1
       - id: "video1"
-      - learniongObjective: Intro
+      - learningObjective: Intro
         title: "From Debt to Dev: Building a Future with SonarQube, AI, and Personal Portfolio"
         scene_id: 2
         sections:
@@ -16,7 +16,8 @@ lessons:
           - "Bonus"
 
   - id: "1"
-    title: "What is Technical Debt and Getting Technical Debt"
+    title: "What is Techical Debt and Getting Technical Debt"
+    learningObjective: "Lo1"
     videos:
       - id: "video2"
         learningObjective: "Lo1"
@@ -43,6 +44,7 @@ lessons:
 
   - id: "2"
     title: "Paying Technical Debt"
+    learningObjective: "Lo2"
     videos:
       - id: "video1"
         title: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects, Have awareness"
@@ -63,6 +65,7 @@ lessons:
 
   - id: "3"
     title: "Managing Technical Debt (Scan, Monitor)"
+    learningObjective: "Lo3"
     videos:
       - id: "video1"
         title: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
