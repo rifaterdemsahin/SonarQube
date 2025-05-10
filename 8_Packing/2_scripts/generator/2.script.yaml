@@ -10,7 +10,7 @@ course:
             script: "Welcome to this comprehensive course on SonarQube! In this introduction, we'll explore how SonarQube helps teams maintain code quality and security."
             instructor_introduction: "Join me as we dive into the world of code quality management, where we'll transform technical debt into development opportunities."
             estimated_time_minutes: 2
-            camera: SonyZv1
+            camera: SonyZv1_ElgatoPrompter
     
   lessons:
     - lesson_number: "1"
@@ -24,7 +24,7 @@ course:
                 hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
                 script: "Today we're going to transform infrastructure debt into a powerful development setup using GitHub Codespaces."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
 
             - slide_capture:
                 objective: "Lo1: Set up and configure GitHub Codespaces for development"
@@ -50,7 +50,7 @@ course:
                 summary: "We've successfully set up our development environment using GitHub Codespaces"
                 script: "Great! Our development environment is ready. Next, we'll focus on securing our setup."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
         - video_number: "2"
           video_overview: "Learn how to secure your SonarQube instance and configure the environment"
           scene_id: "4"
@@ -59,7 +59,7 @@ course:
                 hook: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
                 script: "Security is crucial. Let's secure our SonarQube instance and configure our environment properly."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
             - slide_capture:
                 objective: "Lo1: Configure secure access and environment settings for SonarQube"
                 script: "We'll focus on configuring secure access and environment settings for SonarQube."
@@ -84,7 +84,7 @@ course:
                 summary: "Security configuration and environment setup is complete"
                 script: "Perfect! Our SonarQube instance is now secure and ready for use."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
         - video_number: "3"
           video_overview: "Integrate SonarQube with GitHub using secure authentication"
           scene_id: "5"
@@ -93,7 +93,7 @@ course:
                 hook: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
                 script: "Let's integrate SonarQube with GitHub securely using app authentication and webhooks."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
             - slide_capture:
                 objective: "Lo1: Implement secure GitHub integration with SonarQube"
                 script: "Our goal is to create a secure connection between SonarQube and GitHub."
@@ -118,7 +118,7 @@ course:
                 summary: "Secure GitHub integration is now in place"
                 script: "Excellent! We've established a secure connection between SonarQube and GitHub."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
         - video_number: "4"
           video_overview: "Set up automated code quality checks using GitHub Actions"
           scene_id: "6"
@@ -127,7 +127,7 @@ course:
                 hook: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
                 script: "Now we'll set up automated code quality checks using GitHub Actions."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
             - slide_capture:
                 objective: "Lo1: Set up automated code quality scanning with GitHub Actions"
                 script: "We'll configure GitHub Actions to automatically scan code on every commit."
@@ -152,7 +152,7 @@ course:
                 summary: "GitHub Actions automation is now set up"
                 script: "Perfect! Our automated code quality checks are now in place."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
         - video_number: "5"
           video_overview: "Learn how to optimize your GitHub usage and costs"
           scene_id: "7"
@@ -161,7 +161,7 @@ course:
                 hook: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
                 script: "Let's explore how to optimize GitHub usage and manage costs effectively."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
             - slide_capture:
                 objective: "Lo1: Optimize GitHub resources and understand cost implications"
                 script: "We'll learn how to optimize GitHub resources while keeping costs in check."
@@ -186,7 +186,7 @@ course:
                 summary: "GitHub resource optimization is complete"
                 script: "Great! You now have the knowledge to optimize GitHub resources and costs."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
     - lesson_number: "2"
       title: "Paying Technical Debt"
       videos:
@@ -198,7 +198,7 @@ course:
                 hook: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects"
                 script: "Let's learn how to build your professional presence while managing technical debt effectively."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
             - slide_capture:
                 objective: "Lo2: Create a professional presence while managing technical debt"
                 script: "We'll focus on creating a professional presence that showcases your technical debt management skills."
@@ -223,7 +223,7 @@ course:
                 summary: "Professional presence setup is complete"
                 script: "Perfect! You've learned how to showcase your technical debt management skills professionally."
                 estimated_time_minutes: 2
-                camera: SonyZv1
+                camera: SonyZv1_ElgatoPrompter
         - video_number: "2"
           video_overview: "Learn strategies for addressing technical debt effectively"
           scene_id: "9"
