@@ -39,8 +39,8 @@ Each shot markdown file will use the following Marp configuration:
  
 
 
-## Prompt Strategy
-
+## Shot Strategy
+- Make each marp different than each other 
 ### 1. Intro Talking Head
 - Duration: 45 seconds
 - Purpose: Set context and engage viewers
