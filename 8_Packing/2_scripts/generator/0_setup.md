@@ -29,6 +29,7 @@ Each scene (4 minutes total) consists of:
 - mention the type of the shot top center
 - Different emoji type for 
 - different styles for each shot type. I've created distinct visual treatments for each type while maintaining consistency in the overall structure
+- Add a unique shot it on the right bottom 
 
 
 1. 🎤 Intro Talking Head 
