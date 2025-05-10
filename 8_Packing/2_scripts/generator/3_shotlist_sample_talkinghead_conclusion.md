@@ -45,6 +45,7 @@ style: |
 
 # That’s a Wrap!  
 ### Thanks for joining *Data Science 101*  
+#### Shot Type: Talking Head - Closing 
 
 ![bg right:40% 80%](https://placehold.co/400x300/FFFFFF/11998e/png?text=Instructor)  
 

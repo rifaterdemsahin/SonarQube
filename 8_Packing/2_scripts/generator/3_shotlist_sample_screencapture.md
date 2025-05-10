@@ -8,31 +8,21 @@ style: |
     font-family: 'Fira Code', monospace;
   }
   .header {
-    color: #61afef;
     position: absolute;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.5em;
     font-weight: bold;
+    color: #61afef;
   }
   .footer {
-    color: #5c6370;
     position: absolute;
     right: 40px;
     bottom: 20px;
     font-size: 0.8em;
-    text-align: right;
-  }
-  .script {
     color: #5c6370;
-    position: absolute;
-    left: 40px;
-    bottom: 20px;
-    font-size: 0.8em;
-    text-align: left;
-    width: 60%;
-    font-style: italic;
+    text-align: right;
   }
   code {
     font-size: 1.2em;
@@ -42,7 +32,13 @@ style: |
 
 <!-- _class: header -->
 💻 CODE DEMO  
+#### Shot Type: Screen Capture
 
 ```python
 # Calculate correlation coefficient
-...
+import numpy as np
+
+def pearson_r(x, y):
+    """Compute Pearson correlation."""
+    corr_matrix = np.corrcoef(x, y)
+    return corr_matrix[0, 1]

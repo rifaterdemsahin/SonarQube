@@ -45,6 +45,7 @@ style: |
 
 # Welcome to *Data Science 101*  
 ### Your journey starts here  
+#### Shot Type: Talking Head - Hook
 
 ![bg right:40% 80%](https://placehold.co/400x300/FFFFFF/667eea/png?text=Instructor)  
 
