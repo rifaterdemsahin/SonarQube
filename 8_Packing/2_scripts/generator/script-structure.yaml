@@ -1,0 +1,371 @@
+course:
+  title: "[COURSE_TITLE]"
+  intro_video:
+    engaging_opening: "[ATTENTION_GRABBING_OPENING]"
+    instructor_introduction: "[INSTRUCTOR_BIO_AND_CREDENTIALS]"
+  overview:
+    key_points: 
+      - "[KEY_POINT_1]"
+      - "[KEY_POINT_2]"
+      - "[KEY_POINT_3]"
+  key_takeaways: 
+    - "[TAKEAWAY_1]"
+    - "[TAKEAWAY_2]"
+    - "[TAKEAWAY_3]"
+  closing_remarks: "[COURSE_CLOSING]"
+
+lessons:
+  - lesson_number: "[LESSON_NUMBER]"
+    videos:
+      - video_number: "[VIDEO_NUMBER]"
+        hook: "[ATTENTION_GRABBING_HOOK]"
+        video_overview: "[VIDEO_OVERVIEW]"
+        learning_objective: "[LEARNING_OBJECTIVE]"
+        content: "[MAIN_CONTENT]"
+        summary: "[CONTENT_SUMMARY]"
+        in_video_question:
+          question: "[QUESTION_TEXT]"
+          options:
+            - "[OPTION_1]"
+            - "[OPTION_2]"
+            - "[OPTION_3]"
+            - "[OPTION_4]"
+          correct_answer: "[CORRECT_OPTION]"
+          explanation: "[CORRECT_ANSWER_EXPLANATION]"
+          incorrect_explanations: 
+            - "[INCORRECT_EXPLANATION_1]"
+            - "[INCORRECT_EXPLANATION_2]"
+        graded_assessment:
+          question: "[ASSESSMENT_QUESTION]"
+          options:
+            - "[ASSESSMENT_OPTION_1]"
+            - "[ASSESSMENT_OPTION_2]"
+            - "[ASSESSMENT_OPTION_3]"
+            - "[ASSESSMENT_OPTION_4]"
+          correct_answer: "[ASSESSMENT_CORRECT_OPTION]"
+          explanation: "[ASSESSMENT_EXPLANATION]"
+          incorrect_explanations: 
+            - "[ASSESSMENT_INCORRECT_EXPLANATION_1]"
+            - "[ASSESSMENT_INCORRECT_EXPLANATION_2]"
+
+      - video_number: "[VIDEO_NUMBER]"
+        hook: "[ATTENTION_GRABBING_HOOK]"
+        video_overview: "[VIDEO_OVERVIEW]"
+        learning_objective: "[LEARNING_OBJECTIVE]"
+        content: "[MAIN_CONTENT]"
+        screen_share:
+          tool: "[TOOL_NAME]"
+          transition_line: "[TRANSITION_TEXT]"
+          prompt_steps: 
+            - "[STEP_1]"
+            - "[STEP_2]"
+            - "[STEP_3]"
+          outcome_pointers: 
+            - "[OUTCOME_1]"
+            - "[OUTCOME_2]"
+          end_transition: "[END_TRANSITION]"
+        summary: "[CONTENT_SUMMARY]"
+        in_video_question:
+          question: "[QUESTION_TEXT]"
+          options:
+            - "[OPTION_1]"
+            - "[OPTION_2]"
+            - "[OPTION_3]"
+            - "[OPTION_4]"
+          correct_answer: "[CORRECT_OPTION]"
+          explanation: "[CORRECT_ANSWER_EXPLANATION]"
+          incorrect_explanations: 
+            - "[INCORRECT_EXPLANATION_1]"
+            - "[INCORRECT_EXPLANATION_2]"
+        graded_assessment:
+          question: "[ASSESSMENT_QUESTION]"
+          options:
+            - "[ASSESSMENT_OPTION_1]"
+            - "[ASSESSMENT_OPTION_2]"
+            - "[ASSESSMENT_OPTION_3]"
+            - "[ASSESSMENT_OPTION_4]"
+          correct_answer: "[ASSESSMENT_CORRECT_OPTION]"
+          explanation: "[ASSESSMENT_EXPLANATION]"
+          incorrect_explanations: 
+            - "[ASSESSMENT_INCORRECT_EXPLANATION_1]"
+            - "[ASSESSMENT_INCORRECT_EXPLANATION_2]"
+
+  - lesson_number: 2
+    videos:
+      - video_number: 1
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        screen_share:
+          tool: ""
+          transition_line: ""
+          prompt_steps: []
+          outcome_pointers: []
+          end_transition: ""
+        summary: ""
+        in_video_questions:
+          - question: ""
+            options:
+              - ""
+              - ""
+              - ""
+              - ""
+            correct_answer: ""
+            explanation: ""
+            incorrect_explanations: []
+          - question: ""
+            options:
+              - ""
+              - ""
+              - ""
+              - ""
+            correct_answer: ""
+            explanation: ""
+            incorrect_explanations: []
+
+      - video_number: 2
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        screen_share:
+          tool: ""
+          transition_line: ""
+          prompt_steps: []
+          outcome_pointers: []
+          end_transition: ""
+        summary: ""
+        in_video_question:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+        graded_assessment:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+
+      - video_number: 3
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        screen_share:
+          tool: ""
+          transition_line: ""
+          prompt_steps: []
+          outcome_pointers: []
+          end_transition: ""
+        summary: ""
+        in_video_question:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+        graded_assessment:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+
+      - video_number: 4
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        summary: ""
+        in_video_question:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+        graded_assessment:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+
+  - lesson_number: 3
+    videos:
+      - video_number: 1
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        summary: ""
+        in_video_question:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+        graded_assessment:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+
+      - video_number: 2
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        screen_share:
+          tool: ""
+          transition_line: ""
+          prompt_steps: []
+          outcome_pointers: []
+          end_transition: ""
+        summary: ""
+        in_video_question:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+        graded_assessment:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+
+      - video_number: 3
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        summary: ""
+        in_video_question:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+        graded_assessment:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+
+      - video_number: 4
+        hook: ""
+        video_overview: "In this video, we will learn..."
+        learning_objective: "By the end of this video, you will be able to..."
+        content: ""
+        screen_share:
+          tool: ""
+          transition_line: ""
+          prompt_steps: []
+          outcome_pointers: []
+          end_transition: ""
+        summary: ""
+        in_video_question:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+        graded_assessment:
+          question: ""
+          options:
+            - ""
+            - ""
+            - ""
+            - ""
+          correct_answer: ""
+          explanation: ""
+          incorrect_explanations: []
+
+outro:
+  opening_acknowledgment: "[ACKNOWLEDGMENT_TEXT]"
+  course_content_recap: 
+    - "[RECAP_POINT_1]"
+    - "[RECAP_POINT_2]"
+    - "[RECAP_POINT_3]"
+  motivational_message: "[MOTIVATIONAL_MESSAGE]"
+  encouragement: "[ENCOURAGEMENT_TEXT]"
+  actionable_next_steps: 
+    - "[NEXT_STEP_1]"
+    - "[NEXT_STEP_2]"
+    - "[NEXT_STEP_3]"
+  closing_remarks: "[FINAL_CLOSING]"
+
+promo:
+  problem_statement: "[PROBLEM_DESCRIPTION]"
+  sme_introduction: "[SME_BIO]"
+  course_announcement: "[COURSE_ANNOUNCEMENT]"
+  key_benefits: 
+    - "[BENEFIT_1]"
+    - "[BENEFIT_2]"
+    - "[BENEFIT_3]"
+  real_life_impact: "[IMPACT_DESCRIPTION]"
+  unique_selling_points: 
+    - "[USP_1]"
+    - "[USP_2]"
+    - "[USP_3]"
+  target_audience: "[AUDIENCE_DESCRIPTION]"
+  call_to_action: "[CTA_TEXT]"
+  closing_inspiration: "[INSPIRATIONAL_CLOSING]" 
