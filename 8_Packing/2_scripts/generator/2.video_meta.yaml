@@ -19,6 +19,7 @@ lessons:
     title: "What is Technical Debt and Getting Technical Debt"
     videos:
       - video_number: "1"
+        scene_id: "3"
         hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
         video_overview: "Learn how to set up your development environment using GitHub Codespaces"
         learning_objective: "By the end of this video, you will be able to launch and configure GitHub Codespaces for your project"
@@ -37,6 +38,7 @@ lessons:
         summary: "We've successfully set up our development environment using GitHub Codespaces"
 
       - video_number: "2"
+        scene_id: "4"
         hook: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
         video_overview: "Learn how to secure your SonarQube instance and configure the environment"
         learning_objective: "Configure secure access and environment settings for SonarQube"
@@ -44,6 +46,7 @@ lessons:
         summary: "Your SonarQube instance is now secure and properly configured"
 
       - video_number: "3"
+        scene_id: "5"
         hook: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
         video_overview: "Integrate SonarQube with GitHub using secure authentication"
         learning_objective: "Set up secure GitHub integration with SonarQube"
@@ -51,6 +54,7 @@ lessons:
         summary: "GitHub integration is now complete with proper security measures"
 
       - video_number: "4"
+        scene_id: "6"
         hook: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
         video_overview: "Set up automated code quality checks using GitHub Actions"
         learning_objective: "Implement automated code quality scanning with GitHub Actions"
@@ -58,6 +62,7 @@ lessons:
         summary: "Automated code quality checks are now configured"
 
       - video_number: "5"
+        scene_id: "7"
         hook: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
         video_overview: "Learn how to optimize your GitHub usage and costs"
         learning_objective: "Optimize GitHub resources and understand cost implications"
@@ -68,6 +73,7 @@ lessons:
     title: "Paying Technical Debt"
     videos:
       - video_number: "1"
+        scene_id: "8"
         hook: "Build Quietly, Showcase Smart – LinkedIn Presence & Private GitHub Projects"
         video_overview: "Learn how to build your professional presence while managing technical debt"
         learning_objective: "Create a professional presence while working on technical debt"
@@ -75,6 +81,7 @@ lessons:
         summary: "You now know how to balance professional presence with technical debt management"
 
       - video_number: "2"
+        scene_id: "9"
         hook: "Technical Debt & Focus – Fix, Update, and Power On with Confidence"
         video_overview: "Learn strategies for addressing technical debt effectively"
         learning_objective: "Implement effective technical debt management strategies"
@@ -82,6 +89,7 @@ lessons:
         summary: "You can now effectively manage and reduce technical debt"
 
       - video_number: "3"
+        scene_id: "10"
         hook: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
         video_overview: "Use AI tools and intuition for effective debugging"
         learning_objective: "Apply AI tools and debugging techniques effectively"
@@ -89,6 +97,7 @@ lessons:
         summary: "You can now use AI tools for effective debugging"
 
       - video_number: "4"
+        scene_id: "11"
         hook: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
         video_overview: "Learn how to recover from configuration issues and debug SonarQube"
         learning_objective: "Troubleshoot and recover SonarQube configurations"
@@ -96,6 +105,7 @@ lessons:
         summary: "You can now handle SonarQube configuration issues"
 
       - video_number: "5"
+        scene_id: "11"
         hook: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
         video_overview: "Fine-tune SonarQube configuration and access settings"
         learning_objective: "Configure advanced SonarQube settings"
@@ -106,6 +116,7 @@ lessons:
     title: "Managing Technical Debt (Scan, Monitor)"
     videos:
       - video_number: "1"
+        scene_id: "12"
         hook: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
         video_overview: "Learn how to improve code coverage and fix failures"
         learning_objective: "Improve code coverage and fix common failures"
@@ -113,6 +124,7 @@ lessons:
         summary: "You can now improve code coverage and fix failures"
 
       - video_number: "2"
+        scene_id: "13"
         hook: "More Features, More Debt – Why It Matters and How to See Your Impact"
         video_overview: "Understand the relationship between features and technical debt"
         learning_objective: "Balance feature development with technical debt management"
@@ -120,6 +132,7 @@ lessons:
         summary: "You understand how to balance features and technical debt"
 
       - video_number: "3"
+        scene_id: "14"
         hook: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
         video_overview: "Learn how to handle false positives and maintain SonarQube uptime"
         learning_objective: "Manage SonarQube accuracy and availability"

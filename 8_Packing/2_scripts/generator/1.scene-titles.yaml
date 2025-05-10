@@ -16,7 +16,7 @@ lessons:
           - "Bonus"
 
   - id: "1"
-    title: "What is Techical Debt and Getting Technical Debt"
+    title: "What is Technical Debt and Getting Technical Debt"
     learningObjective: "Lo1"
     videos:
       - id: "video2"
