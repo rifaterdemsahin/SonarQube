@@ -195,7 +195,7 @@ Here is the 3 objectives > setup,integrate and scan</div>
 ---
 
 
-## ScreenCapture
+## Example ScreenCapture
 
 <div class="shot-type" data-type="screencapture">🎬 INTEGRATE WITH GITHUB APP</div>
 
