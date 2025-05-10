@@ -6,6 +6,7 @@ lessons:
         title: "SonarQube Intro"
         sceneid: 1
       - id: "video1"
+      - learniongObjective: Intro
         title: "From Debt to Dev: Building a Future with SonarQube, AI, and Personal Portfolio"
         sceneid: 2
         sections:
@@ -18,18 +19,24 @@ lessons:
     title: "What is Technical Debt and Getting Technical Debt"
     videos:
       - id: "video2"
+        learningObjective: "Lo1"
         title: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
         sceneid: 3
       - id: "video3"
+        learningObjective: "Lo1"
+        learningObjective: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
         title: "Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment"
         sceneid: 4
       - id: "video4"
+        learningObjective: "Lo1"
         title: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
         sceneid: 5
       - id: "video5"
+        learningObjective: "Lo1"
         title: "GitHub Actions as Your Agent – Automate Scans on Every Commit"
         sceneid: 6
       - id: "video6"
+        learningObjective: "Lo1"
         title: "Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools"
         sceneid: 7
     hands_on:

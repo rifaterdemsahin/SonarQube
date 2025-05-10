@@ -1,0 +1,22 @@
+learning_objectives:
+  - id: lo1
+    title: 🚀 Setting up sonarqube
+    substory: 📊 getting tech debt
+    status: 
+      - ✅ code completed
+      - 📝 outline created
+      - 🎬 scripting
+  - id: lo2
+    title: 🔄 Integrating technical debt
+    substory: 📈 increasing tech debt
+    status: 
+      - ✅ code completed
+      - 📝 outline created
+      - 🎬 scripting
+  - id: lo3
+    title: 💰 paying tech debt
+    substory: 👀 awareness and visibility
+    status: 
+      - ✅ code completed
+      - 📝 outline created
+      - 🎬 scripting
