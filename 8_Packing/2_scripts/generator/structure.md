@@ -241,21 +241,8 @@ Key Metric 2
 ```
 
 ## Scene Topics
-1. Overview of Region
-2. Historical Background
-3. Geography & Terrain
-4. Demographics
-5. Urban Areas
-6. Natural Resources
-7. Climate Zones
-8. Transportation Routes
-9. Cultural Sites
-10. Environmental Challenges
-11. Economic Activity
-12. Political Divisions
-13. Education & Institutions
-14. Health & Infrastructure
-15. Future Plans & Vision
+- Take them from the file called scene-topics
+- Structure the file names aroodund it
 
 ## YAML Metadata Structure
 Each scene's metadata file (sceneXX.yaml) follows this structure:
@@ -358,3 +345,16 @@ python3 generate-scene-md.py metadata/sceneXX.yaml
 2. Run the generation scripts
 3. Review and refine content
 4. Prepare for production
+
+## Guidence for Editors
+- **Music**: Upbeat, motivational track suggestions
+- Sound Effect suggestions
+- Visual effect suggestions
+
+## Markers on The Slides
+- **Length**: 45-60 seconds total.  
+- **Style**: Mix of live-action, text animations, and dynamic transitions. 
+
+## Formatting
+- Use markdown
+- Use Marp
