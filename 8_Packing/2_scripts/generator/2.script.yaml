@@ -1,6 +1,6 @@
 📚 course:
   📝 title: "Mastering SonarQube: From Technical Debt to Development Excellence"
-  🎬 intro_video:
+  🎬 intro:
     - section: "intro"
     - video_number: "1"
       video_overview: "Learn how to set up your development environment using GitHub Codespaces"
@@ -45,7 +45,128 @@
                 script: "By mastering environment setup and rebuild techniques with SonarQube, you'll be ready to manage technical debt proactively, maintain a clean development workflow, and build resilient, high-quality software systems. Let's get started and set the foundation right! 🚀"
                 estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
-
+    - video_number: "2"
+      section: "Intro"
+      title: "Instructor "
+      videos:
+        - video_number: "2"
+          video_overview: "Who is the instructor"
+          scene_id: "3"
+          shots:
+            - 👤 talking_head:
+                hook: "only 3 things to learn"
+                script: "Hello, I'm Rifat Erdem Sahin. With over 40 successful IT contracts and 80 projects delivered globally, I've honed deep expertise in the software development life cycle. At Accenture, this pivotal tool enabled me to ensure code quality and maintainability across large-scale projects."
+                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                camera: SonyZv1_ElgatoPrompter
+            - 📊 slide_capture:
+                objective: "Meet instructor"
+                script: "Integrating SonarQube into CI/CD pipelines has streamlined continuous integration, supporting trunk-based development for rapid, reliable code releases.  "
+                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                camera: Marp_1080P_OBS
+            - 💻 screen_share:
+                content: "Setting up development environments"
+                tool: "Using Copilot with the setup"
+                script: "In this course, we’ll explore how to integrate SonarQube into your workflows, ensuring maintainable, high-quality code for scalable projects. We would use the ai to connect the dots."
+                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                camera: LiveCursor_1080P_OBS
+            - 👤 talking_head:
+                closing: "Why instructor is the has the unfair advantage on this course"
+                summary: "Motivate to work with the instructor"
+                script: "In an ever-changing world, mastering these components will empower you to deliver impactful solutions. Let’s dive in and make it work! 🌟 "
+                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                camera: SonyZv1_ElgatoPrompter
+    - video_number: "2"
+          section: "Intro"
+          title: "Authentic Content "
+          videos:
+            - video_number: "2"
+              video_overview: "Why authentic content is important"
+              scene_id: "3"
+              shots:
+                - 👤 talking_head:
+                    hook: "only 3 things to learn"
+                    script: "In this course, we’ll explore real-world challenges, focusing on navigating technical debt and achieving daily deployments. This isn’t just theory—it’s a hands-on journey into solving practical problems with tools like SonarQube.  I have crafted the course around a real project which is setting up the sonarqube environment."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: SonyZv1_ElgatoPrompter
+                - 📊 slide_capture:
+                    objective: "Meet instructor"
+                    script: "I’ll share authentic personal experiences and strategies that have helped me tackle technical debt in real-world projects. From yak shaving to delivering scalable solutions, you’ll gain insights into overcoming obstacles and building robust systems."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: Marp_1080P_OBS
+                - 💻 screen_share:
+                    content: "Setting up development environments"
+                    tool: "Using Copilot with the setup"
+                    script: "Follow along as we set up SonarQube, resolve technical debt, and optimize workflows for continuous integration. Apply these lessons to your own projects, ensuring quality and scalability."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: LiveCursor_1080P_OBS
+                - 👤 talking_head:
+                    closing: "Why instructor is the has the unfair advantage on this course"
+                    summary: "Motivate to work with the instructor"
+                    script: "By the end of this course, you’ll have the skills and confidence to tackle technical debt, deliver high-quality software, and thrive in real-world development environments. Let’s get started! 🚀 "
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: SonyZv1_ElgatoPrompter
+        - video_number: "2"
+          section: "Intro"
+          title: "AI First Implementation"
+          videos:
+            - video_number: "2"
+              video_overview: "Why use AI"
+              scene_id: "3"
+              shots:
+                - 👤 talking_head:
+                    hook: "only 3 things to learn"
+                    script: "This course includes a bonus AI-first project where you’ll integrate AI tools to set up and optimize a SonarQube environment. It’s designed to sharpen your skills in AI-assisted development while ensuring top-tier quality standards."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: SonyZv1_ElgatoPrompter
+                - 📊 slide_capture:
+                    objective: "Meet instructor"
+                    script: "You’ll learn to use AI tools like ChatGPT. I would ask you to record them in git. e would iterate prompts, automate quality checks, and enhance your delivery. This hands-on project will prepare you for real-world applications of AI in software development."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: Marp_1080P_OBS
+                - 💻 screen_share:
+                    content: "Setting up development environments"
+                    tool: "Using Copilot with the setup"
+                    script: "Build a fully functional SonarQube environment, integrate to CI with AI into your workflows, and apply these skills to improve code quality and manage technical debt. Document your progress to create a portfolio-ready project."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: LiveCursor_1080P_OBS
+                - 👤 talking_head:
+                    closing: "Why instructor is the has the unfair advantage on this course"
+                    summary: "Motivate to work with the instructor"
+                    script: "By the end, you’ll not only master AI-assisted development but also have a showcase-worthy project to demonstrate your expertise. Let’s innovate and build together! 🤖✨"
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: SonyZv1_ElgatoPrompter
+    
+      - video_number: "2"
+          section: "Intro"
+          title: "AI First Implementation"
+          videos:
+            - video_number: "2"
+              video_overview: "Why use AI"
+              scene_id: "3"
+              shots:
+                - 👤 talking_head:
+                    hook: "only 3 things to learn"
+                    script: "Creating a professional portfolio is essential for IT professionals, showcasing your ability to deliver high-quality, maintainable software. By integrating SonarQube into your GitHub projects, you demonstrate a commitment to code quality and technical debt management. This approach highlights your expertise in building scalable, customer-focused applications."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: SonyZv1_ElgatoPrompter
+                - 📊 slide_capture:
+                    objective: "Meet instructor"
+                    script: "SonarQube complements your GitHub portfolio by ensuring your code meets industry standards. It provides actionable insights into vulnerabilities, code smells, and maintainability, which are critical for delivering reliable software. Sharing these projects on LinkedIn and GitHub enhances your visibility and credibility as a developer."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: Marp_1080P_OBS
+                - 💻 screen_share:
+                    content: "Setting up development environments"
+                    tool: "Using Copilot with the setup"
+                    script: "Explore the provided GitHub repository to access all the code and configurations used in this course. Use SonarQube to analyze your projects, document improvements, and share your results on LinkedIn. Highlight how SonarQube helped you address technical debt and deliver high-quality solutions."
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: LiveCursor_1080P_OBS
+                - 👤 talking_head:
+                    closing: "Why doing the projects makes sense ?"
+                    summary: "Ability to pay the debt is vital"
+                    script: "By combining GitHub and SonarQube, you create a portfolio that not only showcases your technical skills but also your dedication to software excellence. Let’s build a portfolio that stands out and opens doors to new opportunities! 🚀  🤖✨"
+                    estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                    camera: SonyZv1_ElgatoPrompter
+    
                 
     
   📖 lessons:
