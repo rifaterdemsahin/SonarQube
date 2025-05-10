@@ -19,23 +19,24 @@ lessons:
     title: "What is Technical Debt and Getting Technical Debt"
     videos:
       - video_number: "1"
-        scene_id: "3"
-        hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
         video_overview: "Learn how to set up your development environment using GitHub Codespaces"
-        learning_objective: "Lo1: Set up and configure GitHub Codespaces for development"
-        content: "Setting up development environment with GitHub Codespaces"
-        screen_share:
-          tool: "GitHub Codespaces"
-          transition_line: "Let's set up our development environment"
-          prompt_steps: 
-            - "Create GitHub repository"
-            - "Configure Codespaces"
-            - "Set up development environment"
-          outcome_pointers: 
-            - "Working development environment"
-            - "Configured Codespaces"
-          end_transition: "Now that we have our environment set up, let's move on to security configuration"
-        summary: "We've successfully set up our development environment using GitHub Codespaces"
+        scene_id: "3"
+        shots:
+          - talking head: [hook] "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
+          - slide_capture: [objective]: "Lo1: Set up and configure GitHub Codespaces for development"
+          - screen_share:
+            content: "Setting up development environment with GitHub Codespaces"
+            - tool: "GitHub Codespaces"
+            transition_line: "Let's set up our development environment"
+            prompt_steps: 
+              - "Create GitHub repository"
+              - "Configure Codespaces"
+              - "Set up development environment"
+            outcome_pointers: 
+              - "Working development environment"
+              - "Configured Codespaces"   
+           - talkinghead: [closing ] "Now that we have our environment set up, let's move on to security configuration"
+              summary: "We've successfully set up our development environment using GitHub Codespaces"
 
       - video_number: "2"
         scene_id: "4"
