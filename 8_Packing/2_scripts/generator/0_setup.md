@@ -1,5 +1,5 @@
 # 🎬 ShotList System Setup
-- 🎯 Goal Create a production guide using outline and script
+- 🎯 Goal Create a production guide using outline and script and having a shot list output
 
 ## 📁 Core Files
 \SonarQube\8_Packing\2_scripts\generator\0_setup.md
@@ -22,11 +22,17 @@ Each scene (4 minutes total) consists of:
 4. 🎤 Summary Talking Head (45 seconds)
 
 
-## ⚙️ Marp Configuration
+## ⚙️ Shot List Marp Configuration
 - Each shot markdown file will use the following Marp configuration:
-- Eachshot should have ots own style of marp 
+- Each shot should have ots own style of marp 
 - the video and learning objectives should be on the right bottom
 - mention the type of the shot top center
+- Different emoji type for 
+
+1. 🎤 Intro Talking Head 
+2. 📊 Slides
+3. 💻 Screen Capture
+4. 🎤 Summary Talking Head 
 
 ## ⏱️ Estimation time 
 - use 120 words per minute
