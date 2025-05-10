@@ -8,11 +8,7 @@
       shots:
         - 👤 talking_head:
             hook: "From Infra Debt to Dev Setup – Launching with GitHub Codespaces"
-            script: |
-              Welcome to our SonarQube course! In today's software world, technical debt is the silent killer of speed, quality, and innovation. Managing it isn't optional—it's essential. SonarQube helps you catch debt early, fix it fast, and keep your projects healthy for the long run.
-              This course will show you how to integrate SonarQube into your development lifecycle to analyze code, pay down technical debt, and ensure your releases are always production-ready. We'll break down the first principles of debt management, so you're not just fixing bugs—you're building a system that prevents them.
-              SonarQube isn't just about spotting vulnerabilities or messy code; it's about giving you a clear path to reduce technical debt systematically. By weaving it into your workflow, you'll boost maintainability, security, and developer happiness. Think of it as building a strong foundation—one clean commit at a time.
-              Let's dive in and transform how you manage your codebase! Together, we'll learn to see technical debt before it sees us, make smart payments on it daily, and drive projects that are fast, flexible, and future-proof. 🚀
+            script: "Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time."
             estimated_time_minutes_by_script: 1.5  # 90 seconds for 180 words
             camera: SonyZv1_ElgatoPrompter
     - video_number: "2"
@@ -25,25 +21,25 @@
           shots:
             - 👤 talking_head:
                 hook: "only 3 things to learn"
-                script: "Hello, I'm Rifat Erdem Sahin. With over 40 successful IT contracts and 80 projects delivered globally, I've honed deep expertise in the software development life cycle. At Accenture, this pivotal tool enabled me to ensure code quality and maintainability across large-scale projects."
-                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                script: "Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability."
+                estimated_time_minutes_by_script: 0.25  # 15 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
                 objective: "Meet instructor"
-                script: "Integrating SonarQube into CI/CD pipelines has streamlined continuous integration, supporting trunk-based development for rapid, reliable code releases."
-                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                script: "Share authentic personal experiences tackling technical debt. Gain insights from yak shaving to scalable solutions, overcoming obstacles in real-world projects."
+                estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
                 content: "Setting up development environments"
                 tool: "Using Copilot with the setup"
-                script: "In this course, we'll explore how to integrate SonarQube into your workflows, ensuring maintainable, high-quality code for scalable projects. We would use the ai to connect the dots."
-                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                script: "Integrate SonarQube into workflows using AI. Ensure maintainable, high-quality code for scalable projects. Use AI to connect the dots and enhance development."
+                estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
                 closing: "Why instructor is the has the unfair advantage on this course"
                 summary: "Motivate to work with the instructor"
-                script: "In an ever-changing world, mastering these components will empower you to deliver impactful solutions. Let's dive in and make it work! 🌟"
-                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                script: "Mastering these components empowers you to deliver impactful solutions. Let's dive in and make it work! 🌟"
+                estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
     - video_number: "3"
       section: "Intro"
@@ -55,9 +51,8 @@
           shots:
             - 👤 talking_head:
                 hook: "only 3 things to learn"
-                script: "In this course, we'll explore real-world challenges, focusing on navigating technical debt and achieving daily deployments. This isn't just theory—it's a hands-on journey into solving practical problems with tools like SonarQube. I have crafted the course around a real project which is setting up the sonarqube environment."
-                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
-                camera: SonyZv1_ElgatoPrompter
+                script: "Explore real-world technical debt challenges. Achieve daily deployments through hands-on problem-solving with SonarQube. This course uses a real project setting up a SonarQube environment for practical learning."
+                estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
             - 📊 slide_capture:
                 objective: "Lo2: Apply AI tools and debugging techniques effectively"
                 script: "Leverage AI tools for debugging. Use AI and intuition to break down errors, iterate solutions, and refine your stack. Learn to verify with AI, rubber duck the process, and trust your intuition for better code quality."
@@ -90,8 +85,8 @@
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
                 objective: "Meet instructor"
-                script: "You'll learn to use AI tools like ChatGPT. I would ask you to record them in git. We would iterate prompts, automate quality checks, and enhance your delivery. This hands-on project will prepare you for real-world applications of AI in software development."
-                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                script: "Learn to use AI tools like Claude and GPT to iterate prompts, automate quality checks, and enhance your CI/CD pipeline. Prepare for real-world AI applications."
+                estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
                 content: "Setting up development environments"
