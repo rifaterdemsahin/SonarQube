@@ -163,20 +163,20 @@
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
                 objective: "Lo1: Set up and configure GitHub Codespaces for development"
-                script: "First objective: set up and configure GitHub Codespaces for our development environment."
+                script: "SonarQube provides a structured process to measure, analyze, and reduce technical debt. It acts as a scale to track progress, ensuring your software remains maintainable and scalable."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
-                content: "Setting up development environment with GitHub Codespaces"
-                tool: "GitHub Codespaces"
-                transition_line: "Let's set up our development environment"
+                content: "Debt Cycle start with the first step of loading features to the project"
+                tool: "Basic debt cycle animation"
+                transition_line: "The new feature becomes a debt burden"
                 prompt_steps:
-                  - "Create GitHub repository"
-                  - "Configure Codespaces"
-                  - "Set up development environment"
+                  - "We spend our time on the new feature"
+                  - "Productive spending is packed well"
+                  - "Non Productive spending is like a debt that is out of control"
                 outcome_pointers:
-                  - "Working development environment"
-                  - "Configured Codespaces"
+                  - "We want to be able to pay off the debt"
+                  - "Being aware of the debt is the first step, sonarqube helps us to be aware of the debt"
                 script: "Choose your environment, set up Codespaces, and configure SonarQube step-by-step. Document the process for effective rebuilding and troubleshooting."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: LiveCursor_1080P_OBS
