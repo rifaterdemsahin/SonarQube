@@ -12,6 +12,23 @@
             script: "Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time."
             estimated_time_minutes_by_script: 1.5  # 90 seconds for 180 words
             camera: SonyZv1_ElgatoPrompter
+        - 👤 talking_head:
+            page_number: 2
+            hook: "What we we going to learn?"
+            script: >-
+              [CONTEXT]  
+              In this course, you'll focus on setting up and rebuilding a clean development environment using SonarQube. You'll gain practical experience in preparing an environment optimized for code quality management and maintaining technical health from the ground up.
+
+              [SHOW]  
+              You'll learn how to install and configure SonarQube in a fresh environment, ensuring it's properly integrated into your projects and CI/CD pipelines. We'll walk through environment rebuilding practices to fix misconfigurations, address infrastructure debt, and establish a reliable foundation for ongoing code analysis.That is going to be out main focus.
+
+              [DO]  
+              Follow detailed, step-by-step instructions to set up a SonarQube environment, connect it to your projects, and perform environment rebuilds when issues arise. You'll practice scanning for vulnerabilities, interpreting reports, and reinforcing your infrastructure for continuous code quality management.
+
+              [CLOSING]  
+              By mastering environment setup and rebuild techniques with SonarQube, you'll be ready to manage technical debt proactively, maintain a clean development workflow, and build resilient, high-quality software systems. Let's get started and set the foundation right! 🚀
+            estimated_time_minutes_by_script: 1.5  # 90 seconds for 180 words
+            camera: SonyZv1_ElgatoPrompter
     - video_number: "2"
       section: "Intro"
       title: "Instructor"
