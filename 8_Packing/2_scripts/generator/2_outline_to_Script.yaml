@@ -38,26 +38,26 @@
           scene_id: "3"
           shots:
             - 👤 talking_head:
-                page_number: 2
+                page_number: 3
                 hook: "only 3 things to learn"
                 script: "Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
-                page_number: 2
+                page_number: 4
                 objective: "Meet instructor"
                 script: "Share authentic personal experiences tackling technical debt. Gain insights from yak shaving to scalable solutions, overcoming obstacles in real-world projects."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
-                page_number: 2
+                page_number: 5
                 content: "Setting up development environments"
                 tool: "Using Copilot with the setup"
                 script: "Integrate SonarQube into workflows using AI. Ensure maintainable, high-quality code for scalable projects. Use AI to connect the dots and enhance development."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
-                page_number: 2
+                page_number: 6
                 closing: "Why instructor is the has the unfair advantage on this course"
                 summary: "Motivate to work with the instructor"
                 script: "Mastering these components empowers you to deliver impactful solutions. Let's dive in and make it work! 🌟"
@@ -72,18 +72,18 @@
           scene_id: "3"
           shots:
             - 👤 talking_head:
-                page_number: 3
+                page_number: 7
                 hook: "only 3 things to learn"
                 script: "Explore real-world technical debt challenges. Achieve daily deployments through hands-on problem-solving with SonarQube. This course uses a real project setting up a SonarQube environment for practical learning."
                 estimated_time_minutes_by_script: 0.25  # 30 seconds for 60 words
             - 📊 slide_capture:
-                page_number: 3
+                page_number: 7
                 objective: "Lo2: Apply AI tools and debugging techniques effectively"
                 script: "Leverage AI tools for debugging. Use AI and intuition to break down errors, iterate solutions, and refine your stack. Learn to verify with AI, rubber duck the process, and trust your intuition for better code quality."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
-                page_number: 3
+                page_number: 7
                 content: "GitHub integration and security setup"
                 tool: "GitHub"
                 transition_line: "Let's integrate SonarQube with GitHub"
@@ -98,7 +98,7 @@
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: LiveCursor_1080P_OBS
             - 👤 talking_head:
-                page_number: 3
+                page_number: 7
                 closing: "Why instructor is the has the unfair advantage on this course"
                 summary: "Motivate to work with the instructor"
                 script: "By the end of this course, you'll have the skills and confidence to tackle technical debt, deliver high-quality software, and thrive in real-world development environments. Let's get started! 🚀"
