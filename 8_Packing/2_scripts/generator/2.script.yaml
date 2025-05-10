@@ -14,6 +14,7 @@ course:
     
   lessons:
     - lesson_number: "1"
+      learning_objective: "Lo1"
       title: "What is Technical Debt and Getting Technical Debt"
       videos:
         - video_number: "1"
@@ -52,6 +53,7 @@ course:
                 estimated_time_minutes: 2
                 camera: SonyZv1_ElgatoPrompter
         - video_number: "2"
+          learning_objective: "Lo1"
           video_overview: "Learn how to secure your SonarQube instance and configure the environment"
           scene_id: "4"
           shots:
@@ -88,6 +90,7 @@ course:
         - video_number: "3"
           video_overview: "Integrate SonarQube with GitHub using secure authentication"
           scene_id: "5"
+          learning_objective: "Lo1"
           shots:
             - talking_head:
                 hook: "GitHub App Integration – Keys, Webhooks, and Secure Repo Access"
@@ -120,6 +123,7 @@ course:
                 estimated_time_minutes: 2
                 camera: SonyZv1_ElgatoPrompter
         - video_number: "4"
+          learning_objective: "Lo1"
           video_overview: "Set up automated code quality checks using GitHub Actions"
           scene_id: "6"
           shots:
@@ -154,6 +158,7 @@ course:
                 estimated_time_minutes: 2
                 camera: SonyZv1_ElgatoPrompter
         - video_number: "5"
+          learning_objective: "Lo1"
           video_overview: "Learn how to optimize your GitHub usage and costs"
           scene_id: "7"
           shots:
@@ -188,6 +193,7 @@ course:
                 estimated_time_minutes: 2
                 camera: SonyZv1_ElgatoPrompter
     - lesson_number: "2"
+      learning_objective: "Lo2"
       title: "Paying Technical Debt"
       videos:
         - video_number: "1"
@@ -225,9 +231,15 @@ course:
                 estimated_time_minutes: 2
                 camera: SonyZv1_ElgatoPrompter
         - video_number: "2"
+          learning_objective: "Lo2"
           video_overview: "Learn strategies for addressing technical debt effectively"
           scene_id: "9"
           shots:
             - talking_head:
                 hook: "Technical Debt & Focus – Fix, Update, and Power On with Confidence"
+                script: "Let's learn how to address technical debt effectively and maintain a focused approach."
+                estimated_time_minutes: 2
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Lo2: Implement effective technical debt management strategies"
  
