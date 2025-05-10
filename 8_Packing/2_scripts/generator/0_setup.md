@@ -125,3 +125,6 @@ Each scene (4 minutes total) consists of:
 - Use Marp
 
 
+## Script Prompt 
+- create a 4_shotlist.md file mention what type of shots needs to be take with the for which video and turn it into csv include durations and script
+- 
