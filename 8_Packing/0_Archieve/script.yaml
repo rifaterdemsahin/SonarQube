@@ -1,0 +1,136 @@
+# Introduction Section
+- 👤 talking_head:
+    page_number: 1
+    hook: "From Technical Debt to Daily Deployments – Mastering SonarQube"
+    script: "In this course, we'll explore real-world challenges, focusing on navigating technical debt and achieving daily deployments. This isn't just theory—it's a hands-on journey into solving practical problems with tools like SonarQube."
+    estimated_time_minutes_by_script: 0.5
+    camera: SonyZv1_ElgatoPrompter
+
+- 📊 slide_capture:
+    page_number: 2
+    objective: "L01: Understanding SonarQube and Technical Debt"
+    script: "SonarQube is an essential tool in modern software development. Think of software as a building—it's not just about constructing it but maintaining its quality over time. In the Software Development Life Cycle (SDLC), technical debt accumulates as new requirements emerge."
+    estimated_time_minutes_by_script: 0.5
+    camera: Marp_1080P_OBS
+
+# Environment Setup Section
+- 💻 screen_share:
+    page_number: 3
+    content: "Setting Up Your Development Environment"
+    tool: "GitHub Codespaces"
+    transition_line: "Let's set up our development environment using GitHub Codespaces"
+    prompt_steps:
+      - "Create GitHub account and repository"
+      - "Initialize Codespaces environment"
+      - "Configure Minikube for SonarQube"
+    outcome_pointers:
+      - "Ready-to-use development environment"
+      - "Integrated SonarQube setup"
+    script: "We'll start by setting up our development environment using GitHub Codespaces. This will give us a clean, consistent environment for working with SonarQube."
+    estimated_time_minutes_by_script: 1.0
+    camera: LiveCursor_1080P_OBS
+
+# SonarQube Installation Section
+- 👤 talking_head:
+    page_number: 4
+    hook: "Installing SonarQube in Minikube"
+    script: "Now that we have our environment ready, let's install SonarQube in Minikube. This will give us a local instance to work with and understand the system."
+    estimated_time_minutes_by_script: 0.5
+    camera: SonyZv1_ElgatoPrompter
+
+- 💻 screen_share:
+    page_number: 5
+    content: "SonarQube Installation Process"
+    tool: "Minikube Dashboard"
+    transition_line: "Let's deploy SonarQube in our Minikube cluster"
+    prompt_steps:
+      - "Start Minikube cluster"
+      - "Deploy SonarQube using Helm"
+      - "Configure initial settings"
+    outcome_pointers:
+      - "Running SonarQube instance"
+      - "Access to SonarQube dashboard"
+    script: "We'll deploy SonarQube in our Minikube cluster and configure it for our needs."
+    estimated_time_minutes_by_script: 1.0
+    camera: LiveCursor_1080P_OBS
+
+# GitHub Integration Section
+- 📊 slide_capture:
+    page_number: 6
+    objective: "L02: GitHub Integration with SonarQube"
+    script: "Let's integrate SonarQube with GitHub to enable automated code analysis. This will help us maintain code quality throughout our development process."
+    estimated_time_minutes_by_script: 0.5
+    camera: Marp_1080P_OBS
+
+- 💻 screen_share:
+    page_number: 7
+    content: "GitHub App Configuration"
+    tool: "GitHub Settings"
+    transition_line: "Setting up GitHub App for SonarQube integration"
+    prompt_steps:
+      - "Create GitHub App"
+      - "Configure permissions"
+      - "Generate and store secrets"
+    outcome_pointers:
+      - "Secure GitHub integration"
+      - "Automated analysis setup"
+    script: "We'll create and configure a GitHub App to enable seamless integration between GitHub and SonarQube."
+    estimated_time_minutes_by_script: 1.0
+    camera: LiveCursor_1080P_OBS
+
+# Code Analysis Section
+- 👤 talking_head:
+    page_number: 8
+    hook: "Understanding Code Analysis with SonarQube"
+    script: "Now that we have our environment set up, let's explore how SonarQube analyzes code and helps us identify technical debt."
+    estimated_time_minutes_by_script: 0.5
+    camera: SonyZv1_ElgatoPrompter
+
+- 💻 screen_share:
+    page_number: 9
+    content: "Running First Code Analysis"
+    tool: "SonarQube Dashboard"
+    transition_line: "Let's run our first code analysis"
+    prompt_steps:
+      - "Configure project settings"
+      - "Run initial scan"
+      - "Review analysis results"
+    outcome_pointers:
+      - "Understanding code quality metrics"
+      - "Identifying technical debt"
+    script: "We'll run our first code analysis and learn how to interpret the results."
+    estimated_time_minutes_by_script: 1.0
+    camera: LiveCursor_1080P_OBS
+
+# Technical Debt Management Section
+- 📊 slide_capture:
+    page_number: 10
+    objective: "L03: Managing Technical Debt"
+    script: "Let's learn how to effectively manage technical debt using SonarQube's insights and tools."
+    estimated_time_minutes_by_script: 0.5
+    camera: Marp_1080P_OBS
+
+- 💻 screen_share:
+    page_number: 11
+    content: "Technical Debt Dashboard"
+    tool: "SonarQube Dashboard"
+    transition_line: "Exploring technical debt metrics"
+    prompt_steps:
+      - "Review debt metrics"
+      - "Prioritize issues"
+      - "Create action plan"
+    outcome_pointers:
+      - "Clear debt management strategy"
+      - "Prioritized improvement plan"
+    script: "We'll explore SonarQube's technical debt dashboard and learn how to use it effectively."
+    estimated_time_minutes_by_script: 1.0
+    camera: LiveCursor_1080P_OBS
+
+# Closing Section
+- 👤 talking_head:
+    page_number: 12
+    closing: "Mastering Technical Debt Management"
+    summary: "We've covered setting up SonarQube, integrating with GitHub, and managing technical debt"
+    script: "By the end of this course, you'll have the skills and confidence to tackle technical debt, deliver high-quality software, and thrive in real-world development environments. Let's keep building and improving together!"
+    estimated_time_minutes_by_script: 0.5
+    camera: SonyZv1_ElgatoPrompter 
