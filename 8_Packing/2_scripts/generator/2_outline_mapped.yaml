@@ -59,9 +59,9 @@
                 estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
-                objective: "Meet instructor"
-                script: "I'll share authentic personal experiences and strategies that have helped me tackle technical debt in real-world projects. From yak shaving to delivering scalable solutions, you'll gain insights into overcoming obstacles and building robust systems."
-                estimated_time_minutes_by_script: 0.5  # 30 seconds for 60 words
+                objective: "Lo2: Apply AI tools and debugging techniques effectively"
+                script: "Leverage AI tools for debugging. Use AI and intuition to break down errors, iterate solutions, and refine your stack. Learn to verify with AI, rubber duck the process, and trust your intuition for better code quality."
+                estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
                 content: "Setting up development environments"
@@ -395,12 +395,12 @@
           shots:
             - 👤 talking_head:
                 hook: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
-                script: "Let's explore how to use AI tools and debugging techniques effectively."
+                script: "Explore AI tools and debugging. Leverage AI and intuition for smart testing and better code quality."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
                 objective: "Lo2: Apply AI tools and debugging techniques effectively"
-                script: "We'll learn how to leverage AI tools and debugging techniques for better code quality."
+                script: "Leverage AI tools for debugging. Use AI and intuition to break down errors, iterate solutions, and refine your stack. Learn to verify with AI, rubber duck the process, and trust your intuition for better code quality."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
@@ -430,12 +430,12 @@
           shots:
             - 👤 talking_head:
                 hook: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
-                script: "Let's learn how to troubleshoot and recover SonarQube configurations."
+                script: "Let's learn how to troubleshoot and recover SonarQube configurations. Use AI to break down errors, identify issues, and practice rebuilding to strengthen understanding and refine your stack."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: SonyZv1_ElgatoPrompter
             - 📊 slide_capture:
                 objective: "Lo2: Troubleshoot and recover SonarQube configurations"
-                script: "We'll focus on troubleshooting and recovering SonarQube configurations."
+                script: "Embrace errors as learning tools. Use AI to break down issues like memory problems. Debugging builds familiarity with system configurations. Document each issue, iterate solutions, and refine your stack. Let AI guide debugging and learning from hurdles."
                 estimated_time_minutes_by_script: 0.25  # 15 seconds
                 camera: Marp_1080P_OBS
             - 💻 screen_share:
