@@ -14,7 +14,7 @@
 - 3 video scenes per lesson
 - Total: 15 video scenes
 
-## 🎥 Shot Structure
+## 🎥 Shot Types
 Each scene (4 minutes total) consists of:
 1. 🎤 Intro Talking Head (45 seconds)
 2. 📊 Slides (90 seconds)
@@ -30,12 +30,7 @@ Each scene (4 minutes total) consists of:
 - Different emoji type for 
 - different styles for each shot type. I've created distinct visual treatments for each type while maintaining consistency in the overall structure
 - Add a unique shot it on the right bottom 
-
-
-1. 🎤 Intro Talking Head 
-2. 📊 Slides
-3. 💻 Screen Capture
-4. 🎤 Summary Talking Head 
+- Each shot type has different background colors
 
 ## ⏱️ Estimation time 
 - use 120 words per minute

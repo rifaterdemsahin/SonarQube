@@ -20,30 +20,22 @@ style: |
     font-size: 1.5em;
     font-weight: bold;
   }
-  .footer {
+.footer {
     position: absolute;
-    right: 40px;
-    bottom: 20px;
-    font-size: 0.8em;
-    opacity: 0.8;
-    text-align: right;
-  }
-  .script {
-    position: absolute;
-    left: 40px;
-    bottom: 20px;
-    font-size: 0.8em;
-    opacity: 0.8;
-    text-align: left;
-    width: 60%;
-    font-style: italic;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-size: 0.7em;
+    opacity: 0.6;
+    text-align: center;
+    padding: 0.5em;
+    pointer-events: none;
   }
 ---
 
 <!-- _class: header -->
 🎤 INTRO TALKING HEAD  
 
-# Welcome to *Data Science 101*  
 ### Your journey starts here  
 #### Shot Type: Talking Head - Hook
 
@@ -53,8 +45,6 @@ style: |
 🎬 **SHOT ID:** INTRO-01  
 📌 **LOs:** Hook audience, introduce topic  
 🎥 **Video:** intro_01.mp4  
-
-<!-- _class: script -->
 📝 **SCRIPT:** [Talking Head - INTRO-01]  
-"Welcome to Data Science 101!..."
+"Welcome to Data Science 101! I'm thrilled to have you join us on this exciting journey into the world of data science. In this course, we'll explore how data shapes our world, from predicting market trends to understanding human behavior. Whether you're a complete beginner or looking to enhance your skills, we'll break down complex concepts into digestible pieces. Together, we'll learn how to collect, analyze, and interpret data to make informed decisions. Get ready to unlock the power of data and transform the way you see the world. Let's begin this adventure together!"
 
