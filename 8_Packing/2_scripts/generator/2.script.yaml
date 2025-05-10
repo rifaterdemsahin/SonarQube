@@ -26,7 +26,6 @@ course:
                 script: "Today we're going to transform infrastructure debt into a powerful development setup using GitHub Codespaces."
                 estimated_time_minutes: 3
                 camera: SonyZv1_ElgatoPrompter
-
             - slide_capture:
                 objective: "Lo1: Set up and configure GitHub Codespaces for development"
                 script: "Our first objective is to set up and configure GitHub Codespaces for our development environment."
@@ -242,17 +241,281 @@ course:
                 camera: SonyZv1_ElgatoPrompter
             - slide_capture:
                 objective: "Lo2: Implement effective technical debt management strategies"
-                script: "Let's learn how to address technical debt effectively and maintain a focused approach."
+                script: "We'll focus on implementing strategies to manage and reduce technical debt."
                 estimated_time_minutes: 3
                 camera: Marp_1080P_OBS
             - screen_share:
                 content: "Technical debt management strategies"
                 tool: "Technical Debt Management"
-                transition_line: "Let's learn how to address technical debt effectively"
+                transition_line: "Let's implement effective technical debt management"
                 prompt_steps:
                   - "Identify technical debt"
-  
-total_time_minutes: 104  # Sum of all estimated_time_minutes:
+                  - "Prioritize fixes"
+                  - "Implement solutions"
+                outcome_pointers:
+                  - "Reduced technical debt"
+                  - "Improved code quality"
+                script: "I'll show you how to identify, prioritize, and fix technical debt effectively."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You now have effective strategies for managing technical debt"
+                summary: "Technical debt management strategies are in place"
+                script: "Great! You've learned how to effectively manage and reduce technical debt."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+        - video_number: "3"
+          learning_objective: "Lo2"
+          video_overview: "Learn how to use AI tools and debugging techniques effectively"
+          scene_id: "10"
+          shots:
+            - talking_head:
+                hook: "Yak Shaving & Debugging – Leveraging AI and Intuition for Smart Testing"
+                script: "Let's explore how to use AI tools and debugging techniques effectively."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Lo2: Apply AI tools and debugging techniques effectively"
+                script: "We'll learn how to leverage AI tools and debugging techniques for better code quality."
+                estimated_time_minutes: 3
+                camera: Marp_1080P_OBS
+            - screen_share:
+                content: "AI tools and debugging techniques"
+                tool: "AI Tools & Debugging"
+                transition_line: "Let's explore AI tools and debugging"
+                prompt_steps:
+                  - "Set up AI tools"
+                  - "Configure debugging"
+                  - "Implement testing"
+                outcome_pointers:
+                  - "AI-enhanced development"
+                  - "Improved debugging"
+                script: "I'll demonstrate how to set up and use AI tools for debugging and testing."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You now know how to use AI tools and debugging techniques effectively"
+                summary: "AI tools and debugging setup is complete"
+                script: "Perfect! You've learned how to leverage AI tools and debugging techniques."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+        - video_number: "4"
+          learning_objective: "Lo2"
+          video_overview: "Learn how to troubleshoot and recover SonarQube configurations"
+          scene_id: "11"
+          shots:
+            - talking_head:
+                hook: "Recover & Reconfigure – Debugging SonarQube with HTOP and Lost Configs"
+                script: "Let's learn how to troubleshoot and recover SonarQube configurations."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Lo2: Troubleshoot and recover SonarQube configurations"
+                script: "We'll focus on troubleshooting and recovering SonarQube configurations."
+                estimated_time_minutes: 3
+                camera: Marp_1080P_OBS
+            - screen_share:
+                content: "SonarQube troubleshooting and recovery"
+                tool: "SonarQube & HTOP"
+                transition_line: "Let's troubleshoot SonarQube"
+                prompt_steps:
+                  - "Identify issues"
+                  - "Use HTOP"
+                  - "Recover configurations"
+                outcome_pointers:
+                  - "Recovered configurations"
+                  - "Improved troubleshooting"
+                script: "I'll show you how to use HTOP and recover lost SonarQube configurations."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You now know how to troubleshoot and recover SonarQube configurations"
+                summary: "SonarQube troubleshooting is complete"
+                script: "Great! You've learned how to troubleshoot and recover SonarQube configurations."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+        - video_number: "5"
+          learning_objective: "Lo2"
+          video_overview: "Learn how to configure advanced SonarQube settings"
+          scene_id: "11"
+          shots:
+            - talking_head:
+                hook: "Refine Config & Access – External Ports, Project Keys, and Commit Triggers"
+                script: "Let's learn how to configure advanced SonarQube settings."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Lo2: Configure advanced SonarQube settings"
+                script: "We'll focus on configuring advanced SonarQube settings for optimal performance."
+                estimated_time_minutes: 3
+                camera: Marp_1080P_OBS
+            - screen_share:
+                content: "Advanced SonarQube configuration"
+                tool: "SonarQube"
+                transition_line: "Let's configure advanced settings"
+                prompt_steps:
+                  - "Configure external ports"
+                  - "Set up project keys"
+                  - "Configure commit triggers"
+                outcome_pointers:
+                  - "Advanced configuration"
+                  - "Optimized settings"
+                script: "I'll guide you through configuring external ports, project keys, and commit triggers."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You now know how to configure advanced SonarQube settings"
+                summary: "Advanced SonarQube configuration is complete"
+                script: "Perfect! You've learned how to configure advanced SonarQube settings."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+    - lesson_number: "3"
+      learning_objective: "Lo3"
+      title: "Managing Technical Debt (Scan, Monitor)"
+      videos:
+        - video_number: "1"
+          video_overview: "Learn how to improve code coverage and fix common failures"
+          scene_id: "12"
+          shots:
+            - talking_head:
+                hook: "From Failing to Fulfilled – Boost Coverage, Fix Failures, Package with Purpose"
+                script: "Let's learn how to improve code coverage and fix common failures."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Lo3: Improve code coverage and fix common failures"
+                script: "We'll focus on improving code coverage and fixing common failures."
+                estimated_time_minutes: 3
+                camera: Marp_1080P_OBS
+            - screen_share:
+                content: "Code coverage and failure fixes"
+                tool: "SonarQube"
+                transition_line: "Let's improve code coverage"
+                prompt_steps:
+                  - "Analyze coverage"
+                  - "Identify failures"
+                  - "Implement fixes"
+                outcome_pointers:
+                  - "Improved coverage"
+                  - "Fixed failures"
+                script: "I'll show you how to analyze coverage, identify failures, and implement fixes."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You now know how to improve code coverage and fix common failures"
+                summary: "Code coverage improvement is complete"
+                script: "Great! You've learned how to improve code coverage and fix common failures."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+        - video_number: "2"
+          learning_objective: "Lo3"
+          video_overview: "Learn how to balance feature development with technical debt management"
+          scene_id: "13"
+          shots:
+            - talking_head:
+                hook: "More Features, More Debt – Why It Matters and How to See Your Impact"
+                script: "Let's learn how to balance feature development with technical debt management."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Lo3: Balance feature development with technical debt management"
+                script: "We'll focus on balancing feature development with technical debt management."
+                estimated_time_minutes: 3
+                camera: Marp_1080P_OBS
+            - screen_share:
+                content: "Feature development and debt management"
+                tool: "SonarQube"
+                transition_line: "Let's balance development and debt"
+                prompt_steps:
+                  - "Track features"
+                  - "Monitor debt"
+                  - "Maintain balance"
+                outcome_pointers:
+                  - "Balanced development"
+                  - "Managed debt"
+                script: "I'll demonstrate how to track features, monitor debt, and maintain balance."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You now know how to balance feature development with technical debt"
+                summary: "Development and debt balance is achieved"
+                script: "Perfect! You've learned how to balance feature development with technical debt."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+        - video_number: "3"
+          learning_objective: "Lo3"
+          video_overview: "Learn how to manage SonarQube accuracy and availability"
+          scene_id: "14"
+          shots:
+            - talking_head:
+                hook: "False Positives & Uptime – Managing SonarQube Accuracy and Cost of Availability"
+                script: "Let's learn how to manage SonarQube accuracy and availability."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Lo3: Manage SonarQube accuracy and availability"
+                script: "We'll focus on managing SonarQube accuracy and availability."
+                estimated_time_minutes: 3
+                camera: Marp_1080P_OBS
+            - screen_share:
+                content: "SonarQube accuracy and availability"
+                tool: "SonarQube"
+                transition_line: "Let's manage accuracy and availability"
+                prompt_steps:
+                  - "Monitor accuracy"
+                  - "Manage uptime"
+                  - "Optimize costs"
+                outcome_pointers:
+                  - "Improved accuracy"
+                  - "Optimized availability"
+                script: "I'll show you how to monitor accuracy, manage uptime, and optimize costs."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You now know how to manage SonarQube accuracy and availability"
+                summary: "SonarQube management is complete"
+                script: "Great! You've learned how to manage SonarQube accuracy and availability."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+    - lesson_number: "closure"
+      title: "Closure"
+      videos:
+        - video_number: "1"
+          video_overview: "Apply learned concepts to real-world development scenarios"
+          scene_id: "15"
+          shots:
+            - talking_head:
+                hook: "Course Conclusion – Applying SonarQube in Real-World Scenarios"
+                script: "Let's conclude our course by applying what we've learned to real-world scenarios."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+            - slide_capture:
+                objective: "Apply learned concepts to real-world development scenarios"
+                script: "We'll review key concepts and their practical applications."
+                estimated_time_minutes: 3
+                camera: Marp_1080P_OBS
+            - screen_share:
+                content: "Real-world application of SonarQube"
+                tool: "SonarQube"
+                transition_line: "Let's apply our knowledge"
+                prompt_steps:
+                  - "Review concepts"
+                  - "Apply to scenarios"
+                  - "Plan next steps"
+                outcome_pointers:
+                  - "Applied knowledge"
+                  - "Future planning"
+                script: "I'll guide you through applying our knowledge to real-world scenarios."
+                estimated_time_minutes: 8
+                camera: LiveCursor_1080P_OBS
+            - talking_head:
+                closing: "You're now ready to apply SonarQube in real-world scenarios"
+                summary: "Course completion and next steps"
+                script: "Congratulations! You're now ready to apply SonarQube in real-world scenarios."
+                estimated_time_minutes: 3
+                camera: SonyZv1_ElgatoPrompter
+
+total_time_minutes: 179  # Sum of all estimated_time_minutes:
 # Intro video: 3
 # Lesson 1:
 #   Video 1: 3 + 3 + 6 + 3 = 15
@@ -262,4 +525,11 @@ total_time_minutes: 104  # Sum of all estimated_time_minutes:
 #   Video 5: 3 + 3 + 6 + 3 = 15
 # Lesson 2:
 #   Video 1: 3 + 3 + 6 + 3 = 15
-#   Video 2: 3 = 3
+#   Video 2: 3 + 3 + 8 + 3 = 17
+#   Video 3: 3 + 3 + 8 + 3 = 17
+#   Video 4: 3 + 3 + 8 + 3 = 17
+#   Video 5: 3 + 3 + 8 + 3 = 17
+# Lesson 3:
+#   Video 1: 3 + 3 + 8 + 3 = 17
+# Closure:
+#   Video 1: 3 + 3 + 8 + 3 = 17
