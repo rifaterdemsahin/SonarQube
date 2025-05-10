@@ -22,14 +22,10 @@ Each scene (4 minutes total) consists of:
 4. Summary Talking Head (45 seconds)
 
 
-## Guide Configuration
-Each shot markdown file will use the following Marp configuration:
-
-
-
-## Scene Topics
-- Take them from the file called scene-topics
-- Structure the file names around it
+## Marp Configuration
+- Each shot markdown file will use the following Marp configuration:
+ Eachshot should have ots own style of marp 
+ the video and learning objectives should be on the riight bottom
 
 
 ## Estimation time 

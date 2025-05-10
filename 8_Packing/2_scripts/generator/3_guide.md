@@ -40,26 +40,26 @@ style: |
     padding: 1em;
     border: 2px dashed #ccc;
   }
-  .picture-placeholder {
-    font-size: 2em;
-    color: #999;
-    margin-bottom: 0.5em;
-  }
-  .picture-idea {
-    font-size: 0.8em;
-    color: #666;
-    margin-top: 0.5em;
-    text-align: center;
-    font-style: italic;
-  }
   .right-bottom {
     grid-column: 2;
     grid-row: 2;
     background: #f0f0f0;
-    padding: 0.5em;
+    padding: 1em;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .video-info {
+    font-size: 0.9em;
+    color: #333;
+    font-weight: bold;
+  }
+  .learning-objective {
+    font-size: 0.8em;
+    color: #666;
+    font-style: italic;
   }
   .talking-head {
     font-size: 1.5em;
@@ -155,12 +155,16 @@ style: |
 </div>
 
 <div class="right-bottom">
-  <span class="emoji">🚀</span>
-  <span>Let's transform how you manage your codebase!</span>
+  <div class="video-info">Video 1: Course Introduction</div>
+  <div class="learning-objective">LO1: Set up and configure GitHub Codespaces for development</div>
 </div>
 
 <div class="script">
 Welcome to our SonarQube course! In today's software world, technical debt is the silent killer of speed, quality, and innovation. Managing it isn't optional—it's essential. SonarQube helps you catch debt early, fix it fast, and keep your projects healthy for the long run.
+</div>
+
+<div class="screencapture">
+Setting up development environment with GitHub Codespaces
 </div>
 
 ---
@@ -185,12 +189,16 @@ Welcome to our SonarQube course! In today's software world, technical debt is th
 </div>
 
 <div class="right-bottom">
-  <span class="emoji">💼</span>
-  <span>Accenture Experience</span>
+  <div class="video-info">Video 2: Instructor Introduction</div>
+  <div class="learning-objective">LO1: Configure secure access and environment settings</div>
 </div>
 
 <div class="script">
 Hello, I'm Rifat Erdem Sahin. With over 40 successful IT contracts and 80 projects delivered globally, I've honed deep expertise in the software development life cycle. At Accenture, this pivotal tool enabled me to ensure code quality and maintainability across large-scale projects.
+</div>
+
+<div class="screencapture">
+Using Copilot with the setup
 </div>
 
 ---
@@ -215,12 +223,16 @@ Hello, I'm Rifat Erdem Sahin. With over 40 successful IT contracts and 80 projec
 </div>
 
 <div class="right-bottom">
-  <span class="emoji">🎯</span>
-  <span>Hands-on learning</span>
+  <div class="video-info">Video 3: Authentic Content</div>
+  <div class="learning-objective">LO1: Implement secure GitHub integration</div>
 </div>
 
 <div class="script">
 In this course, we'll explore real-world challenges, focusing on navigating technical debt and achieving daily deployments. This isn't just theory—it's a hands-on journey into solving practical problems with tools like SonarQube. I have crafted the course around a real project which is setting up the sonarqube environment.
+</div>
+
+<div class="screencapture">
+Setting up development environments
 </div>
 
 ---
@@ -245,12 +257,16 @@ In this course, we'll explore real-world challenges, focusing on navigating tech
 </div>
 
 <div class="right-bottom">
-  <span class="emoji">✨</span>
-  <span>Innovative approach</span>
+  <div class="video-info">Video 4: AI-First Implementation</div>
+  <div class="learning-objective">LO1: Set up automated code quality scanning</div>
 </div>
 
 <div class="script">
 This course includes a bonus AI-first project where you'll integrate AI tools to set up and optimize a SonarQube environment. It's designed to sharpen your skills in AI-assisted development while ensuring top-tier quality standards.
+</div>
+
+<div class="screencapture">
+Using Copilot with the setup
 </div>
 
 ---
@@ -275,12 +291,16 @@ This course includes a bonus AI-first project where you'll integrate AI tools to
 </div>
 
 <div class="right-bottom">
-  <span class="emoji">🌟</span>
-  <span>Career advancement</span>
+  <div class="video-info">Video 5: Portfolio Development</div>
+  <div class="learning-objective">LO1: Optimize GitHub resources and costs</div>
 </div>
 
 <div class="script">
 Creating a professional portfolio is essential for IT professionals, showcasing your ability to deliver high-quality, maintainable software. By integrating SonarQube into your GitHub projects, you demonstrate a commitment to code quality and technical debt management.
+</div>
+
+<div class="screencapture">
+Setting up development environments
 </div>
 
 ---
@@ -305,12 +325,16 @@ Creating a professional portfolio is essential for IT professionals, showcasing 
 </div>
 
 <div class="right-bottom">
-  <span class="emoji">⏱️</span>
-  <span>61 minutes total</span>
+  <div class="video-info">Course Overview</div>
+  <div class="learning-objective">LO1-LO3: Complete course objectives</div>
 </div>
 
 <div class="script">
 Our course is structured to provide a comprehensive learning experience, with 3 main objectives, 3 lessons per objective, and 5 videos per lesson, totaling 15 video scenes. Each video is carefully crafted to build your expertise in SonarQube and technical debt management.
+</div>
+
+<div class="screencapture">
+Course structure overview
 </div>
 
 ---
@@ -335,10 +359,14 @@ Our course is structured to provide a comprehensive learning experience, with 3 
 </div>
 
 <div class="right-bottom">
-  <span class="emoji">🚀</span>
-  <span>Begin your transformation</span>
+  <div class="video-info">Final Video: Course Conclusion</div>
+  <div class="learning-objective">Apply learned concepts to real-world scenarios</div>
 </div>
 
 <div class="script">
 By the end of this course, you'll have the skills and confidence to tackle technical debt, deliver high-quality software, and thrive in real-world development environments. Let's get started! 🚀
+</div>
+
+<div class="screencapture">
+Final setup and preparation
 </div>
