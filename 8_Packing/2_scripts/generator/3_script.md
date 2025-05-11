@@ -1,7 +1,7 @@
-# 📜 Course Script
+# 📜 **Course Script**
 
 
-## 📹 Intro Video
+## 📹 **Intro Video**
 
 
 ### 📜 Course Title
@@ -12,7 +12,7 @@ Mastering SonarQube: From Technical Debt to Development Excellence
 
 **Hook:** We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with GitHub Codespaces.
 
-Talking Head: Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time.
+**Talking Head:** Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time.
 
 
 ### 🧑‍🏫 Instructor Introduction
@@ -41,6 +41,8 @@ You now know how to balance professional presence with technical debt management
 
 
 ---
+
+
 
 
 ## 📚 Lessons
