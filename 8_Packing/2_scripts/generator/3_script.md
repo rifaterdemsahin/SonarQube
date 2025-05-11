@@ -1,40 +1,40 @@
-# Course Script
+# 📜 Course Script
 
-## Intro Video
+## 📹 Intro Video
 
-### Course Title
+### 📜 Course Title
 Mastering SonarQube: From Technical Debt to Development Excellence
 
-### Engaging Opening
+### 👋 Engaging Opening
 **Hook:** From Infra Debt to Dev Setup – Launching with GitHub Codespaces
 **Script:** Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time.
 
-### Instructor Introduction
+### 🧑‍🏫 Instructor Introduction
 **Hook:** only 3 things to learn
 **Script:** Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability.
 
-### Course Overview
+### 🗺️ Course Overview
 - Learn how to set up your development environment using GitHub Codespaces
 - Who is the instructor
 - Why authentic content is important
 - Why use AI
 - Building a professional portfolio
 
-### Key Takeaways
+### 🔑 Key Takeaways
 - Transform infrastructure debt into a powerful development setup using GitHub Codespaces.
 - Use SonarQube in GitHub projects to showcase commitment to quality and build a strong portfolio.
 - Explore AI tools and debugging. Leverage AI and intuition for smart testing and better code quality.
 
-### Closing Remarks
+### 👋 Closing Remarks
 You now know how to balance professional presence with technical debt management. Showcase your skills and commitment to quality professionally.
 
 ---
 
-## Lessons
+## 📚 Lessons
 
-### Lesson 1: What is Technical Debt and Getting Technical Debt
+### 🧠 Lesson 1: What is Technical Debt and Getting Technical Debt
 
-#### Video 1
+#### 📹 Video 1
 
 **Video Overview:** Learn how to set up your development environment using GitHub Codespaces
 
@@ -58,7 +58,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** We've successfully set up our development environment using GitHub Codespaces
 
-#### Video 2
+#### 📹 Video 2
 
 **Video Overview:** Learn how to secure your SonarQube instance and configure the environment
 
@@ -82,7 +82,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** Security configuration and environment setup is complete
 
-#### Video 3
+#### 📹 Video 3
 
 **Video Overview:** Integrate SonarQube with GitHub using secure authentication
 
@@ -106,7 +106,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** Secure GitHub integration is now in place
 
-#### Video 4
+#### 📹 Video 4
 
 **Video Overview:** Set up automated code quality checks using GitHub Actions
 
@@ -130,7 +130,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** GitHub Actions automation is now set up
 
-#### Video 5
+#### 📹 Video 5
 
 **Video Overview:** Learn how to optimize your GitHub usage and costs
 
@@ -154,9 +154,9 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** GitHub resource optimization is complete
 
-### Lesson 2: Paying Technical Debt
+### 🧠 Lesson 2: Paying Technical Debt
 
-#### Video 1
+#### 📹 Video 1
 
 **Video Overview:** Learn how to build your professional presence while managing technical debt
 
@@ -180,7 +180,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** Professional presence setup is complete
 
-#### Video 2
+#### 📹 Video 2
 
 **Video Overview:** Learn strategies for addressing technical debt effectively
 
@@ -204,7 +204,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** Technical debt management strategies are in place
 
-#### Video 3
+#### 📹 Video 3
 
 **Video Overview:** Learn how to use AI tools and debugging techniques effectively
 
@@ -228,7 +228,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** AI tools and debugging setup is complete
 
-#### Video 4
+#### 📹 Video 4
 
 **Video Overview:** Learn how to troubleshoot and recover SonarQube configurations
 
@@ -252,7 +252,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** SonarQube troubleshooting is complete
 
-#### Video 5
+#### 📹 Video 5
 
 **Video Overview:** Learn how to configure advanced SonarQube settings
 
@@ -276,9 +276,9 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** Advanced SonarQube configuration is complete
 
-### Lesson 3: Managing Technical Debt (Scan, Monitor)
+### 🧠 Lesson 3: Managing Technical Debt (Scan, Monitor)
 
-#### Video 1
+#### 📹 Video 1
 
 **Video Overview:** Learn how to improve code coverage and fix common failures
 
@@ -302,7 +302,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** Code coverage improvement is complete
 
-#### Video 2
+#### 📹 Video 2
 
 **Video Overview:** Learn how to balance feature development with technical debt management
 
@@ -326,7 +326,7 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** Development and debt balance is achieved
 
-#### Video 3
+#### 📹 Video 3
 
 **Video Overview:** Learn how to manage SonarQube accuracy and availability
 
@@ -350,9 +350,9 @@ You now know how to balance professional presence with technical debt management
 
 **Summary:** SonarQube management is complete
 
-### Closure: Apply learned concepts to real-world development scenarios
+### ✅ Closure: Apply learned concepts to real-world development scenarios
 
-#### Video 1
+#### 📹 Video 1
 
 **Video Overview:** Apply learned concepts to real-world development scenarios
 
@@ -376,12 +376,12 @@ You now know how to balance professional presence with technical debt management
 
 ---
 
-## Outro Script
+## 📚 Outro Script
 
-### Opening & Acknowledgment
+### 👋 Opening & Acknowledgment
 **Script:** Congratulations! You're now ready to apply SonarQube in real-world scenarios.
 
-### Recap of Course Content
+### 📝 Recap of Course Content
 - Set up and configure GitHub Codespaces for development
 - Configure secure access and environment settings for SonarQube
 - Implement secure GitHub integration with SonarQube
@@ -397,52 +397,46 @@ You now know how to balance professional presence with technical debt management
 - Manage SonarQube accuracy and availability
 - Apply learned concepts to real-world development scenarios
 
-### Motivational Message
+### 🙏 Motivational Message
 (Content to be added based on course themes)
 
-### Encouragement for Continued Growth
+### ➡️ Encouragement for Continued Growth
 (Content to be added)
 
-### Actionable Next Steps
-- Continue practicing with SonarQube in your projects.
-- Explore advanced features and integrations.
-- Share your knowledge and contribute to the community.
-
-### Closing Remarks
+### 👋 Closing Remarks
 (Content to be added)
 
 ---
 
-## Promo Script
+## 📚 Promo Script
 
-### Engaging Problem Statement
+### 🤔 Engaging Problem Statement
 (Content to be added)
 
-### SME Introduction
+### 🧑‍🏫 SME Introduction
 Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability.
 
-### Course Announcement in Collaboration with Starweaver
+### 🤝 Course Announcement in Collaboration with Starweaver
 (Content to be added)
 
-### Key Benefits
+### ✨ Key Benefits
 - Master SonarQube for effective technical debt management.
 - Integrate SonarQube with GitHub for automated code quality checks.
 - Leverage AI tools for enhanced development and debugging.
 - Build a strong professional portfolio showcasing your skills.
 
-### Real-Life Impact
+### 🌍 Real-Life Impact
 (Content to be added)
 
-### Unique Selling Points
+### 👍 Unique Selling Points
 - Hands-on learning with a real project setting up a SonarQube environment.
 - AI-first approach to development and optimization.
 - Focus on building a portfolio-ready project.
 
-### Address Target Audience
+### 🗣️ Address Target Audience
 This course is for developers, DevOps engineers, and anyone looking to improve code quality and manage technical debt effectively.
 
-### Call to Action
+### ➡️ Call to Action
 (Content to be added - e.g., Enroll now!)
 
-### Closing Inspiration
-(Content to be added) 
+### 👋 Closing Inspiration 
