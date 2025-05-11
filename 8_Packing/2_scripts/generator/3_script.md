@@ -5,7 +5,7 @@
 
 
 ### 📜 Course Title
-Mastering SonarQube: From Technical Debt to Development Excellence
+SonarQube Essentials: Setup, Configure, and Integrate
 
 
 ### Script: 👋 Engaging Opening
@@ -29,7 +29,7 @@ Hey there! Let me walk you through what we're going to cover in this course. Fir
 You know what's really exciting? By the end of this course, you'll be able to turn that pesky infrastructure debt into something amazing - a powerful development tool that actually works for you! We'll dive into modern tools that make building software a breeze, and I'll show you my favorite tricks for managing technical debt. The best part? You'll learn how to tackle that debt head-on, which means you can keep moving forward without getting stuck. It's like having a secret weapon in your development toolkit!
 
 ### 👋 Closing Remarks
-You now know how to balance professional presence with technical debt management. Showcase your skills and commitment to quality professionally.
+You now know why it is so important to be aware of technical debt. All the skills you learn here would build on to each other. I would also help you showcase your skills and set our vision to have new standart for our development life cycle. 
 
 
 ---
