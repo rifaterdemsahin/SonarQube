@@ -23,18 +23,10 @@ I soon realised the technical debt is the reason why the projects come to stop. 
 
 
 ### 🗺️ Course Overview
-- Learn how to set up your development environment using GitHub Codespaces
-- Who is the instructor
-- Why authentic content is important
-- Why use AI
-- Building a professional portfolio
-
+Hey there! Let me walk you through what we're going to cover in this course. First, we'll dive into understanding what technical debt really is - you know, that thing that keeps haunting our codebases! Then, we'll explore how to work with existing technical debt in our projects. And most importantly, we'll learn practical ways to pay off that debt and stay aware of it before it becomes a monster. Trust me, by the end of this course, you'll be a technical debt management pro!
 
 ### 🔑 Key Takeaways
-- Transform infrastructure debt into a powerful development setup using GitHub Codespaces.
-- Use SonarQube in GitHub projects to showcase commitment to quality and build a strong portfolio.
-- Explore AI tools and debugging. Leverage AI and intuition for smart testing and better code quality.
-
+You know what's really exciting? By the end of this course, you'll be able to turn that pesky infrastructure debt into something amazing - a powerful development tool that actually works for you! We'll dive into modern tools that make building software a breeze, and I'll show you my favorite tricks for managing technical debt. The best part? You'll learn how to tackle that debt head-on, which means you can keep moving forward without getting stuck. It's like having a secret weapon in your development toolkit!
 
 ### 👋 Closing Remarks
 You now know how to balance professional presence with technical debt management. Showcase your skills and commitment to quality professionally.
