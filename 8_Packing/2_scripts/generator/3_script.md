@@ -9,8 +9,8 @@ Mastering SonarQube: From Technical Debt to Development Excellence
 
 
 ### Script: 👋 Engaging Opening
-**Hook:** From Infra Debt to Dev Setup – Launching with GitHub Codespaces
 
+**Hook:** We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with GitHub Codespaces.
 
 Talking Head: Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time.
 
@@ -57,7 +57,7 @@ You now know how to balance professional presence with technical debt management
 **Learning Objective:** Lo1: Set up and configure GitHub Codespaces for development
 
 **Content:**
-**Hook:** From Infra Debt to Dev Setup – Launching with GitHub Codespaces
+**Hook:** We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with GitHub Codespaces.
 Script: Transform infrastructure debt into a powerful development setup using GitHub Codespaces. Learn how to manage technical debt effectively with SonarQube in your SDLC.
 
 **Screen Share Section:**
