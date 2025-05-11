@@ -1,56 +1,178 @@
-PART 1 - OUTLINE: COURSE OVERVIEW 
+# SonarQube Essentials: Setup, Configure, and Integrate
 
-Course Title:   SonarQube Essentials: Setup, Configure, and Integrate 
+**Lead Instructor:** Rifat Erdem Sahin
 
-Lead Instructor: Rifat Erdem Sahin 
+## Course Description
 
-Course Description:   
+According to SonarSource, technical debt in a codebase of 1 million lines can cost an organization over $300,000 annually—the equivalent of 5,500 developer hours. In today's fast-paced development landscape, maintaining high code quality and robust security is more critical than ever. SonarQube helps teams continuously inspect codebases, identify bugs, vulnerabilities, and code smells across multiple programming languages.
 
- 
+This comprehensive course equips software developers and DevOps professionals with practical skills to effectively utilize SonarQube for enhancing code quality and security. You'll learn how to set up and configure SonarQube, integrate it into CI/CD workflows, and interpret key metrics like code coverage, maintainability, and reliability to assess code health. Through hands-on exercises and real-world case studies, you will practice identifying and resolving security vulnerabilities and code issues, applying best practices to maintain high standards.
 
-According to SonarSource, technical debt in a codebase of 1 million lines can cost an organization over $300,000 annually—the equivalent of 5,500 developer hours. In today's fast-paced development landscape, maintaining high code quality and robust security is more critical than ever. SonarQube helps teams continuously inspect codebases, identify bugs, vulnerabilities, and code smells across multiple programming languages.  
+By the end, you will be confident in using SonarQube to ensure your codebases are clean, secure, and aligned with industry standards. Ready to level up your code quality? Let's dive in.
 
- 
+**Duration:** 75 mins  
+**Level:** Intermediate
 
- 
+## Audience
 
-This comprehensive course equips software developers and DevOps professionals with practical skills to effectively utilize SonarQube for enhancing code quality and security. You’ll learn how to set up and configure SonarQube, integrate it into CI/CD workflows, and interpret key metrics like code coverage, maintainability, and reliability to assess code health. Through hands-on exercises and real-world case studies, you will practice identifying and resolving security vulnerabilities and code issues, applying best practices to maintain high standards.  
+- **Developers:** Improve code quality, fix vulnerabilities, and reduce technical debt in their projects
+- **DevOps Engineers:** Integrate SonarQube into CI/CD pipelines for automated code analysis
+- **QA/Test Engineers:** Use static analysis to catch bugs early and enhance software reliability
+- **Tech Leads & Architects:** Enforce coding standards and oversee quality metrics across teams
 
-By the end, you will be confident in using SonarQube to ensure your codebases are clean, secure, and aligned with industry standards.  Ready to level up your code quality? Let’s dive in." 
+## Prerequisites
 
- 
+- A basic understanding of programming languages
+- Familiarity with Git and GitHub
+- Exposure to CI/CD tools (such as Jenkins or GitHub Actions)
+- Basic experience with system configuration
 
-Duration: [ 75 mins] 
+## Main Outcome
 
-Level: [ Intermediate] 
+After completing this course, learners will be able to implement, configure, and leverage SonarQube for continuous code quality monitoring, security vulnerability detection, and technical debt reduction, ultimately improving software reliability and development efficiency.
 
-Audience:  
+## Learning Objectives
 
-Developers: Improve code quality, fix vulnerabilities, and reduce technical debt in their projects.  
+After this course, learners will be able to:
 
-DevOps Engineers: Integrate SonarQube into CI/CD pipelines for automated code analysis. 
+1. Install and configure SonarQube for local and cloud environments
+2. Integrate SonarQube with CI/CD pipelines for automated quality and security checks
+3. Analyze SonarQube reports to address technical debt effectively
 
-QA/Test Engineers: Use static analysis to catch bugs early and enhance software reliability. 
+## Key Takeaways
 
-Tech Leads & Architects: Enforce coding standards and oversee quality metrics across teams. 
+1. Automated code quality analysis – Detects bugs and vulnerabilities
+2. Quality Gates enforcement – Ensures compliance with standards
+3. CI/CD integration – Embeds checks in DevOps pipelines
+4. Multi-language support – Analyzes diverse codebases effectively
 
-Prerequisites:  
+## Skills Included
 
-  
+1. **Code Quality & Static Analysis** – Detect bugs, code smells, and technical debt for cleaner, more maintainable code
+2. **Security Vulnerability Detection** – Identify and fix security risks (OWASP/CWE) to enforce secure coding practices
+3. **CI/CD Pipeline Integration** – Automate scans in Jenkins, GitHub Actions, or Azure DevOps for continuous quality control
+4. **Custom Rules & Configuration** – Adapt SonarQube's rules and profiles to fit your project's unique requirements
+5. **Quality Gates & Reporting** – Set quality thresholds and generate reports to track and improve code health
 
-A basic understanding of programming languages 
+## Real World Connections, Case Studies and Examples
 
-Familiarity with Git and GitHub 
+1. **M&T Bank: Scaling Code Quality in Financial Services**  
+   [Link](https://www.sonarsource.com/resources/m-t-bank/)  
+   *Key Insight:* SonarQube helped standardize code quality across 1,000+ developers, reducing technical debt and achieving ROI in 6 months.
 
-Exposure to CI/CD tools (such as Jenkins or GitHub Actions) 
+2. **DATEV: Collaborative Clean Code Culture**  
+   [Link](https://www.sonarsource.com/resources/datev/)  
+   *Key Insight:* By involving developers in defining quality rules, DATEV broke down silos and made clean code a team responsibility.
 
-Basic experience with system configuration 
+3. **Global Tech Powerhouse: Securing Manufacturing Systems**  
+   [Link](https://www.sonarsource.com/resources/technology-powerhouse/)  
+   *Key Insight:* Integrating SonarQube with Azure DevOps and Teams enabled 18x faster analysis for 600+ developers.
 
- 
+4. **ConfigCat: Enforcing Compliance via SonarQube Cloud**  
+   [Link](https://www.sonarsource.com/resources/configcat/)  
+   *Key Insight:* Real-time feedback and Quality Gates prevented bugs from reaching production.
 
- 
+## SEO Keywords
 
- 
+1. SonarQube static code analysis
+2. SonarQube best practices
+3. SonarQube code quality
+4. SonarQube security scanning
+5. SonarQube rules & profiles
+6. SonarQube with Docker
+7. SonarQube GitHub integration
+8. SonarQube vs Checkmarx
+9. SonarQube metrics & reports
+10. SonarQube for CI/CD pipelines
+
+## Proof of Learning
+
+The course will include:
+- In-Video Questions (1 per instructional video)
+- Discussion prompt questions (2 per module)
+- Graded Assessment (10 MCQs)
+- Non-Graded, Optional Interactive Project
+- Minimum Two Hands-on Learning Projects
+
+## Course Structure
+
+### Lesson 1: Setting Up SonarQube for Secure, Cloud-Ready Code Quality with GitHub
+
+**Lesson Objective:** Equip learners with the skills to install, configure, and deploy SonarQube in local or cloud environments, enabling continuous code quality and security analysis.
+
+**Lesson Description:** This lesson introduces SonarQube's setup process, covering installation, configuration, and initial integration into development workflows using GitHub Codespaces and Actions.
+
+#### Learning Items
+
+| Title | Format | Time | Description |
+|-------|--------|------|-------------|
+| SonarQube Intro | Talking Head | 1.5 mins | Welcome message and course outline |
+| AI-Powered SonarQube Setup | Talking Head + Screen share | 6 mins | Leverage AI-assisted development for SonarQube setup |
+| From Infra Debt to Dev Setup | Talking Head + Screen share | 4 mins | Streamline development with GitHub Codespaces |
+| Secure & Deploy | Talking Head + Screen share | 3 mins | Set admin password and configure GitHub Codespace |
+| GitHub App Integration | Talking Head + Screen share | 3 mins | Manage keys, webhooks, and secure repo access |
+| GitHub Actions as Your Agent | Talking Head + Screen share | 3 mins | Automate scans on every commit |
+| Understand GitHub Costs | Talking Head + Screen share | 3 mins | Optimize GitHub Actions and reduce costs |
+
+### Lesson 2: Mastering SonarQube for Paying Technical Debt
+
+**Lesson Objective:** Learn to configure SonarQube for continuous code inspection by integrating it into CI/CD pipelines and interpreting analysis reports.
+
+#### Learning Items
+
+| Title | Format | Time | Description |
+|-------|--------|------|-------------|
+| Build Quietly, Showcase Smart | Talking Head + Screen share | 3 mins | Integrate SonarQube with GitHub Actions |
+| Technical Debt & Focus | Talking Head + Screen share | 3 mins | Identify and manage technical debt |
+| Yak Shaving & Debugging | Talking Head + Screen share | 3 mins | Leverage AI for smart testing |
+| Recover & Reconfigure | Talking Head + Screen share | 3 mins | Troubleshoot SonarQube efficiently |
+| Refine Config & Access | Talking Head + Screen share | 3 mins | Configure ports and project keys |
+
+### Lesson 3: Mastering SonarQube for Managing Technical Debt
+
+**Lesson Objective:** Equip learners with skills to configure and utilize SonarQube for continuous code inspection and vulnerability management.
+
+#### Learning Items
+
+| Title | Format | Time | Description |
+|-------|--------|------|-------------|
+| From Failing to Fulfilled | Talking Head + Screen share | 3 mins | Boost coverage and fix failures |
+| More Features, More Debt | Talking Head + Screen share | 3 mins | Assess feature impact |
+| False Positives & Uptime | Talking Head + Screen share | 3 mins | Manage SonarQube accuracy |
+
+## Continuous Learning Journey
+
+Congratulations on completing this course on SonarQube Essentials! Here's how to continue your journey:
+
+1. **Master the Fundamentals**
+   - Understand static code analysis
+   - Set up Quality Gates and Profiles
+   - Explore rule sets
+
+2. **Integrate and Automate**
+   - Connect with CI/CD pipelines
+   - Install IDE plugins
+   - Use APIs and webhooks
+
+3. **Explore Advanced Topics**
+   - Support multiple programming languages
+   - Dive into security analysis
+   - Learn performance tuning
+
+4. **Adopt Best Practices**
+   - Use dashboards and reports
+   - Manage technical debt
+   - Ensure compliance
+
+5. **Stay Up-to-Date**
+   - Review new features
+   - Compare editions
+   - Learn troubleshooting
+
+6. **Engage in Hands-on Learning**
+   - Apply to real-world projects
+   - Participate in challenges
+   - Pursue certifications
 
 1 Main Outcome: After completing this course, learners will be able to implement, configure, and leverage SonarQube for continuous code quality monitoring, security vulnerability detection, and technical debt reduction, ultimately improving software reliability and development efficiency. 
 
@@ -90,7 +212,7 @@ Skills Included: [Add 5 skills that the course will teach the learners]
 
 3. CI/CD Pipeline Integration – Automate scans in Jenkins, GitHub Actions, or Azure DevOps for continuous quality control. 
 
-4. Custom Rules & Configuration – Adapt SonarQube’s rules and profiles to fit your project’s unique requirements. 
+4. Custom Rules & Configuration – Adapt SonarQube's rules and profiles to fit your project's unique requirements. 
 
 5. Quality Gates & Reporting – Set quality thresholds and generate reports to track and improve code health. 
 
@@ -101,7 +223,7 @@ Skills Included: [Add 5 skills that the course will teach the learners]
 
 Link: https://www.sonarsource.com/resources/m-t-bank/    
 
-Key Insight: SonarQube helped standardize code quality across 1,000+ developers, reducing technical debt and achieving ROI in 6 months. This aligns with the course’s emphasis on measurable outcomes from static analysis tools in regulated industries.   
+Key Insight: SonarQube helped standardize code quality across 1,000+ developers, reducing technical debt and achieving ROI in 6 months. This aligns with the course's emphasis on measurable outcomes from static analysis tools in regulated industries.   
 
  
 
@@ -125,7 +247,7 @@ Key Insight: Integrating SonarQube with Azure DevOps and Teams enabled 18x faste
 
 Link: https://www.sonarsource.com/resources/configcat/   
 
-Key Insight: Real-time feedback and Quality Gates prevented bugs from reaching production, showcasing the tool’s role in CI/CD pipelines (linking to course topics on automation).   
+Key Insight: Real-time feedback and Quality Gates prevented bugs from reaching production, showcasing the tool's role in CI/CD pipelines (linking to course topics on automation).   
 
  
 
@@ -170,190 +292,6 @@ Graded Assessment (10 MCQs)
 Non-Graded, Optional Interactive Project    
 
 Minimum Two Hands-on Learning Projects 
-
- 
-
- 
-
- 
-
-PART 2 - OUTLINE: PLAN YOUR COURSE 
-
- 
-
-Lesson 1 
-
-Title of the Lesson:  Setting Up SonarQube for Secure, Cloud-Ready Code Quality with GitHub 
-
- 
-
-Lesson Objective: Equip learners with the skills to install, configure, and deploy SonarQube in local or cloud environments, enabling continuous code quality and security analysis. 
-
- Lesson Description: This lesson introduces SonarQube’s setup process, covering installation, configuration, and initial integration into development workflows using GitHub Codespaces and Actions. Through a mix of slides, talking-head videos, and hands-on exercises, learners will explore AI-assisted development, implement secure practices, and optimize GitHub usage for automated code quality analysis. 
-
-Learning Items 
-
-Learning Item Title 
-
-Video Format 
-
-Aligned Learning Objective 
-
-High-level Description 
-
-Est. Time 
-
-Link to Reading/Video Script 
-
-Intro 
-
-SonarQube Intro 
-
-Talking Head  
-
- 
-
- A brief welcome message and course outline, highlighting what learners will gain from the course. 
-
- 
-
-1.5 mins 
-
- 
- 
-
-Video 1 
-
- AI-Powered SonarQube Setup: Turning Technical Debt into Clean Code 
-
-Talking Head + Screen share 
- 
-
-LO1 
-
-Leverage AI-assisted development to simplify SonarQube setup and take control of technical debt. In this video, you’ll learn how to configure SonarQube for static analysis, explore how AI tools guide code improvements, and begin building a strong developer portfolio grounded in clean, secure code. 
-
-6 mins 
-
- 
-
-Reading 1 
-
-SonarQube: Open-Source Security Automation 
-
- 
-
-LO1 
-
-This article covers installing SonarQube Scanner, configuring projects, and running analysis commands, which are essential for setting up SonarQube in any environment including Codespaces with Minikube 
-
-10 minutes 
-
-https://semaphore.io/blog/sonarqube 
-
-Video 2 
-
-From Infra Debt to Dev Setup – Launching with GitHub Codespaces 
-
-Talking Head + Screen share 
-
-LO1 
-
-Streamline development with GitHub Codespaces: instant, cloud-based environments eliminating local setup and infrastructure debt. 
-Explain GitHub Codespaces 
-Compare cloud platforms 
-Make it more engaging 
- 
- 
-
-4 mins 
-
- 
-
-Video 3 
-
-Secure & Deploy – Set Admin Password and Configure GitHub Codespace Environment 
-
-Talking Head + Screen share 
-
-LO1 
-
-Learn to securely set admin passwords, configure GitHub Codespaces, and deploy applications with best practices.GitHub Codespaces security,cloud-based development tools 
-
-3 mins 
-
- 
-
-Video 4 
-
-GitHub App Integration – Keys, Webhooks, and Secure Repo Access 
-
-Talking Head + Screen share 
-
-LO1 
-
-Learn to integrate GitHub Apps: manage keys, configure webhooks, and ensure secure repository access.Webhooks configuration details. GitHub Actions overview 
-
-3 mins 
-
- 
-
-Video 5 
-
-GitHub Actions as Your Agent – Automate Scans on Every Commit 
-
-Talking Head + Screen share 
-
-LO1 
- 
- 
-
-Automate code quality checks on every commit by integrating SonarQube with GitHub Actions for seamless CI workflows. 
-
-3 mins 
-
- 
-
-Video 6 
-
-Understand GitHub Costs – Optimize Agents, Commits, and Developer Tools 
-
-Talking Head + Screen share 
-
-LO1 
-
-Learn to optimize GitHub Actions, reducing costs while enhancing code quality through effective SonarQube integration. 
-
-3 mins 
-
- 
-
-Hands on Learning 
-
- GitHub Codespaces for Streamlined Development 
-
-Peer Review 
-
-LO1 
-
- Imagine you're part of GreenLoop, a startup building a sustainable shopping app. Your team is remote, and quick onboarding is critical. You’re tasked with creating the login feature in a shared repository. 
-
-Challenge: 
- Create a GitHub repository, launch Codespaces to begin development without local setup delays, and build the login functionality in a new branch. Push your code and open a pull request for peer review. Integrate GitHub Actions to run automated tests on the pull request. 
-
-Deliverable: 
- A functional login module, a reviewed and merged pull request, and a passing CI workflow. 
-
-Recommendation: 
- Use Codespaces to ensure your dev environment matches the team’s, reduce errors, and maintain velocity in a fast-paced startup like GreenLoop. 
-
-Tools: GitHub, GitHub Codespaces, VS Code, GitHub Actions 
-
- 
-
-20 minutes 
-
-[Course Project] https://github.com/rifaterdemsahin/SonarQube 
 
  
 
@@ -511,11 +449,11 @@ Peer Review
 
 LO2 + LO3  
 
-You're working at CodeWave Inc., where the DevOps team is migrating infrastructure to Kubernetes. You’ve been asked to deploy SonarQube on Minikube, and manage the entire setup using code stored in a GitHub repository. 
+You're working at CodeWave Inc., where the DevOps team is migrating infrastructure to Kubernetes. You've been asked to deploy SonarQube on Minikube, and manage the entire setup using code stored in a GitHub repository. 
 
 Scenario: 
 
-You’re responsible for defining a Kubernetes-native deployment of SonarQube using YAML files, version-controlling them on GitHub, and automating validation via GitHub Actions. 
+You're responsible for defining a Kubernetes-native deployment of SonarQube using YAML files, version-controlling them on GitHub, and automating validation via GitHub Actions. 
 
 Challenge: 
 
@@ -637,7 +575,7 @@ Peer Review
 
 LO2+LO3 
 
-At CodeWave Inc., a code quality-first company, developers must catch issues early. You’ve been asked to set up automated SonarQube scanning in your repository to detect code smells, bugs, and vulnerabilities with every commit or pull request. 
+At CodeWave Inc., a code quality-first company, developers must catch issues early. You've been asked to set up automated SonarQube scanning in your repository to detect code smells, bugs, and vulnerabilities with every commit or pull request. 
 
 Scenario: 
 
@@ -675,7 +613,7 @@ Screenshot or link to SonarQube dashboard showing detected code smells
 
 Outro Video 
 
-“Congratulations and Continuous Learning Journey” 
+"Congratulations and Continuous Learning Journey" 
 
  
 
@@ -699,7 +637,7 @@ Peer review
 
 LO1+LO2+LO3 
 
-This non-graded, self-paced interactive project puts you in the role of a developer and DevOps engineer at DeliveryPilot, a tech company focused on fast, reliable software delivery. You’ll simulate real-world workflows across three connected scenarios—ranging from writing code in the cloud to automating infrastructure and enforcing code quality. 
+This non-graded, self-paced interactive project puts you in the role of a developer and DevOps engineer at DeliveryPilot, a tech company focused on fast, reliable software delivery. You'll simulate real-world workflows across three connected scenarios—ranging from writing code in the cloud to automating infrastructure and enforcing code quality. 
 
 You'll gain hands-on experience in: 
 
@@ -756,7 +694,7 @@ Promo Marketing Video
 
  
 
-“I’m excited to share my new course...” 
+"I'm excited to share my new course..." 
 
  
 
