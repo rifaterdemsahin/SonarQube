@@ -1,4 +1,4 @@
-# Script Rules for the sections
+# Script Rules for the Script By Sections
 
 ## 1 Hook 
 - Use a problem statement and make it engagin to write the hook maximum 60 words.
@@ -30,6 +30,7 @@
 ## 8 IVQ
 - One question at the end of the every video 
 - Question related to the content in this codebase from the video []
+- Questions would map to the blooms recognize and understand level questions
 - Write a question
 - Give 4 answers
 - Mark one as answer
@@ -39,10 +40,15 @@
 ## 9 Graded Question 
 - At the end of every lesson 
 - Questions related to the content in this codebase from the learning objective []
+- Questions would map to the blooms higher level apply and analyse/evaluate level questions
 - 10 questions 
 - Give 4 answers
 - Mark one as answer
 - Write why that one is the answer
 - Why others are not the correct answer
   
-## 10
+## 10 HOL Hands On Learning 
+- Write it at the end of every lesson 
+- It should only take 20 minutes
+- Relate it to the content in learning objective [X]
+- Start with "Now it is your turn to perform"
