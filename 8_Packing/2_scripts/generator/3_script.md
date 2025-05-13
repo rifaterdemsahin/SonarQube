@@ -8,26 +8,21 @@
 Mastering SonarQube: From Technical Debt to Development Excellence
 
 
-### Script: 👋 Engaging Opening
+### 👋 Engaging Opening
 
-**Hook:** We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with GitHub Codespaces.
-
-Talking Head: Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time.
-
+**Hook:** 
+We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with modern AI driven tools.
 
 ### 🧑‍🏫 Instructor Introduction
 
-**Hook:** only 3 things to learn
-
-Script: Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability. I soon realised the technical debt is the reason why the projects come to stop. With the rise of AI it becomes more and more important how to manage it as the code is written by AI faster and more very single day.
+Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability. I soon realised the technical debt is the reason why the projects come to stop. With the rise of AI it becomes more and more important how to manage it as the code is written by AI faster and more very single day.
 
 
 ### 🗺️ Course Overview
-- Learn how to set up your development environment using GitHub Codespaces
-- Who is the instructor
-- Why authentic content is important
-- Why use AI
-- Building a professional portfolio
+#### Main Points
+- Learn what technical debt is 
+- How is generating by creating our infrastructure
+- How we can be aware an pay the techical debt
 
 
 ### 🔑 Key Takeaways
