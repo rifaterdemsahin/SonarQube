@@ -1,41 +1,45 @@
-# 📜 Course Script
+# 📜 **Course Script**
 
 
-## 📹 Intro Video
+## 📹 **Intro Video**
 
 
 ### 📜 Course Title
-Mastering SonarQube: From Technical Debt to Development Excellence
+SonarQube Essentials: Setup, Configure, and Integrate
 
 
 ### 👋 Engaging Opening
 
-**Hook:** 
-We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with modern AI driven tools.
+**Hook:** We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with GitHub Codespaces.
+
+Talking Head: Welcome! Technical debt hinders speed and quality. SonarQube helps manage it. Integrate it for code analysis, debt reduction, and production-ready releases. Build a strong foundation, one clean commit at a time.
+
 
 ### 🧑‍🏫 Instructor Introduction
 
-Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability. I soon realised the technical debt is the reason why the projects come to stop. With the rise of AI it becomes more and more important how to manage it as the code is written by AI faster and more very single day.
+**Hook:** only 3 things to learn
+
+Script: Hello, I'm Rifat Erdem Sahin. With extensive IT experience, I've delivered many projects globally. At Accenture, I used SonarQube to ensure code quality and maintainability. I soon realised the technical debt is the reason why the projects come to stop. With the rise of AI it becomes more and more important how to manage it as the code is written by AI faster and more very single day.
 
 
 ### 🗺️ Course Overview
-#### Main Points
-- Learn what technical debt is 
-- How is generating by creating our infrastructure
-- How we can be aware an pay the techical debt
+- Learn how to set up your development environment using GitHub Codespaces
+- Who is the instructor
+- Why authentic content is important
+- Why use AI
+- Building a professional portfolio
 
 
 ### 🔑 Key Takeaways
-- Transform infrastructure debt into a powerful development setup using GitHub Codespaces.
-- Use SonarQube in GitHub projects to showcase commitment to quality and build a strong portfolio.
-- Explore AI tools and debugging. Leverage AI and intuition for smart testing and better code quality.
-
+You know what's really exciting? By the end of this course, you'll be able to turn that pesky infrastructure debt into something amazing - a powerful AI based development tool that actually works for you! We'll dive into modern tools that make building software a breeze, and I'll show you my favorite tricks for managing technical debt. The best part? You'll learn how to tackle that debt head-on, which means you can keep moving forward without getting stuck. It's like having a secret weapon in your development toolkit!
 
 ### 👋 Closing Remarks
-You now know how to balance professional presence with technical debt management. Showcase your skills and commitment to quality professionally.
+Now you understand just how crucial it is to keep an eye on technical debt! Think of all these skills we've covered as building blocks - each one supports and strengthens the others. I'm here to help you shine and showcase your expertise in your own portfolio. Together, we're setting a new standard for how we approach our development lifecycle. Let's make this journey count!
 
 
 ---
+
+
 
 
 ## 📚 Lessons
@@ -47,21 +51,28 @@ You now know how to balance professional presence with technical debt management
 #### 📹 Video 1
 
 
-**Video Overview:** Learn how to set up your development environment using GitHub Codespaces
+**Video Overview:** Learn what is the debt cycle
 
-**Learning Objective:** Lo1: Set up and configure GitHub Codespaces for development
+**Learning Objective:** Lo1: learn what depth is and setup the environment and start building the technical debt. 
 
 **Content:**
-**Hook:** We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with GitHub Codespaces.
-Script: Transform infrastructure debt into a powerful development setup using GitHub Codespaces. Learn how to manage technical debt effectively with SonarQube in your SDLC.
+**Hook:** We're going from tackling that infrastructure debt, right, and turning it into a really powerful development setup by launching with GitHub Codespaces. I know there are other options even renting them and by passing the hassle.  Transform infrastructure debt into a powerful development setup using GitHub Codespaces. Learn how to manage technical debt effectively with SonarQube in your SDLC.
 
 **Screen Share Section:**
-**Tool:** GitHub Codespaces
-Transition Line: Let's set up our development environment
-Prompt/Steps to enter:
-- Create GitHub repository
-- Configure Codespaces
-- Set up development environment
+**Tool:** Canva Animation
+Transition Line: 
+- Stage one by one start with a new feature coming in 
+  - New features are requires as tech gets developed
+  - Inflation in requirements 
+  - With AI this is much more out there 
+- Getting into debt
+  - Set up development environment
+  - go to github 
+  - get the infrastructure moving 
+  - if it was just on paper no infra no debt 
+  - the code turns into debt when we promise a contract to carry with infra
+- Spending the credits we got 
+  - We wise on it as it can definately back fire on you.
 **Outcome pointers to be discussed:**
 - Working development environment
 - Configured Codespaces
