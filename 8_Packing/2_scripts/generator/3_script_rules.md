@@ -1,83 +1,115 @@
-# Script Rules by Section
+[[starweaver]] 🌟  
+[[script sonarqube]] 📜  
+[[Prompter practice]] 🎤  
 
-## 1. Hook
 
-* Begin with a compelling problem statement to engage the viewer.
-* Limit the hook to a maximum of 60 words.
 
-## 2. Overview
+## Manual Check ✅  
 
-* Start with: “In this video, we will learn…”
+* Ensure alignment with the `outline.md` file that is approaved [[starweaver]]
+* Video titles should match those in the `outline.md` file.  
+* title of the course  
+* name in the outline  
+- title 1-1 in the script
+- 2 more sentences about the trainer at the start  
+- Add at the bottom of the course a graded question compile to 10 for a courses > move the graded questions to the bottom of the courses
 
-## 3. Learning Objectives
+# whole document 📄  
+- update the version number and iterate 🔄  
+- remove not needed enter for line breaks  
+- after videos and sections requested separator lines (---) have now been added after each video and section in your script.  
+- fix the spellings and grammar thoroughly.  gpt 4.o
+- Use language appropriate for an 8th-grade reading level** to ensure accessibility  (12 years old age )
+- update to a more [[conversational tone]] as we are following a [[storytelling approach]]  
+- write output in markdown 
+- you are communicating directly with the learners, address them as we/you.
+- Added this as transitional content where ever necessary.
 
-* Begin with: “By the end of this video…”
-* List key outcomes using Bloom’s taxonomy verbs such as:
 
-  * Recognize
-  * Understand
-  * Analyze
-  * Apply
+# Script Rules by Section 📚  
 
-## 4. Transition Sentence
+## 1. Update Hooks 🎣  
 
-* Create a seamless bridge to the main content.
-* Start with phrases like: “Let's explore…” or “Let's dive into…”
+* compelling 15- to 30-second hook for an educational video on the topic
+*  max 60 words  
+* hook comes at the beginning of every script. I have moved all the hooks to the top.
+* The hook should:  
+	- **Grab attention immediately** with a provocative question, surprising fact, or bold statement.  
+	- **Clearly state the problem or challenge** the viewer faces.  
+	- **Promise a solution or valuable insight** that the video will deliver.  
+	- **Evoke curiosity** to encourage viewers to continue watching.  
+	- interesting fact/statistic/personal anecdotes from [[secondbrain]]  
 
-## 5. Pointers
+## 2. Update Video Overview 🎥  
 
-* Structure content with a maximum of two to three levels.
-* Clearly mention what will be demonstrated.
-* Emphasize visualization to enhance understanding.
+* Start with: “In this video, we will learn…”  
+* max 30 words  
 
-## 6. Summary
+## 3. Update Learning Objectives 🎯  
 
-* Use a conversational, storytelling tone.
-* Start with: “To summarize, we learned in this video…”
+* Begin with: “By the end of this video…”  
+* List key outcomes using Bloom’s taxonomy verbs such as:  
+  * Recognize  1
+  * Understand   2
+  * Analyse  3-4
+  * Apply   5
 
-## 7. Outline Mapping
+## 4. Update Transition Sentence 🌉  
 
-* Ensure alignment with the `outline.md` file.
-* Video titles should match those in the `outline.md` file.
+* Create a seamless bridge to the main content to learning objectives.  
+* Start with phrases like: “Let's explore…” 
+* Avoid “Let's dive into…”  
 
-## 8. In-Video Question (IVQ)
+## 5. Update Outcome pointers to be discussed 📌  
 
-* Include one question at the end of every video.
-* Ensure the question relates to the content covered in the video.
-* Align questions with Bloom’s "Remember" and "Understand" levels:
+* Add outcome pointers to each video  
+* Structure content with a maximum of two to three levels.  
+* Clearly mention what will be demonstrated to improve recognition.  
+* Emphasize visualization to enhance understanding.  
 
-  * Provide four answer options.
-  * Indicate the correct answer.
-  * Explain why the chosen answer is correct.
-  * Explain why the other options are incorrect.
+## 6. Update Summary 📝  
+ 
+* Start with: “To summarize, we learned in this video…”  
+* Limit to 40 words  
 
-## 9. Graded Questions
+## 7. Update In-Video Question (IVQ) ❓  
 
-* Include at the end of every lesson.
-* Questions should pertain to the lesson's learning objectives.
-* Align questions with Bloom’s higher-order levels: "Apply" and "Analyze/Evaluate":
+* Include one question at the end of every video.  
+* Ensure the question relates to the content covered in the video.  
+* Use A B C D format 
+* Make the correct option is not a easy give away
+* Have all options have same number of words
+* Align questions with Bloom’s "Remember", "Understand","Apply" levels:  
+  * Provide four answer options.  
+  * Indicate the correct answer.  
+  * Explain why the chosen answer is correct.  
+  * Answer no more than 20 words 
+  * Incorrect answers no more than 20 words
+  * Add why the other answers are wrong in the in video questions  
+  * response in markdown
 
-  * Provide ten questions.
-  * Each question should have four answer options.
-  * Indicate the correct answer.
-  * Explain why the chosen answer is correct.
-  * Explain why the other options are incorrect.
+## 8. Add Graded Questions 🏆  
 
-## 10. Hands-On Learning (HOL)
+* Include at the end of the course.  
+* update to ###  
+* Questions should pertain to the lesson's learning objectives.  
+* Align questions with Bloom’s higher-order levels: "Understand", "Apply","Analyze/Evaluate":  
+  * Provide ten questions.  
+  *  Make the correct option is not a easy give away
+* Have all options have same number of words
+  * Each question should have four answer options.  
+  * Indicate the correct answer.  
+  * Explain why the chosen answer is correct.  
+  * Explain why the other options are incorrect. 
+  * Make the incorrect option explanation should not give away the correct answer
 
-* Include at the end of every lesson.
-* Design activities to be completed in approximately 20 minutes.
-* Ensure relevance to the lesson's learning objectives.
-* Start with: “Now it is your turn to perform…”
+## 9. Update Hands-On Learning (HOL) 🛠️  
 
----
-
-For more information on Bloom's taxonomy and its application in educational settings, you can refer to the following resources:
-
-* [Bloom's Taxonomy - Wikipedia](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy)
-* [How Bloom's Taxonomy Can Help You Learn More Effectively](https://www.verywellmind.com/blooms-taxonomy-and-learning-7548280)([en.wikipedia.org][1], [verywellmind.com][2])
-
-Let me know if you need further assistance or additional resources!
-
-[1]: https://en.wikipedia.org/wiki/Bloom%27s_taxonomy?utm_source=chatgpt.com "Bloom's taxonomy"
-[2]: https://www.verywellmind.com/blooms-taxonomy-and-learning-7548280?utm_source=chatgpt.com "How Bloom's Taxonomy Can Help You Learn More Effectively"
+* Include at the end of every lesson. ### 📝 Lesson [i] Hands-On Learning  
+* update to ####  
+* relate it to the lesson and use the example format  
+* Design activities to be completed in approximately 20 minutes.  
+* Ensure relevance to the lesson's learning objectives.  
+* Start with: “Now it is your turn to perform…”  
+Example Format:  
+	Imagine you're part of GreenLoop, a startup building a sustainable shopping app. Your team is remote, and quick onboarding is critical. You’re tasked with creating the login feature in a shared repository. Challenge: Create a GitHub repository, launch Codespaces to begin development without local setup delays, and build the login functionality in a new branch. Push your code and open a pull request for peer review. Integrate GitHub Actions to run automated tests on the pull request. Deliverable: A functional login module, a reviewed and merged pull request, and a passing CI workflow. Recommendation: Use Codespaces to ensure your dev environment matches the team’s, reduce errors, and maintain velocity in a fast-paced startup like Green
